@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# The Model Duel — 2026 NASCAR Chase
 
-## Getting Started
+A season-long, race-by-race scoreboard for a modeling experiment: a **basic**
+box-score Random Forest vs. an **advanced** engineered-metric Random Forest, both
+projecting the finishing order for every race of the 2026 NASCAR Playoffs. After
+each race, both models are graded against the actual result.
 
-First, run the development server:
+**Stack:** Next.js (App Router) · shadcn/ui · Supabase (Postgres) · deployed on Vercel.
+
+## What's here
+
+| Route | Content |
+|-------|---------|
+| `/` | Season "duel" scoreboard, Chase schedule strip, latest-race summary |
+| `/races/[round]` | Per-race: predictions (basic vs advanced), predicted-vs-actual board, accuracy metrics, feature importances |
+| `/methodology` | How the models are built, blended, cross-validated, and scored |
+
+Races 2–10 render an "upcoming" state until their predictions are loaded.
+
+## Data
+
+Supabase schema (`supabase/01_schema.sql`) — six tables, all public read-only via RLS:
+
+- `races` — the 10 Chase rounds
+- `drivers` — name, car number, chase-driver flag
+- `predictions` — projected finish per race × driver × model
+- `results` — actual finish + loop data per race × driver
+- `model_scores` — precomputed MAE / RMSE / R² / hit-rate per race × model
+- `feature_importances` — Gini importance per race × model
+
+`supabase/02_seed.sql` loads the Darlington (race 1) data. Regenerate both the
+seed and the bundled fallback with the project's Python generator when new race
+data lands.
+
+If `NEXT_PUBLIC_SUPABASE_URL` / `NEXT_PUBLIC_SUPABASE_ANON_KEY` are unset, the app
+falls back to `src/lib/fallback-data.json` (the Darlington snapshot) so it always
+renders.
+
+## Local development
 
 ```bash
+cp .env.example .env.local   # fill in your Supabase URL + anon key
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deploy
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Push to GitHub.
+2. Import the repo in Vercel.
+3. Add `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY` as
+   environment variables.
+4. In Supabase, run `supabase/01_schema.sql` then `supabase/02_seed.sql` in the
+   SQL editor.

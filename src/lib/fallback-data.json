@@ -1,0 +1,1406 @@
+{
+  "races": [
+    {
+      "chase_round": 1,
+      "name": "Darlington Chase",
+      "track": "Darlington Raceway",
+      "race_date": "2026-09-07",
+      "status": "completed",
+      "winner": "Christopher Bell",
+      "blend_note": "60% intermediate season form / 40% Darlington Chase history"
+    },
+    {
+      "chase_round": 2,
+      "name": "Race 2",
+      "track": "TBD",
+      "race_date": null,
+      "status": "upcoming",
+      "winner": null,
+      "blend_note": null
+    },
+    {
+      "chase_round": 3,
+      "name": "Race 3",
+      "track": "TBD",
+      "race_date": null,
+      "status": "upcoming",
+      "winner": null,
+      "blend_note": null
+    },
+    {
+      "chase_round": 4,
+      "name": "Race 4",
+      "track": "TBD",
+      "race_date": null,
+      "status": "upcoming",
+      "winner": null,
+      "blend_note": null
+    },
+    {
+      "chase_round": 5,
+      "name": "Race 5",
+      "track": "TBD",
+      "race_date": null,
+      "status": "upcoming",
+      "winner": null,
+      "blend_note": null
+    },
+    {
+      "chase_round": 6,
+      "name": "Race 6",
+      "track": "TBD",
+      "race_date": null,
+      "status": "upcoming",
+      "winner": null,
+      "blend_note": null
+    },
+    {
+      "chase_round": 7,
+      "name": "Race 7",
+      "track": "TBD",
+      "race_date": null,
+      "status": "upcoming",
+      "winner": null,
+      "blend_note": null
+    },
+    {
+      "chase_round": 8,
+      "name": "Race 8",
+      "track": "TBD",
+      "race_date": null,
+      "status": "upcoming",
+      "winner": null,
+      "blend_note": null
+    },
+    {
+      "chase_round": 9,
+      "name": "Race 9",
+      "track": "TBD",
+      "race_date": null,
+      "status": "upcoming",
+      "winner": null,
+      "blend_note": null
+    },
+    {
+      "chase_round": 10,
+      "name": "Race 10",
+      "track": "TBD",
+      "race_date": null,
+      "status": "upcoming",
+      "winner": null,
+      "blend_note": null
+    }
+  ],
+  "drivers": [
+    {
+      "name": "AJ Allmendinger",
+      "car_number": 16,
+      "is_chase_driver": false
+    },
+    {
+      "name": "Alex Bowman",
+      "car_number": 48,
+      "is_chase_driver": false
+    },
+    {
+      "name": "Austin Cindric",
+      "car_number": 2,
+      "is_chase_driver": true
+    },
+    {
+      "name": "Austin Dillon",
+      "car_number": 3,
+      "is_chase_driver": false
+    },
+    {
+      "name": "Austin Hill",
+      "car_number": 33,
+      "is_chase_driver": false
+    },
+    {
+      "name": "Brad Keselowski",
+      "car_number": 6,
+      "is_chase_driver": false
+    },
+    {
+      "name": "Bubba Wallace",
+      "car_number": 23,
+      "is_chase_driver": true
+    },
+    {
+      "name": "Carson Hocevar",
+      "car_number": 77,
+      "is_chase_driver": true
+    },
+    {
+      "name": "Chad Finchum",
+      "car_number": 66,
+      "is_chase_driver": false
+    },
+    {
+      "name": "Chase Briscoe",
+      "car_number": 19,
+      "is_chase_driver": true
+    },
+    {
+      "name": "Chase Elliott",
+      "car_number": 9,
+      "is_chase_driver": true
+    },
+    {
+      "name": "Chris Buescher",
+      "car_number": 17,
+      "is_chase_driver": true
+    },
+    {
+      "name": "Christopher Bell",
+      "car_number": 20,
+      "is_chase_driver": true
+    },
+    {
+      "name": "Cody Ware",
+      "car_number": 51,
+      "is_chase_driver": false
+    },
+    {
+      "name": "Cole Custer",
+      "car_number": 41,
+      "is_chase_driver": false
+    },
+    {
+      "name": "Connor Zilisch",
+      "car_number": 88,
+      "is_chase_driver": false
+    },
+    {
+      "name": "Corey Heim",
+      "car_number": 67,
+      "is_chase_driver": false
+    },
+    {
+      "name": "Daniel Suarez",
+      "car_number": 7,
+      "is_chase_driver": true
+    },
+    {
+      "name": "Denny Hamlin",
+      "car_number": 11,
+      "is_chase_driver": true
+    },
+    {
+      "name": "Erik Jones",
+      "car_number": 43,
+      "is_chase_driver": false
+    },
+    {
+      "name": "Joey Logano",
+      "car_number": 22,
+      "is_chase_driver": true
+    },
+    {
+      "name": "John Hunter Nemechek",
+      "car_number": 42,
+      "is_chase_driver": false
+    },
+    {
+      "name": "Josh Berry",
+      "car_number": 21,
+      "is_chase_driver": false
+    },
+    {
+      "name": "Kyle Larson",
+      "car_number": 5,
+      "is_chase_driver": true
+    },
+    {
+      "name": "Michael McDowell",
+      "car_number": 71,
+      "is_chase_driver": false
+    },
+    {
+      "name": "Noah Gragson",
+      "car_number": 4,
+      "is_chase_driver": false
+    },
+    {
+      "name": "Ricky Stenhouse Jr.",
+      "car_number": 47,
+      "is_chase_driver": false
+    },
+    {
+      "name": "Riley Herbst",
+      "car_number": 35,
+      "is_chase_driver": false
+    },
+    {
+      "name": "Ross Chastain",
+      "car_number": 1,
+      "is_chase_driver": false
+    },
+    {
+      "name": "Ryan Blaney",
+      "car_number": 12,
+      "is_chase_driver": true
+    },
+    {
+      "name": "Ryan Preece",
+      "car_number": 60,
+      "is_chase_driver": true
+    },
+    {
+      "name": "Shane Van Gisbergen",
+      "car_number": 97,
+      "is_chase_driver": false
+    },
+    {
+      "name": "Todd Gilliland",
+      "car_number": 34,
+      "is_chase_driver": false
+    },
+    {
+      "name": "Ty Dillon",
+      "car_number": 10,
+      "is_chase_driver": false
+    },
+    {
+      "name": "Ty Gibbs",
+      "car_number": 54,
+      "is_chase_driver": true
+    },
+    {
+      "name": "Tyler Reddick",
+      "car_number": 45,
+      "is_chase_driver": true
+    },
+    {
+      "name": "William Byron",
+      "car_number": 24,
+      "is_chase_driver": true
+    },
+    {
+      "name": "Zane Smith",
+      "car_number": 38,
+      "is_chase_driver": false
+    }
+  ],
+  "predictions": [
+    {
+      "chase_round": 1,
+      "driver": "Tyler Reddick",
+      "model_type": "basic",
+      "projected_finish": 8.9,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "William Byron",
+      "model_type": "basic",
+      "projected_finish": 10.2,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Denny Hamlin",
+      "model_type": "basic",
+      "projected_finish": 10.3,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Chase Briscoe",
+      "model_type": "basic",
+      "projected_finish": 12.7,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Chris Buescher",
+      "model_type": "basic",
+      "projected_finish": 12.9,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Daniel Suarez",
+      "model_type": "basic",
+      "projected_finish": 13.8,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Carson Hocevar",
+      "model_type": "basic",
+      "projected_finish": 13.9,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Bubba Wallace",
+      "model_type": "basic",
+      "projected_finish": 14.0,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Ty Gibbs",
+      "model_type": "basic",
+      "projected_finish": 14.1,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Christopher Bell",
+      "model_type": "basic",
+      "projected_finish": 14.2,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Ryan Blaney",
+      "model_type": "basic",
+      "projected_finish": 14.2,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Chase Elliott",
+      "model_type": "basic",
+      "projected_finish": 14.7,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Brad Keselowski",
+      "model_type": "basic",
+      "projected_finish": 14.9,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Kyle Larson",
+      "model_type": "basic",
+      "projected_finish": 15.1,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Erik Jones",
+      "model_type": "basic",
+      "projected_finish": 18.0,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Joey Logano",
+      "model_type": "basic",
+      "projected_finish": 18.2,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Austin Cindric",
+      "model_type": "basic",
+      "projected_finish": 18.2,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Alex Bowman",
+      "model_type": "basic",
+      "projected_finish": 18.6,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Shane Van Gisbergen",
+      "model_type": "basic",
+      "projected_finish": 19.5,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Zane Smith",
+      "model_type": "basic",
+      "projected_finish": 19.7,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Ricky Stenhouse Jr.",
+      "model_type": "basic",
+      "projected_finish": 20.2,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Ross Chastain",
+      "model_type": "basic",
+      "projected_finish": 20.2,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Ryan Preece",
+      "model_type": "basic",
+      "projected_finish": 20.7,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Austin Dillon",
+      "model_type": "basic",
+      "projected_finish": 21.4,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Michael McDowell",
+      "model_type": "basic",
+      "projected_finish": 22.2,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Todd Gilliland",
+      "model_type": "basic",
+      "projected_finish": 22.2,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Corey Heim",
+      "model_type": "basic",
+      "projected_finish": 22.4,
+      "data_source": "Track-Type Form Only (no Darlington history)"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Riley Herbst",
+      "model_type": "basic",
+      "projected_finish": 24.2,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "John Hunter Nemechek",
+      "model_type": "basic",
+      "projected_finish": 24.4,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Connor Zilisch",
+      "model_type": "basic",
+      "projected_finish": 24.7,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "AJ Allmendinger",
+      "model_type": "basic",
+      "projected_finish": 24.9,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Cole Custer",
+      "model_type": "basic",
+      "projected_finish": 25.7,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Josh Berry",
+      "model_type": "basic",
+      "projected_finish": 25.8,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Austin Hill",
+      "model_type": "basic",
+      "projected_finish": 25.8,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Ty Dillon",
+      "model_type": "basic",
+      "projected_finish": 26.0,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Noah Gragson",
+      "model_type": "basic",
+      "projected_finish": 27.3,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Chad Finchum",
+      "model_type": "basic",
+      "projected_finish": 30.0,
+      "data_source": "Track-Type Form Only (no Darlington history)"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Cody Ware",
+      "model_type": "basic",
+      "projected_finish": 30.1,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Tyler Reddick",
+      "model_type": "advanced",
+      "projected_finish": 8.8,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Denny Hamlin",
+      "model_type": "advanced",
+      "projected_finish": 8.9,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Chase Elliott",
+      "model_type": "advanced",
+      "projected_finish": 10.3,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "William Byron",
+      "model_type": "advanced",
+      "projected_finish": 11.6,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Brad Keselowski",
+      "model_type": "advanced",
+      "projected_finish": 11.8,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Chase Briscoe",
+      "model_type": "advanced",
+      "projected_finish": 13.0,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Ty Gibbs",
+      "model_type": "advanced",
+      "projected_finish": 13.6,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Erik Jones",
+      "model_type": "advanced",
+      "projected_finish": 13.9,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Ryan Blaney",
+      "model_type": "advanced",
+      "projected_finish": 14.4,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Chris Buescher",
+      "model_type": "advanced",
+      "projected_finish": 14.9,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Christopher Bell",
+      "model_type": "advanced",
+      "projected_finish": 15.1,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Daniel Suarez",
+      "model_type": "advanced",
+      "projected_finish": 16.6,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Carson Hocevar",
+      "model_type": "advanced",
+      "projected_finish": 17.2,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Bubba Wallace",
+      "model_type": "advanced",
+      "projected_finish": 17.2,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Ryan Preece",
+      "model_type": "advanced",
+      "projected_finish": 17.9,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Austin Cindric",
+      "model_type": "advanced",
+      "projected_finish": 18.0,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Kyle Larson",
+      "model_type": "advanced",
+      "projected_finish": 18.7,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Ross Chastain",
+      "model_type": "advanced",
+      "projected_finish": 19.2,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Joey Logano",
+      "model_type": "advanced",
+      "projected_finish": 19.2,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Alex Bowman",
+      "model_type": "advanced",
+      "projected_finish": 19.8,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Corey Heim",
+      "model_type": "advanced",
+      "projected_finish": 20.5,
+      "data_source": "Track-Type Form Only (no Darlington history)"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Zane Smith",
+      "model_type": "advanced",
+      "projected_finish": 21.2,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Austin Dillon",
+      "model_type": "advanced",
+      "projected_finish": 21.9,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Shane Van Gisbergen",
+      "model_type": "advanced",
+      "projected_finish": 22.0,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Ricky Stenhouse Jr.",
+      "model_type": "advanced",
+      "projected_finish": 22.0,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "AJ Allmendinger",
+      "model_type": "advanced",
+      "projected_finish": 23.5,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Noah Gragson",
+      "model_type": "advanced",
+      "projected_finish": 23.5,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Connor Zilisch",
+      "model_type": "advanced",
+      "projected_finish": 23.6,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Todd Gilliland",
+      "model_type": "advanced",
+      "projected_finish": 23.7,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Cole Custer",
+      "model_type": "advanced",
+      "projected_finish": 23.9,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "John Hunter Nemechek",
+      "model_type": "advanced",
+      "projected_finish": 24.0,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Michael McDowell",
+      "model_type": "advanced",
+      "projected_finish": 24.1,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Ty Dillon",
+      "model_type": "advanced",
+      "projected_finish": 24.2,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Riley Herbst",
+      "model_type": "advanced",
+      "projected_finish": 24.6,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Josh Berry",
+      "model_type": "advanced",
+      "projected_finish": 25.7,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Austin Hill",
+      "model_type": "advanced",
+      "projected_finish": 27.4,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Chad Finchum",
+      "model_type": "advanced",
+      "projected_finish": 29.7,
+      "data_source": "Track-Type Form Only (no Darlington history)"
+    },
+    {
+      "chase_round": 1,
+      "driver": "Cody Ware",
+      "model_type": "advanced",
+      "projected_finish": 30.3,
+      "data_source": "Darlington Chase History + Track-Type Form"
+    }
+  ],
+  "results": [
+    {
+      "chase_round": 1,
+      "driver": "Christopher Bell",
+      "start_pos": 11,
+      "finish_pos": 1,
+      "status": "Running",
+      "avg_running_position": 4.98,
+      "fastest_laps": 26,
+      "laps_led": 46,
+      "pct_led": 12.53,
+      "quality_passes": 68,
+      "pct_top15": 97.55
+    },
+    {
+      "chase_round": 1,
+      "driver": "Ty Gibbs",
+      "start_pos": 28,
+      "finish_pos": 2,
+      "status": "Running",
+      "avg_running_position": 11.2,
+      "fastest_laps": 14,
+      "laps_led": 0,
+      "pct_led": 0.0,
+      "quality_passes": 49,
+      "pct_top15": 85.01
+    },
+    {
+      "chase_round": 1,
+      "driver": "Tyler Reddick",
+      "start_pos": 1,
+      "finish_pos": 3,
+      "status": "Running",
+      "avg_running_position": 3.44,
+      "fastest_laps": 27,
+      "laps_led": 74,
+      "pct_led": 20.16,
+      "quality_passes": 49,
+      "pct_top15": 99.18
+    },
+    {
+      "chase_round": 1,
+      "driver": "Ryan Blaney",
+      "start_pos": 24,
+      "finish_pos": 4,
+      "status": "Running",
+      "avg_running_position": 7.99,
+      "fastest_laps": 13,
+      "laps_led": 1,
+      "pct_led": 0.27,
+      "quality_passes": 64,
+      "pct_top15": 89.65
+    },
+    {
+      "chase_round": 1,
+      "driver": "Kyle Larson",
+      "start_pos": 25,
+      "finish_pos": 5,
+      "status": "Running",
+      "avg_running_position": 10.01,
+      "fastest_laps": 59,
+      "laps_led": 99,
+      "pct_led": 26.98,
+      "quality_passes": 42,
+      "pct_top15": 75.48
+    },
+    {
+      "chase_round": 1,
+      "driver": "Chase Briscoe",
+      "start_pos": 7,
+      "finish_pos": 6,
+      "status": "Running",
+      "avg_running_position": 6.63,
+      "fastest_laps": 15,
+      "laps_led": 30,
+      "pct_led": 8.17,
+      "quality_passes": 65,
+      "pct_top15": 89.92
+    },
+    {
+      "chase_round": 1,
+      "driver": "Josh Berry",
+      "start_pos": 14,
+      "finish_pos": 7,
+      "status": "Running",
+      "avg_running_position": 9.55,
+      "fastest_laps": 13,
+      "laps_led": 0,
+      "pct_led": 0.0,
+      "quality_passes": 67,
+      "pct_top15": 90.19
+    },
+    {
+      "chase_round": 1,
+      "driver": "Bubba Wallace",
+      "start_pos": 17,
+      "finish_pos": 8,
+      "status": "Running",
+      "avg_running_position": 5.73,
+      "fastest_laps": 13,
+      "laps_led": 38,
+      "pct_led": 10.35,
+      "quality_passes": 55,
+      "pct_top15": 99.18
+    },
+    {
+      "chase_round": 1,
+      "driver": "Joey Logano",
+      "start_pos": 13,
+      "finish_pos": 9,
+      "status": "Running",
+      "avg_running_position": 12.44,
+      "fastest_laps": 2,
+      "laps_led": 0,
+      "pct_led": 0.0,
+      "quality_passes": 49,
+      "pct_top15": 85.29
+    },
+    {
+      "chase_round": 1,
+      "driver": "Ryan Preece",
+      "start_pos": 3,
+      "finish_pos": 10,
+      "status": "Running",
+      "avg_running_position": 14.8,
+      "fastest_laps": 2,
+      "laps_led": 0,
+      "pct_led": 0.0,
+      "quality_passes": 16,
+      "pct_top15": 53.68
+    },
+    {
+      "chase_round": 1,
+      "driver": "Carson Hocevar",
+      "start_pos": 34,
+      "finish_pos": 11,
+      "status": "Running",
+      "avg_running_position": 15.62,
+      "fastest_laps": 2,
+      "laps_led": 2,
+      "pct_led": 0.54,
+      "quality_passes": 45,
+      "pct_top15": 57.22
+    },
+    {
+      "chase_round": 1,
+      "driver": "Alex Bowman",
+      "start_pos": 10,
+      "finish_pos": 12,
+      "status": "Running",
+      "avg_running_position": 14.49,
+      "fastest_laps": 0,
+      "laps_led": 0,
+      "pct_led": 0.0,
+      "quality_passes": 31,
+      "pct_top15": 59.13
+    },
+    {
+      "chase_round": 1,
+      "driver": "Austin Cindric",
+      "start_pos": 6,
+      "finish_pos": 13,
+      "status": "Running",
+      "avg_running_position": 9.07,
+      "fastest_laps": 7,
+      "laps_led": 0,
+      "pct_led": 0.0,
+      "quality_passes": 50,
+      "pct_top15": 96.46
+    },
+    {
+      "chase_round": 1,
+      "driver": "Chase Elliott",
+      "start_pos": 18,
+      "finish_pos": 14,
+      "status": "Running",
+      "avg_running_position": 12.7,
+      "fastest_laps": 7,
+      "laps_led": 1,
+      "pct_led": 0.27,
+      "quality_passes": 67,
+      "pct_top15": 86.38
+    },
+    {
+      "chase_round": 1,
+      "driver": "Erik Jones",
+      "start_pos": 36,
+      "finish_pos": 15,
+      "status": "Running",
+      "avg_running_position": 17.46,
+      "fastest_laps": 0,
+      "laps_led": 0,
+      "pct_led": 0.0,
+      "quality_passes": 39,
+      "pct_top15": 36.78
+    },
+    {
+      "chase_round": 1,
+      "driver": "Todd Gilliland",
+      "start_pos": 21,
+      "finish_pos": 16,
+      "status": "Running",
+      "avg_running_position": 20.27,
+      "fastest_laps": 2,
+      "laps_led": 5,
+      "pct_led": 1.36,
+      "quality_passes": 26,
+      "pct_top15": 19.89
+    },
+    {
+      "chase_round": 1,
+      "driver": "Michael McDowell",
+      "start_pos": 5,
+      "finish_pos": 17,
+      "status": "Running",
+      "avg_running_position": 13.59,
+      "fastest_laps": 4,
+      "laps_led": 0,
+      "pct_led": 0.0,
+      "quality_passes": 43,
+      "pct_top15": 63.49
+    },
+    {
+      "chase_round": 1,
+      "driver": "Denny Hamlin",
+      "start_pos": 4,
+      "finish_pos": 18,
+      "status": "Running",
+      "avg_running_position": 8.45,
+      "fastest_laps": 39,
+      "laps_led": 68,
+      "pct_led": 18.53,
+      "quality_passes": 40,
+      "pct_top15": 62.94
+    },
+    {
+      "chase_round": 1,
+      "driver": "Corey Heim",
+      "start_pos": 22,
+      "finish_pos": 19,
+      "status": "Running",
+      "avg_running_position": 28.46,
+      "fastest_laps": 5,
+      "laps_led": 0,
+      "pct_led": 0.0,
+      "quality_passes": 5,
+      "pct_top15": 1.36
+    },
+    {
+      "chase_round": 1,
+      "driver": "Chris Buescher",
+      "start_pos": 35,
+      "finish_pos": 20,
+      "status": "Running",
+      "avg_running_position": 24.36,
+      "fastest_laps": 1,
+      "laps_led": 0,
+      "pct_led": 0.0,
+      "quality_passes": 5,
+      "pct_top15": 7.08
+    },
+    {
+      "chase_round": 1,
+      "driver": "Daniel Suarez",
+      "start_pos": 2,
+      "finish_pos": 21,
+      "status": "Running",
+      "avg_running_position": 20.51,
+      "fastest_laps": 3,
+      "laps_led": 2,
+      "pct_led": 0.54,
+      "quality_passes": 25,
+      "pct_top15": 14.17
+    },
+    {
+      "chase_round": 1,
+      "driver": "AJ Allmendinger",
+      "start_pos": 30,
+      "finish_pos": 22,
+      "status": "Running",
+      "avg_running_position": 23.96,
+      "fastest_laps": 7,
+      "laps_led": 0,
+      "pct_led": 0.0,
+      "quality_passes": 4,
+      "pct_top15": 0.54
+    },
+    {
+      "chase_round": 1,
+      "driver": "Brad Keselowski",
+      "start_pos": 12,
+      "finish_pos": 23,
+      "status": "Running",
+      "avg_running_position": 20.58,
+      "fastest_laps": 4,
+      "laps_led": 0,
+      "pct_led": 0.0,
+      "quality_passes": 10,
+      "pct_top15": 24.25
+    },
+    {
+      "chase_round": 1,
+      "driver": "John Hunter Nemechek",
+      "start_pos": 19,
+      "finish_pos": 24,
+      "status": "Running",
+      "avg_running_position": 24.51,
+      "fastest_laps": 0,
+      "laps_led": 0,
+      "pct_led": 0.0,
+      "quality_passes": 12,
+      "pct_top15": 4.09
+    },
+    {
+      "chase_round": 1,
+      "driver": "Zane Smith",
+      "start_pos": 33,
+      "finish_pos": 25,
+      "status": "Running",
+      "avg_running_position": 22.29,
+      "fastest_laps": 0,
+      "laps_led": 0,
+      "pct_led": 0.0,
+      "quality_passes": 12,
+      "pct_top15": 3.54
+    },
+    {
+      "chase_round": 1,
+      "driver": "Shane Van Gisbergen",
+      "start_pos": 26,
+      "finish_pos": 26,
+      "status": "Running",
+      "avg_running_position": 33.12,
+      "fastest_laps": 10,
+      "laps_led": 1,
+      "pct_led": 0.27,
+      "quality_passes": 10,
+      "pct_top15": 1.64
+    },
+    {
+      "chase_round": 1,
+      "driver": "Ross Chastain",
+      "start_pos": 23,
+      "finish_pos": 27,
+      "status": "Running",
+      "avg_running_position": 25.33,
+      "fastest_laps": 5,
+      "laps_led": 0,
+      "pct_led": 0.0,
+      "quality_passes": 10,
+      "pct_top15": 1.37
+    },
+    {
+      "chase_round": 1,
+      "driver": "Austin Hill",
+      "start_pos": 32,
+      "finish_pos": 28,
+      "status": "Running",
+      "avg_running_position": 24.97,
+      "fastest_laps": 0,
+      "laps_led": 0,
+      "pct_led": 0.0,
+      "quality_passes": 14,
+      "pct_top15": 2.73
+    },
+    {
+      "chase_round": 1,
+      "driver": "Austin Dillon",
+      "start_pos": 9,
+      "finish_pos": 29,
+      "status": "Running",
+      "avg_running_position": 28.08,
+      "fastest_laps": 0,
+      "laps_led": 0,
+      "pct_led": 0.0,
+      "quality_passes": 3,
+      "pct_top15": 3.83
+    },
+    {
+      "chase_round": 1,
+      "driver": "Riley Herbst",
+      "start_pos": 15,
+      "finish_pos": 30,
+      "status": "Running",
+      "avg_running_position": 21.81,
+      "fastest_laps": 1,
+      "laps_led": 0,
+      "pct_led": 0.0,
+      "quality_passes": 8,
+      "pct_top15": 1.91
+    },
+    {
+      "chase_round": 1,
+      "driver": "Ty Dillon",
+      "start_pos": 27,
+      "finish_pos": 31,
+      "status": "Running",
+      "avg_running_position": 32.47,
+      "fastest_laps": 0,
+      "laps_led": 0,
+      "pct_led": 0.0,
+      "quality_passes": 0,
+      "pct_top15": 0.0
+    },
+    {
+      "chase_round": 1,
+      "driver": "Noah Gragson",
+      "start_pos": 29,
+      "finish_pos": 32,
+      "status": "Running",
+      "avg_running_position": 31.59,
+      "fastest_laps": 0,
+      "laps_led": 0,
+      "pct_led": 0.0,
+      "quality_passes": 5,
+      "pct_top15": 0.55
+    },
+    {
+      "chase_round": 1,
+      "driver": "Cole Custer",
+      "start_pos": 16,
+      "finish_pos": 33,
+      "status": "Running",
+      "avg_running_position": 30.9,
+      "fastest_laps": 30,
+      "laps_led": 0,
+      "pct_led": 0.0,
+      "quality_passes": 3,
+      "pct_top15": 0.27
+    },
+    {
+      "chase_round": 1,
+      "driver": "Connor Zilisch",
+      "start_pos": 31,
+      "finish_pos": 34,
+      "status": "Running",
+      "avg_running_position": 33.5,
+      "fastest_laps": 0,
+      "laps_led": 0,
+      "pct_led": 0.0,
+      "quality_passes": 0,
+      "pct_top15": 0.27
+    },
+    {
+      "chase_round": 1,
+      "driver": "Ricky Stenhouse Jr.",
+      "start_pos": 8,
+      "finish_pos": 35,
+      "status": "Running",
+      "avg_running_position": 33.28,
+      "fastest_laps": 0,
+      "laps_led": 0,
+      "pct_led": 0.0,
+      "quality_passes": 6,
+      "pct_top15": 6.61
+    },
+    {
+      "chase_round": 1,
+      "driver": "Cody Ware",
+      "start_pos": 37,
+      "finish_pos": 36,
+      "status": "Running",
+      "avg_running_position": 36.13,
+      "fastest_laps": 0,
+      "laps_led": 0,
+      "pct_led": 0.0,
+      "quality_passes": 2,
+      "pct_top15": 0.55
+    },
+    {
+      "chase_round": 1,
+      "driver": "William Byron",
+      "start_pos": 20,
+      "finish_pos": 37,
+      "status": "Engine",
+      "avg_running_position": 9.7,
+      "fastest_laps": 5,
+      "laps_led": 0,
+      "pct_led": 0.0,
+      "quality_passes": 47,
+      "pct_top15": 89.66
+    },
+    {
+      "chase_round": 1,
+      "driver": "Chad Finchum",
+      "start_pos": 38,
+      "finish_pos": 38,
+      "status": "Suspension",
+      "avg_running_position": 37.93,
+      "fastest_laps": 0,
+      "laps_led": 0,
+      "pct_led": 0.0,
+      "quality_passes": 0,
+      "pct_top15": 0.0
+    }
+  ],
+  "model_scores": [
+    {
+      "chase_round": 1,
+      "model_type": "basic",
+      "cv_mae": 2.488,
+      "cv_r2": 0.783,
+      "mae": 7.51,
+      "rmse": 8.93,
+      "r2": 0.336,
+      "top5_hits": 1,
+      "top10_hits": 5,
+      "predicted_winner": "Tyler Reddick",
+      "predicted_winner_actual_finish": 3
+    },
+    {
+      "chase_round": 1,
+      "model_type": "advanced",
+      "cv_mae": 2.38,
+      "cv_r2": 0.8,
+      "mae": 7.79,
+      "rmse": 9.2,
+      "r2": 0.296,
+      "top5_hits": 1,
+      "top10_hits": 4,
+      "predicted_winner": "Tyler Reddick",
+      "predicted_winner_actual_finish": 3
+    }
+  ],
+  "feature_importances": [
+    {
+      "chase_round": 1,
+      "model_type": "basic",
+      "feature": "T10%",
+      "importance": 0.5755
+    },
+    {
+      "chase_round": 1,
+      "model_type": "basic",
+      "feature": "Succ%",
+      "importance": 0.2241
+    },
+    {
+      "chase_round": 1,
+      "model_type": "basic",
+      "feature": "ASP",
+      "importance": 0.1772
+    },
+    {
+      "chase_round": 1,
+      "model_type": "basic",
+      "feature": "W%",
+      "importance": 0.0174
+    },
+    {
+      "chase_round": 1,
+      "model_type": "basic",
+      "feature": "Fin%",
+      "importance": 0.0059
+    },
+    {
+      "chase_round": 1,
+      "model_type": "advanced",
+      "feature": "Avg. PFAE",
+      "importance": 0.4559
+    },
+    {
+      "chase_round": 1,
+      "model_type": "advanced",
+      "feature": "ARP",
+      "importance": 0.3596
+    },
+    {
+      "chase_round": 1,
+      "model_type": "advanced",
+      "feature": "cPOMS",
+      "importance": 0.0829
+    },
+    {
+      "chase_round": 1,
+      "model_type": "advanced",
+      "feature": "SS",
+      "importance": 0.0617
+    },
+    {
+      "chase_round": 1,
+      "model_type": "advanced",
+      "feature": "PGAE",
+      "importance": 0.0399
+    }
+  ]
+}

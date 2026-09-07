@@ -1,69 +1,102 @@
-import Image from "next/image";
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
+import { DataSourceNote } from "@/components/data-source-note";
+import { DuelScoreboard } from "@/components/duel-scoreboard";
+import { RaceStrip } from "@/components/race-strip";
+import { ModelChip } from "@/components/model-chip";
+import {
+  duelStandings,
+  getChaseData,
+  scoresFor,
+} from "@/lib/data";
+import { fmt, fmtDate, ordinal } from "@/lib/format";
 
-export default function Home() {
+export const revalidate = 300;
+
+export default async function HubPage() {
+  const { data, source } = await getChaseData();
+  const standings = duelStandings(data);
+
+  const completed = data.races
+    .filter((r) => r.status === "completed")
+    .sort((a, b) => b.chase_round - a.chase_round);
+  const latest = completed[0];
+  const latestScores = latest ? scoresFor(data, latest.chase_round) : null;
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <div className="space-y-10">
+      <section className="space-y-3">
+        <div className="flex items-center gap-2 text-xs font-medium uppercase tracking-widest text-muted-foreground">
+          <span className="h-px w-6 bg-speed" />
+          Basic stats vs. engineered metrics
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+        <h1 className="max-w-3xl text-3xl font-bold tracking-tight sm:text-4xl">
+          Two Random Forests. Ten Chase races. One question:{" "}
+          <span className="text-speed">do fancy metrics actually predict better?</span>
+        </h1>
+        <p className="max-w-2xl text-sm text-muted-foreground">
+          Every race of the 2026 NASCAR Playoffs, a <ModelChip model="basic" className="mx-0.5 align-middle" />{" "}
+          model built on box-score stats and an <ModelChip model="advanced" className="mx-0.5 align-middle" />{" "}
+          model built on engineered loop-data metrics each project the finishing
+          order. After the checkered flag, both get scored against reality.
+        </p>
+        <DataSourceNote source={source} />
+      </section>
+
+      <DuelScoreboard standings={standings} />
+
+      <section className="space-y-3">
+        <div className="flex items-baseline justify-between">
+          <h2 className="text-lg font-semibold">Chase schedule</h2>
+          <span className="text-xs text-muted-foreground">
+            {completed.length} of {data.races.length} races scored
+          </span>
         </div>
-      </main>
+        <RaceStrip races={data.races} activeRound={latest?.chase_round} />
+      </section>
+
+      {latest && latestScores?.basic && latestScores?.advanced && (
+        <section className="space-y-3">
+          <h2 className="text-lg font-semibold">Latest: {latest.track}</h2>
+          <div className="grid gap-4 rounded-xl border border-border/70 bg-card p-5 sm:grid-cols-[1fr_auto]">
+            <div className="space-y-3">
+              <p className="text-sm">
+                <span className="font-medium">{latest.winner}</span> won the{" "}
+                {fmtDate(latest.race_date)} race
+                {latestScores.basic.predicted_winner && (
+                  <>
+                    ; both models had{" "}
+                    <span className="font-medium">{latestScores.basic.predicted_winner}</span> on top
+                    {latestScores.basic.predicted_winner_actual_finish != null && (
+                      <> (finished {ordinal(latestScores.basic.predicted_winner_actual_finish)})</>
+                    )}
+                    .
+                  </>
+                )}
+              </p>
+              <div className="flex flex-wrap gap-x-8 gap-y-2 text-sm">
+                {(["basic", "advanced"] as const).map((m) => {
+                  const s = latestScores[m]!;
+                  return (
+                    <div key={m} className="space-y-1">
+                      <ModelChip model={m} />
+                      <div className="tabular text-muted-foreground">
+                        MAE {fmt(s.mae, 2)} · R² {fmt(s.r2, 3)} · top-10 {s.top10_hits}/10
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+            <Link
+              href={`/races/${latest.chase_round}`}
+              className="inline-flex h-10 items-center gap-1.5 self-start rounded-lg bg-speed px-4 text-sm font-medium text-black transition-opacity hover:opacity-90"
+            >
+              Full breakdown <ArrowRight className="size-4" />
+            </Link>
+          </div>
+        </section>
+      )}
     </div>
   );
 }
