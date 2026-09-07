@@ -11,7 +11,9 @@ import {
 } from "@/lib/data";
 import { fmt, fmtDate, ordinal } from "@/lib/format";
 
-export const revalidate = 300;
+// Read Supabase on every request so the deployed site always reflects the live
+// database rather than a build-time snapshot.
+export const dynamic = "force-dynamic";
 
 export default async function HubPage() {
   const { data, source } = await getChaseData();

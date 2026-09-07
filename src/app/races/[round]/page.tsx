@@ -16,11 +16,9 @@ import {
 } from "@/lib/data";
 import { fmtDate } from "@/lib/format";
 
-export const revalidate = 300;
-
-export function generateStaticParams() {
-  return Array.from({ length: 10 }, (_, i) => ({ round: String(i + 1) }));
-}
+// Read Supabase on every request so the deployed site always reflects the live
+// database rather than a build-time snapshot.
+export const dynamic = "force-dynamic";
 
 export default async function RacePage({ params }: PageProps<"/races/[round]">) {
   const { round } = await params;
