@@ -10,10 +10,15 @@ import type {
   RaceResult,
 } from "./types";
 
-const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
-const anon = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+const url = process.env.NEXT_PUBLIC_SUPABASE_URL?.trim();
+const anon = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY?.trim();
 
 export const usingSupabase = Boolean(url && anon);
+
+/** Last reason the loader fell back to bundled data (for ?debug=1). */
+export let lastFallbackReason: string | null = usingSupabase
+  ? null
+  : `env not set (url:${Boolean(url)} key:${Boolean(anon)})`;
 
 /**
  * Load the whole dataset. Reads from Supabase when env vars are configured,
@@ -47,6 +52,7 @@ export async function getChaseData(): Promise<{ data: ChaseData; source: "supaba
 
     const err = races.error || drivers.error || predictions.error || results.error || scores.error || importances.error;
     if (err) throw err;
+    lastFallbackReason = null;
 
     // flatten the embedded race/driver refs back to plain fields
     const flatten = <T,>(rows: unknown[]): T[] =>
@@ -72,9 +78,15 @@ export async function getChaseData(): Promise<{ data: ChaseData; source: "supaba
       feature_importances: flatten<FeatureImportance>(importances.data ?? []),
     };
 
-    if (data.races.length === 0) return { data: fallback as unknown as ChaseData, source: "bundled" };
+    if (data.races.length === 0) {
+      lastFallbackReason = "query returned 0 races";
+      return { data: fallback as unknown as ChaseData, source: "bundled" };
+    }
     return { data, source: "supabase" };
-  } catch {
+  } catch (e) {
+    lastFallbackReason =
+      e instanceof Error ? `${e.name}: ${e.message}` : `non-error thrown: ${String(e)}`;
+    console.error("[getChaseData] falling back to bundled:", lastFallbackReason);
     return { data: fallback as unknown as ChaseData, source: "bundled" };
   }
 }

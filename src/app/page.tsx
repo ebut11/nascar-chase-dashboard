@@ -7,7 +7,9 @@ import { ModelChip } from "@/components/model-chip";
 import {
   duelStandings,
   getChaseData,
+  lastFallbackReason,
   scoresFor,
+  usingSupabase,
 } from "@/lib/data";
 import { fmt, fmtDate, ordinal } from "@/lib/format";
 
@@ -15,9 +17,10 @@ import { fmt, fmtDate, ordinal } from "@/lib/format";
 // database rather than a build-time snapshot.
 export const dynamic = "force-dynamic";
 
-export default async function HubPage() {
+export default async function HubPage({ searchParams }: PageProps<"/">) {
   const { data, source } = await getChaseData();
   const standings = duelStandings(data);
+  const debug = "debug" in (await searchParams);
 
   const completed = data.races
     .filter((r) => r.status === "completed")
@@ -43,6 +46,12 @@ export default async function HubPage() {
           order. After the checkered flag, both get scored against reality.
         </p>
         <DataSourceNote source={source} />
+        {debug && (
+          <pre className="overflow-x-auto rounded-md border border-border/70 bg-card p-3 text-xs text-muted-foreground">
+            source={source} usingSupabase={String(usingSupabase)} reason=
+            {lastFallbackReason ?? "none"}
+          </pre>
+        )}
       </section>
 
       <DuelScoreboard standings={standings} />
