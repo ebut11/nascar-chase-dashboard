@@ -108,3 +108,8 @@ create policy "public read" on predictions         for select using (true);
 create policy "public read" on results             for select using (true);
 create policy "public read" on model_scores        for select using (true);
 create policy "public read" on feature_importances for select using (true);
+
+-- RLS decides which rows; these GRANTs let the anon/auth roles reach the tables at all.
+grant usage on schema public to anon, authenticated;
+grant select on all tables in schema public to anon, authenticated;
+alter default privileges in schema public grant select on tables to anon, authenticated;
