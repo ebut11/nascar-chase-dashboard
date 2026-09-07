@@ -40,7 +40,11 @@ export function RaceStrip({
                   </span>
                 </span>
                 <span className="truncate text-sm font-medium">
-                  {r.track === "TBD" ? "TBD" : r.track.replace(" Raceway", "").replace(" Speedway", "")}
+                  {r.track
+                    .replace(" Raceway", "")
+                    .replace(" Motor Speedway", "")
+                    .replace(" Superspeedway", "")
+                    .replace(" Speedway", "")}
                 </span>
                 <span className="truncate text-[11px] text-muted-foreground">
                   {done && r.winner ? `W: ${r.winner}` : fmtDate(r.race_date)}

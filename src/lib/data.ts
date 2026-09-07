@@ -28,7 +28,10 @@ export async function getChaseData(): Promise<{ data: ChaseData; source: "supaba
     const supabase = createClient(url!, anon!, { auth: { persistSession: false } });
 
     const [races, drivers, predictions, results, scores, importances] = await Promise.all([
-      supabase.from("races").select("chase_round,name,track,race_date,status,winner,blend_note").order("chase_round"),
+      supabase
+        .from("races")
+        .select("chase_round,name,track,race_date,track_type,track_length_mi,status,winner,blend_note")
+        .order("chase_round"),
       supabase.from("drivers").select("name,car_number,is_chase_driver"),
       supabase
         .from("predictions")

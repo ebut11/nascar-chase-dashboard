@@ -2,17 +2,17 @@
 begin;
 truncate feature_importances, model_scores, results, predictions, drivers, races restart identity cascade;
 
-insert into races (chase_round, name, track, race_date, status, winner, blend_note) values
-  (1, 'Darlington Chase', 'Darlington Raceway', '2026-09-07', 'completed', 'Christopher Bell', '60% intermediate season form / 40% Darlington Chase history'),
-  (2, 'Race 2', 'TBD', null, 'upcoming', null, null),
-  (3, 'Race 3', 'TBD', null, 'upcoming', null, null),
-  (4, 'Race 4', 'TBD', null, 'upcoming', null, null),
-  (5, 'Race 5', 'TBD', null, 'upcoming', null, null),
-  (6, 'Race 6', 'TBD', null, 'upcoming', null, null),
-  (7, 'Race 7', 'TBD', null, 'upcoming', null, null),
-  (8, 'Race 8', 'TBD', null, 'upcoming', null, null),
-  (9, 'Race 9', 'TBD', null, 'upcoming', null, null),
-  (10, 'Race 10', 'TBD', null, 'upcoming', null, null);
+insert into races (chase_round, name, track, race_date, track_type, track_length_mi, status, winner, blend_note) values
+  (1, 'Cook Out Southern 500', 'Darlington Raceway', '2026-09-07', 'Intermediate', 1.366, 'completed', 'Christopher Bell', '60% intermediate season form / 40% Darlington Chase history'),
+  (2, 'Enjoy Illinois 300', 'World Wide Technology Raceway', '2026-09-13', 'Intermediate', 1.25, 'upcoming', null, null),
+  (3, 'Bass Pro Shops Night Race', 'Bristol Motor Speedway', '2026-09-19', 'Short Track', 0.533, 'upcoming', null, null),
+  (4, 'Hollywood Casino 400', 'Kansas Speedway', '2026-09-27', 'Intermediate', 1.5, 'upcoming', null, null),
+  (5, 'South Point 400', 'Las Vegas Motor Speedway', '2026-10-04', 'Intermediate', 1.5, 'upcoming', null, null),
+  (6, 'Bank of America 400', 'Charlotte Motor Speedway', '2026-10-11', 'Intermediate', 1.5, 'upcoming', null, null),
+  (7, 'Freeway Insurance 500', 'Phoenix Raceway', '2026-10-18', 'Intermediate', 1.0, 'upcoming', null, null),
+  (8, 'YellaWood 500', 'Talladega Superspeedway', '2026-10-25', 'Superspeedway', 2.66, 'upcoming', null, null),
+  (9, 'Xfinity 500', 'Martinsville Speedway', '2026-11-01', 'Short Track', 0.526, 'upcoming', null, null),
+  (10, 'NASCAR Cup Series Championship Race', 'Homestead-Miami Speedway', '2026-11-08', 'Intermediate', 1.5, 'upcoming', null, null);
 
 insert into drivers (name, car_number, is_chase_driver) values
   ('AJ Allmendinger', 16, false),

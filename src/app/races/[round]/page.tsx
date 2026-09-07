@@ -47,18 +47,25 @@ export default async function RacePage({ params }: PageProps<"/races/[round]">) 
           <span className="h-px w-6 bg-speed" />
           Race {race.chase_round} of 10 · {done ? "Final" : "Upcoming"}
         </div>
-        <h1 className="text-3xl font-bold tracking-tight">
-          {race.track === "TBD" ? `Race ${race.chase_round}` : race.track}
-        </h1>
-        <p className="text-sm text-muted-foreground">
-          {fmtDate(race.race_date)}
-          {done && race.winner && (
-            <>
-              {" · "}Winner: <span className="text-foreground">{race.winner}</span>
-            </>
+        <h1 className="text-3xl font-bold tracking-tight">{race.track}</h1>
+        <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-muted-foreground">
+          {race.name && race.name !== race.track && (
+            <span className="text-foreground">{race.name}</span>
           )}
-          {race.blend_note && <> · Blend: {race.blend_note}</>}
-        </p>
+          <span>· {fmtDate(race.race_date)}</span>
+          {race.track_type && (
+            <span className="rounded-sm bg-muted px-1.5 py-0.5 text-xs">
+              {race.track_type}
+              {race.track_length_mi ? ` · ${race.track_length_mi} mi` : ""}
+            </span>
+          )}
+          {done && race.winner && (
+            <span>
+              · Winner: <span className="text-foreground">{race.winner}</span>
+            </span>
+          )}
+          {race.blend_note && <span>· Blend: {race.blend_note}</span>}
+        </div>
         <DataSourceNote source={source} />
       </header>
 
@@ -67,8 +74,8 @@ export default async function RacePage({ params }: PageProps<"/races/[round]">) 
           <p className="text-sm font-medium">Predictions not published yet</p>
           <p className="mx-auto mt-1 max-w-md text-sm text-muted-foreground">
             Both models are rebuilt the week of each race from fresh
-            track-history and season-form data. Check back once{" "}
-            {race.track === "TBD" ? "the track" : race.track} is on deck.
+            track-history and season-form data. Check back once {race.track} is
+            on deck.
           </p>
         </div>
       ) : (

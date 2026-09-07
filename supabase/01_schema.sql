@@ -12,15 +12,17 @@ drop table if exists races cascade;
 
 -- --- Races: the 10-race 2026 postseason (non-elimination points format) ---
 create table races (
-  id           serial primary key,
-  chase_round  int  not null unique,          -- 1..10
-  name         text not null,                 -- e.g. "Darlington Chase"
-  track        text not null,
-  race_date    date,
-  status       text not null default 'upcoming' check (status in ('upcoming','completed')),
-  winner       text,
-  blend_note   text,                          -- history/season-form blend used for this race
-  created_at   timestamptz default now()
+  id              serial primary key,
+  chase_round     int  not null unique,       -- 1..10
+  name            text not null,              -- official event name
+  track           text not null,
+  race_date       date,
+  track_type      text,                       -- Intermediate / Short Track / Superspeedway
+  track_length_mi numeric(4,3),
+  status          text not null default 'upcoming' check (status in ('upcoming','completed')),
+  winner          text,
+  blend_note      text,                       -- history/season-form blend used for this race
+  created_at      timestamptz default now()
 );
 
 -- --- Drivers ---

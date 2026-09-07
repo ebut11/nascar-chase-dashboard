@@ -5,6 +5,8 @@ export interface Race {
   name: string;
   track: string;
   race_date: string | null;
+  track_type: string | null;
+  track_length_mi: number | null;
   status: "upcoming" | "completed";
   winner: string | null;
   blend_note: string | null;
