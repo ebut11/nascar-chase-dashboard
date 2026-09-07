@@ -10,8 +10,16 @@ import type {
   RaceResult,
 } from "./types";
 
-const url = process.env.NEXT_PUBLIC_SUPABASE_URL?.trim();
-const anon = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY?.trim();
+// The Supabase project URL and anon key are publishable by design — they ship in
+// client bundles on every Supabase app, and the database is guarded by the
+// public read-only RLS policies in supabase/01_schema.sql. Env vars override
+// these when set (e.g. to point at a different project).
+const FALLBACK_URL = "https://wwhdzyjfzovnpgofemwz.supabase.co";
+const FALLBACK_ANON =
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Ind3aGR6eWpmem92bnBnb2ZlbXd6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODg3OTkwNjksImV4cCI6MjEwNDM3NTA2OX0.KMMo6f2i3OMk-CVxa7ydei7bkYKS4jSqDPUDRBVrvng";
+
+const url = process.env.NEXT_PUBLIC_SUPABASE_URL?.trim() || FALLBACK_URL;
+const anon = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY?.trim() || FALLBACK_ANON;
 
 export const usingSupabase = Boolean(url && anon);
 
