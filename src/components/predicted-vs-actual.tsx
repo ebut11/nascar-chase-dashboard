@@ -11,6 +11,7 @@ import {
 } from "@/components/ui/table";
 import { ArrowDown, ArrowUp, ArrowUpDown } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { CarNo } from "@/components/car-no";
 import { errorBucket } from "@/lib/format";
 import type { DriverRaceRow } from "@/lib/types";
 
@@ -156,11 +157,7 @@ export function PredictedVsActual({ rows }: { rows: DriverRaceRow[] }) {
                         />
                       )}
                       <span className="truncate">{r.driver}</span>
-                      {r.car_number != null && (
-                        <span className="tabular text-xs text-muted-foreground">
-                          #{r.car_number}
-                        </span>
-                      )}
+                      <CarNo n={r.car_number} />
                     </span>
                   </TableCell>
                   <TableCell

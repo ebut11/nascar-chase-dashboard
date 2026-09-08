@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { ChevronDown, ChevronUp, Minus } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { CarNo } from "@/components/car-no";
 import type { StandingRow } from "@/lib/types";
 
 type Phase = "before" | "after";
@@ -64,6 +65,7 @@ function Row({
       <span className="min-w-0">
         <span className="flex items-center gap-2">
           <span className="truncate text-sm">{row.driver}</span>
+          <CarNo n={row.car_number} />
           {phase === "after" && rankDelta !== 0 && (
             <span
               className={cn(

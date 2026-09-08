@@ -37,6 +37,9 @@ export default async function RacePage({ params }: PageProps<"/races/[round]">) 
   const scores = scoresFor(data, roundNum);
   const rows = driverRaceRows(data, roundNum);
   const standings = standingsFor(data, roundNum);
+  const carNumbers: Record<string, number | null> = Object.fromEntries(
+    data.drivers.map((d) => [d.name, d.car_number]),
+  );
   const hasPredictions = basicPreds.length > 0 && advancedPreds.length > 0;
 
   return (
@@ -92,7 +95,11 @@ export default async function RacePage({ params }: PageProps<"/races/[round]">) 
           </TabsList>
 
           <TabsContent value="pred">
-            <PredictionsCompare basic={basicPreds} advanced={advancedPreds} />
+            <PredictionsCompare
+              basic={basicPreds}
+              advanced={advancedPreds}
+              carNumbers={carNumbers}
+            />
           </TabsContent>
 
           {done && (

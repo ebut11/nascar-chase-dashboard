@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ModelChip } from "@/components/model-chip";
+import { CarNo } from "@/components/car-no";
 import { cn } from "@/lib/utils";
 import { fmt, ordinal } from "@/lib/format";
 import type { DriverRaceRow, ModelScore } from "@/lib/types";
@@ -73,7 +74,7 @@ function CallsList({
   tone,
 }: {
   title: string;
-  rows: { driver: string; note: string }[];
+  rows: { driver: string; car: number | null; note: string }[];
   tone: "good" | "bad";
 }) {
   return (
@@ -84,7 +85,10 @@ function CallsList({
       <ul className="mt-2 space-y-1.5 text-sm">
         {rows.map((r) => (
           <li key={r.driver} className="flex items-baseline justify-between gap-3">
-            <span className="truncate">{r.driver}</span>
+            <span className="flex items-baseline gap-2 truncate">
+              <span className="truncate">{r.driver}</span>
+              <CarNo n={r.car} />
+            </span>
             <span className="tabular shrink-0 text-xs text-muted-foreground">{r.note}</span>
           </li>
         ))}
@@ -110,6 +114,7 @@ export function AccuracyPanel({
   );
   const bestCalls = byCombinedErr.slice(0, 4).map((r) => ({
     driver: r.driver,
+    car: r.car_number,
     note: `P${r.actual} · B ${r.basic!.toFixed(1)} / A ${r.advanced!.toFixed(1)}`,
   }));
   const worstMisses = byCombinedErr
@@ -117,6 +122,7 @@ export function AccuracyPanel({
     .reverse()
     .map((r) => ({
       driver: r.driver,
+      car: r.car_number,
       note: `P${r.actual} · B ±${r.basic_error!.toFixed(0)} / A ±${r.advanced_error!.toFixed(0)}`,
     }));
 

@@ -126,6 +126,7 @@ export function predictionsFor(data: ChaseData, round: number, model: "basic" | 
 export function standingsFor(data: ChaseData, round: number): StandingRow[] {
   const rows = (data.chase_standings ?? []).filter((s) => s.chase_round === round);
   if (rows.length === 0) return [];
+  const carNo = new Map(data.drivers.map((d) => [d.name, d.car_number]));
   const before = new Map(rows.filter((r) => r.phase === "before").map((r) => [r.driver, r]));
   const after = new Map(rows.filter((r) => r.phase === "after").map((r) => [r.driver, r]));
   const names = new Set<string>([...before.keys(), ...after.keys()]);
@@ -136,6 +137,7 @@ export function standingsFor(data: ChaseData, round: number): StandingRow[] {
       const a = after.get(driver);
       return {
         driver,
+        car_number: carNo.get(driver) ?? null,
         playoff_points_before: b?.playoff_points ?? null,
         playoff_points_after: a?.playoff_points ?? null,
         behind_before: b?.behind_leader ?? a?.behind_leader ?? 0,

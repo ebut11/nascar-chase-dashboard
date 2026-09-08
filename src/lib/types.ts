@@ -74,6 +74,7 @@ export interface ChaseStanding {
 /** Merged before+after standing for one driver, ready for the swing widget. */
 export interface StandingRow {
   driver: string;
+  car_number: number | null;
   playoff_points_before: number | null;
   playoff_points_after: number | null;
   behind_before: number;

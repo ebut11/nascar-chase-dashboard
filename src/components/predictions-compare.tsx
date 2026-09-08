@@ -1,16 +1,21 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ModelChip } from "@/components/model-chip";
+import { CarNo } from "@/components/car-no";
 import { cn } from "@/lib/utils";
 import type { Prediction } from "@/lib/types";
+
+type CarNumbers = Record<string, number | null>;
 
 function Leaderboard({
   model,
   rows,
   highlight,
+  carNumbers,
 }: {
   model: "basic" | "advanced";
   rows: Prediction[];
   highlight: Set<string>;
+  carNumbers: CarNumbers;
 }) {
   return (
     <Card className="overflow-hidden">
@@ -33,7 +38,10 @@ function Leaderboard({
               <span className="tabular w-6 text-right text-xs text-muted-foreground">
                 {i + 1}
               </span>
-              <span className="flex-1 truncate">{p.driver}</span>
+              <span className="flex flex-1 items-center gap-2 truncate">
+                <span className="truncate">{p.driver}</span>
+                <CarNo n={carNumbers[p.driver]} />
+              </span>
               {p.data_source?.startsWith("Track-Type") && (
                 <span
                   title="No track history — season-form-only projection"
@@ -56,9 +64,11 @@ function Leaderboard({
 export function PredictionsCompare({
   basic,
   advanced,
+  carNumbers,
 }: {
   basic: Prediction[];
   advanced: Prediction[];
+  carNumbers: CarNumbers;
 }) {
   const rankOf = (rows: Prediction[]) =>
     new Map(rows.map((p, i) => [p.driver, i + 1]));
@@ -93,6 +103,7 @@ export function PredictionsCompare({
               className="rounded-md border border-speed/30 bg-speed/10 px-2.5 py-1 text-xs"
             >
               <span className="font-medium">{d.driver}</span>{" "}
+              <CarNo n={carNumbers[d.driver]} />{" "}
               <span className="tabular text-muted-foreground">
                 B&nbsp;P{d.basic} · A&nbsp;P{d.advanced} · Δ{d.gap}
               </span>
@@ -102,8 +113,8 @@ export function PredictionsCompare({
       </div>
 
       <div className="grid gap-4 md:grid-cols-2">
-        <Leaderboard model="basic" rows={basic} highlight={highlight} />
-        <Leaderboard model="advanced" rows={advanced} highlight={highlight} />
+        <Leaderboard model="basic" rows={basic} highlight={highlight} carNumbers={carNumbers} />
+        <Leaderboard model="advanced" rows={advanced} highlight={highlight} carNumbers={carNumbers} />
       </div>
     </div>
   );
