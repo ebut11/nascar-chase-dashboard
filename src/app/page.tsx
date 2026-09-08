@@ -43,7 +43,7 @@ export default async function HubPage({ searchParams }: PageProps<"/">) {
           <span className="text-speed">do fancy metrics actually predict better?</span>
         </h1>
         <p className="max-w-2xl text-sm text-muted-foreground">
-          Every race of the 2026 NASCAR Playoffs, a <ModelChip model="basic" className="mx-0.5 align-middle" />{" "}
+          Every race of the 2026 NASCAR Chase, a <ModelChip model="basic" className="mx-0.5 align-middle" />{" "}
           model built on box-score stats and an <ModelChip model="advanced" className="mx-0.5 align-middle" />{" "}
           model built on engineered loop-data metrics each project the finishing
           order. After the checkered flag, both get scored against reality.
@@ -115,7 +115,7 @@ export default async function HubPage({ searchParams }: PageProps<"/">) {
       {latest && latestSwing.length > 0 && (
         <section className="space-y-3">
           <div className="flex items-baseline justify-between">
-            <h2 className="text-lg font-semibold">Playoff standings swing</h2>
+            <h2 className="text-lg font-semibold">Chase standings swing</h2>
             <Link
               href={`/races/${latest.chase_round}`}
               className="text-xs text-muted-foreground transition-colors hover:text-foreground"

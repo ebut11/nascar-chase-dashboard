@@ -127,7 +127,7 @@ export function StandingsSwing({
     <div className="rounded-xl border border-border/70 bg-card">
       <div className="flex flex-wrap items-center justify-between gap-2 border-b border-border/70 p-3">
         <div>
-          <h3 className="text-sm font-semibold">Playoff points behind the leader</h3>
+          <h3 className="text-sm font-semibold">Chase points behind the leader</h3>
           <p className="text-xs text-muted-foreground">
             Watch the gap swing across {raceName}. Toggle to replay it.
           </p>

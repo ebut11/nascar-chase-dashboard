@@ -111,9 +111,9 @@ export default async function RacePage({ params }: PageProps<"/races/[round]">) 
             <TabsContent value="standings">
               <div className="space-y-3">
                 <p className="max-w-2xl text-sm text-muted-foreground">
-                  Playoff-points gap to the standings leader, entering{" "}
-                  {race.track} versus after the checkered flag. Toggle to replay the
-                  swing; the arrows show places gained or lost.
+                  Chase-points gap to the standings leader, entering {race.track}{" "}
+                  versus after the checkered flag. Toggle to replay the swing; the
+                  arrows show places gained or lost.
                 </p>
                 <StandingsSwing raceName={race.track} rows={standings} />
               </div>
