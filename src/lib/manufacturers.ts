@@ -18,6 +18,9 @@ export const MANUFACTURER: Record<string, Manufacturer> = {
   "John Hunter Nemechek": "Toyota",
   "Riley Herbst": "Toyota",
   "Chad Finchum": "Toyota",
+  "Ross Chastain": "Toyota", // Trackhouse -> Toyota for 2026
+  "Connor Zilisch": "Toyota",
+  "Shane Van Gisbergen": "Toyota",
   // Ford
   "Ryan Blaney": "Ford",
   "Joey Logano": "Ford",
@@ -39,14 +42,12 @@ export const MANUFACTURER: Record<string, Manufacturer> = {
   "Alex Bowman": "Chevrolet",
   "Michael McDowell": "Chevrolet",
   "AJ Allmendinger": "Chevrolet",
-  "Shane Van Gisbergen": "Chevrolet",
-  "Ross Chastain": "Chevrolet",
   "Austin Hill": "Chevrolet",
   "Austin Dillon": "Chevrolet",
   "Ty Dillon": "Chevrolet",
   "Cole Custer": "Chevrolet",
-  "Connor Zilisch": "Chevrolet",
   "Ricky Stenhouse Jr.": "Chevrolet",
+  "Kyle Busch": "Chevrolet",
 };
 
 export const MFR_PLATE: Record<Manufacturer, { bg: string; fg: string; ring: string }> = {

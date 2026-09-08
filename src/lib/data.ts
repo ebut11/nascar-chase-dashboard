@@ -310,6 +310,18 @@ export function standingsSeries(data: ChaseData): StandingsSeries {
   return { checkpoints: cps.map((c) => c.cp), lines, maxBehind };
 }
 
+/** One driver's points-behind-leader across the standings checkpoints. */
+export function driverPointsHistory(
+  data: ChaseData,
+  driver: string,
+): { checkpoints: StandingsCheckpoint[]; line: StandingsLine | null } {
+  const series = standingsSeries(data);
+  return {
+    checkpoints: series.checkpoints,
+    line: series.lines.find((l) => l.driver === driver) ?? null,
+  };
+}
+
 /* --------------------- cumulative model accuracy ----------------------- */
 
 export interface CumulativeMaePoint {

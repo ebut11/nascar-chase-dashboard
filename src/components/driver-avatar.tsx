@@ -1,0 +1,60 @@
+"use client";
+
+import { useState } from "react";
+import { cn } from "@/lib/utils";
+import { MFR_PLATE, type Manufacturer } from "@/lib/manufacturers";
+
+function initials(name: string) {
+  const p = name.replace(/\./g, "").split(/\s+/).filter(Boolean);
+  return ((p[0]?.[0] ?? "") + (p.at(-1)?.[0] ?? "")).toUpperCase();
+}
+
+/**
+ * Circular driver image. Uses /drivers/<slug>.(png|jpg) when a file is present,
+ * otherwise a manufacturer-tinted initials disc.
+ */
+export function DriverAvatar({
+  name,
+  slug,
+  manufacturer,
+  size = 64,
+  className,
+}: {
+  name: string;
+  slug: string;
+  manufacturer: Manufacturer;
+  size?: number;
+  className?: string;
+}) {
+  const [broken, setBroken] = useState(false);
+  const c = MFR_PLATE[manufacturer];
+
+  return (
+    <span
+      className={cn(
+        "relative inline-flex shrink-0 items-center justify-center overflow-hidden rounded-full",
+        className,
+      )}
+      style={{ width: size, height: size, backgroundColor: c.bg }}
+    >
+      {!broken ? (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          src={`/drivers/${slug}.png`}
+          alt={name}
+          width={size}
+          height={size}
+          className="h-full w-full object-cover"
+          onError={() => setBroken(true)}
+        />
+      ) : (
+        <span
+          className="font-semibold"
+          style={{ color: c.fg, fontSize: size * 0.36 }}
+        >
+          {initials(name)}
+        </span>
+      )}
+    </span>
+  );
+}

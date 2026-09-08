@@ -51,6 +51,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
                 Races
               </Link>
               <Link
+                href="/drivers"
+                className="text-muted-foreground transition-colors hover:text-foreground"
+              >
+                Drivers
+              </Link>
+              <Link
                 href="/standings"
                 className="text-muted-foreground transition-colors hover:text-foreground"
               >
