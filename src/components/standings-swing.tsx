@@ -65,7 +65,7 @@ function Row({
       <span className="min-w-0">
         <span className="flex items-center gap-2">
           <span className="truncate text-sm">{row.driver}</span>
-          <CarNo n={row.car_number} />
+          <CarNo n={row.car_number} driver={row.driver} />
           {phase === "after" && rankDelta !== 0 && (
             <span
               className={cn(

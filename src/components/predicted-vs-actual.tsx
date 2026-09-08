@@ -157,7 +157,7 @@ export function PredictedVsActual({ rows }: { rows: DriverRaceRow[] }) {
                         />
                       )}
                       <span className="truncate">{r.driver}</span>
-                      <CarNo n={r.car_number} />
+                      <CarNo n={r.car_number} driver={r.driver} />
                     </span>
                   </TableCell>
                   <TableCell

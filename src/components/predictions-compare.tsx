@@ -40,7 +40,7 @@ function Leaderboard({
               </span>
               <span className="flex flex-1 items-center gap-2 truncate">
                 <span className="truncate">{p.driver}</span>
-                <CarNo n={carNumbers[p.driver]} />
+                <CarNo n={carNumbers[p.driver]} driver={p.driver} />
               </span>
               {p.data_source?.startsWith("Track-Type") && (
                 <span
@@ -103,7 +103,7 @@ export function PredictionsCompare({
               className="rounded-md border border-speed/30 bg-speed/10 px-2.5 py-1 text-xs"
             >
               <span className="font-medium">{d.driver}</span>{" "}
-              <CarNo n={carNumbers[d.driver]} />{" "}
+              <CarNo n={carNumbers[d.driver]} driver={d.driver} />{" "}
               <span className="tabular text-muted-foreground">
                 B&nbsp;P{d.basic} · A&nbsp;P{d.advanced} · Δ{d.gap}
               </span>

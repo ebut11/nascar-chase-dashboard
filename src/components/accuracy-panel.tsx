@@ -87,7 +87,7 @@ function CallsList({
           <li key={r.driver} className="flex items-baseline justify-between gap-3">
             <span className="flex items-baseline gap-2 truncate">
               <span className="truncate">{r.driver}</span>
-              <CarNo n={r.car} />
+              <CarNo n={r.car} driver={r.driver} />
             </span>
             <span className="tabular shrink-0 text-xs text-muted-foreground">{r.note}</span>
           </li>
