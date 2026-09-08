@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Racing_Sans_One } from "next/font/google";
+import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
 
@@ -13,13 +13,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-// Display face for door-panel car numbers — reads like a stock-car number.
-const racing = Racing_Sans_One({
-  variable: "--font-racing",
-  weight: "400",
-  subsets: ["latin"],
-});
-
 export const metadata: Metadata = {
   title: "The Model Duel — 2026 NASCAR Chase",
   description:
@@ -30,7 +23,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
-      className={`dark ${geistSans.variable} ${geistMono.variable} ${racing.variable} h-full antialiased`}
+      className={`dark ${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-background text-foreground">
         <header className="sticky top-0 z-40 border-b border-border/80 bg-background/85 backdrop-blur">
