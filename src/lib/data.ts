@@ -2,12 +2,14 @@ import { createClient } from "@supabase/supabase-js";
 import fallback from "./fallback-data.json";
 import type {
   ChaseData,
+  ChaseStanding,
   DriverRaceRow,
   FeatureImportance,
   ModelScore,
   Prediction,
   Race,
   RaceResult,
+  StandingRow,
 } from "./types";
 
 // The Supabase project URL and anon key are publishable by design — they ship in
@@ -40,7 +42,7 @@ export async function getChaseData(): Promise<{ data: ChaseData; source: "supaba
   try {
     const supabase = createClient(url!, anon!, { auth: { persistSession: false } });
 
-    const [races, drivers, predictions, results, scores, importances] = await Promise.all([
+    const [races, drivers, predictions, results, scores, importances, standings] = await Promise.all([
       supabase
         .from("races")
         .select("chase_round,name,track,race_date,track_type,track_length_mi,status,winner,blend_note")
@@ -56,6 +58,10 @@ export async function getChaseData(): Promise<{ data: ChaseData; source: "supaba
         ),
       supabase.from("model_scores").select("*,races(chase_round)"),
       supabase.from("feature_importances").select("model_type,feature,importance,races(chase_round)"),
+      // Optional table — added later; a miss here must not fail the whole load.
+      supabase
+        .from("chase_standings")
+        .select("phase,playoff_points,behind_leader,rank,races(chase_round),drivers(name)"),
     ]);
 
     const err = races.error || drivers.error || predictions.error || results.error || scores.error || importances.error;
@@ -77,6 +83,7 @@ export async function getChaseData(): Promise<{ data: ChaseData; source: "supaba
         } as T;
       });
 
+    const bundledStandings = (fallback as unknown as ChaseData).chase_standings ?? [];
     const data: ChaseData = {
       races: (races.data ?? []) as Race[],
       drivers: (drivers.data ?? []) as ChaseData["drivers"],
@@ -84,6 +91,10 @@ export async function getChaseData(): Promise<{ data: ChaseData; source: "supaba
       results: flatten<RaceResult>(results.data ?? []),
       model_scores: flatten<ModelScore>(scores.data ?? []),
       feature_importances: flatten<FeatureImportance>(importances.data ?? []),
+      chase_standings:
+        !standings.error && standings.data?.length
+          ? flatten<ChaseStanding>(standings.data)
+          : bundledStandings,
     };
 
     if (data.races.length === 0) {
@@ -109,6 +120,31 @@ export function predictionsFor(data: ChaseData, round: number, model: "basic" | 
   return data.predictions
     .filter((p) => p.chase_round === round && p.model_type === model)
     .sort((a, b) => a.projected_finish - b.projected_finish);
+}
+
+/** Merge the before/after standing phases for a race into per-driver rows. */
+export function standingsFor(data: ChaseData, round: number): StandingRow[] {
+  const rows = (data.chase_standings ?? []).filter((s) => s.chase_round === round);
+  if (rows.length === 0) return [];
+  const before = new Map(rows.filter((r) => r.phase === "before").map((r) => [r.driver, r]));
+  const after = new Map(rows.filter((r) => r.phase === "after").map((r) => [r.driver, r]));
+  const names = new Set<string>([...before.keys(), ...after.keys()]);
+
+  return [...names]
+    .map((driver): StandingRow => {
+      const b = before.get(driver);
+      const a = after.get(driver);
+      return {
+        driver,
+        playoff_points_before: b?.playoff_points ?? null,
+        playoff_points_after: a?.playoff_points ?? null,
+        behind_before: b?.behind_leader ?? a?.behind_leader ?? 0,
+        behind_after: a?.behind_leader ?? b?.behind_leader ?? 0,
+        rank_before: b?.rank ?? a?.rank ?? 99,
+        rank_after: a?.rank ?? b?.rank ?? 99,
+      };
+    })
+    .sort((x, y) => x.rank_after - y.rank_after);
 }
 
 export function scoresFor(data: ChaseData, round: number): { basic?: ModelScore; advanced?: ModelScore } {

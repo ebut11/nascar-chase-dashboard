@@ -61,6 +61,27 @@ export interface FeatureImportance {
   importance: number;
 }
 
+/** One phase (before/after) of one driver's playoff standing for one race. */
+export interface ChaseStanding {
+  chase_round: number;
+  driver: string;
+  phase: "before" | "after";
+  playoff_points: number | null;
+  behind_leader: number; // 0 for the leader, else points behind
+  rank: number;
+}
+
+/** Merged before+after standing for one driver, ready for the swing widget. */
+export interface StandingRow {
+  driver: string;
+  playoff_points_before: number | null;
+  playoff_points_after: number | null;
+  behind_before: number;
+  behind_after: number;
+  rank_before: number;
+  rank_after: number;
+}
+
 export interface ChaseData {
   races: Race[];
   drivers: Driver[];
@@ -68,6 +89,7 @@ export interface ChaseData {
   results: RaceResult[];
   model_scores: ModelScore[];
   feature_importances: FeatureImportance[];
+  chase_standings: ChaseStanding[];
 }
 
 /** A single driver's row on a completed race's predicted-vs-actual board. */

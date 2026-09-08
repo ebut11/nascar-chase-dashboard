@@ -88,9 +88,22 @@ create table feature_importances (
   unique (race_id, model_type, feature)
 );
 
+-- --- Playoff standings snapshot before / after each race ---
+create table chase_standings (
+  id             serial primary key,
+  race_id        int  not null references races(id) on delete cascade,
+  driver_id      int  not null references drivers(id) on delete cascade,
+  phase          text not null check (phase in ('before','after')),
+  playoff_points int,
+  behind_leader  int  not null default 0,   -- 0 = standings leader, else points back
+  rank           int  not null,
+  unique (race_id, driver_id, phase)
+);
+
 create index on predictions (race_id, model_type);
 create index on results (race_id);
 create index on feature_importances (race_id, model_type);
+create index on chase_standings (race_id, phase);
 
 -- ============================================================
 --  Row Level Security: public (anon) read-only, no client writes
@@ -101,6 +114,7 @@ alter table predictions         enable row level security;
 alter table results             enable row level security;
 alter table model_scores        enable row level security;
 alter table feature_importances enable row level security;
+alter table chase_standings     enable row level security;
 
 create policy "public read" on races               for select using (true);
 create policy "public read" on drivers             for select using (true);
@@ -108,6 +122,7 @@ create policy "public read" on predictions         for select using (true);
 create policy "public read" on results             for select using (true);
 create policy "public read" on model_scores        for select using (true);
 create policy "public read" on feature_importances for select using (true);
+create policy "public read" on chase_standings     for select using (true);
 
 -- RLS decides which rows; these GRANTs let the anon/auth roles reach the tables at all.
 grant usage on schema public to anon, authenticated;

@@ -5,6 +5,7 @@ import { PredictionsCompare } from "@/components/predictions-compare";
 import { PredictedVsActual } from "@/components/predicted-vs-actual";
 import { AccuracyPanel } from "@/components/accuracy-panel";
 import { ImportancePanel } from "@/components/importance-panel";
+import { StandingsSwing } from "@/components/standings-swing";
 import { DataSourceNote } from "@/components/data-source-note";
 import {
   driverRaceRows,
@@ -13,6 +14,7 @@ import {
   predictionsFor,
   raceByRound,
   scoresFor,
+  standingsFor,
 } from "@/lib/data";
 import { fmtDate } from "@/lib/format";
 
@@ -34,6 +36,7 @@ export default async function RacePage({ params }: PageProps<"/races/[round]">) 
   const advancedPreds = predictionsFor(data, roundNum, "advanced");
   const scores = scoresFor(data, roundNum);
   const rows = driverRaceRows(data, roundNum);
+  const standings = standingsFor(data, roundNum);
   const hasPredictions = basicPreds.length > 0 && advancedPreds.length > 0;
 
   return (
@@ -84,6 +87,7 @@ export default async function RacePage({ params }: PageProps<"/races/[round]">) 
             {done && scores.basic && scores.advanced && (
               <TabsTrigger value="acc">Accuracy</TabsTrigger>
             )}
+            {standings.length > 0 && <TabsTrigger value="standings">Standings</TabsTrigger>}
             <TabsTrigger value="feat">What mattered</TabsTrigger>
           </TabsList>
 
@@ -100,6 +104,19 @@ export default async function RacePage({ params }: PageProps<"/races/[round]">) 
           {done && scores.basic && scores.advanced && (
             <TabsContent value="acc">
               <AccuracyPanel basic={scores.basic} advanced={scores.advanced} rows={rows} />
+            </TabsContent>
+          )}
+
+          {standings.length > 0 && (
+            <TabsContent value="standings">
+              <div className="space-y-3">
+                <p className="max-w-2xl text-sm text-muted-foreground">
+                  Playoff-points gap to the standings leader, entering{" "}
+                  {race.track} versus after the checkered flag. Toggle to replay the
+                  swing; the arrows show places gained or lost.
+                </p>
+                <StandingsSwing raceName={race.track} rows={standings} />
+              </div>
             </TabsContent>
           )}
 

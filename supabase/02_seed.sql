@@ -1,6 +1,6 @@
 -- AUTO-GENERATED. Run after 01_schema.sql.
 begin;
-truncate feature_importances, model_scores, results, predictions, drivers, races restart identity cascade;
+truncate chase_standings, feature_importances, model_scores, results, predictions, drivers, races restart identity cascade;
 
 insert into races (chase_round, name, track, race_date, track_type, track_length_mi, status, winner, blend_note) values
   (1, 'Cook Out Southern 500', 'Darlington Raceway', '2026-09-07', 'Intermediate', 1.366, 'completed', 'Christopher Bell', '60% intermediate season form / 40% Darlington Chase history'),

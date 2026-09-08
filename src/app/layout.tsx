@@ -42,13 +42,19 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
                 href="/"
                 className="text-muted-foreground transition-colors hover:text-foreground"
               >
-                Standings
+                The Duel
               </Link>
               <Link
                 href="/races/1"
                 className="text-muted-foreground transition-colors hover:text-foreground"
               >
                 Races
+              </Link>
+              <Link
+                href="/glossary"
+                className="text-muted-foreground transition-colors hover:text-foreground"
+              >
+                Glossary
               </Link>
               <Link
                 href="/methodology"

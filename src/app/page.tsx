@@ -4,11 +4,13 @@ import { DataSourceNote } from "@/components/data-source-note";
 import { DuelScoreboard } from "@/components/duel-scoreboard";
 import { RaceStrip } from "@/components/race-strip";
 import { ModelChip } from "@/components/model-chip";
+import { StandingsSwing } from "@/components/standings-swing";
 import {
   duelStandings,
   getChaseData,
   lastFallbackReason,
   scoresFor,
+  standingsFor,
   usingSupabase,
 } from "@/lib/data";
 import { fmt, fmtDate, ordinal } from "@/lib/format";
@@ -27,6 +29,7 @@ export default async function HubPage({ searchParams }: PageProps<"/">) {
     .sort((a, b) => b.chase_round - a.chase_round);
   const latest = completed[0];
   const latestScores = latest ? scoresFor(data, latest.chase_round) : null;
+  const latestSwing = latest ? standingsFor(data, latest.chase_round) : [];
 
   return (
     <div className="space-y-10">
@@ -36,7 +39,7 @@ export default async function HubPage({ searchParams }: PageProps<"/">) {
           Basic stats vs. engineered metrics
         </div>
         <h1 className="max-w-3xl text-3xl font-bold tracking-tight sm:text-4xl">
-          Two Random Forests. Ten Chase races. One question:{" "}
+          Two models. Ten Chase races. One question:{" "}
           <span className="text-speed">do fancy metrics actually predict better?</span>
         </h1>
         <p className="max-w-2xl text-sm text-muted-foreground">
@@ -106,6 +109,21 @@ export default async function HubPage({ searchParams }: PageProps<"/">) {
               Full breakdown <ArrowRight className="size-4" />
             </Link>
           </div>
+        </section>
+      )}
+
+      {latest && latestSwing.length > 0 && (
+        <section className="space-y-3">
+          <div className="flex items-baseline justify-between">
+            <h2 className="text-lg font-semibold">Playoff standings swing</h2>
+            <Link
+              href={`/races/${latest.chase_round}`}
+              className="text-xs text-muted-foreground transition-colors hover:text-foreground"
+            >
+              Full field →
+            </Link>
+          </div>
+          <StandingsSwing raceName={latest.track} rows={latestSwing} compact />
         </section>
       )}
     </div>
