@@ -6,6 +6,7 @@ import { PredictedVsActual } from "@/components/predicted-vs-actual";
 import { AccuracyPanel } from "@/components/accuracy-panel";
 import { ImportancePanel } from "@/components/importance-panel";
 import { StandingsSwing } from "@/components/standings-swing";
+import { PredActualScatter } from "@/components/pred-actual-scatter";
 import { DataSourceNote } from "@/components/data-source-note";
 import {
   driverRaceRows,
@@ -110,7 +111,13 @@ export default async function RacePage({ params }: PageProps<"/races/[round]">) 
 
           {done && scores.basic && scores.advanced && (
             <TabsContent value="acc">
-              <AccuracyPanel basic={scores.basic} advanced={scores.advanced} rows={rows} />
+              <div className="space-y-8">
+                <AccuracyPanel basic={scores.basic} advanced={scores.advanced} rows={rows} />
+                <div className="space-y-3">
+                  <h3 className="text-sm font-medium">Projected vs. actual finish</h3>
+                  <PredActualScatter rows={rows} />
+                </div>
+              </div>
             </TabsContent>
           )}
 

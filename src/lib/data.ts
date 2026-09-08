@@ -232,3 +232,113 @@ export function duelStandings(data: ChaseData): DuelStanding[] {
   };
   return [perModel("basic"), perModel("advanced")];
 }
+
+/* ----------------------- season standings zig-zag ------------------------ */
+
+export interface StandingsCheckpoint {
+  label: string; // "Seeding", "R1"
+  sub: string; // short track name or "Chase reset"
+}
+export interface StandingsLinePoint {
+  x: number; // checkpoint index
+  behind: number; // points behind leader (0 = leader)
+  rank: number;
+}
+export interface StandingsLine {
+  driver: string;
+  car_number: number | null;
+  points: StandingsLinePoint[];
+}
+export interface StandingsSeries {
+  checkpoints: StandingsCheckpoint[];
+  lines: StandingsLine[];
+  maxBehind: number;
+}
+
+const shortTrack = (t: string) =>
+  t.replace(/ (Raceway|Motor Speedway|Superspeedway|Speedway)$/, "");
+
+/** Every Chase driver's points-behind-leader at each standings checkpoint
+ *  (seeding, then after each completed race). */
+export function standingsSeries(data: ChaseData): StandingsSeries {
+  const cs = data.chase_standings ?? [];
+  if (cs.length === 0) return { checkpoints: [], lines: [], maxBehind: 1 };
+
+  const carNo = new Map(data.drivers.map((d) => [d.name, d.car_number]));
+  const raceByRoundMap = new Map(data.races.map((r) => [r.chase_round, r]));
+  const rounds = [...new Set(cs.map((s) => s.chase_round))].sort((a, b) => a - b);
+
+  const cps: { round: number; phase: "before" | "after"; cp: StandingsCheckpoint }[] = [];
+  if (cs.some((s) => s.chase_round === rounds[0] && s.phase === "before")) {
+    cps.push({
+      round: rounds[0],
+      phase: "before",
+      cp: { label: "Seeding", sub: "Chase reset" },
+    });
+  }
+  for (const rnd of rounds) {
+    if (cs.some((s) => s.chase_round === rnd && s.phase === "after")) {
+      const race = raceByRoundMap.get(rnd);
+      cps.push({
+        round: rnd,
+        phase: "after",
+        cp: { label: `R${rnd}`, sub: race ? shortTrack(race.track) : `Race ${rnd}` },
+      });
+    }
+  }
+
+  const lookup = new Map(cs.map((s) => [`${s.chase_round}|${s.phase}|${s.driver}`, s]));
+  const names = [...new Set(cs.map((s) => s.driver))];
+  let maxBehind = 1;
+
+  const lines: StandingsLine[] = names.map((driver) => {
+    const points: StandingsLinePoint[] = [];
+    cps.forEach((c, i) => {
+      const s = lookup.get(`${c.round}|${c.phase}|${driver}`);
+      if (s) {
+        maxBehind = Math.max(maxBehind, s.behind_leader);
+        points.push({ x: i, behind: s.behind_leader, rank: s.rank });
+      }
+    });
+    return { driver, car_number: carNo.get(driver) ?? null, points };
+  });
+
+  lines.sort(
+    (a, b) => (a.points.at(-1)?.rank ?? 99) - (b.points.at(-1)?.rank ?? 99),
+  );
+
+  return { checkpoints: cps.map((c) => c.cp), lines, maxBehind };
+}
+
+/* --------------------- cumulative model accuracy ----------------------- */
+
+export interface CumulativeMaePoint {
+  round: number;
+  label: string;
+  basic: number | null;
+  advanced: number | null;
+}
+
+/** Running average of race MAE for each model, race by race. */
+export function cumulativeMae(data: ChaseData): CumulativeMaePoint[] {
+  const completed = data.races
+    .filter((r) => r.status === "completed")
+    .sort((a, b) => a.chase_round - b.chase_round);
+  const acc: Record<"basic" | "advanced", number[]> = { basic: [], advanced: [] };
+  const mean = (a: number[]) => (a.length ? a.reduce((s, v) => s + v, 0) / a.length : null);
+
+  return completed.map((race) => {
+    for (const m of ["basic", "advanced"] as const) {
+      const s = data.model_scores.find(
+        (x) => x.chase_round === race.chase_round && x.model_type === m,
+      );
+      if (s?.mae != null) acc[m].push(s.mae);
+    }
+    return {
+      round: race.chase_round,
+      label: shortTrack(race.track),
+      basic: mean(acc.basic),
+      advanced: mean(acc.advanced),
+    };
+  });
+}

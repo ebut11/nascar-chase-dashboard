@@ -5,7 +5,9 @@ import { DuelScoreboard } from "@/components/duel-scoreboard";
 import { RaceStrip } from "@/components/race-strip";
 import { ModelChip } from "@/components/model-chip";
 import { StandingsSwing } from "@/components/standings-swing";
+import { CumulativeMae } from "@/components/cumulative-mae";
 import {
+  cumulativeMae,
   duelStandings,
   getChaseData,
   lastFallbackReason,
@@ -30,6 +32,7 @@ export default async function HubPage({ searchParams }: PageProps<"/">) {
   const latest = completed[0];
   const latestScores = latest ? scoresFor(data, latest.chase_round) : null;
   const latestSwing = latest ? standingsFor(data, latest.chase_round) : [];
+  const maeTrack = cumulativeMae(data);
 
   return (
     <div className="space-y-10">
@@ -58,6 +61,20 @@ export default async function HubPage({ searchParams }: PageProps<"/">) {
       </section>
 
       <DuelScoreboard standings={standings} />
+
+      {maeTrack.length > 0 && (
+        <section className="space-y-3">
+          <div className="flex items-baseline justify-between">
+            <h2 className="text-lg font-semibold">How the models are tracking</h2>
+            <span className="text-xs text-muted-foreground">avg race MAE</span>
+          </div>
+          <CumulativeMae points={maeTrack} />
+          <p className="text-xs text-muted-foreground">
+            Running average of each model&apos;s per-race mean absolute error. The
+            line to watch is which one settles lower as the Chase goes on.
+          </p>
+        </section>
+      )}
 
       <section className="space-y-3">
         <div className="flex items-baseline justify-between">
@@ -117,10 +134,10 @@ export default async function HubPage({ searchParams }: PageProps<"/">) {
           <div className="flex items-baseline justify-between">
             <h2 className="text-lg font-semibold">Chase standings swing</h2>
             <Link
-              href={`/races/${latest.chase_round}`}
+              href="/standings"
               className="text-xs text-muted-foreground transition-colors hover:text-foreground"
             >
-              Full field →
+              Season chart →
             </Link>
           </div>
           <StandingsSwing raceName={latest.track} rows={latestSwing} compact />
