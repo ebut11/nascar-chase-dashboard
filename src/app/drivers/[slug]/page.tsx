@@ -3,11 +3,14 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { DriverAvatar } from "@/components/driver-avatar";
 import { DriverPointsChart } from "@/components/driver-points-chart";
+import { SeasonPointsChart, type WeekRow } from "@/components/season-points-chart";
 import { DataSourceNote } from "@/components/data-source-note";
 import { driverPointsHistory, getChaseData } from "@/lib/data";
 import { DRIVER_PHOTO } from "@/lib/driver-photos";
+import { DRIVER_LINE_COLOR } from "@/lib/driver-line-colors";
 import { driverStats } from "@/lib/driver-seasons";
 import driverChase from "@/lib/driver-chase.json";
+import seasonWeekly from "@/lib/season-weekly.json";
 import { MFR_PLATE } from "@/lib/manufacturers";
 import { ROSTER, rosterBySlug } from "@/lib/roster";
 import { fmt } from "@/lib/format";
@@ -23,6 +26,7 @@ interface ChaseBlock {
   lapsLed: number;
 }
 const CHASE = driverChase as Record<string, ChaseBlock>;
+const SEASON_WEEKLY = seasonWeekly as Record<string, WeekRow[]>;
 
 export const dynamic = "force-dynamic";
 
@@ -56,6 +60,8 @@ export default async function DriverPage({ params }: PageProps<"/drivers/[slug]"
   const s = driverStats(slug);
   const chase = CHASE[slug];
   const history = driverPointsHistory(data, d.name);
+  const weekly = SEASON_WEEKLY[slug] ?? [];
+  const lineColor = DRIVER_LINE_COLOR[slug] ?? MFR_PLATE[d.manufacturer].bg;
   const num = (v: number | undefined) => (v === undefined ? "—" : String(v));
   const dec = (v: number | undefined) => (v === undefined ? "—" : fmt(v, 1));
 
@@ -132,15 +138,21 @@ export default async function DriverPage({ params }: PageProps<"/drivers/[slug]"
 
       <section className="space-y-3">
         <h2 className="text-lg font-semibold">Points through the year</h2>
-        <p className="max-w-2xl text-sm text-muted-foreground">
-          Points behind the standings leader at each checkpoint. Flat along the
-          top is the lead; a falling line is ground lost.
-        </p>
-        <DriverPointsChart
-          checkpoints={history.checkpoints}
-          line={history.line}
-          color={MFR_PLATE[d.manufacturer].bg}
-        />
+        {weekly.length > 0 ? (
+          <SeasonPointsChart rows={weekly} color={lineColor} />
+        ) : (
+          <>
+            <p className="max-w-2xl text-sm text-muted-foreground">
+              Points behind the standings leader at each Chase checkpoint. Flat
+              along the top is the lead; a falling line is ground lost.
+            </p>
+            <DriverPointsChart
+              checkpoints={history.checkpoints}
+              line={history.line}
+              color={lineColor}
+            />
+          </>
+        )}
         <DataSourceNote source={source} />
       </section>
     </div>
