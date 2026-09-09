@@ -2243,6 +2243,2310 @@
       "playoff_points": 2021,
       "behind_leader": 114,
       "rank": 16
+    },
+    {
+      "chase_round": 2,
+      "driver": "Denny Hamlin",
+      "phase": "before",
+      "playoff_points": 2135,
+      "behind_leader": 0,
+      "rank": 1
+    },
+    {
+      "chase_round": 2,
+      "driver": "Christopher Bell",
+      "phase": "before",
+      "playoff_points": 2123,
+      "behind_leader": 12,
+      "rank": 2
+    },
+    {
+      "chase_round": 2,
+      "driver": "Ryan Blaney",
+      "phase": "before",
+      "playoff_points": 2119,
+      "behind_leader": 16,
+      "rank": 3
+    },
+    {
+      "chase_round": 2,
+      "driver": "Tyler Reddick",
+      "phase": "before",
+      "playoff_points": 2111,
+      "behind_leader": 24,
+      "rank": 4
+    },
+    {
+      "chase_round": 2,
+      "driver": "Chase Briscoe",
+      "phase": "before",
+      "playoff_points": 2098,
+      "behind_leader": 37,
+      "rank": 5
+    },
+    {
+      "chase_round": 2,
+      "driver": "Ty Gibbs",
+      "phase": "before",
+      "playoff_points": 2096,
+      "behind_leader": 39,
+      "rank": 6
+    },
+    {
+      "chase_round": 2,
+      "driver": "Kyle Larson",
+      "phase": "before",
+      "playoff_points": 2086,
+      "behind_leader": 49,
+      "rank": 7
+    },
+    {
+      "chase_round": 2,
+      "driver": "Joey Logano",
+      "phase": "before",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 8
+    },
+    {
+      "chase_round": 2,
+      "driver": "Chase Elliott",
+      "phase": "before",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 9
+    },
+    {
+      "chase_round": 2,
+      "driver": "Bubba Wallace",
+      "phase": "before",
+      "playoff_points": 2054,
+      "behind_leader": 81,
+      "rank": 10
+    },
+    {
+      "chase_round": 2,
+      "driver": "Chris Buescher",
+      "phase": "before",
+      "playoff_points": 2047,
+      "behind_leader": 88,
+      "rank": 11
+    },
+    {
+      "chase_round": 2,
+      "driver": "Carson Hocevar",
+      "phase": "before",
+      "playoff_points": 2046,
+      "behind_leader": 89,
+      "rank": 12
+    },
+    {
+      "chase_round": 2,
+      "driver": "Daniel Suarez",
+      "phase": "before",
+      "playoff_points": 2041,
+      "behind_leader": 94,
+      "rank": 13
+    },
+    {
+      "chase_round": 2,
+      "driver": "Austin Cindric",
+      "phase": "before",
+      "playoff_points": 2033,
+      "behind_leader": 102,
+      "rank": 14
+    },
+    {
+      "chase_round": 2,
+      "driver": "Ryan Preece",
+      "phase": "before",
+      "playoff_points": 2031,
+      "behind_leader": 104,
+      "rank": 15
+    },
+    {
+      "chase_round": 2,
+      "driver": "William Byron",
+      "phase": "before",
+      "playoff_points": 2021,
+      "behind_leader": 114,
+      "rank": 16
+    },
+    {
+      "chase_round": 2,
+      "driver": "Denny Hamlin",
+      "phase": "after",
+      "playoff_points": 2135,
+      "behind_leader": 0,
+      "rank": 1
+    },
+    {
+      "chase_round": 2,
+      "driver": "Christopher Bell",
+      "phase": "after",
+      "playoff_points": 2123,
+      "behind_leader": 12,
+      "rank": 2
+    },
+    {
+      "chase_round": 2,
+      "driver": "Ryan Blaney",
+      "phase": "after",
+      "playoff_points": 2119,
+      "behind_leader": 16,
+      "rank": 3
+    },
+    {
+      "chase_round": 2,
+      "driver": "Tyler Reddick",
+      "phase": "after",
+      "playoff_points": 2111,
+      "behind_leader": 24,
+      "rank": 4
+    },
+    {
+      "chase_round": 2,
+      "driver": "Chase Briscoe",
+      "phase": "after",
+      "playoff_points": 2098,
+      "behind_leader": 37,
+      "rank": 5
+    },
+    {
+      "chase_round": 2,
+      "driver": "Ty Gibbs",
+      "phase": "after",
+      "playoff_points": 2096,
+      "behind_leader": 39,
+      "rank": 6
+    },
+    {
+      "chase_round": 2,
+      "driver": "Kyle Larson",
+      "phase": "after",
+      "playoff_points": 2086,
+      "behind_leader": 49,
+      "rank": 7
+    },
+    {
+      "chase_round": 2,
+      "driver": "Joey Logano",
+      "phase": "after",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 8
+    },
+    {
+      "chase_round": 2,
+      "driver": "Chase Elliott",
+      "phase": "after",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 9
+    },
+    {
+      "chase_round": 2,
+      "driver": "Bubba Wallace",
+      "phase": "after",
+      "playoff_points": 2054,
+      "behind_leader": 81,
+      "rank": 10
+    },
+    {
+      "chase_round": 2,
+      "driver": "Chris Buescher",
+      "phase": "after",
+      "playoff_points": 2047,
+      "behind_leader": 88,
+      "rank": 11
+    },
+    {
+      "chase_round": 2,
+      "driver": "Carson Hocevar",
+      "phase": "after",
+      "playoff_points": 2046,
+      "behind_leader": 89,
+      "rank": 12
+    },
+    {
+      "chase_round": 2,
+      "driver": "Daniel Suarez",
+      "phase": "after",
+      "playoff_points": 2041,
+      "behind_leader": 94,
+      "rank": 13
+    },
+    {
+      "chase_round": 2,
+      "driver": "Austin Cindric",
+      "phase": "after",
+      "playoff_points": 2033,
+      "behind_leader": 102,
+      "rank": 14
+    },
+    {
+      "chase_round": 2,
+      "driver": "Ryan Preece",
+      "phase": "after",
+      "playoff_points": 2031,
+      "behind_leader": 104,
+      "rank": 15
+    },
+    {
+      "chase_round": 2,
+      "driver": "William Byron",
+      "phase": "after",
+      "playoff_points": 2021,
+      "behind_leader": 114,
+      "rank": 16
+    },
+    {
+      "chase_round": 3,
+      "driver": "Denny Hamlin",
+      "phase": "before",
+      "playoff_points": 2135,
+      "behind_leader": 0,
+      "rank": 1
+    },
+    {
+      "chase_round": 3,
+      "driver": "Christopher Bell",
+      "phase": "before",
+      "playoff_points": 2123,
+      "behind_leader": 12,
+      "rank": 2
+    },
+    {
+      "chase_round": 3,
+      "driver": "Ryan Blaney",
+      "phase": "before",
+      "playoff_points": 2119,
+      "behind_leader": 16,
+      "rank": 3
+    },
+    {
+      "chase_round": 3,
+      "driver": "Tyler Reddick",
+      "phase": "before",
+      "playoff_points": 2111,
+      "behind_leader": 24,
+      "rank": 4
+    },
+    {
+      "chase_round": 3,
+      "driver": "Chase Briscoe",
+      "phase": "before",
+      "playoff_points": 2098,
+      "behind_leader": 37,
+      "rank": 5
+    },
+    {
+      "chase_round": 3,
+      "driver": "Ty Gibbs",
+      "phase": "before",
+      "playoff_points": 2096,
+      "behind_leader": 39,
+      "rank": 6
+    },
+    {
+      "chase_round": 3,
+      "driver": "Kyle Larson",
+      "phase": "before",
+      "playoff_points": 2086,
+      "behind_leader": 49,
+      "rank": 7
+    },
+    {
+      "chase_round": 3,
+      "driver": "Joey Logano",
+      "phase": "before",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 8
+    },
+    {
+      "chase_round": 3,
+      "driver": "Chase Elliott",
+      "phase": "before",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 9
+    },
+    {
+      "chase_round": 3,
+      "driver": "Bubba Wallace",
+      "phase": "before",
+      "playoff_points": 2054,
+      "behind_leader": 81,
+      "rank": 10
+    },
+    {
+      "chase_round": 3,
+      "driver": "Chris Buescher",
+      "phase": "before",
+      "playoff_points": 2047,
+      "behind_leader": 88,
+      "rank": 11
+    },
+    {
+      "chase_round": 3,
+      "driver": "Carson Hocevar",
+      "phase": "before",
+      "playoff_points": 2046,
+      "behind_leader": 89,
+      "rank": 12
+    },
+    {
+      "chase_round": 3,
+      "driver": "Daniel Suarez",
+      "phase": "before",
+      "playoff_points": 2041,
+      "behind_leader": 94,
+      "rank": 13
+    },
+    {
+      "chase_round": 3,
+      "driver": "Austin Cindric",
+      "phase": "before",
+      "playoff_points": 2033,
+      "behind_leader": 102,
+      "rank": 14
+    },
+    {
+      "chase_round": 3,
+      "driver": "Ryan Preece",
+      "phase": "before",
+      "playoff_points": 2031,
+      "behind_leader": 104,
+      "rank": 15
+    },
+    {
+      "chase_round": 3,
+      "driver": "William Byron",
+      "phase": "before",
+      "playoff_points": 2021,
+      "behind_leader": 114,
+      "rank": 16
+    },
+    {
+      "chase_round": 3,
+      "driver": "Denny Hamlin",
+      "phase": "after",
+      "playoff_points": 2135,
+      "behind_leader": 0,
+      "rank": 1
+    },
+    {
+      "chase_round": 3,
+      "driver": "Christopher Bell",
+      "phase": "after",
+      "playoff_points": 2123,
+      "behind_leader": 12,
+      "rank": 2
+    },
+    {
+      "chase_round": 3,
+      "driver": "Ryan Blaney",
+      "phase": "after",
+      "playoff_points": 2119,
+      "behind_leader": 16,
+      "rank": 3
+    },
+    {
+      "chase_round": 3,
+      "driver": "Tyler Reddick",
+      "phase": "after",
+      "playoff_points": 2111,
+      "behind_leader": 24,
+      "rank": 4
+    },
+    {
+      "chase_round": 3,
+      "driver": "Chase Briscoe",
+      "phase": "after",
+      "playoff_points": 2098,
+      "behind_leader": 37,
+      "rank": 5
+    },
+    {
+      "chase_round": 3,
+      "driver": "Ty Gibbs",
+      "phase": "after",
+      "playoff_points": 2096,
+      "behind_leader": 39,
+      "rank": 6
+    },
+    {
+      "chase_round": 3,
+      "driver": "Kyle Larson",
+      "phase": "after",
+      "playoff_points": 2086,
+      "behind_leader": 49,
+      "rank": 7
+    },
+    {
+      "chase_round": 3,
+      "driver": "Joey Logano",
+      "phase": "after",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 8
+    },
+    {
+      "chase_round": 3,
+      "driver": "Chase Elliott",
+      "phase": "after",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 9
+    },
+    {
+      "chase_round": 3,
+      "driver": "Bubba Wallace",
+      "phase": "after",
+      "playoff_points": 2054,
+      "behind_leader": 81,
+      "rank": 10
+    },
+    {
+      "chase_round": 3,
+      "driver": "Chris Buescher",
+      "phase": "after",
+      "playoff_points": 2047,
+      "behind_leader": 88,
+      "rank": 11
+    },
+    {
+      "chase_round": 3,
+      "driver": "Carson Hocevar",
+      "phase": "after",
+      "playoff_points": 2046,
+      "behind_leader": 89,
+      "rank": 12
+    },
+    {
+      "chase_round": 3,
+      "driver": "Daniel Suarez",
+      "phase": "after",
+      "playoff_points": 2041,
+      "behind_leader": 94,
+      "rank": 13
+    },
+    {
+      "chase_round": 3,
+      "driver": "Austin Cindric",
+      "phase": "after",
+      "playoff_points": 2033,
+      "behind_leader": 102,
+      "rank": 14
+    },
+    {
+      "chase_round": 3,
+      "driver": "Ryan Preece",
+      "phase": "after",
+      "playoff_points": 2031,
+      "behind_leader": 104,
+      "rank": 15
+    },
+    {
+      "chase_round": 3,
+      "driver": "William Byron",
+      "phase": "after",
+      "playoff_points": 2021,
+      "behind_leader": 114,
+      "rank": 16
+    },
+    {
+      "chase_round": 4,
+      "driver": "Denny Hamlin",
+      "phase": "before",
+      "playoff_points": 2135,
+      "behind_leader": 0,
+      "rank": 1
+    },
+    {
+      "chase_round": 4,
+      "driver": "Christopher Bell",
+      "phase": "before",
+      "playoff_points": 2123,
+      "behind_leader": 12,
+      "rank": 2
+    },
+    {
+      "chase_round": 4,
+      "driver": "Ryan Blaney",
+      "phase": "before",
+      "playoff_points": 2119,
+      "behind_leader": 16,
+      "rank": 3
+    },
+    {
+      "chase_round": 4,
+      "driver": "Tyler Reddick",
+      "phase": "before",
+      "playoff_points": 2111,
+      "behind_leader": 24,
+      "rank": 4
+    },
+    {
+      "chase_round": 4,
+      "driver": "Chase Briscoe",
+      "phase": "before",
+      "playoff_points": 2098,
+      "behind_leader": 37,
+      "rank": 5
+    },
+    {
+      "chase_round": 4,
+      "driver": "Ty Gibbs",
+      "phase": "before",
+      "playoff_points": 2096,
+      "behind_leader": 39,
+      "rank": 6
+    },
+    {
+      "chase_round": 4,
+      "driver": "Kyle Larson",
+      "phase": "before",
+      "playoff_points": 2086,
+      "behind_leader": 49,
+      "rank": 7
+    },
+    {
+      "chase_round": 4,
+      "driver": "Joey Logano",
+      "phase": "before",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 8
+    },
+    {
+      "chase_round": 4,
+      "driver": "Chase Elliott",
+      "phase": "before",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 9
+    },
+    {
+      "chase_round": 4,
+      "driver": "Bubba Wallace",
+      "phase": "before",
+      "playoff_points": 2054,
+      "behind_leader": 81,
+      "rank": 10
+    },
+    {
+      "chase_round": 4,
+      "driver": "Chris Buescher",
+      "phase": "before",
+      "playoff_points": 2047,
+      "behind_leader": 88,
+      "rank": 11
+    },
+    {
+      "chase_round": 4,
+      "driver": "Carson Hocevar",
+      "phase": "before",
+      "playoff_points": 2046,
+      "behind_leader": 89,
+      "rank": 12
+    },
+    {
+      "chase_round": 4,
+      "driver": "Daniel Suarez",
+      "phase": "before",
+      "playoff_points": 2041,
+      "behind_leader": 94,
+      "rank": 13
+    },
+    {
+      "chase_round": 4,
+      "driver": "Austin Cindric",
+      "phase": "before",
+      "playoff_points": 2033,
+      "behind_leader": 102,
+      "rank": 14
+    },
+    {
+      "chase_round": 4,
+      "driver": "Ryan Preece",
+      "phase": "before",
+      "playoff_points": 2031,
+      "behind_leader": 104,
+      "rank": 15
+    },
+    {
+      "chase_round": 4,
+      "driver": "William Byron",
+      "phase": "before",
+      "playoff_points": 2021,
+      "behind_leader": 114,
+      "rank": 16
+    },
+    {
+      "chase_round": 4,
+      "driver": "Denny Hamlin",
+      "phase": "after",
+      "playoff_points": 2135,
+      "behind_leader": 0,
+      "rank": 1
+    },
+    {
+      "chase_round": 4,
+      "driver": "Christopher Bell",
+      "phase": "after",
+      "playoff_points": 2123,
+      "behind_leader": 12,
+      "rank": 2
+    },
+    {
+      "chase_round": 4,
+      "driver": "Ryan Blaney",
+      "phase": "after",
+      "playoff_points": 2119,
+      "behind_leader": 16,
+      "rank": 3
+    },
+    {
+      "chase_round": 4,
+      "driver": "Tyler Reddick",
+      "phase": "after",
+      "playoff_points": 2111,
+      "behind_leader": 24,
+      "rank": 4
+    },
+    {
+      "chase_round": 4,
+      "driver": "Chase Briscoe",
+      "phase": "after",
+      "playoff_points": 2098,
+      "behind_leader": 37,
+      "rank": 5
+    },
+    {
+      "chase_round": 4,
+      "driver": "Ty Gibbs",
+      "phase": "after",
+      "playoff_points": 2096,
+      "behind_leader": 39,
+      "rank": 6
+    },
+    {
+      "chase_round": 4,
+      "driver": "Kyle Larson",
+      "phase": "after",
+      "playoff_points": 2086,
+      "behind_leader": 49,
+      "rank": 7
+    },
+    {
+      "chase_round": 4,
+      "driver": "Joey Logano",
+      "phase": "after",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 8
+    },
+    {
+      "chase_round": 4,
+      "driver": "Chase Elliott",
+      "phase": "after",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 9
+    },
+    {
+      "chase_round": 4,
+      "driver": "Bubba Wallace",
+      "phase": "after",
+      "playoff_points": 2054,
+      "behind_leader": 81,
+      "rank": 10
+    },
+    {
+      "chase_round": 4,
+      "driver": "Chris Buescher",
+      "phase": "after",
+      "playoff_points": 2047,
+      "behind_leader": 88,
+      "rank": 11
+    },
+    {
+      "chase_round": 4,
+      "driver": "Carson Hocevar",
+      "phase": "after",
+      "playoff_points": 2046,
+      "behind_leader": 89,
+      "rank": 12
+    },
+    {
+      "chase_round": 4,
+      "driver": "Daniel Suarez",
+      "phase": "after",
+      "playoff_points": 2041,
+      "behind_leader": 94,
+      "rank": 13
+    },
+    {
+      "chase_round": 4,
+      "driver": "Austin Cindric",
+      "phase": "after",
+      "playoff_points": 2033,
+      "behind_leader": 102,
+      "rank": 14
+    },
+    {
+      "chase_round": 4,
+      "driver": "Ryan Preece",
+      "phase": "after",
+      "playoff_points": 2031,
+      "behind_leader": 104,
+      "rank": 15
+    },
+    {
+      "chase_round": 4,
+      "driver": "William Byron",
+      "phase": "after",
+      "playoff_points": 2021,
+      "behind_leader": 114,
+      "rank": 16
+    },
+    {
+      "chase_round": 5,
+      "driver": "Denny Hamlin",
+      "phase": "before",
+      "playoff_points": 2135,
+      "behind_leader": 0,
+      "rank": 1
+    },
+    {
+      "chase_round": 5,
+      "driver": "Christopher Bell",
+      "phase": "before",
+      "playoff_points": 2123,
+      "behind_leader": 12,
+      "rank": 2
+    },
+    {
+      "chase_round": 5,
+      "driver": "Ryan Blaney",
+      "phase": "before",
+      "playoff_points": 2119,
+      "behind_leader": 16,
+      "rank": 3
+    },
+    {
+      "chase_round": 5,
+      "driver": "Tyler Reddick",
+      "phase": "before",
+      "playoff_points": 2111,
+      "behind_leader": 24,
+      "rank": 4
+    },
+    {
+      "chase_round": 5,
+      "driver": "Chase Briscoe",
+      "phase": "before",
+      "playoff_points": 2098,
+      "behind_leader": 37,
+      "rank": 5
+    },
+    {
+      "chase_round": 5,
+      "driver": "Ty Gibbs",
+      "phase": "before",
+      "playoff_points": 2096,
+      "behind_leader": 39,
+      "rank": 6
+    },
+    {
+      "chase_round": 5,
+      "driver": "Kyle Larson",
+      "phase": "before",
+      "playoff_points": 2086,
+      "behind_leader": 49,
+      "rank": 7
+    },
+    {
+      "chase_round": 5,
+      "driver": "Joey Logano",
+      "phase": "before",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 8
+    },
+    {
+      "chase_round": 5,
+      "driver": "Chase Elliott",
+      "phase": "before",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 9
+    },
+    {
+      "chase_round": 5,
+      "driver": "Bubba Wallace",
+      "phase": "before",
+      "playoff_points": 2054,
+      "behind_leader": 81,
+      "rank": 10
+    },
+    {
+      "chase_round": 5,
+      "driver": "Chris Buescher",
+      "phase": "before",
+      "playoff_points": 2047,
+      "behind_leader": 88,
+      "rank": 11
+    },
+    {
+      "chase_round": 5,
+      "driver": "Carson Hocevar",
+      "phase": "before",
+      "playoff_points": 2046,
+      "behind_leader": 89,
+      "rank": 12
+    },
+    {
+      "chase_round": 5,
+      "driver": "Daniel Suarez",
+      "phase": "before",
+      "playoff_points": 2041,
+      "behind_leader": 94,
+      "rank": 13
+    },
+    {
+      "chase_round": 5,
+      "driver": "Austin Cindric",
+      "phase": "before",
+      "playoff_points": 2033,
+      "behind_leader": 102,
+      "rank": 14
+    },
+    {
+      "chase_round": 5,
+      "driver": "Ryan Preece",
+      "phase": "before",
+      "playoff_points": 2031,
+      "behind_leader": 104,
+      "rank": 15
+    },
+    {
+      "chase_round": 5,
+      "driver": "William Byron",
+      "phase": "before",
+      "playoff_points": 2021,
+      "behind_leader": 114,
+      "rank": 16
+    },
+    {
+      "chase_round": 5,
+      "driver": "Denny Hamlin",
+      "phase": "after",
+      "playoff_points": 2135,
+      "behind_leader": 0,
+      "rank": 1
+    },
+    {
+      "chase_round": 5,
+      "driver": "Christopher Bell",
+      "phase": "after",
+      "playoff_points": 2123,
+      "behind_leader": 12,
+      "rank": 2
+    },
+    {
+      "chase_round": 5,
+      "driver": "Ryan Blaney",
+      "phase": "after",
+      "playoff_points": 2119,
+      "behind_leader": 16,
+      "rank": 3
+    },
+    {
+      "chase_round": 5,
+      "driver": "Tyler Reddick",
+      "phase": "after",
+      "playoff_points": 2111,
+      "behind_leader": 24,
+      "rank": 4
+    },
+    {
+      "chase_round": 5,
+      "driver": "Chase Briscoe",
+      "phase": "after",
+      "playoff_points": 2098,
+      "behind_leader": 37,
+      "rank": 5
+    },
+    {
+      "chase_round": 5,
+      "driver": "Ty Gibbs",
+      "phase": "after",
+      "playoff_points": 2096,
+      "behind_leader": 39,
+      "rank": 6
+    },
+    {
+      "chase_round": 5,
+      "driver": "Kyle Larson",
+      "phase": "after",
+      "playoff_points": 2086,
+      "behind_leader": 49,
+      "rank": 7
+    },
+    {
+      "chase_round": 5,
+      "driver": "Joey Logano",
+      "phase": "after",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 8
+    },
+    {
+      "chase_round": 5,
+      "driver": "Chase Elliott",
+      "phase": "after",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 9
+    },
+    {
+      "chase_round": 5,
+      "driver": "Bubba Wallace",
+      "phase": "after",
+      "playoff_points": 2054,
+      "behind_leader": 81,
+      "rank": 10
+    },
+    {
+      "chase_round": 5,
+      "driver": "Chris Buescher",
+      "phase": "after",
+      "playoff_points": 2047,
+      "behind_leader": 88,
+      "rank": 11
+    },
+    {
+      "chase_round": 5,
+      "driver": "Carson Hocevar",
+      "phase": "after",
+      "playoff_points": 2046,
+      "behind_leader": 89,
+      "rank": 12
+    },
+    {
+      "chase_round": 5,
+      "driver": "Daniel Suarez",
+      "phase": "after",
+      "playoff_points": 2041,
+      "behind_leader": 94,
+      "rank": 13
+    },
+    {
+      "chase_round": 5,
+      "driver": "Austin Cindric",
+      "phase": "after",
+      "playoff_points": 2033,
+      "behind_leader": 102,
+      "rank": 14
+    },
+    {
+      "chase_round": 5,
+      "driver": "Ryan Preece",
+      "phase": "after",
+      "playoff_points": 2031,
+      "behind_leader": 104,
+      "rank": 15
+    },
+    {
+      "chase_round": 5,
+      "driver": "William Byron",
+      "phase": "after",
+      "playoff_points": 2021,
+      "behind_leader": 114,
+      "rank": 16
+    },
+    {
+      "chase_round": 6,
+      "driver": "Denny Hamlin",
+      "phase": "before",
+      "playoff_points": 2135,
+      "behind_leader": 0,
+      "rank": 1
+    },
+    {
+      "chase_round": 6,
+      "driver": "Christopher Bell",
+      "phase": "before",
+      "playoff_points": 2123,
+      "behind_leader": 12,
+      "rank": 2
+    },
+    {
+      "chase_round": 6,
+      "driver": "Ryan Blaney",
+      "phase": "before",
+      "playoff_points": 2119,
+      "behind_leader": 16,
+      "rank": 3
+    },
+    {
+      "chase_round": 6,
+      "driver": "Tyler Reddick",
+      "phase": "before",
+      "playoff_points": 2111,
+      "behind_leader": 24,
+      "rank": 4
+    },
+    {
+      "chase_round": 6,
+      "driver": "Chase Briscoe",
+      "phase": "before",
+      "playoff_points": 2098,
+      "behind_leader": 37,
+      "rank": 5
+    },
+    {
+      "chase_round": 6,
+      "driver": "Ty Gibbs",
+      "phase": "before",
+      "playoff_points": 2096,
+      "behind_leader": 39,
+      "rank": 6
+    },
+    {
+      "chase_round": 6,
+      "driver": "Kyle Larson",
+      "phase": "before",
+      "playoff_points": 2086,
+      "behind_leader": 49,
+      "rank": 7
+    },
+    {
+      "chase_round": 6,
+      "driver": "Joey Logano",
+      "phase": "before",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 8
+    },
+    {
+      "chase_round": 6,
+      "driver": "Chase Elliott",
+      "phase": "before",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 9
+    },
+    {
+      "chase_round": 6,
+      "driver": "Bubba Wallace",
+      "phase": "before",
+      "playoff_points": 2054,
+      "behind_leader": 81,
+      "rank": 10
+    },
+    {
+      "chase_round": 6,
+      "driver": "Chris Buescher",
+      "phase": "before",
+      "playoff_points": 2047,
+      "behind_leader": 88,
+      "rank": 11
+    },
+    {
+      "chase_round": 6,
+      "driver": "Carson Hocevar",
+      "phase": "before",
+      "playoff_points": 2046,
+      "behind_leader": 89,
+      "rank": 12
+    },
+    {
+      "chase_round": 6,
+      "driver": "Daniel Suarez",
+      "phase": "before",
+      "playoff_points": 2041,
+      "behind_leader": 94,
+      "rank": 13
+    },
+    {
+      "chase_round": 6,
+      "driver": "Austin Cindric",
+      "phase": "before",
+      "playoff_points": 2033,
+      "behind_leader": 102,
+      "rank": 14
+    },
+    {
+      "chase_round": 6,
+      "driver": "Ryan Preece",
+      "phase": "before",
+      "playoff_points": 2031,
+      "behind_leader": 104,
+      "rank": 15
+    },
+    {
+      "chase_round": 6,
+      "driver": "William Byron",
+      "phase": "before",
+      "playoff_points": 2021,
+      "behind_leader": 114,
+      "rank": 16
+    },
+    {
+      "chase_round": 6,
+      "driver": "Denny Hamlin",
+      "phase": "after",
+      "playoff_points": 2135,
+      "behind_leader": 0,
+      "rank": 1
+    },
+    {
+      "chase_round": 6,
+      "driver": "Christopher Bell",
+      "phase": "after",
+      "playoff_points": 2123,
+      "behind_leader": 12,
+      "rank": 2
+    },
+    {
+      "chase_round": 6,
+      "driver": "Ryan Blaney",
+      "phase": "after",
+      "playoff_points": 2119,
+      "behind_leader": 16,
+      "rank": 3
+    },
+    {
+      "chase_round": 6,
+      "driver": "Tyler Reddick",
+      "phase": "after",
+      "playoff_points": 2111,
+      "behind_leader": 24,
+      "rank": 4
+    },
+    {
+      "chase_round": 6,
+      "driver": "Chase Briscoe",
+      "phase": "after",
+      "playoff_points": 2098,
+      "behind_leader": 37,
+      "rank": 5
+    },
+    {
+      "chase_round": 6,
+      "driver": "Ty Gibbs",
+      "phase": "after",
+      "playoff_points": 2096,
+      "behind_leader": 39,
+      "rank": 6
+    },
+    {
+      "chase_round": 6,
+      "driver": "Kyle Larson",
+      "phase": "after",
+      "playoff_points": 2086,
+      "behind_leader": 49,
+      "rank": 7
+    },
+    {
+      "chase_round": 6,
+      "driver": "Joey Logano",
+      "phase": "after",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 8
+    },
+    {
+      "chase_round": 6,
+      "driver": "Chase Elliott",
+      "phase": "after",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 9
+    },
+    {
+      "chase_round": 6,
+      "driver": "Bubba Wallace",
+      "phase": "after",
+      "playoff_points": 2054,
+      "behind_leader": 81,
+      "rank": 10
+    },
+    {
+      "chase_round": 6,
+      "driver": "Chris Buescher",
+      "phase": "after",
+      "playoff_points": 2047,
+      "behind_leader": 88,
+      "rank": 11
+    },
+    {
+      "chase_round": 6,
+      "driver": "Carson Hocevar",
+      "phase": "after",
+      "playoff_points": 2046,
+      "behind_leader": 89,
+      "rank": 12
+    },
+    {
+      "chase_round": 6,
+      "driver": "Daniel Suarez",
+      "phase": "after",
+      "playoff_points": 2041,
+      "behind_leader": 94,
+      "rank": 13
+    },
+    {
+      "chase_round": 6,
+      "driver": "Austin Cindric",
+      "phase": "after",
+      "playoff_points": 2033,
+      "behind_leader": 102,
+      "rank": 14
+    },
+    {
+      "chase_round": 6,
+      "driver": "Ryan Preece",
+      "phase": "after",
+      "playoff_points": 2031,
+      "behind_leader": 104,
+      "rank": 15
+    },
+    {
+      "chase_round": 6,
+      "driver": "William Byron",
+      "phase": "after",
+      "playoff_points": 2021,
+      "behind_leader": 114,
+      "rank": 16
+    },
+    {
+      "chase_round": 7,
+      "driver": "Denny Hamlin",
+      "phase": "before",
+      "playoff_points": 2135,
+      "behind_leader": 0,
+      "rank": 1
+    },
+    {
+      "chase_round": 7,
+      "driver": "Christopher Bell",
+      "phase": "before",
+      "playoff_points": 2123,
+      "behind_leader": 12,
+      "rank": 2
+    },
+    {
+      "chase_round": 7,
+      "driver": "Ryan Blaney",
+      "phase": "before",
+      "playoff_points": 2119,
+      "behind_leader": 16,
+      "rank": 3
+    },
+    {
+      "chase_round": 7,
+      "driver": "Tyler Reddick",
+      "phase": "before",
+      "playoff_points": 2111,
+      "behind_leader": 24,
+      "rank": 4
+    },
+    {
+      "chase_round": 7,
+      "driver": "Chase Briscoe",
+      "phase": "before",
+      "playoff_points": 2098,
+      "behind_leader": 37,
+      "rank": 5
+    },
+    {
+      "chase_round": 7,
+      "driver": "Ty Gibbs",
+      "phase": "before",
+      "playoff_points": 2096,
+      "behind_leader": 39,
+      "rank": 6
+    },
+    {
+      "chase_round": 7,
+      "driver": "Kyle Larson",
+      "phase": "before",
+      "playoff_points": 2086,
+      "behind_leader": 49,
+      "rank": 7
+    },
+    {
+      "chase_round": 7,
+      "driver": "Joey Logano",
+      "phase": "before",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 8
+    },
+    {
+      "chase_round": 7,
+      "driver": "Chase Elliott",
+      "phase": "before",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 9
+    },
+    {
+      "chase_round": 7,
+      "driver": "Bubba Wallace",
+      "phase": "before",
+      "playoff_points": 2054,
+      "behind_leader": 81,
+      "rank": 10
+    },
+    {
+      "chase_round": 7,
+      "driver": "Chris Buescher",
+      "phase": "before",
+      "playoff_points": 2047,
+      "behind_leader": 88,
+      "rank": 11
+    },
+    {
+      "chase_round": 7,
+      "driver": "Carson Hocevar",
+      "phase": "before",
+      "playoff_points": 2046,
+      "behind_leader": 89,
+      "rank": 12
+    },
+    {
+      "chase_round": 7,
+      "driver": "Daniel Suarez",
+      "phase": "before",
+      "playoff_points": 2041,
+      "behind_leader": 94,
+      "rank": 13
+    },
+    {
+      "chase_round": 7,
+      "driver": "Austin Cindric",
+      "phase": "before",
+      "playoff_points": 2033,
+      "behind_leader": 102,
+      "rank": 14
+    },
+    {
+      "chase_round": 7,
+      "driver": "Ryan Preece",
+      "phase": "before",
+      "playoff_points": 2031,
+      "behind_leader": 104,
+      "rank": 15
+    },
+    {
+      "chase_round": 7,
+      "driver": "William Byron",
+      "phase": "before",
+      "playoff_points": 2021,
+      "behind_leader": 114,
+      "rank": 16
+    },
+    {
+      "chase_round": 7,
+      "driver": "Denny Hamlin",
+      "phase": "after",
+      "playoff_points": 2135,
+      "behind_leader": 0,
+      "rank": 1
+    },
+    {
+      "chase_round": 7,
+      "driver": "Christopher Bell",
+      "phase": "after",
+      "playoff_points": 2123,
+      "behind_leader": 12,
+      "rank": 2
+    },
+    {
+      "chase_round": 7,
+      "driver": "Ryan Blaney",
+      "phase": "after",
+      "playoff_points": 2119,
+      "behind_leader": 16,
+      "rank": 3
+    },
+    {
+      "chase_round": 7,
+      "driver": "Tyler Reddick",
+      "phase": "after",
+      "playoff_points": 2111,
+      "behind_leader": 24,
+      "rank": 4
+    },
+    {
+      "chase_round": 7,
+      "driver": "Chase Briscoe",
+      "phase": "after",
+      "playoff_points": 2098,
+      "behind_leader": 37,
+      "rank": 5
+    },
+    {
+      "chase_round": 7,
+      "driver": "Ty Gibbs",
+      "phase": "after",
+      "playoff_points": 2096,
+      "behind_leader": 39,
+      "rank": 6
+    },
+    {
+      "chase_round": 7,
+      "driver": "Kyle Larson",
+      "phase": "after",
+      "playoff_points": 2086,
+      "behind_leader": 49,
+      "rank": 7
+    },
+    {
+      "chase_round": 7,
+      "driver": "Joey Logano",
+      "phase": "after",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 8
+    },
+    {
+      "chase_round": 7,
+      "driver": "Chase Elliott",
+      "phase": "after",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 9
+    },
+    {
+      "chase_round": 7,
+      "driver": "Bubba Wallace",
+      "phase": "after",
+      "playoff_points": 2054,
+      "behind_leader": 81,
+      "rank": 10
+    },
+    {
+      "chase_round": 7,
+      "driver": "Chris Buescher",
+      "phase": "after",
+      "playoff_points": 2047,
+      "behind_leader": 88,
+      "rank": 11
+    },
+    {
+      "chase_round": 7,
+      "driver": "Carson Hocevar",
+      "phase": "after",
+      "playoff_points": 2046,
+      "behind_leader": 89,
+      "rank": 12
+    },
+    {
+      "chase_round": 7,
+      "driver": "Daniel Suarez",
+      "phase": "after",
+      "playoff_points": 2041,
+      "behind_leader": 94,
+      "rank": 13
+    },
+    {
+      "chase_round": 7,
+      "driver": "Austin Cindric",
+      "phase": "after",
+      "playoff_points": 2033,
+      "behind_leader": 102,
+      "rank": 14
+    },
+    {
+      "chase_round": 7,
+      "driver": "Ryan Preece",
+      "phase": "after",
+      "playoff_points": 2031,
+      "behind_leader": 104,
+      "rank": 15
+    },
+    {
+      "chase_round": 7,
+      "driver": "William Byron",
+      "phase": "after",
+      "playoff_points": 2021,
+      "behind_leader": 114,
+      "rank": 16
+    },
+    {
+      "chase_round": 8,
+      "driver": "Denny Hamlin",
+      "phase": "before",
+      "playoff_points": 2135,
+      "behind_leader": 0,
+      "rank": 1
+    },
+    {
+      "chase_round": 8,
+      "driver": "Christopher Bell",
+      "phase": "before",
+      "playoff_points": 2123,
+      "behind_leader": 12,
+      "rank": 2
+    },
+    {
+      "chase_round": 8,
+      "driver": "Ryan Blaney",
+      "phase": "before",
+      "playoff_points": 2119,
+      "behind_leader": 16,
+      "rank": 3
+    },
+    {
+      "chase_round": 8,
+      "driver": "Tyler Reddick",
+      "phase": "before",
+      "playoff_points": 2111,
+      "behind_leader": 24,
+      "rank": 4
+    },
+    {
+      "chase_round": 8,
+      "driver": "Chase Briscoe",
+      "phase": "before",
+      "playoff_points": 2098,
+      "behind_leader": 37,
+      "rank": 5
+    },
+    {
+      "chase_round": 8,
+      "driver": "Ty Gibbs",
+      "phase": "before",
+      "playoff_points": 2096,
+      "behind_leader": 39,
+      "rank": 6
+    },
+    {
+      "chase_round": 8,
+      "driver": "Kyle Larson",
+      "phase": "before",
+      "playoff_points": 2086,
+      "behind_leader": 49,
+      "rank": 7
+    },
+    {
+      "chase_round": 8,
+      "driver": "Joey Logano",
+      "phase": "before",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 8
+    },
+    {
+      "chase_round": 8,
+      "driver": "Chase Elliott",
+      "phase": "before",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 9
+    },
+    {
+      "chase_round": 8,
+      "driver": "Bubba Wallace",
+      "phase": "before",
+      "playoff_points": 2054,
+      "behind_leader": 81,
+      "rank": 10
+    },
+    {
+      "chase_round": 8,
+      "driver": "Chris Buescher",
+      "phase": "before",
+      "playoff_points": 2047,
+      "behind_leader": 88,
+      "rank": 11
+    },
+    {
+      "chase_round": 8,
+      "driver": "Carson Hocevar",
+      "phase": "before",
+      "playoff_points": 2046,
+      "behind_leader": 89,
+      "rank": 12
+    },
+    {
+      "chase_round": 8,
+      "driver": "Daniel Suarez",
+      "phase": "before",
+      "playoff_points": 2041,
+      "behind_leader": 94,
+      "rank": 13
+    },
+    {
+      "chase_round": 8,
+      "driver": "Austin Cindric",
+      "phase": "before",
+      "playoff_points": 2033,
+      "behind_leader": 102,
+      "rank": 14
+    },
+    {
+      "chase_round": 8,
+      "driver": "Ryan Preece",
+      "phase": "before",
+      "playoff_points": 2031,
+      "behind_leader": 104,
+      "rank": 15
+    },
+    {
+      "chase_round": 8,
+      "driver": "William Byron",
+      "phase": "before",
+      "playoff_points": 2021,
+      "behind_leader": 114,
+      "rank": 16
+    },
+    {
+      "chase_round": 8,
+      "driver": "Denny Hamlin",
+      "phase": "after",
+      "playoff_points": 2135,
+      "behind_leader": 0,
+      "rank": 1
+    },
+    {
+      "chase_round": 8,
+      "driver": "Christopher Bell",
+      "phase": "after",
+      "playoff_points": 2123,
+      "behind_leader": 12,
+      "rank": 2
+    },
+    {
+      "chase_round": 8,
+      "driver": "Ryan Blaney",
+      "phase": "after",
+      "playoff_points": 2119,
+      "behind_leader": 16,
+      "rank": 3
+    },
+    {
+      "chase_round": 8,
+      "driver": "Tyler Reddick",
+      "phase": "after",
+      "playoff_points": 2111,
+      "behind_leader": 24,
+      "rank": 4
+    },
+    {
+      "chase_round": 8,
+      "driver": "Chase Briscoe",
+      "phase": "after",
+      "playoff_points": 2098,
+      "behind_leader": 37,
+      "rank": 5
+    },
+    {
+      "chase_round": 8,
+      "driver": "Ty Gibbs",
+      "phase": "after",
+      "playoff_points": 2096,
+      "behind_leader": 39,
+      "rank": 6
+    },
+    {
+      "chase_round": 8,
+      "driver": "Kyle Larson",
+      "phase": "after",
+      "playoff_points": 2086,
+      "behind_leader": 49,
+      "rank": 7
+    },
+    {
+      "chase_round": 8,
+      "driver": "Joey Logano",
+      "phase": "after",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 8
+    },
+    {
+      "chase_round": 8,
+      "driver": "Chase Elliott",
+      "phase": "after",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 9
+    },
+    {
+      "chase_round": 8,
+      "driver": "Bubba Wallace",
+      "phase": "after",
+      "playoff_points": 2054,
+      "behind_leader": 81,
+      "rank": 10
+    },
+    {
+      "chase_round": 8,
+      "driver": "Chris Buescher",
+      "phase": "after",
+      "playoff_points": 2047,
+      "behind_leader": 88,
+      "rank": 11
+    },
+    {
+      "chase_round": 8,
+      "driver": "Carson Hocevar",
+      "phase": "after",
+      "playoff_points": 2046,
+      "behind_leader": 89,
+      "rank": 12
+    },
+    {
+      "chase_round": 8,
+      "driver": "Daniel Suarez",
+      "phase": "after",
+      "playoff_points": 2041,
+      "behind_leader": 94,
+      "rank": 13
+    },
+    {
+      "chase_round": 8,
+      "driver": "Austin Cindric",
+      "phase": "after",
+      "playoff_points": 2033,
+      "behind_leader": 102,
+      "rank": 14
+    },
+    {
+      "chase_round": 8,
+      "driver": "Ryan Preece",
+      "phase": "after",
+      "playoff_points": 2031,
+      "behind_leader": 104,
+      "rank": 15
+    },
+    {
+      "chase_round": 8,
+      "driver": "William Byron",
+      "phase": "after",
+      "playoff_points": 2021,
+      "behind_leader": 114,
+      "rank": 16
+    },
+    {
+      "chase_round": 9,
+      "driver": "Denny Hamlin",
+      "phase": "before",
+      "playoff_points": 2135,
+      "behind_leader": 0,
+      "rank": 1
+    },
+    {
+      "chase_round": 9,
+      "driver": "Christopher Bell",
+      "phase": "before",
+      "playoff_points": 2123,
+      "behind_leader": 12,
+      "rank": 2
+    },
+    {
+      "chase_round": 9,
+      "driver": "Ryan Blaney",
+      "phase": "before",
+      "playoff_points": 2119,
+      "behind_leader": 16,
+      "rank": 3
+    },
+    {
+      "chase_round": 9,
+      "driver": "Tyler Reddick",
+      "phase": "before",
+      "playoff_points": 2111,
+      "behind_leader": 24,
+      "rank": 4
+    },
+    {
+      "chase_round": 9,
+      "driver": "Chase Briscoe",
+      "phase": "before",
+      "playoff_points": 2098,
+      "behind_leader": 37,
+      "rank": 5
+    },
+    {
+      "chase_round": 9,
+      "driver": "Ty Gibbs",
+      "phase": "before",
+      "playoff_points": 2096,
+      "behind_leader": 39,
+      "rank": 6
+    },
+    {
+      "chase_round": 9,
+      "driver": "Kyle Larson",
+      "phase": "before",
+      "playoff_points": 2086,
+      "behind_leader": 49,
+      "rank": 7
+    },
+    {
+      "chase_round": 9,
+      "driver": "Joey Logano",
+      "phase": "before",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 8
+    },
+    {
+      "chase_round": 9,
+      "driver": "Chase Elliott",
+      "phase": "before",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 9
+    },
+    {
+      "chase_round": 9,
+      "driver": "Bubba Wallace",
+      "phase": "before",
+      "playoff_points": 2054,
+      "behind_leader": 81,
+      "rank": 10
+    },
+    {
+      "chase_round": 9,
+      "driver": "Chris Buescher",
+      "phase": "before",
+      "playoff_points": 2047,
+      "behind_leader": 88,
+      "rank": 11
+    },
+    {
+      "chase_round": 9,
+      "driver": "Carson Hocevar",
+      "phase": "before",
+      "playoff_points": 2046,
+      "behind_leader": 89,
+      "rank": 12
+    },
+    {
+      "chase_round": 9,
+      "driver": "Daniel Suarez",
+      "phase": "before",
+      "playoff_points": 2041,
+      "behind_leader": 94,
+      "rank": 13
+    },
+    {
+      "chase_round": 9,
+      "driver": "Austin Cindric",
+      "phase": "before",
+      "playoff_points": 2033,
+      "behind_leader": 102,
+      "rank": 14
+    },
+    {
+      "chase_round": 9,
+      "driver": "Ryan Preece",
+      "phase": "before",
+      "playoff_points": 2031,
+      "behind_leader": 104,
+      "rank": 15
+    },
+    {
+      "chase_round": 9,
+      "driver": "William Byron",
+      "phase": "before",
+      "playoff_points": 2021,
+      "behind_leader": 114,
+      "rank": 16
+    },
+    {
+      "chase_round": 9,
+      "driver": "Denny Hamlin",
+      "phase": "after",
+      "playoff_points": 2135,
+      "behind_leader": 0,
+      "rank": 1
+    },
+    {
+      "chase_round": 9,
+      "driver": "Christopher Bell",
+      "phase": "after",
+      "playoff_points": 2123,
+      "behind_leader": 12,
+      "rank": 2
+    },
+    {
+      "chase_round": 9,
+      "driver": "Ryan Blaney",
+      "phase": "after",
+      "playoff_points": 2119,
+      "behind_leader": 16,
+      "rank": 3
+    },
+    {
+      "chase_round": 9,
+      "driver": "Tyler Reddick",
+      "phase": "after",
+      "playoff_points": 2111,
+      "behind_leader": 24,
+      "rank": 4
+    },
+    {
+      "chase_round": 9,
+      "driver": "Chase Briscoe",
+      "phase": "after",
+      "playoff_points": 2098,
+      "behind_leader": 37,
+      "rank": 5
+    },
+    {
+      "chase_round": 9,
+      "driver": "Ty Gibbs",
+      "phase": "after",
+      "playoff_points": 2096,
+      "behind_leader": 39,
+      "rank": 6
+    },
+    {
+      "chase_round": 9,
+      "driver": "Kyle Larson",
+      "phase": "after",
+      "playoff_points": 2086,
+      "behind_leader": 49,
+      "rank": 7
+    },
+    {
+      "chase_round": 9,
+      "driver": "Joey Logano",
+      "phase": "after",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 8
+    },
+    {
+      "chase_round": 9,
+      "driver": "Chase Elliott",
+      "phase": "after",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 9
+    },
+    {
+      "chase_round": 9,
+      "driver": "Bubba Wallace",
+      "phase": "after",
+      "playoff_points": 2054,
+      "behind_leader": 81,
+      "rank": 10
+    },
+    {
+      "chase_round": 9,
+      "driver": "Chris Buescher",
+      "phase": "after",
+      "playoff_points": 2047,
+      "behind_leader": 88,
+      "rank": 11
+    },
+    {
+      "chase_round": 9,
+      "driver": "Carson Hocevar",
+      "phase": "after",
+      "playoff_points": 2046,
+      "behind_leader": 89,
+      "rank": 12
+    },
+    {
+      "chase_round": 9,
+      "driver": "Daniel Suarez",
+      "phase": "after",
+      "playoff_points": 2041,
+      "behind_leader": 94,
+      "rank": 13
+    },
+    {
+      "chase_round": 9,
+      "driver": "Austin Cindric",
+      "phase": "after",
+      "playoff_points": 2033,
+      "behind_leader": 102,
+      "rank": 14
+    },
+    {
+      "chase_round": 9,
+      "driver": "Ryan Preece",
+      "phase": "after",
+      "playoff_points": 2031,
+      "behind_leader": 104,
+      "rank": 15
+    },
+    {
+      "chase_round": 9,
+      "driver": "William Byron",
+      "phase": "after",
+      "playoff_points": 2021,
+      "behind_leader": 114,
+      "rank": 16
+    },
+    {
+      "chase_round": 10,
+      "driver": "Denny Hamlin",
+      "phase": "before",
+      "playoff_points": 2135,
+      "behind_leader": 0,
+      "rank": 1
+    },
+    {
+      "chase_round": 10,
+      "driver": "Christopher Bell",
+      "phase": "before",
+      "playoff_points": 2123,
+      "behind_leader": 12,
+      "rank": 2
+    },
+    {
+      "chase_round": 10,
+      "driver": "Ryan Blaney",
+      "phase": "before",
+      "playoff_points": 2119,
+      "behind_leader": 16,
+      "rank": 3
+    },
+    {
+      "chase_round": 10,
+      "driver": "Tyler Reddick",
+      "phase": "before",
+      "playoff_points": 2111,
+      "behind_leader": 24,
+      "rank": 4
+    },
+    {
+      "chase_round": 10,
+      "driver": "Chase Briscoe",
+      "phase": "before",
+      "playoff_points": 2098,
+      "behind_leader": 37,
+      "rank": 5
+    },
+    {
+      "chase_round": 10,
+      "driver": "Ty Gibbs",
+      "phase": "before",
+      "playoff_points": 2096,
+      "behind_leader": 39,
+      "rank": 6
+    },
+    {
+      "chase_round": 10,
+      "driver": "Kyle Larson",
+      "phase": "before",
+      "playoff_points": 2086,
+      "behind_leader": 49,
+      "rank": 7
+    },
+    {
+      "chase_round": 10,
+      "driver": "Joey Logano",
+      "phase": "before",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 8
+    },
+    {
+      "chase_round": 10,
+      "driver": "Chase Elliott",
+      "phase": "before",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 9
+    },
+    {
+      "chase_round": 10,
+      "driver": "Bubba Wallace",
+      "phase": "before",
+      "playoff_points": 2054,
+      "behind_leader": 81,
+      "rank": 10
+    },
+    {
+      "chase_round": 10,
+      "driver": "Chris Buescher",
+      "phase": "before",
+      "playoff_points": 2047,
+      "behind_leader": 88,
+      "rank": 11
+    },
+    {
+      "chase_round": 10,
+      "driver": "Carson Hocevar",
+      "phase": "before",
+      "playoff_points": 2046,
+      "behind_leader": 89,
+      "rank": 12
+    },
+    {
+      "chase_round": 10,
+      "driver": "Daniel Suarez",
+      "phase": "before",
+      "playoff_points": 2041,
+      "behind_leader": 94,
+      "rank": 13
+    },
+    {
+      "chase_round": 10,
+      "driver": "Austin Cindric",
+      "phase": "before",
+      "playoff_points": 2033,
+      "behind_leader": 102,
+      "rank": 14
+    },
+    {
+      "chase_round": 10,
+      "driver": "Ryan Preece",
+      "phase": "before",
+      "playoff_points": 2031,
+      "behind_leader": 104,
+      "rank": 15
+    },
+    {
+      "chase_round": 10,
+      "driver": "William Byron",
+      "phase": "before",
+      "playoff_points": 2021,
+      "behind_leader": 114,
+      "rank": 16
+    },
+    {
+      "chase_round": 10,
+      "driver": "Denny Hamlin",
+      "phase": "after",
+      "playoff_points": 2135,
+      "behind_leader": 0,
+      "rank": 1
+    },
+    {
+      "chase_round": 10,
+      "driver": "Christopher Bell",
+      "phase": "after",
+      "playoff_points": 2123,
+      "behind_leader": 12,
+      "rank": 2
+    },
+    {
+      "chase_round": 10,
+      "driver": "Ryan Blaney",
+      "phase": "after",
+      "playoff_points": 2119,
+      "behind_leader": 16,
+      "rank": 3
+    },
+    {
+      "chase_round": 10,
+      "driver": "Tyler Reddick",
+      "phase": "after",
+      "playoff_points": 2111,
+      "behind_leader": 24,
+      "rank": 4
+    },
+    {
+      "chase_round": 10,
+      "driver": "Chase Briscoe",
+      "phase": "after",
+      "playoff_points": 2098,
+      "behind_leader": 37,
+      "rank": 5
+    },
+    {
+      "chase_round": 10,
+      "driver": "Ty Gibbs",
+      "phase": "after",
+      "playoff_points": 2096,
+      "behind_leader": 39,
+      "rank": 6
+    },
+    {
+      "chase_round": 10,
+      "driver": "Kyle Larson",
+      "phase": "after",
+      "playoff_points": 2086,
+      "behind_leader": 49,
+      "rank": 7
+    },
+    {
+      "chase_round": 10,
+      "driver": "Joey Logano",
+      "phase": "after",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 8
+    },
+    {
+      "chase_round": 10,
+      "driver": "Chase Elliott",
+      "phase": "after",
+      "playoff_points": 2063,
+      "behind_leader": 72,
+      "rank": 9
+    },
+    {
+      "chase_round": 10,
+      "driver": "Bubba Wallace",
+      "phase": "after",
+      "playoff_points": 2054,
+      "behind_leader": 81,
+      "rank": 10
+    },
+    {
+      "chase_round": 10,
+      "driver": "Chris Buescher",
+      "phase": "after",
+      "playoff_points": 2047,
+      "behind_leader": 88,
+      "rank": 11
+    },
+    {
+      "chase_round": 10,
+      "driver": "Carson Hocevar",
+      "phase": "after",
+      "playoff_points": 2046,
+      "behind_leader": 89,
+      "rank": 12
+    },
+    {
+      "chase_round": 10,
+      "driver": "Daniel Suarez",
+      "phase": "after",
+      "playoff_points": 2041,
+      "behind_leader": 94,
+      "rank": 13
+    },
+    {
+      "chase_round": 10,
+      "driver": "Austin Cindric",
+      "phase": "after",
+      "playoff_points": 2033,
+      "behind_leader": 102,
+      "rank": 14
+    },
+    {
+      "chase_round": 10,
+      "driver": "Ryan Preece",
+      "phase": "after",
+      "playoff_points": 2031,
+      "behind_leader": 104,
+      "rank": 15
+    },
+    {
+      "chase_round": 10,
+      "driver": "William Byron",
+      "phase": "after",
+      "playoff_points": 2021,
+      "behind_leader": 114,
+      "rank": 16
     }
   ]
 }

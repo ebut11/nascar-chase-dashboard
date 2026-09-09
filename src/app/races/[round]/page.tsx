@@ -7,6 +7,7 @@ import { AccuracyPanel } from "@/components/accuracy-panel";
 import { ImportancePanel } from "@/components/importance-panel";
 import { StandingsSwing } from "@/components/standings-swing";
 import { PredActualScatter } from "@/components/pred-actual-scatter";
+import { RaceDatasets } from "@/components/race-datasets";
 import { DataSourceNote } from "@/components/data-source-note";
 import {
   driverRaceRows,
@@ -79,13 +80,29 @@ export default async function RacePage({ params }: PageProps<"/races/[round]">) 
       </header>
 
       {!hasPredictions ? (
-        <div className="rounded-xl border border-dashed border-border/70 bg-card p-10 text-center">
-          <p className="text-sm font-medium">Predictions not published yet</p>
-          <p className="mx-auto mt-1 max-w-md text-sm text-muted-foreground">
-            Both models are rebuilt the week of each race from fresh
-            track-history and season-form data. Check back once {race.track} is
-            on deck.
-          </p>
+        <div className="space-y-6">
+          <div className="rounded-xl border border-dashed border-border/70 bg-card p-10 text-center">
+            <p className="text-sm font-medium">Predictions not published yet</p>
+            <p className="mx-auto mt-1 max-w-md text-sm text-muted-foreground">
+              Both models are rebuilt the week of each race from fresh
+              track-history and season-form data. Check back once {race.track} is
+              on deck.
+            </p>
+          </div>
+          {standings.length > 0 && (
+            <div className="space-y-3">
+              <h2 className="text-lg font-semibold">Standings entering {race.track}</h2>
+              <p className="max-w-2xl text-sm text-muted-foreground">
+                Where the Chase field sits going into this race. The swing fills in
+                once the checkered flag flies.
+              </p>
+              <StandingsSwing raceName={race.track} rows={standings} />
+            </div>
+          )}
+          <div className="space-y-3">
+            <h2 className="text-lg font-semibold">Raw datasets</h2>
+            <RaceDatasets round={roundNum} />
+          </div>
         </div>
       ) : (
         <Tabs defaultValue={done ? "vs" : "pred"} className="gap-6">
@@ -97,6 +114,7 @@ export default async function RacePage({ params }: PageProps<"/races/[round]">) 
             )}
             {standings.length > 0 && <TabsTrigger value="standings">Standings</TabsTrigger>}
             <TabsTrigger value="feat">What mattered</TabsTrigger>
+            <TabsTrigger value="data">Raw data</TabsTrigger>
           </TabsList>
 
           <TabsContent value="pred">
@@ -143,6 +161,10 @@ export default async function RacePage({ params }: PageProps<"/races/[round]">) 
               basic={importancesFor(data, roundNum, "basic")}
               advanced={importancesFor(data, roundNum, "advanced")}
             />
+          </TabsContent>
+
+          <TabsContent value="data">
+            <RaceDatasets round={roundNum} />
           </TabsContent>
         </Tabs>
       )}

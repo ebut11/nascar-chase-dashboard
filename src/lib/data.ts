@@ -277,8 +277,13 @@ export function standingsSeries(data: ChaseData): StandingsSeries {
     });
   }
   for (const rnd of rounds) {
-    if (cs.some((s) => s.chase_round === rnd && s.phase === "after")) {
-      const race = raceByRoundMap.get(rnd);
+    const race = raceByRoundMap.get(rnd);
+    // Only plot an "after" point once the race has actually run — rounds 2-10
+    // carry placeholder standings equal to the current order.
+    if (
+      race?.status === "completed" &&
+      cs.some((s) => s.chase_round === rnd && s.phase === "after")
+    ) {
       cps.push({
         round: rnd,
         phase: "after",
