@@ -139,7 +139,11 @@ export default async function DriverPage({ params }: PageProps<"/drivers/[slug]"
       <section className="space-y-3">
         <h2 className="text-lg font-semibold">Points through the year</h2>
         {weekly.length > 0 ? (
-          <SeasonPointsChart rows={weekly} color={lineColor} />
+          <SeasonPointsChart
+            rows={weekly}
+            color={lineColor}
+            highlightWeek={d.chase ? 27 : undefined}
+          />
         ) : (
           <>
             <p className="max-w-2xl text-sm text-muted-foreground">

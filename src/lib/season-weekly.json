@@ -1,1 +1,6652 @@
-{}
+{
+  "austin-dillon": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 9,
+      "cumPoints": 9,
+      "place": 30
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 8,
+      "cumPoints": 17,
+      "place": 33
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 18,
+      "cumPoints": 35,
+      "place": 34
+    },
+    {
+      "week": 4,
+      "track": "Phoenix",
+      "points": 21,
+      "cumPoints": 56,
+      "place": 29
+    },
+    {
+      "week": 5,
+      "track": "Las Vegas",
+      "points": 25,
+      "cumPoints": 81,
+      "place": 24
+    },
+    {
+      "week": 6,
+      "track": "Darlington",
+      "points": 12,
+      "cumPoints": 93,
+      "place": 26
+    },
+    {
+      "week": 7,
+      "track": "Martinsville",
+      "points": 12,
+      "cumPoints": 105,
+      "place": 27
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 19,
+      "cumPoints": 124,
+      "place": 27
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 21,
+      "cumPoints": 145,
+      "place": 25
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 18,
+      "cumPoints": 163,
+      "place": 24
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 19,
+      "cumPoints": 182,
+      "place": 26
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 38,
+      "cumPoints": 220,
+      "place": 22
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 5,
+      "cumPoints": 225,
+      "place": 24
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 19,
+      "cumPoints": 244,
+      "place": 24
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 1,
+      "cumPoints": 245,
+      "place": 27
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 12,
+      "cumPoints": 257,
+      "place": 28
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 13,
+      "cumPoints": 270,
+      "place": 28
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 10,
+      "cumPoints": 280,
+      "place": 28
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 13,
+      "cumPoints": 293,
+      "place": 28
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 34,
+      "cumPoints": 327,
+      "place": 28
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 14,
+      "cumPoints": 341,
+      "place": 28
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 8,
+      "cumPoints": 349,
+      "place": 28
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 33,
+      "cumPoints": 382,
+      "place": 27
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 18,
+      "cumPoints": 400,
+      "place": 25
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 5,
+      "cumPoints": 405,
+      "place": 25
+    },
+    {
+      "week": 26,
+      "track": "Daytona",
+      "points": 30,
+      "cumPoints": 435,
+      "place": 25
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 8,
+      "cumPoints": 443,
+      "place": 26
+    }
+  ],
+  "john-hunter-nemechek": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 25,
+      "cumPoints": 25,
+      "place": 18
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 18,
+      "cumPoints": 43,
+      "place": 18
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 20,
+      "cumPoints": 63,
+      "place": 21
+    },
+    {
+      "week": 4,
+      "track": "Phoenix",
+      "points": 12,
+      "cumPoints": 75,
+      "place": 22
+    },
+    {
+      "week": 5,
+      "track": "Las Vegas",
+      "points": 16,
+      "cumPoints": 91,
+      "place": 21
+    },
+    {
+      "week": 6,
+      "track": "Darlington",
+      "points": 10,
+      "cumPoints": 101,
+      "place": 25
+    },
+    {
+      "week": 7,
+      "track": "Martinsville",
+      "points": 8,
+      "cumPoints": 109,
+      "place": 26
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 2,
+      "cumPoints": 111,
+      "place": 28
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 15,
+      "cumPoints": 126,
+      "place": 29
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 15,
+      "cumPoints": 141,
+      "place": 31
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 16,
+      "cumPoints": 157,
+      "place": 29
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 32,
+      "cumPoints": 189,
+      "place": 28
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 11,
+      "cumPoints": 200,
+      "place": 29
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 13,
+      "cumPoints": 213,
+      "place": 29
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 23,
+      "cumPoints": 236,
+      "place": 28
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 41,
+      "cumPoints": 277,
+      "place": 26
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 21,
+      "cumPoints": 298,
+      "place": 27
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 12,
+      "cumPoints": 310,
+      "place": 27
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 15,
+      "cumPoints": 325,
+      "place": 27
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 19,
+      "cumPoints": 344,
+      "place": 26
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 6,
+      "cumPoints": 350,
+      "place": 26
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 5,
+      "cumPoints": 355,
+      "place": 27
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 18,
+      "cumPoints": 373,
+      "place": 28
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 15,
+      "cumPoints": 388,
+      "place": 28
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 6,
+      "cumPoints": 394,
+      "place": 28
+    },
+    {
+      "week": 26,
+      "track": "Daytona",
+      "points": 24,
+      "cumPoints": 418,
+      "place": 27
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 13,
+      "cumPoints": 431,
+      "place": 28
+    }
+  ],
+  "daniel-suarez": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 35,
+      "cumPoints": 35,
+      "place": 11
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 32,
+      "cumPoints": 67,
+      "place": 7
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 20,
+      "cumPoints": 87,
+      "place": 7
+    },
+    {
+      "week": 4,
+      "track": "Phoenix",
+      "points": 11,
+      "cumPoints": 98,
+      "place": 17
+    },
+    {
+      "week": 5,
+      "track": "Las Vegas",
+      "points": 19,
+      "cumPoints": 117,
+      "place": 16
+    },
+    {
+      "week": 6,
+      "track": "Darlington",
+      "points": 33,
+      "cumPoints": 150,
+      "place": 14
+    },
+    {
+      "week": 7,
+      "track": "Martinsville",
+      "points": 17,
+      "cumPoints": 167,
+      "place": 16
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 25,
+      "cumPoints": 192,
+      "place": 15
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 18,
+      "cumPoints": 210,
+      "place": 16
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 25,
+      "cumPoints": 235,
+      "place": 14
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 36,
+      "cumPoints": 271,
+      "place": 14
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 24,
+      "cumPoints": 295,
+      "place": 14
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 55,
+      "cumPoints": 350,
+      "place": 10
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 28,
+      "cumPoints": 378,
+      "place": 10
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 40,
+      "cumPoints": 418,
+      "place": 9
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 32,
+      "cumPoints": 450,
+      "place": 8
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 28,
+      "cumPoints": 478,
+      "place": 8
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 6,
+      "cumPoints": 484,
+      "place": 9
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 23,
+      "cumPoints": 507,
+      "place": 11
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 22,
+      "cumPoints": 529,
+      "place": 11
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 29,
+      "cumPoints": 558,
+      "place": 11
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 25,
+      "cumPoints": 583,
+      "place": 11
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 14,
+      "cumPoints": 597,
+      "place": 12
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 21,
+      "cumPoints": 618,
+      "place": 13
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 20,
+      "cumPoints": 638,
+      "place": 13
+    },
+    {
+      "week": 26,
+      "track": "Daytona",
+      "points": 38,
+      "cumPoints": 676,
+      "place": 11
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 16,
+      "cumPoints": 692,
+      "place": 13
+    }
+  ],
+  "erik-jones": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 16,
+      "cumPoints": 16,
+      "place": 25
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 13,
+      "cumPoints": 29,
+      "place": 29
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 3,
+      "cumPoints": 32,
+      "place": 35
+    },
+    {
+      "week": 4,
+      "track": "Phoenix",
+      "points": 27,
+      "cumPoints": 59,
+      "place": 28
+    },
+    {
+      "week": 5,
+      "track": "Las Vegas",
+      "points": 17,
+      "cumPoints": 76,
+      "place": 26
+    },
+    {
+      "week": 6,
+      "track": "Darlington",
+      "points": 27,
+      "cumPoints": 103,
+      "place": 24
+    },
+    {
+      "week": 7,
+      "track": "Martinsville",
+      "points": 16,
+      "cumPoints": 119,
+      "place": 23
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 14,
+      "cumPoints": 133,
+      "place": 23
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 14,
+      "cumPoints": 147,
+      "place": 23
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 14,
+      "cumPoints": 161,
+      "place": 25
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 35,
+      "cumPoints": 196,
+      "place": 22
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 18,
+      "cumPoints": 214,
+      "place": 25
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 30,
+      "cumPoints": 244,
+      "place": 21
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 26,
+      "cumPoints": 270,
+      "place": 21
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 44,
+      "cumPoints": 314,
+      "place": 18
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 41,
+      "cumPoints": 355,
+      "place": 15
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 17,
+      "cumPoints": 372,
+      "place": 14
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 17,
+      "cumPoints": 389,
+      "place": 17
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 22,
+      "cumPoints": 411,
+      "place": 16
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 35,
+      "cumPoints": 446,
+      "place": 16
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 16,
+      "cumPoints": 462,
+      "place": 17
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 12,
+      "cumPoints": 474,
+      "place": 18
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 2,
+      "cumPoints": 476,
+      "place": 20
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 10,
+      "cumPoints": 486,
+      "place": 20
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 4,
+      "cumPoints": 490,
+      "place": 20
+    },
+    {
+      "week": 26,
+      "track": "Daytona",
+      "points": 8,
+      "cumPoints": 498,
+      "place": 21
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 22,
+      "cumPoints": 520,
+      "place": 21
+    }
+  ],
+  "chase-briscoe": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 2,
+      "cumPoints": 2,
+      "place": 37
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 43,
+      "cumPoints": 45,
+      "place": 15
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 1,
+      "cumPoints": 46,
+      "place": 27
+    },
+    {
+      "week": 4,
+      "track": "Phoenix",
+      "points": 1,
+      "cumPoints": 47,
+      "place": 33
+    },
+    {
+      "week": 5,
+      "track": "Las Vegas",
+      "points": 29,
+      "cumPoints": 76,
+      "place": 26
+    },
+    {
+      "week": 6,
+      "track": "Darlington",
+      "points": 32,
+      "cumPoints": 108,
+      "place": 22
+    },
+    {
+      "week": 7,
+      "track": "Martinsville",
+      "points": 23,
+      "cumPoints": 131,
+      "place": 21
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 45,
+      "cumPoints": 176,
+      "place": 17
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 38,
+      "cumPoints": 214,
+      "place": 15
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 8,
+      "cumPoints": 222,
+      "place": 17
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 20,
+      "cumPoints": 242,
+      "place": 16
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 35,
+      "cumPoints": 277,
+      "place": 17
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 27,
+      "cumPoints": 304,
+      "place": 15
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 39,
+      "cumPoints": 343,
+      "place": 14
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 27,
+      "cumPoints": 370,
+      "place": 13
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 41,
+      "cumPoints": 411,
+      "place": 12
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 20,
+      "cumPoints": 431,
+      "place": 10
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 37,
+      "cumPoints": 468,
+      "place": 11
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 70,
+      "cumPoints": 538,
+      "place": 8
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 4,
+      "cumPoints": 542,
+      "place": 10
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 45,
+      "cumPoints": 587,
+      "place": 8
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 36,
+      "cumPoints": 623,
+      "place": 7
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 40,
+      "cumPoints": 663,
+      "place": 5
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 52,
+      "cumPoints": 715,
+      "place": 5
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 12,
+      "cumPoints": 727,
+      "place": 6
+    },
+    {
+      "week": 26,
+      "track": "Daytona",
+      "points": 34,
+      "cumPoints": 761,
+      "place": 5
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 43,
+      "cumPoints": 804,
+      "place": 6
+    }
+  ],
+  "alex-bowman": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 4,
+      "cumPoints": 4,
+      "place": 35
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 14,
+      "cumPoints": 18,
+      "place": 32
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 5,
+      "cumPoints": 23,
+      "place": 36
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 1,
+      "cumPoints": 24,
+      "place": 36
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 19,
+      "cumPoints": 43,
+      "place": 36
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 37,
+      "cumPoints": 80,
+      "place": 36
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 35,
+      "cumPoints": 115,
+      "place": 34
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 12,
+      "cumPoints": 127,
+      "place": 34
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 20,
+      "cumPoints": 147,
+      "place": 33
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 13,
+      "cumPoints": 160,
+      "place": 33
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 18,
+      "cumPoints": 178,
+      "place": 33
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 10,
+      "cumPoints": 188,
+      "place": 33
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 11,
+      "cumPoints": 199,
+      "place": 33
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 32,
+      "cumPoints": 231,
+      "place": 29
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 35,
+      "cumPoints": 266,
+      "place": 29
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 15,
+      "cumPoints": 281,
+      "place": 29
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 11,
+      "cumPoints": 292,
+      "place": 29
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 18,
+      "cumPoints": 310,
+      "place": 29
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 3,
+      "cumPoints": 313,
+      "place": 29
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 27,
+      "cumPoints": 340,
+      "place": 29
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 22,
+      "cumPoints": 362,
+      "place": 30
+    },
+    {
+      "week": 26,
+      "track": "Daytona",
+      "points": 29,
+      "cumPoints": 391,
+      "place": 30
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 25,
+      "cumPoints": 416,
+      "place": 29
+    }
+  ],
+  "todd-gilliland": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 4,
+      "cumPoints": 4,
+      "place": 35
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 12,
+      "cumPoints": 16,
+      "place": 35
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 23,
+      "cumPoints": 39,
+      "place": 30
+    },
+    {
+      "week": 4,
+      "track": "Phoenix",
+      "points": 26,
+      "cumPoints": 65,
+      "place": 26
+    },
+    {
+      "week": 5,
+      "track": "Las Vegas",
+      "points": 3,
+      "cumPoints": 68,
+      "place": 31
+    },
+    {
+      "week": 6,
+      "track": "Darlington",
+      "points": 14,
+      "cumPoints": 82,
+      "place": 30
+    },
+    {
+      "week": 7,
+      "track": "Martinsville",
+      "points": 14,
+      "cumPoints": 96,
+      "place": 28
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 31,
+      "cumPoints": 127,
+      "place": 26
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 20,
+      "cumPoints": 147,
+      "place": 23
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 34,
+      "cumPoints": 181,
+      "place": 22
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 5,
+      "cumPoints": 186,
+      "place": 25
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 20,
+      "cumPoints": 206,
+      "place": 26
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 17,
+      "cumPoints": 223,
+      "place": 25
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 17,
+      "cumPoints": 240,
+      "place": 25
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 15,
+      "cumPoints": 255,
+      "place": 25
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 28,
+      "cumPoints": 283,
+      "place": 24
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 23,
+      "cumPoints": 306,
+      "place": 25
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 8,
+      "cumPoints": 314,
+      "place": 26
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 21,
+      "cumPoints": 335,
+      "place": 25
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 18,
+      "cumPoints": 353,
+      "place": 24
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 31,
+      "cumPoints": 384,
+      "place": 23
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 22,
+      "cumPoints": 406,
+      "place": 23
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 15,
+      "cumPoints": 421,
+      "place": 23
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 7,
+      "cumPoints": 428,
+      "place": 23
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 16,
+      "cumPoints": 444,
+      "place": 23
+    },
+    {
+      "week": 26,
+      "track": "Daytona",
+      "points": 24,
+      "cumPoints": 468,
+      "place": 22
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 21,
+      "cumPoints": 489,
+      "place": 22
+    }
+  ],
+  "aj-allmendinger": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 18,
+      "cumPoints": 18,
+      "place": 22
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 25,
+      "cumPoints": 43,
+      "place": 18
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 43,
+      "cumPoints": 86,
+      "place": 8
+    },
+    {
+      "week": 4,
+      "track": "Phoenix",
+      "points": 18,
+      "cumPoints": 104,
+      "place": 13
+    },
+    {
+      "week": 5,
+      "track": "Las Vegas",
+      "points": 13,
+      "cumPoints": 117,
+      "place": 16
+    },
+    {
+      "week": 6,
+      "track": "Darlington",
+      "points": 7,
+      "cumPoints": 124,
+      "place": 18
+    },
+    {
+      "week": 7,
+      "track": "Martinsville",
+      "points": 10,
+      "cumPoints": 134,
+      "place": 20
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 22,
+      "cumPoints": 156,
+      "place": 20
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 6,
+      "cumPoints": 162,
+      "place": 21
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 21,
+      "cumPoints": 183,
+      "place": 20
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 16,
+      "cumPoints": 199,
+      "place": 20
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 36,
+      "cumPoints": 235,
+      "place": 20
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 19,
+      "cumPoints": 254,
+      "place": 19
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 12,
+      "cumPoints": 266,
+      "place": 22
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 20,
+      "cumPoints": 286,
+      "place": 20
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 15,
+      "cumPoints": 301,
+      "place": 21
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 45,
+      "cumPoints": 346,
+      "place": 20
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 29,
+      "cumPoints": 375,
+      "place": 19
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 20,
+      "cumPoints": 395,
+      "place": 18
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 1,
+      "cumPoints": 396,
+      "place": 22
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 1,
+      "cumPoints": 397,
+      "place": 22
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 12,
+      "cumPoints": 409,
+      "place": 22
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 29,
+      "cumPoints": 438,
+      "place": 22
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 4,
+      "cumPoints": 442,
+      "place": 22
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 14,
+      "cumPoints": 456,
+      "place": 22
+    },
+    {
+      "week": 26,
+      "track": "Daytona",
+      "points": 7,
+      "cumPoints": 463,
+      "place": 23
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 15,
+      "cumPoints": 478,
+      "place": 23
+    }
+  ],
+  "carson-hocevar": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 36,
+      "cumPoints": 36,
+      "place": 9
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 38,
+      "cumPoints": 74,
+      "place": 4
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 8,
+      "cumPoints": 82,
+      "place": 10
+    },
+    {
+      "week": 4,
+      "track": "Phoenix",
+      "points": 21,
+      "cumPoints": 103,
+      "place": 14
+    },
+    {
+      "week": 5,
+      "track": "Las Vegas",
+      "points": 15,
+      "cumPoints": 118,
+      "place": 15
+    },
+    {
+      "week": 6,
+      "track": "Darlington",
+      "points": 33,
+      "cumPoints": 151,
+      "place": 13
+    },
+    {
+      "week": 7,
+      "track": "Martinsville",
+      "points": 20,
+      "cumPoints": 171,
+      "place": 15
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 38,
+      "cumPoints": 209,
+      "place": 13
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 28,
+      "cumPoints": 237,
+      "place": 12
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 55,
+      "cumPoints": 292,
+      "place": 8
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 41,
+      "cumPoints": 333,
+      "place": 6
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 9,
+      "cumPoints": 342,
+      "place": 7
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 14,
+      "cumPoints": 356,
+      "place": 9
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 27,
+      "cumPoints": 383,
+      "place": 9
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 45,
+      "cumPoints": 428,
+      "place": 7
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 21,
+      "cumPoints": 449,
+      "place": 9
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 27,
+      "cumPoints": 476,
+      "place": 9
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 33,
+      "cumPoints": 509,
+      "place": 8
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 15,
+      "cumPoints": 524,
+      "place": 9
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 39,
+      "cumPoints": 563,
+      "place": 8
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 35,
+      "cumPoints": 598,
+      "place": 7
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 40,
+      "cumPoints": 638,
+      "place": 5
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 6,
+      "cumPoints": 644,
+      "place": 8
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 1,
+      "cumPoints": 645,
+      "place": 11
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 27,
+      "cumPoints": 672,
+      "place": 11
+    },
+    {
+      "week": 26,
+      "track": "Daytona",
+      "points": 1,
+      "cumPoints": 673,
+      "place": 12
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 26,
+      "cumPoints": 699,
+      "place": 10
+    }
+  ],
+  "riley-herbst": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 35,
+      "cumPoints": 35,
+      "place": 11
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 4,
+      "cumPoints": 39,
+      "place": 23
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 14,
+      "cumPoints": 53,
+      "place": 25
+    },
+    {
+      "week": 4,
+      "track": "Phoenix",
+      "points": 19,
+      "cumPoints": 72,
+      "place": 24
+    },
+    {
+      "week": 5,
+      "track": "Las Vegas",
+      "points": 14,
+      "cumPoints": 86,
+      "place": 23
+    },
+    {
+      "week": 6,
+      "track": "Darlington",
+      "points": 2,
+      "cumPoints": 88,
+      "place": 27
+    },
+    {
+      "week": 7,
+      "track": "Martinsville",
+      "points": 2,
+      "cumPoints": 90,
+      "place": 30
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 19,
+      "cumPoints": 109,
+      "place": 29
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 23,
+      "cumPoints": 132,
+      "place": 28
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 12,
+      "cumPoints": 144,
+      "place": 29
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 29,
+      "cumPoints": 173,
+      "place": 28
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 13,
+      "cumPoints": 186,
+      "place": 29
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 16,
+      "cumPoints": 202,
+      "place": 28
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 22,
+      "cumPoints": 224,
+      "place": 27
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 26,
+      "cumPoints": 250,
+      "place": 26
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 21,
+      "cumPoints": 271,
+      "place": 27
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 38,
+      "cumPoints": 309,
+      "place": 24
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 8,
+      "cumPoints": 317,
+      "place": 25
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 31,
+      "cumPoints": 348,
+      "place": 24
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 2,
+      "cumPoints": 350,
+      "place": 25
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 19,
+      "cumPoints": 369,
+      "place": 25
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 1,
+      "cumPoints": 370,
+      "place": 25
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 16,
+      "cumPoints": 386,
+      "place": 25
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 13,
+      "cumPoints": 399,
+      "place": 26
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 3,
+      "cumPoints": 402,
+      "place": 26
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 7,
+      "cumPoints": 409,
+      "place": 30
+    }
+  ],
+  "josh-berry": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 33,
+      "cumPoints": 33,
+      "place": 13
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 1,
+      "cumPoints": 34,
+      "place": 25
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 11,
+      "cumPoints": 45,
+      "place": 28
+    },
+    {
+      "week": 4,
+      "track": "Phoenix",
+      "points": 5,
+      "cumPoints": 50,
+      "place": 31
+    },
+    {
+      "week": 5,
+      "track": "Las Vegas",
+      "points": 6,
+      "cumPoints": 56,
+      "place": 32
+    },
+    {
+      "week": 6,
+      "track": "Darlington",
+      "points": 20,
+      "cumPoints": 76,
+      "place": 32
+    },
+    {
+      "week": 7,
+      "track": "Martinsville",
+      "points": 36,
+      "cumPoints": 112,
+      "place": 25
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 16,
+      "cumPoints": 128,
+      "place": 25
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 10,
+      "cumPoints": 138,
+      "place": 26
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 9,
+      "cumPoints": 147,
+      "place": 28
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 8,
+      "cumPoints": 155,
+      "place": 30
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 5,
+      "cumPoints": 160,
+      "place": 31
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 8,
+      "cumPoints": 168,
+      "place": 31
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 6,
+      "cumPoints": 174,
+      "place": 32
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 22,
+      "cumPoints": 196,
+      "place": 31
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 4,
+      "cumPoints": 200,
+      "place": 31
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 8,
+      "cumPoints": 208,
+      "place": 31
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 9,
+      "cumPoints": 217,
+      "place": 31
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 4,
+      "cumPoints": 221,
+      "place": 31
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 12,
+      "cumPoints": 233,
+      "place": 33
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 1,
+      "cumPoints": 234,
+      "place": 33
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 30,
+      "cumPoints": 264,
+      "place": 33
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 33,
+      "cumPoints": 297,
+      "place": 30
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 40,
+      "cumPoints": 337,
+      "place": 30
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 49,
+      "cumPoints": 386,
+      "place": 29
+    },
+    {
+      "week": 26,
+      "track": "Daytona",
+      "points": 28,
+      "cumPoints": 414,
+      "place": 28
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 34,
+      "cumPoints": 448,
+      "place": 25
+    }
+  ],
+  "cody-ware": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 20,
+      "cumPoints": 20,
+      "place": 21
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 10,
+      "cumPoints": 30,
+      "place": 28
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 7,
+      "cumPoints": 37,
+      "place": 32
+    },
+    {
+      "week": 4,
+      "track": "Phoenix",
+      "points": 13,
+      "cumPoints": 50,
+      "place": 31
+    },
+    {
+      "week": 5,
+      "track": "Las Vegas",
+      "points": 2,
+      "cumPoints": 52,
+      "place": 33
+    },
+    {
+      "week": 6,
+      "track": "Darlington",
+      "points": 1,
+      "cumPoints": 53,
+      "place": 35
+    },
+    {
+      "week": 7,
+      "track": "Martinsville",
+      "points": 5,
+      "cumPoints": 58,
+      "place": 35
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 6,
+      "cumPoints": 64,
+      "place": 35
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 1,
+      "cumPoints": 65,
+      "place": 35
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 20,
+      "cumPoints": 85,
+      "place": 35
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 7,
+      "cumPoints": 92,
+      "place": 35
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 1,
+      "cumPoints": 93,
+      "place": 36
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 9,
+      "cumPoints": 102,
+      "place": 36
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 15,
+      "cumPoints": 117,
+      "place": 36
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 14,
+      "cumPoints": 131,
+      "place": 36
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 7,
+      "cumPoints": 138,
+      "place": 36
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 14,
+      "cumPoints": 152,
+      "place": 36
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 4,
+      "cumPoints": 156,
+      "place": 36
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 7,
+      "cumPoints": 163,
+      "place": 36
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 6,
+      "cumPoints": 169,
+      "place": 36
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 8,
+      "cumPoints": 177,
+      "place": 36
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 6,
+      "cumPoints": 183,
+      "place": 36
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 5,
+      "cumPoints": 188,
+      "place": 36
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 3,
+      "cumPoints": 191,
+      "place": 36
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 8,
+      "cumPoints": 199,
+      "place": 36
+    },
+    {
+      "week": 26,
+      "track": "Daytona",
+      "points": 2,
+      "cumPoints": 201,
+      "place": 36
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 1,
+      "cumPoints": 202,
+      "place": 36
+    }
+  ],
+  "austin-cindric": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 13,
+      "cumPoints": 13,
+      "place": 27
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 21,
+      "cumPoints": 34,
+      "place": 25
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 5,
+      "cumPoints": 39,
+      "place": 30
+    },
+    {
+      "week": 4,
+      "track": "Phoenix",
+      "points": 13,
+      "cumPoints": 52,
+      "place": 30
+    },
+    {
+      "week": 5,
+      "track": "Las Vegas",
+      "points": 19,
+      "cumPoints": 71,
+      "place": 30
+    },
+    {
+      "week": 6,
+      "track": "Darlington",
+      "points": 38,
+      "cumPoints": 109,
+      "place": 21
+    },
+    {
+      "week": 7,
+      "track": "Martinsville",
+      "points": 40,
+      "cumPoints": 149,
+      "place": 18
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 23,
+      "cumPoints": 172,
+      "place": 18
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 25,
+      "cumPoints": 197,
+      "place": 17
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 29,
+      "cumPoints": 226,
+      "place": 16
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 22,
+      "cumPoints": 248,
+      "place": 15
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 39,
+      "cumPoints": 287,
+      "place": 15
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 1,
+      "cumPoints": 288,
+      "place": 17
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 18,
+      "cumPoints": 306,
+      "place": 16
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 26,
+      "cumPoints": 332,
+      "place": 16
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 23,
+      "cumPoints": 355,
+      "place": 15
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 15,
+      "cumPoints": 370,
+      "place": 15
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 31,
+      "cumPoints": 401,
+      "place": 16
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 33,
+      "cumPoints": 434,
+      "place": 15
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 36,
+      "cumPoints": 470,
+      "place": 14
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 25,
+      "cumPoints": 495,
+      "place": 16
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 23,
+      "cumPoints": 518,
+      "place": 16
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 8,
+      "cumPoints": 526,
+      "place": 16
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 48,
+      "cumPoints": 574,
+      "place": 15
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 25,
+      "cumPoints": 599,
+      "place": 15
+    },
+    {
+      "week": 26,
+      "track": "Daytona",
+      "points": 32,
+      "cumPoints": 631,
+      "place": 15
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 28,
+      "cumPoints": 659,
+      "place": 15
+    }
+  ],
+  "bubba-wallace": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 37,
+      "cumPoints": 37,
+      "place": 8
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 48,
+      "cumPoints": 85,
+      "place": 2
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 31,
+      "cumPoints": 116,
+      "place": 2
+    },
+    {
+      "week": 4,
+      "track": "Phoenix",
+      "points": 37,
+      "cumPoints": 153,
+      "place": 3
+    },
+    {
+      "week": 5,
+      "track": "Las Vegas",
+      "points": 41,
+      "cumPoints": 194,
+      "place": 2
+    },
+    {
+      "week": 6,
+      "track": "Darlington",
+      "points": 11,
+      "cumPoints": 205,
+      "place": 3
+    },
+    {
+      "week": 7,
+      "track": "Martinsville",
+      "points": 1,
+      "cumPoints": 206,
+      "place": 8
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 30,
+      "cumPoints": 236,
+      "place": 8
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 39,
+      "cumPoints": 275,
+      "place": 7
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 1,
+      "cumPoints": 276,
+      "place": 12
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 28,
+      "cumPoints": 304,
+      "place": 11
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 9,
+      "cumPoints": 313,
+      "place": 10
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 15,
+      "cumPoints": 328,
+      "place": 13
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 10,
+      "cumPoints": 338,
+      "place": 15
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 40,
+      "cumPoints": 378,
+      "place": 11
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 16,
+      "cumPoints": 394,
+      "place": 13
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 35,
+      "cumPoints": 429,
+      "place": 11
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 15,
+      "cumPoints": 444,
+      "place": 13
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 40,
+      "cumPoints": 484,
+      "place": 13
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 9,
+      "cumPoints": 493,
+      "place": 13
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 38,
+      "cumPoints": 531,
+      "place": 13
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 9,
+      "cumPoints": 540,
+      "place": 14
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 25,
+      "cumPoints": 565,
+      "place": 14
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 22,
+      "cumPoints": 587,
+      "place": 14
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 43,
+      "cumPoints": 630,
+      "place": 14
+    },
+    {
+      "week": 26,
+      "track": "Daytona",
+      "points": 21,
+      "cumPoints": 651,
+      "place": 14
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 44,
+      "cumPoints": 695,
+      "place": 11
+    }
+  ],
+  "ricky-stenhouse-jr": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 39,
+      "cumPoints": 39,
+      "place": 5
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 1,
+      "cumPoints": 40,
+      "place": 22
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 9,
+      "cumPoints": 49,
+      "place": 26
+    },
+    {
+      "week": 4,
+      "track": "Phoenix",
+      "points": 15,
+      "cumPoints": 64,
+      "place": 27
+    },
+    {
+      "week": 5,
+      "track": "Las Vegas",
+      "points": 8,
+      "cumPoints": 72,
+      "place": 29
+    },
+    {
+      "week": 6,
+      "track": "Darlington",
+      "points": 8,
+      "cumPoints": 80,
+      "place": 31
+    },
+    {
+      "week": 7,
+      "track": "Martinsville",
+      "points": 7,
+      "cumPoints": 87,
+      "place": 31
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 20,
+      "cumPoints": 107,
+      "place": 30
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 16,
+      "cumPoints": 123,
+      "place": 30
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 38,
+      "cumPoints": 161,
+      "place": 25
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 26,
+      "cumPoints": 187,
+      "place": 24
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 6,
+      "cumPoints": 193,
+      "place": 27
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 29,
+      "cumPoints": 222,
+      "place": 26
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 41,
+      "cumPoints": 263,
+      "place": 23
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 8,
+      "cumPoints": 271,
+      "place": 23
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 28,
+      "cumPoints": 299,
+      "place": 22
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 4,
+      "cumPoints": 303,
+      "place": 26
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 16,
+      "cumPoints": 319,
+      "place": 24
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 11,
+      "cumPoints": 330,
+      "place": 26
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 14,
+      "cumPoints": 344,
+      "place": 26
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 3,
+      "cumPoints": 347,
+      "place": 27
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 17,
+      "cumPoints": 364,
+      "place": 26
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 19,
+      "cumPoints": 383,
+      "place": 26
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 6,
+      "cumPoints": 389,
+      "place": 27
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 9,
+      "cumPoints": 398,
+      "place": 27
+    },
+    {
+      "week": 26,
+      "track": "Daytona",
+      "points": 32,
+      "cumPoints": 430,
+      "place": 26
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 2,
+      "cumPoints": 432,
+      "place": 27
+    }
+  ],
+  "ryan-blaney": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 36,
+      "cumPoints": 36,
+      "place": 9
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 31,
+      "cumPoints": 67,
+      "place": 7
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 33,
+      "cumPoints": 100,
+      "place": 4
+    },
+    {
+      "week": 4,
+      "track": "Phoenix",
+      "points": 65,
+      "cumPoints": 165,
+      "place": 2
+    },
+    {
+      "week": 5,
+      "track": "Las Vegas",
+      "points": 23,
+      "cumPoints": 188,
+      "place": 3
+    },
+    {
+      "week": 6,
+      "track": "Darlington",
+      "points": 42,
+      "cumPoints": 230,
+      "place": 2
+    },
+    {
+      "week": 7,
+      "track": "Martinsville",
+      "points": 41,
+      "cumPoints": 271,
+      "place": 2
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 53,
+      "cumPoints": 324,
+      "place": 2
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 13,
+      "cumPoints": 337,
+      "place": 3
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 7,
+      "cumPoints": 344,
+      "place": 3
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 27,
+      "cumPoints": 371,
+      "place": 4
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 34,
+      "cumPoints": 405,
+      "place": 4
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 41,
+      "cumPoints": 446,
+      "place": 3
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 37,
+      "cumPoints": 483,
+      "place": 3
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 29,
+      "cumPoints": 512,
+      "place": 3
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 27,
+      "cumPoints": 539,
+      "place": 3
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 44,
+      "cumPoints": 583,
+      "place": 3
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 32,
+      "cumPoints": 615,
+      "place": 3
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 36,
+      "cumPoints": 651,
+      "place": 3
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 75,
+      "cumPoints": 726,
+      "place": 3
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 29,
+      "cumPoints": 755,
+      "place": 3
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 11,
+      "cumPoints": 766,
+      "place": 3
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 47,
+      "cumPoints": 813,
+      "place": 3
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 41,
+      "cumPoints": 854,
+      "place": 2
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 70,
+      "cumPoints": 924,
+      "place": 2
+    },
+    {
+      "week": 26,
+      "track": "Daytona",
+      "points": 14,
+      "cumPoints": 938,
+      "place": 2
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 44,
+      "cumPoints": 982,
+      "place": 2
+    }
+  ],
+  "tyler-reddick": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 58,
+      "cumPoints": 58,
+      "place": 1
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 67,
+      "cumPoints": 125,
+      "place": 1
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 61,
+      "cumPoints": 186,
+      "place": 1
+    },
+    {
+      "week": 4,
+      "track": "Phoenix",
+      "points": 39,
+      "cumPoints": 225,
+      "place": 1
+    },
+    {
+      "week": 5,
+      "track": "Las Vegas",
+      "points": 30,
+      "cumPoints": 255,
+      "place": 1
+    },
+    {
+      "week": 6,
+      "track": "Darlington",
+      "points": 70,
+      "cumPoints": 325,
+      "place": 1
+    },
+    {
+      "week": 7,
+      "track": "Martinsville",
+      "points": 28,
+      "cumPoints": 353,
+      "place": 1
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 33,
+      "cumPoints": 386,
+      "place": 1
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 71,
+      "cumPoints": 457,
+      "place": 1
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 27,
+      "cumPoints": 484,
+      "place": 1
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 42,
+      "cumPoints": 526,
+      "place": 1
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 41,
+      "cumPoints": 567,
+      "place": 1
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 53,
+      "cumPoints": 620,
+      "place": 1
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 37,
+      "cumPoints": 657,
+      "place": 1
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 12,
+      "cumPoints": 669,
+      "place": 1
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 35,
+      "cumPoints": 704,
+      "place": 1
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 12,
+      "cumPoints": 716,
+      "place": 1
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 2,
+      "cumPoints": 718,
+      "place": 2
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 2,
+      "cumPoints": 720,
+      "place": 2
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 47,
+      "cumPoints": 767,
+      "place": 2
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 7,
+      "cumPoints": 774,
+      "place": 2
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 28,
+      "cumPoints": 802,
+      "place": 2
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 1,
+      "cumPoints": 803,
+      "place": 4
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 28,
+      "cumPoints": 831,
+      "place": 4
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 29,
+      "cumPoints": 860,
+      "place": 4
+    },
+    {
+      "week": 26,
+      "track": "Daytona",
+      "points": 34,
+      "cumPoints": 894,
+      "place": 3
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 46,
+      "cumPoints": 940,
+      "place": 3
+    }
+  ],
+  "ross-chastain": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 17,
+      "cumPoints": 17,
+      "place": 23
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 34,
+      "cumPoints": 51,
+      "place": 11
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 13,
+      "cumPoints": 64,
+      "place": 20
+    },
+    {
+      "week": 4,
+      "track": "Phoenix",
+      "points": 10,
+      "cumPoints": 74,
+      "place": 23
+    },
+    {
+      "week": 5,
+      "track": "Las Vegas",
+      "points": 20,
+      "cumPoints": 94,
+      "place": 20
+    },
+    {
+      "week": 6,
+      "track": "Darlington",
+      "points": 21,
+      "cumPoints": 115,
+      "place": 20
+    },
+    {
+      "week": 7,
+      "track": "Martinsville",
+      "points": 21,
+      "cumPoints": 136,
+      "place": 19
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 17,
+      "cumPoints": 153,
+      "place": 21
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 11,
+      "cumPoints": 164,
+      "place": 20
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 41,
+      "cumPoints": 205,
+      "place": 18
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 11,
+      "cumPoints": 216,
+      "place": 18
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 20,
+      "cumPoints": 236,
+      "place": 19
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 2,
+      "cumPoints": 238,
+      "place": 23
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 1,
+      "cumPoints": 239,
+      "place": 26
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 21,
+      "cumPoints": 260,
+      "place": 24
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 34,
+      "cumPoints": 294,
+      "place": 23
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 33,
+      "cumPoints": 327,
+      "place": 22
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 29,
+      "cumPoints": 356,
+      "place": 22
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 19,
+      "cumPoints": 375,
+      "place": 22
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 26,
+      "cumPoints": 401,
+      "place": 20
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 11,
+      "cumPoints": 412,
+      "place": 20
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 24,
+      "cumPoints": 436,
+      "place": 21
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 43,
+      "cumPoints": 479,
+      "place": 18
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 25,
+      "cumPoints": 504,
+      "place": 18
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 1,
+      "cumPoints": 505,
+      "place": 19
+    },
+    {
+      "week": 26,
+      "track": "Daytona",
+      "points": 13,
+      "cumPoints": 518,
+      "place": 19
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 10,
+      "cumPoints": 528,
+      "place": 20
+    }
+  ],
+  "joey-logano": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 46,
+      "cumPoints": 46,
+      "place": 2
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 22,
+      "cumPoints": 68,
+      "place": 6
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 22,
+      "cumPoints": 90,
+      "place": 5
+    },
+    {
+      "week": 4,
+      "track": "Phoenix",
+      "points": 23,
+      "cumPoints": 113,
+      "place": 6
+    },
+    {
+      "week": 5,
+      "track": "Las Vegas",
+      "points": 22,
+      "cumPoints": 135,
+      "place": 11
+    },
+    {
+      "week": 6,
+      "track": "Darlington",
+      "points": 4,
+      "cumPoints": 139,
+      "place": 16
+    },
+    {
+      "week": 7,
+      "track": "Martinsville",
+      "points": 46,
+      "cumPoints": 185,
+      "place": 12
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 33,
+      "cumPoints": 218,
+      "place": 12
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 7,
+      "cumPoints": 225,
+      "place": 14
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 9,
+      "cumPoints": 234,
+      "place": 15
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 1,
+      "cumPoints": 235,
+      "place": 17
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 10,
+      "cumPoints": 245,
+      "place": 18
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 29,
+      "cumPoints": 274,
+      "place": 18
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 23,
+      "cumPoints": 297,
+      "place": 18
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 32,
+      "cumPoints": 329,
+      "place": 17
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 5,
+      "cumPoints": 334,
+      "place": 18
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 23,
+      "cumPoints": 357,
+      "place": 18
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 13,
+      "cumPoints": 370,
+      "place": 20
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 25,
+      "cumPoints": 395,
+      "place": 18
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 43,
+      "cumPoints": 438,
+      "place": 17
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 73,
+      "cumPoints": 511,
+      "place": 15
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 34,
+      "cumPoints": 545,
+      "place": 13
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 41,
+      "cumPoints": 586,
+      "place": 13
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 73,
+      "cumPoints": 659,
+      "place": 9
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 23,
+      "cumPoints": 682,
+      "place": 9
+    },
+    {
+      "week": 26,
+      "track": "Daytona",
+      "points": 27,
+      "cumPoints": 709,
+      "place": 9
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 28,
+      "cumPoints": 737,
+      "place": 9
+    }
+  ],
+  "michael-mcdowell": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 26,
+      "cumPoints": 26,
+      "place": 17
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 17,
+      "cumPoints": 43,
+      "place": 18
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 40,
+      "cumPoints": 83,
+      "place": 9
+    },
+    {
+      "week": 4,
+      "track": "Phoenix",
+      "points": 28,
+      "cumPoints": 111,
+      "place": 8
+    },
+    {
+      "week": 5,
+      "track": "Las Vegas",
+      "points": 11,
+      "cumPoints": 122,
+      "place": 14
+    },
+    {
+      "week": 6,
+      "track": "Darlington",
+      "points": 17,
+      "cumPoints": 139,
+      "place": 16
+    },
+    {
+      "week": 7,
+      "track": "Martinsville",
+      "points": 19,
+      "cumPoints": 158,
+      "place": 17
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 13,
+      "cumPoints": 171,
+      "place": 19
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 3,
+      "cumPoints": 174,
+      "place": 19
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 5,
+      "cumPoints": 179,
+      "place": 23
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 10,
+      "cumPoints": 189,
+      "place": 23
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 36,
+      "cumPoints": 225,
+      "place": 21
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 23,
+      "cumPoints": 248,
+      "place": 20
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 27,
+      "cumPoints": 275,
+      "place": 19
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 11,
+      "cumPoints": 286,
+      "place": 20
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 20,
+      "cumPoints": 306,
+      "place": 20
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 27,
+      "cumPoints": 333,
+      "place": 21
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 36,
+      "cumPoints": 369,
+      "place": 21
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 8,
+      "cumPoints": 377,
+      "place": 21
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 22,
+      "cumPoints": 399,
+      "place": 21
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 13,
+      "cumPoints": 412,
+      "place": 20
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 30,
+      "cumPoints": 442,
+      "place": 20
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 12,
+      "cumPoints": 454,
+      "place": 21
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 9,
+      "cumPoints": 463,
+      "place": 21
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 21,
+      "cumPoints": 484,
+      "place": 21
+    },
+    {
+      "week": 26,
+      "track": "Daytona",
+      "points": 33,
+      "cumPoints": 517,
+      "place": 20
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 20,
+      "cumPoints": 537,
+      "place": 19
+    }
+  ],
+  "noah-gragson": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 27,
+      "cumPoints": 27,
+      "place": 16
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 23,
+      "cumPoints": 50,
+      "place": 12
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 15,
+      "cumPoints": 65,
+      "place": 17
+    },
+    {
+      "week": 4,
+      "track": "Phoenix",
+      "points": 1,
+      "cumPoints": 66,
+      "place": 25
+    },
+    {
+      "week": 5,
+      "track": "Las Vegas",
+      "points": 7,
+      "cumPoints": 73,
+      "place": 28
+    },
+    {
+      "week": 6,
+      "track": "Darlington",
+      "points": 11,
+      "cumPoints": 84,
+      "place": 29
+    },
+    {
+      "week": 7,
+      "track": "Martinsville",
+      "points": 9,
+      "cumPoints": 93,
+      "place": 29
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 11,
+      "cumPoints": 104,
+      "place": 31
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 9,
+      "cumPoints": 113,
+      "place": 31
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 31,
+      "cumPoints": 144,
+      "place": 29
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 9,
+      "cumPoints": 153,
+      "place": 31
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 15,
+      "cumPoints": 168,
+      "place": 30
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 13,
+      "cumPoints": 181,
+      "place": 30
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 21,
+      "cumPoints": 202,
+      "place": 30
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 10,
+      "cumPoints": 212,
+      "place": 30
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 2,
+      "cumPoints": 214,
+      "place": 30
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 2,
+      "cumPoints": 216,
+      "place": 30
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 5,
+      "cumPoints": 221,
+      "place": 30
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 10,
+      "cumPoints": 231,
+      "place": 30
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 10,
+      "cumPoints": 241,
+      "place": 30
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 12,
+      "cumPoints": 253,
+      "place": 31
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 15,
+      "cumPoints": 268,
+      "place": 31
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 20,
+      "cumPoints": 288,
+      "place": 31
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 19,
+      "cumPoints": 307,
+      "place": 31
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 27,
+      "cumPoints": 334,
+      "place": 31
+    },
+    {
+      "week": 26,
+      "track": "Daytona",
+      "points": 12,
+      "cumPoints": 346,
+      "place": 31
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 5,
+      "cumPoints": 351,
+      "place": 31
+    }
+  ],
+  "cole-custer": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 13,
+      "cumPoints": 13,
+      "place": 27
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 16,
+      "cumPoints": 29,
+      "place": 29
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 11,
+      "cumPoints": 40,
+      "place": 29
+    },
+    {
+      "week": 4,
+      "track": "Phoenix",
+      "points": 2,
+      "cumPoints": 42,
+      "place": 35
+    },
+    {
+      "week": 5,
+      "track": "Las Vegas",
+      "points": 10,
+      "cumPoints": 52,
+      "place": 33
+    },
+    {
+      "week": 6,
+      "track": "Darlington",
+      "points": 9,
+      "cumPoints": 61,
+      "place": 34
+    },
+    {
+      "week": 7,
+      "track": "Martinsville",
+      "points": 6,
+      "cumPoints": 67,
+      "place": 34
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 9,
+      "cumPoints": 76,
+      "place": 34
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 12,
+      "cumPoints": 88,
+      "place": 34
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 1,
+      "cumPoints": 89,
+      "place": 34
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 2,
+      "cumPoints": 91,
+      "place": 36
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 22,
+      "cumPoints": 113,
+      "place": 35
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 21,
+      "cumPoints": 134,
+      "place": 35
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 16,
+      "cumPoints": 150,
+      "place": 34
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 25,
+      "cumPoints": 175,
+      "place": 34
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 13,
+      "cumPoints": 188,
+      "place": 33
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 6,
+      "cumPoints": 194,
+      "place": 34
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 17,
+      "cumPoints": 211,
+      "place": 33
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 6,
+      "cumPoints": 217,
+      "place": 33
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 20,
+      "cumPoints": 237,
+      "place": 32
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 9,
+      "cumPoints": 246,
+      "place": 32
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 24,
+      "cumPoints": 270,
+      "place": 30
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 9,
+      "cumPoints": 279,
+      "place": 32
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 8,
+      "cumPoints": 287,
+      "place": 32
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 15,
+      "cumPoints": 302,
+      "place": 32
+    },
+    {
+      "week": 26,
+      "track": "Daytona",
+      "points": 27,
+      "cumPoints": 329,
+      "place": 32
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 4,
+      "cumPoints": 333,
+      "place": 32
+    }
+  ],
+  "denny-hamlin": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 8,
+      "cumPoints": 8,
+      "place": 33
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 24,
+      "cumPoints": 32,
+      "place": 27
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 28,
+      "cumPoints": 60,
+      "place": 23
+    },
+    {
+      "week": 4,
+      "track": "Phoenix",
+      "points": 47,
+      "cumPoints": 107,
+      "place": 12
+    },
+    {
+      "week": 5,
+      "track": "Las Vegas",
+      "points": 70,
+      "cumPoints": 177,
+      "place": 4
+    },
+    {
+      "week": 6,
+      "track": "Darlington",
+      "points": 26,
+      "cumPoints": 203,
+      "place": 4
+    },
+    {
+      "week": 7,
+      "track": "Martinsville",
+      "points": 56,
+      "cumPoints": 259,
+      "place": 3
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 41,
+      "cumPoints": 300,
+      "place": 3
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 52,
+      "cumPoints": 352,
+      "place": 2
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 22,
+      "cumPoints": 374,
+      "place": 2
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 43,
+      "cumPoints": 417,
+      "place": 2
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 21,
+      "cumPoints": 438,
+      "place": 2
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 60,
+      "cumPoints": 498,
+      "place": 2
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 62,
+      "cumPoints": 560,
+      "place": 2
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 58,
+      "cumPoints": 618,
+      "place": 2
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 67,
+      "cumPoints": 685,
+      "place": 2
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 23,
+      "cumPoints": 708,
+      "place": 2
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 11,
+      "cumPoints": 719,
+      "place": 1
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 45,
+      "cumPoints": 764,
+      "place": 1
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 27,
+      "cumPoints": 791,
+      "place": 1
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 51,
+      "cumPoints": 842,
+      "place": 1
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 44,
+      "cumPoints": 886,
+      "place": 1
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 37,
+      "cumPoints": 923,
+      "place": 1
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 46,
+      "cumPoints": 969,
+      "place": 1
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 32,
+      "cumPoints": 1001,
+      "place": 1
+    },
+    {
+      "week": 26,
+      "track": "Daytona",
+      "points": 26,
+      "cumPoints": 1027,
+      "place": 1
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 35,
+      "cumPoints": 1062,
+      "place": 1
+    }
+  ],
+  "ty-gibbs": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 16,
+      "cumPoints": 16,
+      "place": 25
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 1,
+      "cumPoints": 17,
+      "place": 33
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 48,
+      "cumPoints": 65,
+      "place": 17
+    },
+    {
+      "week": 4,
+      "track": "Phoenix",
+      "points": 36,
+      "cumPoints": 101,
+      "place": 15
+    },
+    {
+      "week": 5,
+      "track": "Las Vegas",
+      "points": 39,
+      "cumPoints": 140,
+      "place": 10
+    },
+    {
+      "week": 6,
+      "track": "Darlington",
+      "points": 33,
+      "cumPoints": 173,
+      "place": 11
+    },
+    {
+      "week": 7,
+      "track": "Martinsville",
+      "points": 49,
+      "cumPoints": 222,
+      "place": 6
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 59,
+      "cumPoints": 281,
+      "place": 4
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 38,
+      "cumPoints": 319,
+      "place": 4
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 3,
+      "cumPoints": 322,
+      "place": 5
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 8,
+      "cumPoints": 330,
+      "place": 7
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 42,
+      "cumPoints": 372,
+      "place": 6
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 53,
+      "cumPoints": 425,
+      "place": 4
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 24,
+      "cumPoints": 449,
+      "place": 5
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 21,
+      "cumPoints": 470,
+      "place": 5
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 36,
+      "cumPoints": 506,
+      "place": 5
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 29,
+      "cumPoints": 535,
+      "place": 5
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 54,
+      "cumPoints": 589,
+      "place": 4
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 38,
+      "cumPoints": 627,
+      "place": 4
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 38,
+      "cumPoints": 665,
+      "place": 4
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 43,
+      "cumPoints": 708,
+      "place": 4
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 43,
+      "cumPoints": 751,
+      "place": 4
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 69,
+      "cumPoints": 820,
+      "place": 2
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 22,
+      "cumPoints": 842,
+      "place": 3
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 38,
+      "cumPoints": 880,
+      "place": 3
+    },
+    {
+      "week": 26,
+      "track": "Daytona",
+      "points": 12,
+      "cumPoints": 892,
+      "place": 4
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 36,
+      "cumPoints": 928,
+      "place": 4
+    }
+  ],
+  "chris-buescher": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 39,
+      "cumPoints": 39,
+      "place": 5
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 22,
+      "cumPoints": 61,
+      "place": 9
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 20,
+      "cumPoints": 81,
+      "place": 11
+    },
+    {
+      "week": 4,
+      "track": "Phoenix",
+      "points": 30,
+      "cumPoints": 111,
+      "place": 8
+    },
+    {
+      "week": 5,
+      "track": "Las Vegas",
+      "points": 35,
+      "cumPoints": 146,
+      "place": 9
+    },
+    {
+      "week": 6,
+      "track": "Darlington",
+      "points": 42,
+      "cumPoints": 188,
+      "place": 7
+    },
+    {
+      "week": 7,
+      "track": "Martinsville",
+      "points": 18,
+      "cumPoints": 206,
+      "place": 8
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 24,
+      "cumPoints": 230,
+      "place": 10
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 29,
+      "cumPoints": 259,
+      "place": 11
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 50,
+      "cumPoints": 309,
+      "place": 7
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 36,
+      "cumPoints": 345,
+      "place": 5
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 30,
+      "cumPoints": 375,
+      "place": 5
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 10,
+      "cumPoints": 385,
+      "place": 7
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 8,
+      "cumPoints": 393,
+      "place": 8
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 31,
+      "cumPoints": 424,
+      "place": 8
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 37,
+      "cumPoints": 461,
+      "place": 7
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 39,
+      "cumPoints": 500,
+      "place": 7
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 18,
+      "cumPoints": 518,
+      "place": 7
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 23,
+      "cumPoints": 541,
+      "place": 7
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 27,
+      "cumPoints": 568,
+      "place": 7
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 17,
+      "cumPoints": 585,
+      "place": 9
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 28,
+      "cumPoints": 613,
+      "place": 9
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 24,
+      "cumPoints": 637,
+      "place": 9
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 16,
+      "cumPoints": 653,
+      "place": 10
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 23,
+      "cumPoints": 676,
+      "place": 10
+    },
+    {
+      "week": 26,
+      "track": "Daytona",
+      "points": 1,
+      "cumPoints": 677,
+      "place": 10
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 17,
+      "cumPoints": 694,
+      "place": 12
+    }
+  ],
+  "ryan-preece": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 17,
+      "cumPoints": 17,
+      "place": 23
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 32,
+      "cumPoints": 49,
+      "place": 14
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 19,
+      "cumPoints": 68,
+      "place": 16
+    },
+    {
+      "week": 4,
+      "track": "Phoenix",
+      "points": 24,
+      "cumPoints": 92,
+      "place": 18
+    },
+    {
+      "week": 5,
+      "track": "Las Vegas",
+      "points": 33,
+      "cumPoints": 125,
+      "place": 13
+    },
+    {
+      "week": 6,
+      "track": "Darlington",
+      "points": 29,
+      "cumPoints": 154,
+      "place": 12
+    },
+    {
+      "week": 7,
+      "track": "Martinsville",
+      "points": 26,
+      "cumPoints": 180,
+      "place": 13
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 29,
+      "cumPoints": 209,
+      "place": 13
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 26,
+      "cumPoints": 235,
+      "place": 13
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 34,
+      "cumPoints": 269,
+      "place": 13
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 4,
+      "cumPoints": 273,
+      "place": 13
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 23,
+      "cumPoints": 296,
+      "place": 13
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 7,
+      "cumPoints": 303,
+      "place": 16
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 1,
+      "cumPoints": 304,
+      "place": 17
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 9,
+      "cumPoints": 313,
+      "place": 19
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 9,
+      "cumPoints": 322,
+      "place": 19
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 45,
+      "cumPoints": 367,
+      "place": 16
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 35,
+      "cumPoints": 402,
+      "place": 15
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 5,
+      "cumPoints": 407,
+      "place": 17
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 13,
+      "cumPoints": 420,
+      "place": 18
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 27,
+      "cumPoints": 447,
+      "place": 18
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 33,
+      "cumPoints": 480,
+      "place": 17
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 17,
+      "cumPoints": 497,
+      "place": 17
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 20,
+      "cumPoints": 517,
+      "place": 17
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 38,
+      "cumPoints": 555,
+      "place": 17
+    },
+    {
+      "week": 26,
+      "track": "Daytona",
+      "points": 67,
+      "cumPoints": 622,
+      "place": 16
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 31,
+      "cumPoints": 653,
+      "place": 16
+    }
+  ],
+  "christopher-bell": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 9,
+      "cumPoints": 9,
+      "place": 30
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 16,
+      "cumPoints": 25,
+      "place": 31
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 34,
+      "cumPoints": 59,
+      "place": 24
+    },
+    {
+      "week": 4,
+      "track": "Phoenix",
+      "points": 54,
+      "cumPoints": 113,
+      "place": 6
+    },
+    {
+      "week": 5,
+      "track": "Las Vegas",
+      "points": 51,
+      "cumPoints": 164,
+      "place": 6
+    },
+    {
+      "week": 6,
+      "track": "Darlington",
+      "points": 18,
+      "cumPoints": 182,
+      "place": 8
+    },
+    {
+      "week": 7,
+      "track": "Martinsville",
+      "points": 30,
+      "cumPoints": 212,
+      "place": 7
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 19,
+      "cumPoints": 231,
+      "place": 9
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 30,
+      "cumPoints": 261,
+      "place": 10
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 29,
+      "cumPoints": 290,
+      "place": 9
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 1,
+      "cumPoints": 291,
+      "place": 12
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 20,
+      "cumPoints": 311,
+      "place": 11
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 50,
+      "cumPoints": 361,
+      "place": 8
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 38,
+      "cumPoints": 399,
+      "place": 7
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 11,
+      "cumPoints": 410,
+      "place": 10
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 11,
+      "cumPoints": 421,
+      "place": 10
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 1,
+      "cumPoints": 422,
+      "place": 12
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 50,
+      "cumPoints": 472,
+      "place": 10
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 40,
+      "cumPoints": 512,
+      "place": 10
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 39,
+      "cumPoints": 551,
+      "place": 9
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 23,
+      "cumPoints": 574,
+      "place": 10
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 35,
+      "cumPoints": 609,
+      "place": 10
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 50,
+      "cumPoints": 659,
+      "place": 6
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 36,
+      "cumPoints": 695,
+      "place": 6
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 43,
+      "cumPoints": 738,
+      "place": 5
+    },
+    {
+      "week": 26,
+      "track": "Daytona",
+      "points": 20,
+      "cumPoints": 758,
+      "place": 6
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 73,
+      "cumPoints": 831,
+      "place": 5
+    }
+  ],
+  "zane-smith": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 41,
+      "cumPoints": 41,
+      "place": 4
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 30,
+      "cumPoints": 71,
+      "place": 5
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 4,
+      "cumPoints": 75,
+      "place": 14
+    },
+    {
+      "week": 4,
+      "track": "Phoenix",
+      "points": 10,
+      "cumPoints": 85,
+      "place": 19
+    },
+    {
+      "week": 5,
+      "track": "Las Vegas",
+      "points": 23,
+      "cumPoints": 108,
+      "place": 19
+    },
+    {
+      "week": 6,
+      "track": "Darlington",
+      "points": 15,
+      "cumPoints": 123,
+      "place": 19
+    },
+    {
+      "week": 7,
+      "track": "Martinsville",
+      "points": 3,
+      "cumPoints": 126,
+      "place": 22
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 18,
+      "cumPoints": 144,
+      "place": 22
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 5,
+      "cumPoints": 149,
+      "place": 22
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 34,
+      "cumPoints": 183,
+      "place": 20
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 15,
+      "cumPoints": 198,
+      "place": 21
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 19,
+      "cumPoints": 217,
+      "place": 23
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 27,
+      "cumPoints": 244,
+      "place": 21
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 28,
+      "cumPoints": 272,
+      "place": 20
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 10,
+      "cumPoints": 282,
+      "place": 22
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 1,
+      "cumPoints": 283,
+      "place": 24
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 33,
+      "cumPoints": 316,
+      "place": 23
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 24,
+      "cumPoints": 340,
+      "place": 23
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 9,
+      "cumPoints": 349,
+      "place": 23
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 7,
+      "cumPoints": 356,
+      "place": 23
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 15,
+      "cumPoints": 371,
+      "place": 24
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 22,
+      "cumPoints": 393,
+      "place": 24
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 24,
+      "cumPoints": 417,
+      "place": 24
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 1,
+      "cumPoints": 418,
+      "place": 24
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 24,
+      "cumPoints": 442,
+      "place": 24
+    },
+    {
+      "week": 26,
+      "track": "Daytona",
+      "points": 13,
+      "cumPoints": 455,
+      "place": 24
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 12,
+      "cumPoints": 467,
+      "place": 24
+    }
+  ],
+  "brad-keselowski": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 39,
+      "cumPoints": 39,
+      "place": 5
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 22,
+      "cumPoints": 61,
+      "place": 9
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 17,
+      "cumPoints": 78,
+      "place": 12
+    },
+    {
+      "week": 4,
+      "track": "Phoenix",
+      "points": 22,
+      "cumPoints": 100,
+      "place": 16
+    },
+    {
+      "week": 5,
+      "track": "Las Vegas",
+      "points": 27,
+      "cumPoints": 127,
+      "place": 12
+    },
+    {
+      "week": 6,
+      "track": "Darlington",
+      "points": 55,
+      "cumPoints": 182,
+      "place": 8
+    },
+    {
+      "week": 7,
+      "track": "Martinsville",
+      "points": 24,
+      "cumPoints": 206,
+      "place": 8
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 23,
+      "cumPoints": 229,
+      "place": 11
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 35,
+      "cumPoints": 264,
+      "place": 9
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 15,
+      "cumPoints": 279,
+      "place": 10
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 32,
+      "cumPoints": 311,
+      "place": 9
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 7,
+      "cumPoints": 318,
+      "place": 9
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 25,
+      "cumPoints": 343,
+      "place": 11
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 4,
+      "cumPoints": 347,
+      "place": 13
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 3,
+      "cumPoints": 350,
+      "place": 15
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 1,
+      "cumPoints": 351,
+      "place": 17
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 3,
+      "cumPoints": 354,
+      "place": 19
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 22,
+      "cumPoints": 376,
+      "place": 18
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 16,
+      "cumPoints": 392,
+      "place": 20
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 11,
+      "cumPoints": 403,
+      "place": 19
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 34,
+      "cumPoints": 437,
+      "place": 19
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 31,
+      "cumPoints": 468,
+      "place": 19
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 10,
+      "cumPoints": 478,
+      "place": 19
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 11,
+      "cumPoints": 489,
+      "place": 19
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 31,
+      "cumPoints": 520,
+      "place": 18
+    },
+    {
+      "week": 26,
+      "track": "Daytona",
+      "points": 23,
+      "cumPoints": 543,
+      "place": 18
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 14,
+      "cumPoints": 557,
+      "place": 18
+    }
+  ],
+  "ty-dillon": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 23,
+      "cumPoints": 23,
+      "place": 20
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 21,
+      "cumPoints": 44,
+      "place": 17
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 21,
+      "cumPoints": 65,
+      "place": 17
+    },
+    {
+      "week": 4,
+      "track": "Phoenix",
+      "points": 11,
+      "cumPoints": 76,
+      "place": 21
+    },
+    {
+      "week": 5,
+      "track": "Las Vegas",
+      "points": 4,
+      "cumPoints": 80,
+      "place": 25
+    },
+    {
+      "week": 6,
+      "track": "Darlington",
+      "points": 6,
+      "cumPoints": 86,
+      "place": 28
+    },
+    {
+      "week": 7,
+      "track": "Martinsville",
+      "points": 1,
+      "cumPoints": 87,
+      "place": 31
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 8,
+      "cumPoints": 95,
+      "place": 32
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 4,
+      "cumPoints": 99,
+      "place": 32
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 24,
+      "cumPoints": 123,
+      "place": 32
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 13,
+      "cumPoints": 136,
+      "place": 32
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 4,
+      "cumPoints": 140,
+      "place": 33
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 12,
+      "cumPoints": 152,
+      "place": 32
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 25,
+      "cumPoints": 177,
+      "place": 31
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 13,
+      "cumPoints": 190,
+      "place": 32
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 5,
+      "cumPoints": 195,
+      "place": 32
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 7,
+      "cumPoints": 202,
+      "place": 32
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 2,
+      "cumPoints": 204,
+      "place": 34
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 17,
+      "cumPoints": 221,
+      "place": 31
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 17,
+      "cumPoints": 238,
+      "place": 31
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 21,
+      "cumPoints": 259,
+      "place": 30
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 7,
+      "cumPoints": 266,
+      "place": 32
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 13,
+      "cumPoints": 279,
+      "place": 32
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 5,
+      "cumPoints": 284,
+      "place": 33
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 10,
+      "cumPoints": 294,
+      "place": 33
+    },
+    {
+      "week": 26,
+      "track": "Daytona",
+      "points": 16,
+      "cumPoints": 310,
+      "place": 33
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 6,
+      "cumPoints": 316,
+      "place": 33
+    }
+  ],
+  "chase-elliott": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 43,
+      "cumPoints": 43,
+      "place": 3
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 38,
+      "cumPoints": 81,
+      "place": 3
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 33,
+      "cumPoints": 114,
+      "place": 3
+    },
+    {
+      "week": 4,
+      "track": "Phoenix",
+      "points": 14,
+      "cumPoints": 128,
+      "place": 4
+    },
+    {
+      "week": 5,
+      "track": "Las Vegas",
+      "points": 40,
+      "cumPoints": 168,
+      "place": 5
+    },
+    {
+      "week": 6,
+      "track": "Darlington",
+      "points": 26,
+      "cumPoints": 194,
+      "place": 5
+    },
+    {
+      "week": 7,
+      "track": "Martinsville",
+      "points": 55,
+      "cumPoints": 249,
+      "place": 4
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 15,
+      "cumPoints": 264,
+      "place": 5
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 41,
+      "cumPoints": 305,
+      "place": 6
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 35,
+      "cumPoints": 340,
+      "place": 4
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 69,
+      "cumPoints": 409,
+      "place": 3
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 13,
+      "cumPoints": 422,
+      "place": 3
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 1,
+      "cumPoints": 423,
+      "place": 5
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 37,
+      "cumPoints": 460,
+      "place": 4
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 22,
+      "cumPoints": 482,
+      "place": 4
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 27,
+      "cumPoints": 509,
+      "place": 4
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 25,
+      "cumPoints": 534,
+      "place": 6
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 20,
+      "cumPoints": 554,
+      "place": 6
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 30,
+      "cumPoints": 584,
+      "place": 5
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 26,
+      "cumPoints": 610,
+      "place": 5
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 24,
+      "cumPoints": 634,
+      "place": 5
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 1,
+      "cumPoints": 635,
+      "place": 6
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 22,
+      "cumPoints": 657,
+      "place": 7
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 38,
+      "cumPoints": 695,
+      "place": 6
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 12,
+      "cumPoints": 707,
+      "place": 8
+    },
+    {
+      "week": 26,
+      "track": "Daytona",
+      "points": 16,
+      "cumPoints": 723,
+      "place": 8
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 23,
+      "cumPoints": 746,
+      "place": 8
+    }
+  ],
+  "william-byron": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 25,
+      "cumPoints": 25,
+      "place": 18
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 25,
+      "cumPoints": 50,
+      "place": 12
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 26,
+      "cumPoints": 76,
+      "place": 13
+    },
+    {
+      "week": 4,
+      "track": "Phoenix",
+      "points": 32,
+      "cumPoints": 108,
+      "place": 11
+    },
+    {
+      "week": 5,
+      "track": "Las Vegas",
+      "points": 49,
+      "cumPoints": 157,
+      "place": 7
+    },
+    {
+      "week": 6,
+      "track": "Darlington",
+      "points": 34,
+      "cumPoints": 191,
+      "place": 6
+    },
+    {
+      "week": 7,
+      "track": "Martinsville",
+      "points": 47,
+      "cumPoints": 238,
+      "place": 5
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 7,
+      "cumPoints": 245,
+      "place": 7
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 30,
+      "cumPoints": 275,
+      "place": 7
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 2,
+      "cumPoints": 277,
+      "place": 11
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 31,
+      "cumPoints": 308,
+      "place": 10
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 1,
+      "cumPoints": 309,
+      "place": 12
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 28,
+      "cumPoints": 337,
+      "place": 12
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 15,
+      "cumPoints": 352,
+      "place": 11
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 25,
+      "cumPoints": 377,
+      "place": 12
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 38,
+      "cumPoints": 415,
+      "place": 11
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 6,
+      "cumPoints": 421,
+      "place": 13
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 25,
+      "cumPoints": 446,
+      "place": 12
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 53,
+      "cumPoints": 499,
+      "place": 12
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 21,
+      "cumPoints": 520,
+      "place": 12
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 26,
+      "cumPoints": 546,
+      "place": 12
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 22,
+      "cumPoints": 568,
+      "place": 12
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 32,
+      "cumPoints": 600,
+      "place": 11
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 30,
+      "cumPoints": 630,
+      "place": 12
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 14,
+      "cumPoints": 644,
+      "place": 12
+    },
+    {
+      "week": 26,
+      "track": "Daytona",
+      "points": 22,
+      "cumPoints": 666,
+      "place": 13
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 6,
+      "cumPoints": 672,
+      "place": 14
+    }
+  ],
+  "connor-zilisch": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 5,
+      "cumPoints": 5,
+      "place": 34
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 9,
+      "cumPoints": 14,
+      "place": 36
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 23,
+      "cumPoints": 37,
+      "place": 32
+    },
+    {
+      "week": 4,
+      "track": "Phoenix",
+      "points": 8,
+      "cumPoints": 45,
+      "place": 34
+    },
+    {
+      "week": 5,
+      "track": "Las Vegas",
+      "points": 5,
+      "cumPoints": 50,
+      "place": 35
+    },
+    {
+      "week": 6,
+      "track": "Darlington",
+      "points": 19,
+      "cumPoints": 69,
+      "place": 33
+    },
+    {
+      "week": 7,
+      "track": "Martinsville",
+      "points": 11,
+      "cumPoints": 80,
+      "place": 33
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 4,
+      "cumPoints": 84,
+      "place": 33
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 8,
+      "cumPoints": 92,
+      "place": 33
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 11,
+      "cumPoints": 103,
+      "place": 33
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 21,
+      "cumPoints": 124,
+      "place": 33
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 21,
+      "cumPoints": 145,
+      "place": 32
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 1,
+      "cumPoints": 146,
+      "place": 34
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 1,
+      "cumPoints": 147,
+      "place": 35
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 1,
+      "cumPoints": 148,
+      "place": 35
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 14,
+      "cumPoints": 162,
+      "place": 35
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 3,
+      "cumPoints": 165,
+      "place": 35
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 33,
+      "cumPoints": 198,
+      "place": 35
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 1,
+      "cumPoints": 199,
+      "place": 35
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 9,
+      "cumPoints": 208,
+      "place": 35
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 5,
+      "cumPoints": 213,
+      "place": 35
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 3,
+      "cumPoints": 216,
+      "place": 35
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 29,
+      "cumPoints": 245,
+      "place": 34
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 12,
+      "cumPoints": 257,
+      "place": 34
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 2,
+      "cumPoints": 259,
+      "place": 34
+    },
+    {
+      "week": 26,
+      "track": "Daytona",
+      "points": 12,
+      "cumPoints": 271,
+      "place": 34
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 3,
+      "cumPoints": 274,
+      "place": 34
+    }
+  ],
+  "shane-van-gisbergen": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 13,
+      "cumPoints": 13,
+      "place": 27
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 32,
+      "cumPoints": 45,
+      "place": 15
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 45,
+      "cumPoints": 90,
+      "place": 5
+    },
+    {
+      "week": 4,
+      "track": "Phoenix",
+      "points": 26,
+      "cumPoints": 116,
+      "place": 5
+    },
+    {
+      "week": 5,
+      "track": "Las Vegas",
+      "points": 1,
+      "cumPoints": 117,
+      "place": 16
+    },
+    {
+      "week": 6,
+      "track": "Darlington",
+      "points": 23,
+      "cumPoints": 140,
+      "place": 15
+    },
+    {
+      "week": 7,
+      "track": "Martinsville",
+      "points": 34,
+      "cumPoints": 174,
+      "place": 14
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 3,
+      "cumPoints": 177,
+      "place": 16
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 1,
+      "cumPoints": 178,
+      "place": 18
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 17,
+      "cumPoints": 195,
+      "place": 19
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 20,
+      "cumPoints": 215,
+      "place": 19
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 68,
+      "cumPoints": 283,
+      "place": 16
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 33,
+      "cumPoints": 316,
+      "place": 14
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 32,
+      "cumPoints": 348,
+      "place": 12
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 7,
+      "cumPoints": 355,
+      "place": 14
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 6,
+      "cumPoints": 361,
+      "place": 14
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 1,
+      "cumPoints": 362,
+      "place": 17
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 63,
+      "cumPoints": 425,
+      "place": 14
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 12,
+      "cumPoints": 437,
+      "place": 14
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 32,
+      "cumPoints": 469,
+      "place": 15
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 47,
+      "cumPoints": 516,
+      "place": 14
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 21,
+      "cumPoints": 537,
+      "place": 15
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 7,
+      "cumPoints": 544,
+      "place": 15
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 23,
+      "cumPoints": 567,
+      "place": 16
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 19,
+      "cumPoints": 586,
+      "place": 16
+    },
+    {
+      "week": 26,
+      "track": "Daytona",
+      "points": 19,
+      "cumPoints": 605,
+      "place": 17
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 11,
+      "cumPoints": 616,
+      "place": 17
+    }
+  ],
+  "kyle-larson": [
+    {
+      "week": 1,
+      "track": "Daytona",
+      "points": 29,
+      "cumPoints": 29,
+      "place": 14
+    },
+    {
+      "week": 2,
+      "track": "Atlanta",
+      "points": 13,
+      "cumPoints": 42,
+      "place": 21
+    },
+    {
+      "week": 3,
+      "track": "Austin",
+      "points": 31,
+      "cumPoints": 73,
+      "place": 15
+    },
+    {
+      "week": 4,
+      "track": "Phoenix",
+      "points": 36,
+      "cumPoints": 109,
+      "place": 10
+    },
+    {
+      "week": 5,
+      "track": "Las Vegas",
+      "points": 48,
+      "cumPoints": 157,
+      "place": 7
+    },
+    {
+      "week": 6,
+      "track": "Darlington",
+      "points": 19,
+      "cumPoints": 176,
+      "place": 10
+    },
+    {
+      "week": 7,
+      "track": "Martinsville",
+      "points": 30,
+      "cumPoints": 206,
+      "place": 8
+    },
+    {
+      "week": 8,
+      "track": "Bristol",
+      "points": 54,
+      "cumPoints": 260,
+      "place": 6
+    },
+    {
+      "week": 9,
+      "track": "Kansas",
+      "points": 54,
+      "cumPoints": 314,
+      "place": 5
+    },
+    {
+      "week": 10,
+      "track": "Talladega",
+      "points": 1,
+      "cumPoints": 315,
+      "place": 6
+    },
+    {
+      "week": 11,
+      "track": "Fort Worth",
+      "points": 3,
+      "cumPoints": 318,
+      "place": 8
+    },
+    {
+      "week": 12,
+      "track": "Watkins Glen",
+      "points": 14,
+      "cumPoints": 332,
+      "place": 8
+    },
+    {
+      "week": 13,
+      "track": "Charlotte",
+      "points": 54,
+      "cumPoints": 386,
+      "place": 6
+    },
+    {
+      "week": 14,
+      "track": "Nashville",
+      "points": 23,
+      "cumPoints": 409,
+      "place": 6
+    },
+    {
+      "week": 15,
+      "track": "Michigan",
+      "points": 44,
+      "cumPoints": 453,
+      "place": 6
+    },
+    {
+      "week": 16,
+      "track": "Pocono",
+      "points": 41,
+      "cumPoints": 494,
+      "place": 6
+    },
+    {
+      "week": 17,
+      "track": "San Diego",
+      "points": 42,
+      "cumPoints": 536,
+      "place": 4
+    },
+    {
+      "week": 18,
+      "track": "Sonoma",
+      "points": 35,
+      "cumPoints": 571,
+      "place": 5
+    },
+    {
+      "week": 19,
+      "track": "Chicago",
+      "points": 12,
+      "cumPoints": 583,
+      "place": 6
+    },
+    {
+      "week": 20,
+      "track": "Atlanta",
+      "points": 11,
+      "cumPoints": 594,
+      "place": 6
+    },
+    {
+      "week": 21,
+      "track": "North Wilkesboro",
+      "points": 22,
+      "cumPoints": 616,
+      "place": 6
+    },
+    {
+      "week": 22,
+      "track": "Indianapolis",
+      "points": 1,
+      "cumPoints": 617,
+      "place": 8
+    },
+    {
+      "week": 23,
+      "track": "Iowa",
+      "points": 12,
+      "cumPoints": 629,
+      "place": 10
+    },
+    {
+      "week": 24,
+      "track": "Richmond",
+      "points": 31,
+      "cumPoints": 660,
+      "place": 8
+    },
+    {
+      "week": 25,
+      "track": "Loudon",
+      "points": 48,
+      "cumPoints": 708,
+      "place": 7
+    },
+    {
+      "week": 26,
+      "track": "Daytona",
+      "points": 16,
+      "cumPoints": 724,
+      "place": 7
+    },
+    {
+      "week": 27,
+      "track": "Darlington",
+      "points": 41,
+      "cumPoints": 765,
+      "place": 7
+    }
+  ]
+}

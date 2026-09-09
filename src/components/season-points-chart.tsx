@@ -20,9 +20,12 @@ const PH = H - M.top - M.bottom;
 export function SeasonPointsChart({
   rows,
   color,
+  highlightWeek,
 }: {
   rows: WeekRow[];
   color: string;
+  /** race # to call out on the chart (e.g. the Chase opener at Darlington) */
+  highlightWeek?: number;
 }) {
   const [mode, setMode] = useState<"place" | "points">("place");
   const [hi, setHi] = useState<number | null>(null);
@@ -66,6 +69,11 @@ export function SeasonPointsChart({
   const xTicks: number[] = [];
   for (let w = 1; w <= nWeeks; w += nWeeks > 14 ? 3 : 2) xTicks.push(w);
   if (xTicks[xTicks.length - 1] !== nWeeks) xTicks.push(nWeeks);
+
+  const hlRow =
+    highlightWeek != null
+      ? rows.find((r) => r.week === highlightWeek) ?? null
+      : null;
 
   return (
     <div className="space-y-3">
@@ -140,7 +148,43 @@ export function SeasonPointsChart({
             Race #
           </text>
 
+          {hlRow && (
+            <g>
+              <line
+                x1={x(hlRow.week)}
+                x2={x(hlRow.week)}
+                y1={M.top}
+                y2={M.top + PH}
+                stroke="var(--speed, #e11d48)"
+                strokeWidth={1.5}
+                strokeDasharray="4 3"
+                opacity={0.7}
+              />
+              <text
+                x={x(hlRow.week)}
+                y={M.top - 4}
+                textAnchor="middle"
+                fontSize={10}
+                fontWeight={700}
+                className="fill-speed"
+              >
+                Chase opener · Darlington
+              </text>
+            </g>
+          )}
+
           <path d={line} fill="none" stroke={color} strokeWidth={2.25} strokeLinejoin="round" />
+
+          {hlRow && (
+            <circle
+              cx={x(hlRow.week)}
+              cy={y(hlRow)}
+              r={7}
+              fill="var(--speed, #e11d48)"
+              stroke="var(--card)"
+              strokeWidth={2}
+            />
+          )}
 
           {rows.map((r) => {
             const on = hi === r.week;
