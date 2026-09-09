@@ -3,7 +3,13 @@
 import { useMemo, useState } from "react";
 import { cn } from "@/lib/utils";
 import { MANUFACTURER, type Manufacturer } from "@/lib/manufacturers";
+import { DRIVER_PHOTO } from "@/lib/driver-photos";
+import { ROSTER } from "@/lib/roster";
 import type { StandingsSeries } from "@/lib/data";
+
+const PHOTO_BY_NAME = new Map(
+  ROSTER.map((d) => [d.name, DRIVER_PHOTO[d.slug] as string | undefined]),
+);
 
 const LINE_COLOR: Record<Manufacturer, string> = {
   Toyota: "#e2564a",
@@ -12,12 +18,14 @@ const LINE_COLOR: Record<Manufacturer, string> = {
 };
 const NEUTRAL_LINE = "#8a8a8a";
 
-const W = 860;
+const W = 880;
 const H = 440;
-const M = { top: 18, right: 60, bottom: 44, left: 46 };
+const M = { top: 18, right: 74, bottom: 44, left: 46 };
 const PW = W - M.left - M.right;
 const PH = H - M.top - M.bottom;
-const GAP = 15; // min vertical spacing between end-of-line number chips
+const IW = 30; // number-decal thumbnail width
+const IH = 21; // ... height
+const GAP = IH + 2; // min vertical spacing so thumbnails never overlap
 
 function lastName(name: string) {
   const p = name.split(" ");
@@ -180,14 +188,15 @@ export function StandingsZigZag({ series }: { series: StandingsSeries }) {
             );
           })}
 
-          {/* end-of-line number chips + connectors */}
+          {/* end-of-line number-decal thumbnails + connectors */}
           {endLabels.map((e) => {
             const on = e.driver === active;
+            const photo = PHOTO_BY_NAME.get(e.driver);
             const w = String(e.n ?? "").length * 6.5 + 9;
             return (
               <g
                 key={e.driver}
-                opacity={active && !on ? 0.28 : 1}
+                opacity={active && !on ? 0.25 : 1}
                 onMouseEnter={() => setHover(e.driver)}
                 onMouseLeave={() => setHover(null)}
                 onClick={() => setPin((p) => (p === e.driver ? null : e.driver))}
@@ -201,26 +210,60 @@ export function StandingsZigZag({ series }: { series: StandingsSeries }) {
                   fill="none"
                 />
                 <circle cx={e.xEnd} cy={e.yTrue} r={on ? 3.5 : 2.5} fill={e.color} />
-                <rect
-                  x={chipX}
-                  y={e.yLabel - 7}
-                  width={w}
-                  height={14}
-                  rx={3}
-                  fill={e.color}
-                  stroke={on ? "var(--foreground)" : "none"}
-                  strokeWidth={on ? 1.5 : 0}
-                />
-                <text
-                  x={chipX + w / 2}
-                  y={e.yLabel + 3}
-                  textAnchor="middle"
-                  fontSize={10}
-                  fontWeight={700}
-                  fill="#141414"
-                >
-                  {e.n ?? "?"}
-                </text>
+                {photo ? (
+                  <g>
+                    <rect
+                      x={chipX}
+                      y={e.yLabel - IH / 2}
+                      width={IW}
+                      height={IH}
+                      rx={3}
+                      fill="var(--card)"
+                    />
+                    <image
+                      href={photo}
+                      x={chipX}
+                      y={e.yLabel - IH / 2}
+                      width={IW}
+                      height={IH}
+                      preserveAspectRatio="xMidYMid meet"
+                    />
+                    <rect
+                      x={chipX}
+                      y={e.yLabel - IH / 2}
+                      width={IW}
+                      height={IH}
+                      rx={3}
+                      fill="none"
+                      stroke={on ? "var(--foreground)" : e.color}
+                      strokeOpacity={on ? 1 : 0.6}
+                      strokeWidth={on ? 1.75 : 1}
+                    />
+                  </g>
+                ) : (
+                  <>
+                    <rect
+                      x={chipX}
+                      y={e.yLabel - 7}
+                      width={w}
+                      height={14}
+                      rx={3}
+                      fill={e.color}
+                      stroke={on ? "var(--foreground)" : "none"}
+                      strokeWidth={on ? 1.5 : 0}
+                    />
+                    <text
+                      x={chipX + w / 2}
+                      y={e.yLabel + 3}
+                      textAnchor="middle"
+                      fontSize={10}
+                      fontWeight={700}
+                      fill="#141414"
+                    >
+                      {e.n ?? "?"}
+                    </text>
+                  </>
+                )}
               </g>
             );
           })}
