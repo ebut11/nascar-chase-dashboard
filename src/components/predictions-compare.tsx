@@ -42,7 +42,7 @@ function Leaderboard({
                 <span className="truncate">{p.driver}</span>
                 <CarNo n={carNumbers[p.driver]} driver={p.driver} />
               </span>
-              {p.data_source?.startsWith("Track-Type") && (
+              {p.data_source?.includes("Form Only") && (
                 <span
                   title="No track history — season-form-only projection"
                   className="rounded bg-muted px-1 text-[10px] uppercase tracking-wide text-muted-foreground"
