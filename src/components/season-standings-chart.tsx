@@ -25,7 +25,7 @@ const NEUTRAL_LINE = "#8a8a8a";
 
 // tall canvas — a number logo for all 35 drivers has to stack at the line ends
 const W = 1220;
-const H = 1080;
+const H = 1140;
 const M = { top: 24, right: 116, bottom: 56, left: 54 };
 const PW = W - M.left - M.right;
 const PH = H - M.top - M.bottom;
@@ -144,16 +144,25 @@ export function SeasonStandingsChart({ series }: { series: SeasonStandSeries }) 
       })
       // finish order = current standings order, top (P1) to bottom
       .sort((a, b) => a.pos - b.pos || a.yTrue - b.yTrue);
-    for (let i = 1; i < hs.length; i++) {
-      if (hs[i].yLabel - hs[i - 1].yLabel < GAP)
-        hs[i].yLabel = hs[i - 1].yLabel + GAP;
-    }
-    const overflow = hs.length ? hs[hs.length - 1].yLabel - (M.top + PH) : 0;
-    if (overflow > 0) {
-      for (let i = hs.length - 1; i >= 0; i--) {
-        hs[i].yLabel -= overflow;
-        if (i > 0 && hs[i].yLabel - hs[i - 1].yLabel < GAP)
-          hs[i - 1].yLabel = hs[i].yLabel - GAP;
+
+    // Pack the logos in order without ever leaving the plot box. Anchor the
+    // block near P1's true height, but keep it inside [top, bottom - blockH],
+    // then cascade strictly downward so nothing is pushed off the top edge.
+    const top = M.top;
+    const bot = M.top + PH;
+    const blockH = Math.max(0, hs.length - 1) * GAP;
+    if (hs.length) {
+      let start = hs[0].yLabel;
+      start = Math.min(start, bot - blockH);
+      start = Math.max(start, top);
+      hs[0].yLabel = start;
+      for (let i = 1; i < hs.length; i++)
+        hs[i].yLabel = Math.max(hs[i].yLabel, hs[i - 1].yLabel + GAP);
+      // safety clamp if there are somehow more logos than vertical room
+      const past = hs[hs.length - 1].yLabel - bot;
+      if (past > 0) {
+        const step = (bot - top) / Math.max(1, hs.length - 1);
+        hs.forEach((h, i) => (h.yLabel = top + i * step));
       }
     }
     return hs;
