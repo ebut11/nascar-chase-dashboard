@@ -10,6 +10,7 @@ import { PredActualScatter } from "@/components/pred-actual-scatter";
 import { TrackShape } from "@/components/track-shape";
 import { DataSourceNote } from "@/components/data-source-note";
 import { trackSlug } from "@/lib/tracks";
+import { TRACK_PHOTO } from "@/lib/track-photos";
 import {
   driverRaceRows,
   getChaseData,
@@ -49,13 +50,25 @@ export default async function RacePage({ params }: PageProps<"/races/[round]">) 
     <div className="space-y-8">
       <RaceStrip races={data.races} activeRound={roundNum} />
 
-      <header className="relative space-y-2 overflow-hidden">
-        <TrackShape
-          slug={trackSlug(race.track)}
-          strokeWidth={1.6}
-          className="pointer-events-none absolute -right-6 -top-10 z-0 h-40 w-64 text-speed/15"
-        />
-        <div className="relative z-10 flex items-center gap-2 text-xs font-medium uppercase tracking-widest text-muted-foreground">
+      <header className="relative space-y-2 overflow-hidden rounded-xl">
+        {(() => {
+          const slug = trackSlug(race.track);
+          const photo = slug ? TRACK_PHOTO[slug] : undefined;
+          return photo ? (
+            <div className="pointer-events-none absolute inset-0 z-0">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={photo} alt="" className="h-full w-full object-cover opacity-40" />
+              <div className="absolute inset-0 bg-gradient-to-r from-background via-background/85 to-background/40" />
+            </div>
+          ) : (
+            <TrackShape
+              slug={slug}
+              strokeWidth={1.6}
+              className="pointer-events-none absolute -right-6 -top-10 z-0 h-40 w-64 text-speed/15"
+            />
+          );
+        })()}
+        <div className="relative z-10 flex items-center gap-2 pt-1 text-xs font-medium uppercase tracking-widest text-muted-foreground">
           <span className="h-px w-6 bg-speed" />
           Race {race.chase_round} of 10 · {done ? "Final" : "Upcoming"}
         </div>
