@@ -66,13 +66,14 @@ function at(points: Pt[], hx: number): Pt {
 export function SeasonStandingsChart({ series }: { series: SeasonStandSeries }) {
   const [hover, setHover] = useState<string | null>(null);
   const [pin, setPin] = useState<string | null>(null);
-  const [mode, setMode] = useState<Mode>("behind");
+  const [mode, setMode] = useState<Mode>("pos");
   const [t, setT] = useState(1); // playback progress 0..1
   const [playing, setPlaying] = useState(false);
   const raf = useRef<number | null>(null);
   const active = pin ?? hover;
 
-  const { checkpoints, lines, maxBehind } = series;
+  const { checkpoints, lines, maxBehind, resetAfter } = series;
+  const hasChase = checkpoints.some((c) => c.chase);
   const cpCount = Math.max(checkpoints.length, 1);
   const hx = t * (cpCount - 1);
   const nPos = lines.length;
@@ -99,7 +100,14 @@ export function SeasonStandingsChart({ series }: { series: SeasonStandSeries }) 
       ? M.top + (p.behind / (maxBehind * 1.06)) * PH
       : M.top + ((p.pos - 1) / Math.max(1, nPos - 1)) * PH;
 
-  const yStep = maxBehind <= 120 ? 25 : maxBehind <= 300 ? 50 : 100;
+  const yStep =
+    maxBehind <= 120
+      ? 25
+      : maxBehind <= 300
+        ? 50
+        : maxBehind <= 1000
+          ? 100
+          : 250;
   const behindTicks: number[] = [0];
   for (let v = yStep; v <= maxBehind * 1.03; v += yStep) behindTicks.push(v);
   const posTicks = [1, 5, 10, 15, 20, 25, 30, 35].filter((v) => v <= nPos);
@@ -250,9 +258,23 @@ export function SeasonStandingsChart({ series }: { series: SeasonStandSeries }) 
                 to release.
               </>
             ) : (
-              "Every full-time driver, all 27 points races. Each line ends in that driver's number; logos stack in standings order. Hover a line or number to trace one; click to pin."
+              <>
+                Every full-time driver, race by race. Each line ends in that
+                driver&apos;s number, stacked in standings order. Hover a line or
+                number to trace one; click to pin.
+              </>
             )}
           </p>
+          {hasChase && (
+            <p className="text-[11px] leading-snug">
+              <span className="font-semibold text-speed">Yellow</span>
+              <span className="text-muted-foreground">
+                {" "}
+                = Chase race. At the reset the 16 playoff drivers jump to 2,000 +
+                playoff points; everyone else keeps their regular-season total.
+              </span>
+            </p>
+          )}
         </div>
       </div>
 
@@ -297,7 +319,7 @@ export function SeasonStandingsChart({ series }: { series: SeasonStandSeries }) 
           })}
 
           {checkpoints.map((c, i) => {
-            const show = i % xTickEvery === 0 || i === cpCount - 1;
+            const show = i % xTickEvery === 0 || i === cpCount - 1 || c.chase;
             return (
               <g key={i}>
                 {show && (
@@ -315,9 +337,9 @@ export function SeasonStandingsChart({ series }: { series: SeasonStandSeries }) 
                   x={x(i)}
                   y={H - M.bottom + 15}
                   textAnchor="middle"
-                  className="fill-foreground"
+                  className={c.chase ? "fill-speed" : "fill-foreground"}
                   fontSize={9}
-                  fontWeight={600}
+                  fontWeight={c.chase ? 700 : 600}
                 >
                   {c.label}
                 </text>
@@ -326,8 +348,9 @@ export function SeasonStandingsChart({ series }: { series: SeasonStandSeries }) 
                     x={x(i)}
                     y={H - M.bottom + 28}
                     textAnchor="middle"
-                    className="fill-muted-foreground"
+                    className={c.chase ? "fill-speed" : "fill-muted-foreground"}
                     fontSize={8.5}
+                    fontWeight={c.chase ? 700 : 400}
                   >
                     {c.sub}
                   </text>
@@ -335,6 +358,31 @@ export function SeasonStandingsChart({ series }: { series: SeasonStandSeries }) 
               </g>
             );
           })}
+
+          {hasChase && (
+            <g>
+              <line
+                x1={(x(resetAfter) + x(resetAfter + 1)) / 2}
+                x2={(x(resetAfter) + x(resetAfter + 1)) / 2}
+                y1={M.top}
+                y2={M.top + PH}
+                stroke="var(--speed)"
+                strokeWidth={1.5}
+                strokeDasharray="5 4"
+                strokeOpacity={0.9}
+              />
+              <text
+                x={(x(resetAfter) + x(resetAfter + 1)) / 2}
+                y={M.top - 8}
+                textAnchor="middle"
+                className="fill-speed"
+                fontSize={9.5}
+                fontWeight={700}
+              >
+                CHASE RESET
+              </text>
+            </g>
+          )}
 
           {midPlay && (
             <line

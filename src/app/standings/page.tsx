@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SeasonStandingsChart } from "@/components/season-standings-chart";
-import { seasonStandingsSeries } from "@/lib/season-standings";
+import {
+  seasonStandingsSeries,
+  REGULAR_SEASON_RACES,
+} from "@/lib/season-standings";
 
 export const dynamic = "force-dynamic";
 
@@ -14,8 +17,9 @@ export const metadata: Metadata = {
 export default function StandingsPage() {
   const series = seasonStandingsSeries();
   const lastCp = series.checkpoints.at(-1);
+  const inChase = series.nWeeks > REGULAR_SEASON_RACES;
   const current = series.lines
-    .map((l) => ({ driver: l.driver, now: l.points.at(-1) }))
+    .map((l) => ({ driver: l.driver, isChase: l.isChase, now: l.points.at(-1) }))
     .filter((r) => r.now)
     .sort((a, b) => a.now!.pos - b.now!.pos);
 
@@ -30,11 +34,13 @@ export default function StandingsPage() {
           Standings across the season
         </h1>
         <p className="max-w-2xl text-sm text-muted-foreground">
-          One line per full-time driver, tracking the points standings through all
-          27 races of the 2026 regular season. Press <em>Play season</em> to watch
-          the order shake out from Daytona to Darlington. Switch to{" "}
-          <em>Position</em> to see running places, or <em>Behind leader</em> for
-          the points gap to the top of the standings.
+          One line per full-time driver, tracking the points standings race by
+          race. Press <em>Play season</em> to watch the order shake out from
+          Daytona to Darlington. Chase races are marked in{" "}
+          <span className="font-medium text-speed">yellow</span>: at the reset the
+          16 playoff drivers jump to 2,000 points plus their playoff points, while
+          everyone else keeps their regular-season total — so the field splits in
+          two. Switch between <em>Position</em> and <em>Behind leader</em> below.
         </p>
       </header>
 
@@ -44,6 +50,11 @@ export default function StandingsPage() {
         <section className="space-y-3">
           <h2 className="text-lg font-semibold">
             Standing order{lastCp ? ` — after ${lastCp.sub}` : ""}
+            {inChase && (
+              <span className="ml-2 align-middle text-xs font-normal text-speed">
+                Chase reset applied
+              </span>
+            )}
           </h2>
           <div className="overflow-x-auto rounded-lg border border-border/70">
             <table className="w-full text-sm">
@@ -57,7 +68,12 @@ export default function StandingsPage() {
               </thead>
               <tbody>
                 {current.map((r, i) => (
-                  <tr key={r.driver} className="border-t border-border/60">
+                  <tr
+                    key={r.driver}
+                    className={`border-t border-border/60 ${
+                      inChase && i === 15 ? "border-b-2 border-b-speed/60" : ""
+                    }`}
+                  >
                     <td className="tabular px-3 py-2 font-medium">{i + 1}</td>
                     <td className="px-3 py-2">
                       <Link
@@ -66,6 +82,11 @@ export default function StandingsPage() {
                       >
                         {r.driver}
                       </Link>
+                      {inChase && r.isChase && (
+                        <span className="ml-2 rounded-full bg-speed/15 px-1.5 py-0.5 text-[10px] font-medium uppercase tracking-wide text-speed">
+                          Chase
+                        </span>
+                      )}
                     </td>
                     <td className="tabular px-3 py-2 text-right text-muted-foreground">
                       {r.now!.cum}
@@ -78,6 +99,13 @@ export default function StandingsPage() {
               </tbody>
             </table>
           </div>
+          {inChase && (
+            <p className="text-xs text-muted-foreground">
+              Playoff points = 5 per win plus the regular-season seeding bonus
+              (15-10-8…1 for the top 10); stage-win playoff points aren&apos;t
+              included, so seeds within the 16 are approximate.
+            </p>
+          )}
           <p className="text-xs text-muted-foreground">
             Race-by-race point swings and rank changes are on each{" "}
             <Link
