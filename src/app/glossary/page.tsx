@@ -42,10 +42,11 @@ const GROUPS: Group[] = [
     title: "Position averages",
     terms: [
       { abbr: "ASP", name: "Average starting position", def: "Mean qualifying/starting spot.", tag: "basic" },
-      { abbr: "ARP", name: "Average running position", def: "Mean green-flag running position across all laps.", tag: "advanced" },
+      { abbr: "ARP", name: "Average running position", def: "Mean green-flag running position across all laps." },
       {
         abbr: "wARP",
         name: "Weighted average running position",
+        tag: "advanced",
         def: "Green-flag running position with each lap weighted by how well that lap predicts the eventual finish across Lap Raptor's whole dataset. Later laps count more, so it better reflects strategy and smart driving (early on, a driver may trade track position for speed or to dodge incidents).",
       },
       { abbr: "AFP", name: "Average finish position", def: "Mean finishing spot. The models' prediction target." },

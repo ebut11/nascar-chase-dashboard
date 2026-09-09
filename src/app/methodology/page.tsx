@@ -48,7 +48,7 @@ export default function MethodologyPage() {
           <li>
             <ModelChip model="advanced" /> — engineered loop-data inputs: speed score,
             pass-gain above expected, cumulative production over multiple starts (cPOMS),
-            average running position, average position vs. expected.
+            weighted average running position (wARP), average position vs. expected.
           </li>
         </ul>
       </Section>
