@@ -39,7 +39,6 @@ export const ROSTER: RosterDriver[] = [
   R("48", "Alex Bowman", "Hendrick Motorsports", "Chevrolet"),
   R("47", "Ricky Stenhouse Jr.", "Hyak Motorsports", "Chevrolet"),
   R("3", "Austin Dillon", "Richard Childress Racing", "Chevrolet"),
-  R("8", "Kyle Busch", "Richard Childress Racing", "Chevrolet"),
   R("16", "AJ Allmendinger", "Kaulig Racing", "Chevrolet"),
   R("10", "Ty Dillon", "Kaulig Racing", "Chevrolet"),
   R("51", "Cody Ware", "Rick Ware Racing", "Chevrolet"),

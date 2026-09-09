@@ -47,7 +47,6 @@ export const MANUFACTURER: Record<string, Manufacturer> = {
   "Ty Dillon": "Chevrolet",
   "Cole Custer": "Chevrolet",
   "Ricky Stenhouse Jr.": "Chevrolet",
-  "Kyle Busch": "Chevrolet",
 };
 
 export const MFR_PLATE: Record<Manufacturer, { bg: string; fg: string; ring: string }> = {
