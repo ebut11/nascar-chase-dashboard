@@ -5,11 +5,15 @@ import { Play } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { MANUFACTURER, type Manufacturer } from "@/lib/manufacturers";
 import { DRIVER_PHOTO } from "@/lib/driver-photos";
+import { DRIVER_LINE_COLOR } from "@/lib/driver-line-colors";
 import { ROSTER } from "@/lib/roster";
 import type { StandingsLine, StandingsSeries } from "@/lib/data";
 
 const PHOTO_BY_NAME = new Map(
   ROSTER.map((d) => [d.name, DRIVER_PHOTO[d.slug] as string | undefined]),
+);
+const DECAL_COLOR_BY_NAME = new Map(
+  ROSTER.map((d) => [d.name, DRIVER_LINE_COLOR[d.slug] as string | undefined]),
 );
 
 const LINE_COLOR: Record<Manufacturer, string> = {
@@ -92,6 +96,8 @@ export function StandingsZigZag({ series }: { series: StandingsSeries }) {
   for (let v = yStep; v <= maxBehind * 1.05; v += yStep) yTicks.push(v);
 
   const colorOf = (d: string) => {
+    const decal = DECAL_COLOR_BY_NAME.get(d);
+    if (decal) return decal;
     const m = MANUFACTURER[d];
     return m ? LINE_COLOR[m] : NEUTRAL_LINE;
   };
