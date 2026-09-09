@@ -7,7 +7,9 @@ import { AccuracyPanel } from "@/components/accuracy-panel";
 import { ImportancePanel } from "@/components/importance-panel";
 import { StandingsSwing } from "@/components/standings-swing";
 import { PredActualScatter } from "@/components/pred-actual-scatter";
+import { TrackShape } from "@/components/track-shape";
 import { DataSourceNote } from "@/components/data-source-note";
+import { trackSlug } from "@/lib/tracks";
 import {
   driverRaceRows,
   getChaseData,
@@ -47,12 +49,17 @@ export default async function RacePage({ params }: PageProps<"/races/[round]">) 
     <div className="space-y-8">
       <RaceStrip races={data.races} activeRound={roundNum} />
 
-      <header className="space-y-2">
-        <div className="flex items-center gap-2 text-xs font-medium uppercase tracking-widest text-muted-foreground">
+      <header className="relative space-y-2 overflow-hidden">
+        <TrackShape
+          slug={trackSlug(race.track)}
+          strokeWidth={1.6}
+          className="pointer-events-none absolute -right-6 -top-10 z-0 h-40 w-64 text-speed/15"
+        />
+        <div className="relative z-10 flex items-center gap-2 text-xs font-medium uppercase tracking-widest text-muted-foreground">
           <span className="h-px w-6 bg-speed" />
           Race {race.chase_round} of 10 · {done ? "Final" : "Upcoming"}
         </div>
-        <h1 className="text-3xl font-bold tracking-tight">{race.track}</h1>
+        <h1 className="relative z-10 text-3xl font-bold tracking-tight">{race.track}</h1>
         <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-muted-foreground">
           {race.name && race.name !== race.track && (
             <span className="text-foreground">{race.name}</span>

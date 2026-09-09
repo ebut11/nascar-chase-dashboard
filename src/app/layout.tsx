@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
+import { SiteBackdrop } from "@/components/site-backdrop";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -26,6 +27,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`dark ${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-background text-foreground">
+        <SiteBackdrop />
         <header className="sticky top-0 z-40 border-b border-border/80 bg-background/85 backdrop-blur">
           <div className="mx-auto flex h-14 w-full max-w-6xl items-center gap-6 px-4 sm:px-6">
             <Link href="/" className="group flex items-center gap-2.5">
@@ -78,9 +80,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           </div>
         </header>
 
-        <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-8 sm:px-6">{children}</main>
+        <main className="relative z-10 mx-auto w-full max-w-6xl flex-1 px-4 py-8 sm:px-6">
+          {children}
+        </main>
 
-        <footer className="border-t border-border/80">
+        <footer className="relative z-10 border-t border-border/80 bg-background/70">
           <div className="mx-auto w-full max-w-6xl px-4 py-6 text-xs text-muted-foreground sm:px-6">
             Built with Next.js, shadcn/ui, and Supabase. Predictions are
             Random-Forest projections, not betting advice. Data entered manually
