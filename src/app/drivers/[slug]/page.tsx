@@ -7,9 +7,22 @@ import { DataSourceNote } from "@/components/data-source-note";
 import { driverPointsHistory, getChaseData } from "@/lib/data";
 import { DRIVER_PHOTO } from "@/lib/driver-photos";
 import { driverStats } from "@/lib/driver-seasons";
+import driverChase from "@/lib/driver-chase.json";
 import { MFR_PLATE } from "@/lib/manufacturers";
 import { ROSTER, rosterBySlug } from "@/lib/roster";
 import { fmt } from "@/lib/format";
+
+interface ChaseBlock {
+  races: number;
+  wins: number;
+  top5: number;
+  top10: number;
+  avgStart: number;
+  avgFinish: number;
+  avgRunning: number;
+  lapsLed: number;
+}
+const CHASE = driverChase as Record<string, ChaseBlock>;
 
 export const dynamic = "force-dynamic";
 
@@ -41,8 +54,10 @@ export default async function DriverPage({ params }: PageProps<"/drivers/[slug]"
 
   const { data, source } = await getChaseData();
   const s = driverStats(slug);
+  const chase = CHASE[slug];
   const history = driverPointsHistory(data, d.name);
   const num = (v: number | undefined) => (v === undefined ? "—" : String(v));
+  const dec = (v: number | undefined) => (v === undefined ? "—" : fmt(v, 1));
 
   return (
     <div className="space-y-8">
@@ -66,21 +81,54 @@ export default async function DriverPage({ params }: PageProps<"/drivers/[slug]"
       </header>
 
       <section className="space-y-3">
-        <h2 className="text-lg font-semibold">2026 season</h2>
+        <h2 className="text-lg font-semibold">
+          2026 season{" "}
+          <span className="text-sm font-normal text-muted-foreground">
+            {s.starts ? `· ${s.starts} starts` : ""}
+          </span>
+        </h2>
         <div className="grid grid-cols-3 gap-2.5 sm:grid-cols-6">
           <Stat label="Wins" value={num(s.wins)} />
           <Stat label="Top 3" value={num(s.top3)} />
           <Stat label="Top 5" value={num(s.top5)} />
           <Stat label="Top 10" value={num(s.top10)} />
-          <Stat label="DNFs" value={num(s.dnf)} />
-          <Stat label="Avg Fin" value={s.avgFinish === undefined ? "—" : fmt(s.avgFinish, 1)} />
+          <Stat label="Avg Start" value={dec(s.avgStart)} />
+          <Stat label="Avg Fin" value={dec(s.avgFinish)} />
         </div>
-        {s.wins === undefined && (
-          <p className="text-xs text-muted-foreground">
-            Season totals for this driver haven&apos;t been entered yet.
-          </p>
-        )}
+        <p className="text-xs text-muted-foreground">
+          {s.points !== undefined ? (
+            <>
+              {s.points} pts · success rate {s.succ}% · avg running{" "}
+              {dec(s.avgRunning)} · speed score {dec(s.speedScore)}
+            </>
+          ) : (
+            "Season totals for this driver haven't been entered yet."
+          )}
+        </p>
       </section>
+
+      {d.chase && chase && (
+        <section className="space-y-3">
+          <h2 className="text-lg font-semibold">
+            Chase{" "}
+            <span className="text-sm font-normal text-muted-foreground">
+              · {chase.races} of 10 races
+            </span>
+          </h2>
+          <div className="grid grid-cols-3 gap-2.5 sm:grid-cols-6">
+            <Stat label="Wins" value={num(chase.wins)} />
+            <Stat label="Top 5" value={num(chase.top5)} />
+            <Stat label="Top 10" value={num(chase.top10)} />
+            <Stat label="Avg Start" value={dec(chase.avgStart)} />
+            <Stat label="Avg Fin" value={dec(chase.avgFinish)} />
+            <Stat label="Laps Led" value={num(chase.lapsLed)} />
+          </div>
+          <p className="text-xs text-muted-foreground">
+            Postseason-only totals · avg running position {dec(chase.avgRunning)}.
+            Builds race by race.
+          </p>
+        </section>
+      )}
 
       <section className="space-y-3">
         <h2 className="text-lg font-semibold">Points through the year</h2>
