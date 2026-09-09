@@ -10,7 +10,6 @@ import { PredActualScatter } from "@/components/pred-actual-scatter";
 import { TrackShape } from "@/components/track-shape";
 import { DataSourceNote } from "@/components/data-source-note";
 import { trackSlug } from "@/lib/tracks";
-import { TRACK_PHOTO } from "@/lib/track-photos";
 import {
   driverRaceRows,
   getChaseData,
@@ -50,62 +49,41 @@ export default async function RacePage({ params }: PageProps<"/races/[round]">) 
     <div className="space-y-8">
       <RaceStrip races={data.races} activeRound={roundNum} />
 
-      {(() => {
-        const slug = trackSlug(race.track);
-        const photo = slug ? TRACK_PHOTO[slug] : undefined;
-        return (
-          <header
-            className={
-              "relative space-y-2 overflow-hidden rounded-xl" +
-              (photo ? " px-5 py-6 sm:px-6" : "")
-            }
-          >
-            {photo ? (
-              <div className="pointer-events-none absolute inset-0 z-0">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={photo} alt="" className="h-full w-full object-cover opacity-30" />
-                <div className="absolute inset-0 bg-gradient-to-r from-background from-25% via-background/80 to-background/35" />
-                <div className="absolute inset-0 bg-gradient-to-t from-background/70 to-transparent" />
-              </div>
-            ) : (
-              <TrackShape
-                slug={slug}
-                strokeWidth={1.6}
-                className="pointer-events-none absolute -right-6 -top-10 z-0 h-40 w-64 text-speed/15"
-              />
-            )}
-
-            <div className="relative z-10 flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-muted-foreground [text-shadow:0_1px_8px_rgb(0_0_0_/0.7)]">
-              <span className="h-px w-6 bg-speed" />
-              Race {race.chase_round} of 10 · {done ? "Final" : "Upcoming"}
-            </div>
-            <h1 className="relative z-10 text-3xl font-bold tracking-tight [text-shadow:0_2px_14px_rgb(0_0_0_/0.75)]">
-              {race.track}
-            </h1>
-            <div className="relative z-10 flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-foreground/80 [text-shadow:0_1px_8px_rgb(0_0_0_/0.7)]">
-              {race.name && race.name !== race.track && (
-                <span className="font-medium text-foreground">{race.name}</span>
-              )}
-              <span>· {fmtDate(race.race_date)}</span>
-              {race.track_type && (
-                <span className="rounded-sm bg-muted/90 px-1.5 py-0.5 text-xs [text-shadow:none]">
-                  {race.track_type}
-                  {race.track_length_mi ? ` · ${race.track_length_mi} mi` : ""}
-                </span>
-              )}
-              {done && race.winner && (
-                <span>
-                  · Winner: <span className="font-medium text-foreground">{race.winner}</span>
-                </span>
-              )}
-              {race.blend_note && <span>· Blend: {race.blend_note}</span>}
-            </div>
-            <div className="relative z-10">
-              <DataSourceNote source={source} />
-            </div>
-          </header>
-        );
-      })()}
+      <header className="relative space-y-2 overflow-hidden">
+        <TrackShape
+          slug={trackSlug(race.track)}
+          strokeWidth={1.6}
+          className="pointer-events-none absolute -right-6 -top-10 z-0 hidden h-40 w-64 text-speed/15 sm:block"
+        />
+        <div className="relative z-10 flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-zinc-300">
+          <span className="h-px w-6 bg-speed" />
+          Race {race.chase_round} of 10 · {done ? "Final" : "Upcoming"}
+        </div>
+        <h1 className="relative z-10 text-3xl font-bold tracking-tight text-white">
+          {race.track}
+        </h1>
+        <div className="relative z-10 flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-zinc-200">
+          {race.name && race.name !== race.track && (
+            <span className="font-medium text-white">{race.name}</span>
+          )}
+          <span>· {fmtDate(race.race_date)}</span>
+          {race.track_type && (
+            <span className="rounded-sm bg-white/10 px-1.5 py-0.5 text-xs text-zinc-100">
+              {race.track_type}
+              {race.track_length_mi ? ` · ${race.track_length_mi} mi` : ""}
+            </span>
+          )}
+          {done && race.winner && (
+            <span>
+              · Winner: <span className="font-medium text-white">{race.winner}</span>
+            </span>
+          )}
+          {race.blend_note && <span>· Blend: {race.blend_note}</span>}
+        </div>
+        <div className="relative z-10">
+          <DataSourceNote source={source} />
+        </div>
+      </header>
 
       {!hasPredictions ? (
         <div className="rounded-xl border border-dashed border-border/70 bg-card p-10 text-center">

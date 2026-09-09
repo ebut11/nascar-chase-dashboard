@@ -44,9 +44,9 @@ export function SiteBackdrop() {
           <img
             src={photo}
             alt=""
-            className="h-full w-full object-cover opacity-[0.18]"
+            className="h-full w-full object-cover opacity-[0.4]"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-background/85 via-background/92 to-background" />
+          <div className="absolute inset-0 bg-gradient-to-b from-background/45 via-background/65 to-background/88" />
         </div>
       ) : (
         <div
