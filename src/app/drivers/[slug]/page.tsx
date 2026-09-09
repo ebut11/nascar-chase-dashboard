@@ -5,6 +5,7 @@ import { DriverAvatar } from "@/components/driver-avatar";
 import { DriverPointsChart } from "@/components/driver-points-chart";
 import { DataSourceNote } from "@/components/data-source-note";
 import { driverPointsHistory, getChaseData } from "@/lib/data";
+import { DRIVER_PHOTO } from "@/lib/driver-photos";
 import { driverStats } from "@/lib/driver-seasons";
 import { MFR_PLATE } from "@/lib/manufacturers";
 import { ROSTER, rosterBySlug } from "@/lib/roster";
@@ -50,7 +51,7 @@ export default async function DriverPage({ params }: PageProps<"/drivers/[slug]"
       </Link>
 
       <header className="flex flex-wrap items-center gap-4">
-        <DriverAvatar name={d.name} slug={d.slug} manufacturer={d.manufacturer} size={80} />
+        <DriverAvatar name={d.name} photo={DRIVER_PHOTO[d.slug]} manufacturer={d.manufacturer} size={80} />
         <div>
           <h1 className="text-3xl font-bold tracking-tight">{d.name}</h1>
           <p className="text-sm text-muted-foreground">

@@ -15,19 +15,20 @@ function initials(name: string) {
  */
 export function DriverAvatar({
   name,
-  slug,
+  photo,
   manufacturer,
   size = 64,
   className,
 }: {
   name: string;
-  slug: string;
+  photo?: string | null;
   manufacturer: Manufacturer;
   size?: number;
   className?: string;
 }) {
   const [broken, setBroken] = useState(false);
   const c = MFR_PLATE[manufacturer];
+  const showImg = Boolean(photo) && !broken;
 
   return (
     <span
@@ -37,14 +38,14 @@ export function DriverAvatar({
       )}
       style={{ width: size, height: size, backgroundColor: c.bg }}
     >
-      {!broken ? (
+      {showImg ? (
         // eslint-disable-next-line @next/next/no-img-element
         <img
-          src={`/drivers/${slug}.png`}
+          src={photo as string}
           alt={name}
           width={size}
           height={size}
-          className="h-full w-full object-cover"
+          className="h-full w-full scale-110 object-contain"
           onError={() => setBroken(true)}
         />
       ) : (

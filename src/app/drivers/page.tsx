@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { DriverAvatar } from "@/components/driver-avatar";
+import { DRIVER_PHOTO } from "@/lib/driver-photos";
 import { ROSTER } from "@/lib/roster";
 
 export const metadata: Metadata = {
@@ -39,7 +40,7 @@ export default function DriversPage() {
               >
                 <DriverAvatar
                   name={d.name}
-                  slug={d.slug}
+                  photo={DRIVER_PHOTO[d.slug]}
                   manufacturer={d.manufacturer}
                   size={64}
                   className="ring-2 ring-background"
