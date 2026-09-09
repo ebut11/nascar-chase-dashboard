@@ -7,9 +7,7 @@ import { AccuracyPanel } from "@/components/accuracy-panel";
 import { ImportancePanel } from "@/components/importance-panel";
 import { StandingsSwing } from "@/components/standings-swing";
 import { PredActualScatter } from "@/components/pred-actual-scatter";
-import { TrackShape } from "@/components/track-shape";
 import { DataSourceNote } from "@/components/data-source-note";
-import { trackSlug } from "@/lib/tracks";
 import {
   driverRaceRows,
   getChaseData,
@@ -50,12 +48,7 @@ export default async function RacePage({ params }: PageProps<"/races/[round]">) 
       <RaceStrip races={data.races} activeRound={roundNum} />
 
       <header className="relative space-y-2 overflow-hidden">
-        <TrackShape
-          slug={trackSlug(race.track)}
-          strokeWidth={1.6}
-          className="pointer-events-none absolute -right-6 -top-10 z-0 hidden h-40 w-64 text-speed/15 sm:block"
-        />
-        <div className="relative z-10 flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-zinc-300">
+        <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-zinc-300">
           <span className="h-px w-6 bg-speed" />
           Race {race.chase_round} of 10 · {done ? "Final" : "Upcoming"}
         </div>
