@@ -3,16 +3,15 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Play } from "lucide-react";
 import { cn } from "@/lib/utils";
-import {
-  MANUFACTURER,
-  MFR_PLATE,
-  type Manufacturer,
-} from "@/lib/manufacturers";
+import { MANUFACTURER, type Manufacturer } from "@/lib/manufacturers";
+import { DRIVER_PHOTO } from "@/lib/driver-photos";
 import { DRIVER_LINE_COLOR } from "@/lib/driver-line-colors";
-import { NUMBER_DECAL } from "@/lib/number-decals";
 import { ROSTER } from "@/lib/roster";
 import type { SeasonStandLine, SeasonStandSeries } from "@/lib/season-standings";
 
+const PHOTO_BY_NAME = new Map(
+  ROSTER.map((d) => [d.name, DRIVER_PHOTO[d.slug] as string | undefined]),
+);
 const DECAL_COLOR_BY_NAME = new Map(
   ROSTER.map((d) => [d.name, DRIVER_LINE_COLOR[d.slug] as string | undefined]),
 );
@@ -24,15 +23,14 @@ const LINE_COLOR: Record<Manufacturer, string> = {
 };
 const NEUTRAL_LINE = "#8a8a8a";
 
-// big canvas — has to hold a number tag for all 35 drivers stacked at the line ends
+// tall canvas — a number logo for all 35 drivers has to stack at the line ends
 const W = 1220;
-const H = 880;
-const M = { top: 24, right: 118, bottom: 56, left: 54 };
+const H = 1080;
+const M = { top: 24, right: 116, bottom: 56, left: 54 };
 const PW = W - M.left - M.right;
 const PH = H - M.top - M.bottom;
-const BH = 18; // number-tag height
-const BW = 30; // number-tag width
-const GAP = BH + 1.5; // min vertical spacing between tags
+const IS = 26; // number-logo square size
+const GAP = IS + 2; // min vertical spacing between logos
 const PLAY_MS = 4200;
 
 type Mode = "behind" | "pos";
@@ -125,7 +123,7 @@ export function SeasonStandingsChart({ series }: { series: SeasonStandSeries }) 
       .join(" ");
   };
 
-  // number tags at the playhead, de-collided so every one is legible
+  // number logos at the playhead, stacked in standings order and nudged apart
   const heads = useMemo(() => {
     const hs = lines
       .filter((l) => l.points.length > 0)
@@ -135,7 +133,7 @@ export function SeasonStandingsChart({ series }: { series: SeasonStandSeries }) 
           driver: l.driver,
           n: l.car_number,
           color: colorOf(l.driver),
-          mfr: MANUFACTURER[l.driver] as Manufacturer | undefined,
+          photo: PHOTO_BY_NAME.get(l.driver),
           xEnd: x(h.x),
           yTrue: y(h),
           yLabel: y(h),
@@ -144,7 +142,8 @@ export function SeasonStandingsChart({ series }: { series: SeasonStandSeries }) 
           pos: h.pos,
         };
       })
-      .sort((a, b) => a.yTrue - b.yTrue);
+      // finish order = current standings order, top (P1) to bottom
+      .sort((a, b) => a.pos - b.pos || a.yTrue - b.yTrue);
     for (let i = 1; i < hs.length; i++) {
       if (hs[i].yLabel - hs[i - 1].yLabel < GAP)
         hs[i].yLabel = hs[i - 1].yLabel + GAP;
@@ -174,7 +173,7 @@ export function SeasonStandingsChart({ series }: { series: SeasonStandSeries }) 
     | undefined;
   const activeHead = activeLine ? at(activeLine.points as Pt[], hx) : null;
   const headX = x(hx);
-  const tagX = Math.min(headX + 5, M.left + PW + 5); // just past each line's tip
+  const logoX = Math.min(headX + 6, M.left + PW + 6); // just past each line's tip
   const midPlay = t < 0.999;
   const nowCp = midPlay ? checkpoints[Math.round(hx)] : checkpoints.at(-1);
   const xTickEvery = cpCount > 20 ? 3 : 2;
@@ -242,7 +241,7 @@ export function SeasonStandingsChart({ series }: { series: SeasonStandSeries }) 
                 to release.
               </>
             ) : (
-              "Every full-time driver, all 27 points races. Each line ends in that driver's car number. Hover a line or number to trace one; click to pin."
+              "Every full-time driver, all 27 points races. Each line ends in that driver's number; logos stack in standings order. Hover a line or number to trace one; click to pin."
             )}
           </p>
         </div>
@@ -370,11 +369,6 @@ export function SeasonStandingsChart({ series }: { series: SeasonStandSeries }) 
           {heads.map((e) => {
             const on = e.driver === active;
             const num = String(e.n ?? "?");
-            const img = e.n != null ? NUMBER_DECAL[String(e.n)] : undefined;
-            const plate = e.mfr ? MFR_PLATE[e.mfr] : null;
-            const bg = plate?.bg ?? e.color;
-            const fg = plate?.fg ?? "#141414";
-            const w = Math.max(BW, num.length * 8 + 12);
             return (
               <g
                 key={e.driver}
@@ -384,42 +378,64 @@ export function SeasonStandingsChart({ series }: { series: SeasonStandSeries }) 
                 onClick={() => setPin((p) => (p === e.driver ? null : e.driver))}
                 style={{ cursor: "pointer" }}
               >
-                {/* connector from the true line tip to the de-collided tag */}
+                {/* connector from the true line tip to the de-collided logo */}
                 <path
-                  d={`M${e.xEnd},${e.yTrue} L${tagX - 2},${e.yLabel}`}
+                  d={`M${e.xEnd},${e.yTrue} L${logoX - 2},${e.yLabel}`}
                   stroke={e.color}
                   strokeOpacity={0.5}
                   strokeWidth={1}
                   fill="none"
                 />
-                {img ? (
-                  <image
-                    href={img}
-                    x={tagX}
-                    y={e.yLabel - BH / 2}
-                    width={w}
-                    height={BH}
-                    preserveAspectRatio="xMidYMid meet"
-                  />
+                {e.photo ? (
+                  <g>
+                    <rect
+                      x={logoX}
+                      y={e.yLabel - IS / 2}
+                      width={IS}
+                      height={IS}
+                      rx={4}
+                      fill="var(--card)"
+                    />
+                    <image
+                      href={e.photo}
+                      x={logoX}
+                      y={e.yLabel - IS / 2}
+                      width={IS}
+                      height={IS}
+                      preserveAspectRatio="xMidYMid slice"
+                      style={{ clipPath: "inset(0 round 4px)" }}
+                    />
+                    <rect
+                      x={logoX}
+                      y={e.yLabel - IS / 2}
+                      width={IS}
+                      height={IS}
+                      rx={4}
+                      fill="none"
+                      stroke={on ? "var(--foreground)" : e.color}
+                      strokeOpacity={on ? 1 : 0.7}
+                      strokeWidth={on ? 2 : 1}
+                    />
+                  </g>
                 ) : (
                   <>
                     <rect
-                      x={tagX}
-                      y={e.yLabel - BH / 2}
-                      width={w}
-                      height={BH}
-                      rx={3}
-                      fill={bg}
-                      stroke={on ? "var(--foreground)" : e.color}
-                      strokeWidth={on ? 1.75 : 1}
+                      x={logoX}
+                      y={e.yLabel - IS / 2}
+                      width={IS}
+                      height={IS}
+                      rx={4}
+                      fill={e.color}
+                      stroke={on ? "var(--foreground)" : "none"}
+                      strokeWidth={on ? 2 : 0}
                     />
                     <text
-                      x={tagX + w / 2}
-                      y={e.yLabel + 3.6}
+                      x={logoX + IS / 2}
+                      y={e.yLabel + 4}
                       textAnchor="middle"
                       fontSize={11}
                       fontWeight={800}
-                      fill={fg}
+                      fill="#141414"
                     >
                       {num}
                     </text>
