@@ -31,5 +31,5 @@ export const MODEL_LABEL: Record<"basic" | "advanced", string> = {
 
 export const MODEL_BLURB: Record<"basic" | "advanced", string> = {
   basic: "Box-score stats: avg. start, win %, top-10 %, finish %, success rate",
-  advanced: "Engineered metrics: speed score, pass-gain, cPOMS, avg. running pos., pos. vs. expected",
+  advanced: "Engineered metrics: speed score, pass-gain, cPOMS, wAvg finish, pos. vs. expected",
 };
