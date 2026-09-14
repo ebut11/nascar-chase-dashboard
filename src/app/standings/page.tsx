@@ -36,11 +36,8 @@ export default function StandingsPage() {
         <p className="max-w-2xl text-sm text-muted-foreground">
           One line per full-time driver, tracking the points standings race by
           race. Press <em>Play season</em> to watch the order shake out from
-          Daytona to Darlington. Chase races are marked in{" "}
-          <span className="font-medium text-speed">yellow</span>: at the reset the
-          16 playoff drivers jump to 2,000 points plus their playoff points, while
-          everyone else keeps their regular-season total — so the field splits in
-          two. Switch between <em>Position</em> and <em>Behind leader</em> below.
+          Daytona to Darlington. Switch between <em>Position</em> and{" "}
+          <em>Behind leader</em> below.
         </p>
       </header>
 
@@ -99,13 +96,6 @@ export default function StandingsPage() {
               </tbody>
             </table>
           </div>
-          {inChase && (
-            <p className="text-xs text-muted-foreground">
-              Playoff points = 5 per win plus the regular-season seeding bonus
-              (15-10-8…1 for the top 10); stage-win playoff points aren&apos;t
-              included, so seeds within the 16 are approximate.
-            </p>
-          )}
           <p className="text-xs text-muted-foreground">
             Race-by-race point swings and rank changes are on each{" "}
             <Link

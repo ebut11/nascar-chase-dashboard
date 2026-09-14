@@ -265,16 +265,6 @@ export function SeasonStandingsChart({ series }: { series: SeasonStandSeries }) 
               </>
             )}
           </p>
-          {hasChase && (
-            <p className="text-[11px] leading-snug">
-              <span className="font-semibold text-speed">Yellow</span>
-              <span className="text-muted-foreground">
-                {" "}
-                = Chase race. At the reset the 16 playoff drivers jump to 2,000 +
-                playoff points; everyone else keeps their regular-season total.
-              </span>
-            </p>
-          )}
         </div>
       </div>
 
