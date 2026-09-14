@@ -1844,7 +1844,7 @@
       "status": "Running",
       "avg_running_position": 3.8,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 80,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -1857,7 +1857,7 @@
       "status": "Running",
       "avg_running_position": 11.91,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 0,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -1870,7 +1870,7 @@
       "status": "Running",
       "avg_running_position": 3.0,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 96,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -1883,7 +1883,7 @@
       "status": "Running",
       "avg_running_position": 15.17,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 0,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -1896,7 +1896,7 @@
       "status": "Running",
       "avg_running_position": 10.94,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 15,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -1909,7 +1909,7 @@
       "status": "Running",
       "avg_running_position": 19.24,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 0,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -1922,7 +1922,7 @@
       "status": "Running",
       "avg_running_position": 17.21,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 0,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -1935,7 +1935,7 @@
       "status": "Running",
       "avg_running_position": 13.28,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 0,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -1948,7 +1948,7 @@
       "status": "Running",
       "avg_running_position": 10.17,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 0,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -1961,7 +1961,7 @@
       "status": "Running",
       "avg_running_position": 14.49,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 0,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -1974,7 +1974,7 @@
       "status": "Running",
       "avg_running_position": 22.73,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 0,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -1987,7 +1987,7 @@
       "status": "Running",
       "avg_running_position": 5.49,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 55,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -2000,7 +2000,7 @@
       "status": "Running",
       "avg_running_position": 14.75,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 0,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -2013,7 +2013,7 @@
       "status": "Running",
       "avg_running_position": 17.81,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 0,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -2026,7 +2026,7 @@
       "status": "Running",
       "avg_running_position": 18.91,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 0,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -2039,7 +2039,7 @@
       "status": "Running",
       "avg_running_position": 26.51,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 0,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -2052,7 +2052,7 @@
       "status": "Running",
       "avg_running_position": 12.3,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 0,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -2065,7 +2065,7 @@
       "status": "Running",
       "avg_running_position": 13.22,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 0,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -2078,7 +2078,7 @@
       "status": "Running",
       "avg_running_position": 12.06,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 0,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -2091,7 +2091,7 @@
       "status": "Running",
       "avg_running_position": 32.55,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 0,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -2104,7 +2104,7 @@
       "status": "Running",
       "avg_running_position": 22.96,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 0,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -2117,7 +2117,7 @@
       "status": "Running",
       "avg_running_position": 32.96,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 0,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -2130,7 +2130,7 @@
       "status": "Running",
       "avg_running_position": 25.65,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 0,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -2143,7 +2143,7 @@
       "status": "Running",
       "avg_running_position": 25.25,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 0,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -2156,7 +2156,7 @@
       "status": "Running",
       "avg_running_position": 13.9,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 0,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -2169,7 +2169,7 @@
       "status": "Running",
       "avg_running_position": 27.11,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 0,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -2182,7 +2182,7 @@
       "status": "DNF",
       "avg_running_position": 26.9,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 0,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -2195,7 +2195,7 @@
       "status": "Running",
       "avg_running_position": 9.18,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 1,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -2208,7 +2208,7 @@
       "status": "DNF",
       "avg_running_position": 18.5,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 0,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -2221,7 +2221,7 @@
       "status": "DNF",
       "avg_running_position": 29.5,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 0,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -2234,7 +2234,7 @@
       "status": "DNF",
       "avg_running_position": 10.02,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 0,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -2247,7 +2247,7 @@
       "status": "DNF",
       "avg_running_position": 12.86,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 0,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -2260,7 +2260,7 @@
       "status": "DNF",
       "avg_running_position": 31.53,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 0,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -2273,7 +2273,7 @@
       "status": "DNF",
       "avg_running_position": 32.8,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 0,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -2286,7 +2286,7 @@
       "status": "DNF",
       "avg_running_position": 6.12,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 0,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
@@ -2299,7 +2299,7 @@
       "status": "DNF",
       "avg_running_position": 24.71,
       "fastest_laps": null,
-      "laps_led": null,
+      "laps_led": 0,
       "pct_led": null,
       "quality_passes": null,
       "pct_top15": null
