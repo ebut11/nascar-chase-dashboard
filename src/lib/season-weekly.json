@@ -188,6 +188,13 @@
       "points": 8,
       "cumPoints": 443,
       "place": 26
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 31,
+      "cumPoints": 474,
+      "place": 24
     }
   ],
   "john-hunter-nemechek": [
@@ -378,6 +385,13 @@
       "track": "Darlington",
       "points": 13,
       "cumPoints": 431,
+      "place": 28
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 22,
+      "cumPoints": 453,
       "place": 28
     }
   ],
@@ -570,6 +584,13 @@
       "points": 16,
       "cumPoints": 692,
       "place": 13
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 8,
+      "cumPoints": 700,
+      "place": 14
     }
   ],
   "erik-jones": [
@@ -760,6 +781,13 @@
       "track": "Darlington",
       "points": 22,
       "cumPoints": 520,
+      "place": 21
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 24,
+      "cumPoints": 544,
       "place": 21
     }
   ],
@@ -952,6 +980,13 @@
       "points": 43,
       "cumPoints": 804,
       "place": 6
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 11,
+      "cumPoints": 815,
+      "place": 7
     }
   ],
   "alex-bowman": [
@@ -1115,6 +1150,13 @@
       "points": 25,
       "cumPoints": 416,
       "place": 29
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 38,
+      "cumPoints": 454,
+      "place": 27
     }
   ],
   "todd-gilliland": [
@@ -1305,6 +1347,13 @@
       "track": "Darlington",
       "points": 21,
       "cumPoints": 489,
+      "place": 22
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 13,
+      "cumPoints": 502,
       "place": 22
     }
   ],
@@ -1497,6 +1546,13 @@
       "points": 15,
       "cumPoints": 478,
       "place": 23
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 21,
+      "cumPoints": 499,
+      "place": 23
     }
   ],
   "carson-hocevar": [
@@ -1688,6 +1744,13 @@
       "points": 26,
       "cumPoints": 699,
       "place": 10
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 34,
+      "cumPoints": 733,
+      "place": 10
     }
   ],
   "riley-herbst": [
@@ -1871,6 +1934,13 @@
       "track": "Darlington",
       "points": 7,
       "cumPoints": 409,
+      "place": 30
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 3,
+      "cumPoints": 412,
       "place": 30
     }
   ],
@@ -2063,6 +2133,13 @@
       "points": 34,
       "cumPoints": 448,
       "place": 25
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 15,
+      "cumPoints": 463,
+      "place": 26
     }
   ],
   "cody-ware": [
@@ -2254,6 +2331,13 @@
       "points": 1,
       "cumPoints": 202,
       "place": 36
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 15,
+      "cumPoints": 217,
+      "place": 35
     }
   ],
   "austin-cindric": [
@@ -2444,6 +2528,13 @@
       "track": "Darlington",
       "points": 28,
       "cumPoints": 659,
+      "place": 15
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 27,
+      "cumPoints": 686,
       "place": 15
     }
   ],
@@ -2636,6 +2727,13 @@
       "points": 44,
       "cumPoints": 695,
       "place": 11
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 24,
+      "cumPoints": 719,
+      "place": 11
     }
   ],
   "ricky-stenhouse-jr": [
@@ -2827,6 +2925,13 @@
       "points": 2,
       "cumPoints": 432,
       "place": 27
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 11,
+      "cumPoints": 443,
+      "place": 29
     }
   ],
   "ryan-blaney": [
@@ -3017,6 +3122,13 @@
       "track": "Darlington",
       "points": 44,
       "cumPoints": 982,
+      "place": 2
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 16,
+      "cumPoints": 998,
       "place": 2
     }
   ],
@@ -3209,6 +3321,13 @@
       "points": 46,
       "cumPoints": 940,
       "place": 3
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 15,
+      "cumPoints": 955,
+      "place": 3
     }
   ],
   "ross-chastain": [
@@ -3400,6 +3519,13 @@
       "points": 10,
       "cumPoints": 528,
       "place": 20
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 32,
+      "cumPoints": 560,
+      "place": 19
     }
   ],
   "joey-logano": [
@@ -3591,6 +3717,13 @@
       "points": 28,
       "cumPoints": 737,
       "place": 9
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 54,
+      "cumPoints": 791,
+      "place": 8
     }
   ],
   "michael-mcdowell": [
@@ -3782,6 +3915,13 @@
       "points": 20,
       "cumPoints": 537,
       "place": 19
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 17,
+      "cumPoints": 554,
+      "place": 20
     }
   ],
   "noah-gragson": [
@@ -3973,6 +4113,13 @@
       "points": 5,
       "cumPoints": 351,
       "place": 31
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 4,
+      "cumPoints": 355,
+      "place": 32
     }
   ],
   "cole-custer": [
@@ -4164,6 +4311,13 @@
       "points": 4,
       "cumPoints": 333,
       "place": 32
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 26,
+      "cumPoints": 359,
+      "place": 31
     }
   ],
   "denny-hamlin": [
@@ -4354,6 +4508,13 @@
       "track": "Darlington",
       "points": 35,
       "cumPoints": 1062,
+      "place": 1
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 33,
+      "cumPoints": 1095,
       "place": 1
     }
   ],
@@ -4546,6 +4707,13 @@
       "points": 36,
       "cumPoints": 928,
       "place": 4
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 21,
+      "cumPoints": 949,
+      "place": 4
     }
   ],
   "chris-buescher": [
@@ -4737,6 +4905,13 @@
       "points": 17,
       "cumPoints": 694,
       "place": 12
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 10,
+      "cumPoints": 704,
+      "place": 13
     }
   ],
   "ryan-preece": [
@@ -4927,6 +5102,13 @@
       "track": "Darlington",
       "points": 31,
       "cumPoints": 653,
+      "place": 16
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 24,
+      "cumPoints": 677,
       "place": 16
     }
   ],
@@ -5119,6 +5301,13 @@
       "points": 73,
       "cumPoints": 831,
       "place": 5
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 27,
+      "cumPoints": 858,
+      "place": 5
     }
   ],
   "zane-smith": [
@@ -5310,6 +5499,13 @@
       "points": 12,
       "cumPoints": 467,
       "place": 24
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 1,
+      "cumPoints": 468,
+      "place": 25
     }
   ],
   "brad-keselowski": [
@@ -5500,6 +5696,13 @@
       "track": "Darlington",
       "points": 14,
       "cumPoints": 557,
+      "place": 18
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 34,
+      "cumPoints": 591,
       "place": 18
     }
   ],
@@ -5692,6 +5895,13 @@
       "points": 6,
       "cumPoints": 316,
       "place": 33
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 7,
+      "cumPoints": 323,
+      "place": 33
     }
   ],
   "chase-elliott": [
@@ -5883,6 +6093,13 @@
       "points": 23,
       "cumPoints": 746,
       "place": 8
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 12,
+      "cumPoints": 758,
+      "place": 9
     }
   ],
   "william-byron": [
@@ -6074,6 +6291,13 @@
       "points": 6,
       "cumPoints": 672,
       "place": 14
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 33,
+      "cumPoints": 705,
+      "place": 12
     }
   ],
   "connor-zilisch": [
@@ -6264,6 +6488,13 @@
       "track": "Darlington",
       "points": 3,
       "cumPoints": 274,
+      "place": 34
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 30,
+      "cumPoints": 304,
       "place": 34
     }
   ],
@@ -6456,6 +6687,13 @@
       "points": 11,
       "cumPoints": 616,
       "place": 17
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 14,
+      "cumPoints": 630,
+      "place": 17
     }
   ],
   "kyle-larson": [
@@ -6647,6 +6885,13 @@
       "points": 41,
       "cumPoints": 765,
       "place": 7
+    },
+    {
+      "week": 28,
+      "track": "Gateway",
+      "points": 73,
+      "cumPoints": 838,
+      "place": 6
     }
   ]
 }
