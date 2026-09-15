@@ -109,13 +109,14 @@ export default function DriverCheckPage() {
         </div>
         <h1 className="text-3xl font-bold tracking-tight">Driver Anomaly Check</h1>
         <p className="text-sm text-muted-foreground">
-          Enter a short-track stat line and a fitted pipeline (a custom{" "}
+          Enter a stat line and a fitted pipeline (a custom{" "}
           <code className="rounded bg-muted px-1 py-0.5 text-xs">FormIndexEngineer</code>{" "}
           transformer → <code className="rounded bg-muted px-1 py-0.5 text-xs">StandardScaler</code>{" "}
           → <code className="rounded bg-muted px-1 py-0.5 text-xs">NearestNeighbors</code>) scores how
-          unusual that stat line is against the 2026 short-track field, and shows the
-          most comparable real drivers. Runs live against the deployed FastAPI /
-          Modal endpoint — nothing here is precomputed.
+          unusual that stat line is against every full-time driver&apos;s full 2026
+          season (all 28 races so far, every track), and shows the most comparable
+          real drivers. Runs live against the deployed FastAPI / Modal endpoint —
+          nothing here is precomputed.
         </p>
       </header>
 
