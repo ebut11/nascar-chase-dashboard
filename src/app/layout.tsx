@@ -76,6 +76,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               >
                 Methodology
               </Link>
+              <Link
+                href="/driver-check"
+                className="text-muted-foreground transition-colors hover:text-foreground"
+              >
+                Driver Check
+              </Link>
             </nav>
           </div>
         </header>
