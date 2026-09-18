@@ -31,7 +31,7 @@
       "track_length_mi": 0.533,
       "status": "upcoming",
       "winner": null,
-      "blend_note": null
+      "blend_note": "60% short-track season form / 40% Bristol Chase history"
     },
     {
       "chase_round": 4,
@@ -300,6 +300,11 @@
     {
       "name": "Zane Smith",
       "car_number": 38,
+      "is_chase_driver": false
+    },
+    {
+      "name": "Josh Bilicki",
+      "car_number": 66,
       "is_chase_driver": false
     }
   ],
@@ -1339,6 +1344,524 @@
       "model_type": "advanced",
       "projected_finish": 28.6,
       "data_source": "Gateway Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Ty Gibbs",
+      "model_type": "basic",
+      "projected_finish": 7.8,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Denny Hamlin",
+      "model_type": "basic",
+      "projected_finish": 8.0,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Ryan Blaney",
+      "model_type": "basic",
+      "projected_finish": 9.2,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Christopher Bell",
+      "model_type": "basic",
+      "projected_finish": 9.3,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Kyle Larson",
+      "model_type": "basic",
+      "projected_finish": 9.9,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Ryan Preece",
+      "model_type": "basic",
+      "projected_finish": 13.0,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Chase Briscoe",
+      "model_type": "basic",
+      "projected_finish": 13.9,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "William Byron",
+      "model_type": "basic",
+      "projected_finish": 14.2,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Tyler Reddick",
+      "model_type": "basic",
+      "projected_finish": 14.3,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Joey Logano",
+      "model_type": "basic",
+      "projected_finish": 14.5,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Brad Keselowski",
+      "model_type": "basic",
+      "projected_finish": 14.8,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Bubba Wallace",
+      "model_type": "basic",
+      "projected_finish": 15.2,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Chase Elliott",
+      "model_type": "basic",
+      "projected_finish": 15.7,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Josh Berry",
+      "model_type": "basic",
+      "projected_finish": 16.1,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Ross Chastain",
+      "model_type": "basic",
+      "projected_finish": 17.5,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Alex Bowman",
+      "model_type": "basic",
+      "projected_finish": 17.6,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Carson Hocevar",
+      "model_type": "basic",
+      "projected_finish": 17.7,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Chris Buescher",
+      "model_type": "basic",
+      "projected_finish": 18.1,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Michael McDowell",
+      "model_type": "basic",
+      "projected_finish": 18.4,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Austin Dillon",
+      "model_type": "basic",
+      "projected_finish": 19.8,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Daniel Suarez",
+      "model_type": "basic",
+      "projected_finish": 19.8,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Todd Gilliland",
+      "model_type": "basic",
+      "projected_finish": 20.2,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Austin Cindric",
+      "model_type": "basic",
+      "projected_finish": 21.0,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Zane Smith",
+      "model_type": "basic",
+      "projected_finish": 21.5,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "AJ Allmendinger",
+      "model_type": "basic",
+      "projected_finish": 21.6,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Riley Herbst",
+      "model_type": "basic",
+      "projected_finish": 23.6,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "John Hunter Nemechek",
+      "model_type": "basic",
+      "projected_finish": 24.1,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Erik Jones",
+      "model_type": "basic",
+      "projected_finish": 24.1,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Shane Van Gisbergen",
+      "model_type": "basic",
+      "projected_finish": 24.2,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Noah Gragson",
+      "model_type": "basic",
+      "projected_finish": 24.4,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Ricky Stenhouse Jr.",
+      "model_type": "basic",
+      "projected_finish": 25.0,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Connor Zilisch",
+      "model_type": "basic",
+      "projected_finish": 25.6,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Cole Custer",
+      "model_type": "basic",
+      "projected_finish": 26.0,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Ty Dillon",
+      "model_type": "basic",
+      "projected_finish": 29.6,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Austin Hill",
+      "model_type": "basic",
+      "projected_finish": 30.5,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Cody Ware",
+      "model_type": "basic",
+      "projected_finish": 30.9,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Josh Bilicki",
+      "model_type": "basic",
+      "projected_finish": 31.6,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Denny Hamlin",
+      "model_type": "advanced",
+      "projected_finish": 7.9,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Ty Gibbs",
+      "model_type": "advanced",
+      "projected_finish": 8.0,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Kyle Larson",
+      "model_type": "advanced",
+      "projected_finish": 8.4,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Christopher Bell",
+      "model_type": "advanced",
+      "projected_finish": 8.6,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Ryan Blaney",
+      "model_type": "advanced",
+      "projected_finish": 10.1,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Chase Briscoe",
+      "model_type": "advanced",
+      "projected_finish": 12.4,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Ryan Preece",
+      "model_type": "advanced",
+      "projected_finish": 12.8,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Brad Keselowski",
+      "model_type": "advanced",
+      "projected_finish": 14.4,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Joey Logano",
+      "model_type": "advanced",
+      "projected_finish": 14.9,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Chase Elliott",
+      "model_type": "advanced",
+      "projected_finish": 15.6,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Chris Buescher",
+      "model_type": "advanced",
+      "projected_finish": 15.7,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "William Byron",
+      "model_type": "advanced",
+      "projected_finish": 16.5,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Bubba Wallace",
+      "model_type": "advanced",
+      "projected_finish": 16.5,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Tyler Reddick",
+      "model_type": "advanced",
+      "projected_finish": 17.2,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Ross Chastain",
+      "model_type": "advanced",
+      "projected_finish": 18.3,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Carson Hocevar",
+      "model_type": "advanced",
+      "projected_finish": 18.6,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Josh Berry",
+      "model_type": "advanced",
+      "projected_finish": 18.6,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Austin Cindric",
+      "model_type": "advanced",
+      "projected_finish": 19.0,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Alex Bowman",
+      "model_type": "advanced",
+      "projected_finish": 19.6,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Todd Gilliland",
+      "model_type": "advanced",
+      "projected_finish": 20.2,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Daniel Suarez",
+      "model_type": "advanced",
+      "projected_finish": 20.7,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Michael McDowell",
+      "model_type": "advanced",
+      "projected_finish": 20.8,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Austin Dillon",
+      "model_type": "advanced",
+      "projected_finish": 20.9,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Noah Gragson",
+      "model_type": "advanced",
+      "projected_finish": 22.4,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "AJ Allmendinger",
+      "model_type": "advanced",
+      "projected_finish": 22.9,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Zane Smith",
+      "model_type": "advanced",
+      "projected_finish": 23.2,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Riley Herbst",
+      "model_type": "advanced",
+      "projected_finish": 23.3,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Erik Jones",
+      "model_type": "advanced",
+      "projected_finish": 23.8,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Ricky Stenhouse Jr.",
+      "model_type": "advanced",
+      "projected_finish": 24.1,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "John Hunter Nemechek",
+      "model_type": "advanced",
+      "projected_finish": 24.5,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Ty Dillon",
+      "model_type": "advanced",
+      "projected_finish": 26.1,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Shane Van Gisbergen",
+      "model_type": "advanced",
+      "projected_finish": 26.2,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Connor Zilisch",
+      "model_type": "advanced",
+      "projected_finish": 27.2,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Cole Custer",
+      "model_type": "advanced",
+      "projected_finish": 27.7,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Austin Hill",
+      "model_type": "advanced",
+      "projected_finish": 29.5,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Cody Ware",
+      "model_type": "advanced",
+      "projected_finish": 30.9,
+      "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 3,
+      "driver": "Josh Bilicki",
+      "model_type": "advanced",
+      "projected_finish": 32.4,
+      "data_source": "Bristol Chase History + Short-Track Form"
     }
   ],
   "results": [
@@ -2479,6 +3002,66 @@
       "model_type": "advanced",
       "feature": "cPOMS",
       "importance": 0.0539
+    },
+    {
+      "chase_round": 3,
+      "model_type": "basic",
+      "feature": "Succ%",
+      "importance": 0.434
+    },
+    {
+      "chase_round": 3,
+      "model_type": "basic",
+      "feature": "T10%",
+      "importance": 0.397
+    },
+    {
+      "chase_round": 3,
+      "model_type": "basic",
+      "feature": "ASP",
+      "importance": 0.162
+    },
+    {
+      "chase_round": 3,
+      "model_type": "basic",
+      "feature": "Fin%",
+      "importance": 0.005
+    },
+    {
+      "chase_round": 3,
+      "model_type": "basic",
+      "feature": "W%",
+      "importance": 0.002
+    },
+    {
+      "chase_round": 3,
+      "model_type": "advanced",
+      "feature": "wARP",
+      "importance": 0.408
+    },
+    {
+      "chase_round": 3,
+      "model_type": "advanced",
+      "feature": "Avg. PFAE",
+      "importance": 0.349
+    },
+    {
+      "chase_round": 3,
+      "model_type": "advanced",
+      "feature": "cPOMS",
+      "importance": 0.111
+    },
+    {
+      "chase_round": 3,
+      "model_type": "advanced",
+      "feature": "SS",
+      "importance": 0.098
+    },
+    {
+      "chase_round": 3,
+      "model_type": "advanced",
+      "feature": "PGAE",
+      "importance": 0.033
     }
   ],
   "chase_standings": [
