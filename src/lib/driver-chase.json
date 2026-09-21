@@ -1,162 +1,162 @@
 {
   "ryan-preece": {
-    "races": 2,
+    "races": 3,
     "wins": 0,
     "top5": 0,
-    "top10": 1,
-    "avgStart": 8.5,
-    "avgFinish": 13.5,
-    "avgRunning": 13.55,
+    "top10": 2,
+    "avgStart": 11.0,
+    "avgFinish": 12.33,
+    "avgRunning": 14.09,
     "lapsLed": 0
   },
   "ty-gibbs": {
-    "races": 2,
+    "races": 3,
     "wins": 0,
-    "top5": 1,
-    "top10": 1,
-    "avgStart": 18.5,
-    "avgFinish": 10.0,
-    "avgRunning": 12.21,
-    "lapsLed": 0
-  },
-  "kyle-larson": {
-    "races": 2,
-    "wins": 1,
     "top5": 2,
     "top10": 2,
-    "avgStart": 13.5,
-    "avgFinish": 3.0,
-    "avgRunning": 6.9,
-    "lapsLed": 99
+    "avgStart": 16.67,
+    "avgFinish": 8.33,
+    "avgRunning": 10.36,
+    "lapsLed": 120
+  },
+  "kyle-larson": {
+    "races": 3,
+    "wins": 1,
+    "top5": 3,
+    "top10": 3,
+    "avgStart": 9.33,
+    "avgFinish": 2.67,
+    "avgRunning": 7.3,
+    "lapsLed": 144
   },
   "daniel-suarez": {
-    "races": 2,
+    "races": 3,
     "wins": 0,
     "top5": 0,
     "top10": 0,
-    "avgStart": 8.5,
-    "avgFinish": 25.0,
-    "avgRunning": 19.51,
+    "avgStart": 15.0,
+    "avgFinish": 21.33,
+    "avgRunning": 20.26,
     "lapsLed": 2
   },
   "william-byron": {
-    "races": 2,
-    "wins": 0,
-    "top5": 1,
-    "top10": 1,
-    "avgStart": 22.0,
-    "avgFinish": 20.5,
-    "avgRunning": 12.43,
-    "lapsLed": 0
-  },
-  "chase-elliott": {
-    "races": 2,
-    "wins": 0,
-    "top5": 0,
-    "top10": 0,
-    "avgStart": 13.0,
-    "avgFinish": 22.5,
-    "avgRunning": 11.36,
-    "lapsLed": 1
-  },
-  "christopher-bell": {
-    "races": 2,
-    "wins": 1,
-    "top5": 1,
-    "top10": 1,
-    "avgStart": 7.5,
-    "avgFinish": 10.0,
-    "avgRunning": 8.52,
-    "lapsLed": 46
-  },
-  "austin-cindric": {
-    "races": 2,
-    "wins": 0,
-    "top5": 0,
-    "top10": 1,
-    "avgStart": 9.5,
-    "avgFinish": 11.5,
-    "avgRunning": 11.78,
-    "lapsLed": 0
-  },
-  "denny-hamlin": {
-    "races": 2,
-    "wins": 0,
-    "top5": 0,
-    "top10": 1,
-    "avgStart": 7.0,
-    "avgFinish": 13.5,
-    "avgRunning": 9.31,
-    "lapsLed": 68
-  },
-  "ryan-blaney": {
-    "races": 2,
-    "wins": 0,
-    "top5": 1,
-    "top10": 1,
-    "avgStart": 13.5,
-    "avgFinish": 19.5,
-    "avgRunning": 7.05,
-    "lapsLed": 1
-  },
-  "carson-hocevar": {
-    "races": 2,
-    "wins": 0,
-    "top5": 0,
-    "top10": 1,
-    "avgStart": 20.0,
-    "avgFinish": 9.5,
-    "avgRunning": 14.45,
-    "lapsLed": 2
-  },
-  "chase-briscoe": {
-    "races": 2,
-    "wins": 0,
-    "top5": 0,
-    "top10": 1,
-    "avgStart": 6.0,
-    "avgFinish": 19.0,
-    "avgRunning": 9.74,
-    "lapsLed": 30
-  },
-  "tyler-reddick": {
-    "races": 2,
-    "wins": 0,
-    "top5": 1,
-    "top10": 1,
-    "avgStart": 9.5,
-    "avgFinish": 14.0,
-    "avgRunning": 8.67,
-    "lapsLed": 74
-  },
-  "chris-buescher": {
-    "races": 2,
-    "wins": 0,
-    "top5": 0,
-    "top10": 0,
-    "avgStart": 28.0,
-    "avgFinish": 23.5,
-    "avgRunning": 25.63,
-    "lapsLed": 0
-  },
-  "bubba-wallace": {
-    "races": 2,
-    "wins": 0,
-    "top5": 0,
-    "top10": 1,
-    "avgStart": 12.0,
-    "avgFinish": 11.0,
-    "avgRunning": 11.77,
-    "lapsLed": 38
-  },
-  "joey-logano": {
-    "races": 2,
+    "races": 3,
     "wins": 0,
     "top5": 1,
     "top10": 2,
-    "avgStart": 7.0,
-    "avgFinish": 6.0,
-    "avgRunning": 7.72,
+    "avgStart": 16.0,
+    "avgFinish": 16.67,
+    "avgRunning": 10.75,
     "lapsLed": 0
+  },
+  "chase-elliott": {
+    "races": 3,
+    "wins": 0,
+    "top5": 0,
+    "top10": 0,
+    "avgStart": 17.67,
+    "avgFinish": 22.67,
+    "avgRunning": 15.38,
+    "lapsLed": 1
+  },
+  "christopher-bell": {
+    "races": 3,
+    "wins": 1,
+    "top5": 2,
+    "top10": 2,
+    "avgStart": 9.0,
+    "avgFinish": 8.0,
+    "avgRunning": 7.76,
+    "lapsLed": 47
+  },
+  "austin-cindric": {
+    "races": 3,
+    "wins": 0,
+    "top5": 0,
+    "top10": 1,
+    "avgStart": 9.0,
+    "avgFinish": 11.33,
+    "avgRunning": 11.47,
+    "lapsLed": 0
+  },
+  "denny-hamlin": {
+    "races": 3,
+    "wins": 0,
+    "top5": 0,
+    "top10": 2,
+    "avgStart": 5.67,
+    "avgFinish": 11.67,
+    "avgRunning": 9.46,
+    "lapsLed": 68
+  },
+  "ryan-blaney": {
+    "races": 3,
+    "wins": 0,
+    "top5": 1,
+    "top10": 1,
+    "avgStart": 18.67,
+    "avgFinish": 24.0,
+    "avgRunning": 6.28,
+    "lapsLed": 203
+  },
+  "carson-hocevar": {
+    "races": 3,
+    "wins": 0,
+    "top5": 1,
+    "top10": 2,
+    "avgStart": 15.0,
+    "avgFinish": 7.33,
+    "avgRunning": 12.28,
+    "lapsLed": 41
+  },
+  "chase-briscoe": {
+    "races": 3,
+    "wins": 0,
+    "top5": 0,
+    "top10": 1,
+    "avgStart": 12.67,
+    "avgFinish": 21.67,
+    "avgRunning": 10.57,
+    "lapsLed": 30
+  },
+  "tyler-reddick": {
+    "races": 3,
+    "wins": 0,
+    "top5": 1,
+    "top10": 1,
+    "avgStart": 13.0,
+    "avgFinish": 15.33,
+    "avgRunning": 15.73,
+    "lapsLed": 74
+  },
+  "chris-buescher": {
+    "races": 3,
+    "wins": 0,
+    "top5": 0,
+    "top10": 0,
+    "avgStart": 26.33,
+    "avgFinish": 20.0,
+    "avgRunning": 20.47,
+    "lapsLed": 0
+  },
+  "bubba-wallace": {
+    "races": 3,
+    "wins": 0,
+    "top5": 0,
+    "top10": 2,
+    "avgStart": 11.33,
+    "avgFinish": 9.67,
+    "avgRunning": 10.06,
+    "lapsLed": 38
+  },
+  "joey-logano": {
+    "races": 3,
+    "wins": 1,
+    "top5": 2,
+    "top10": 3,
+    "avgStart": 5.33,
+    "avgFinish": 4.33,
+    "avgRunning": 6.52,
+    "lapsLed": 93
   }
 }
