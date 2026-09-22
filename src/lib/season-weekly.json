@@ -195,6 +195,13 @@
       "points": 31,
       "cumPoints": 474,
       "place": 24
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 20,
+      "cumPoints": 494,
+      "place": 25
     }
   ],
   "john-hunter-nemechek": [
@@ -393,6 +400,13 @@
       "points": 22,
       "cumPoints": 453,
       "place": 28
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 12,
+      "cumPoints": 465,
+      "place": 27
     }
   ],
   "daniel-suarez": [
@@ -590,6 +604,13 @@
       "track": "Gateway",
       "points": 8,
       "cumPoints": 700,
+      "place": 14
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 23,
+      "cumPoints": 723,
       "place": 14
     }
   ],
@@ -789,6 +810,13 @@
       "points": 24,
       "cumPoints": 544,
       "place": 21
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 5,
+      "cumPoints": 549,
+      "place": 21
     }
   ],
   "chase-briscoe": [
@@ -987,6 +1015,13 @@
       "points": 11,
       "cumPoints": 815,
       "place": 7
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 10,
+      "cumPoints": 825,
+      "place": 8
     }
   ],
   "alex-bowman": [
@@ -1157,6 +1192,13 @@
       "points": 38,
       "cumPoints": 454,
       "place": 27
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 2,
+      "cumPoints": 456,
+      "place": 28
     }
   ],
   "todd-gilliland": [
@@ -1354,6 +1396,13 @@
       "track": "Gateway",
       "points": 13,
       "cumPoints": 502,
+      "place": 22
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 18,
+      "cumPoints": 520,
       "place": 22
     }
   ],
@@ -1553,6 +1602,13 @@
       "points": 21,
       "cumPoints": 499,
       "place": 23
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 15,
+      "cumPoints": 514,
+      "place": 23
     }
   ],
   "carson-hocevar": [
@@ -1751,6 +1807,13 @@
       "points": 34,
       "cumPoints": 733,
       "place": 10
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 41,
+      "cumPoints": 774,
+      "place": 9
     }
   ],
   "riley-herbst": [
@@ -1941,6 +2004,13 @@
       "track": "Gateway",
       "points": 3,
       "cumPoints": 412,
+      "place": 30
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 3,
+      "cumPoints": 415,
       "place": 30
     }
   ],
@@ -2140,6 +2210,13 @@
       "points": 15,
       "cumPoints": 463,
       "place": 26
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 38,
+      "cumPoints": 501,
+      "place": 24
     }
   ],
   "cody-ware": [
@@ -2337,6 +2414,13 @@
       "track": "Gateway",
       "points": 15,
       "cumPoints": 217,
+      "place": 35
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 6,
+      "cumPoints": 223,
       "place": 35
     }
   ],
@@ -2536,6 +2620,13 @@
       "points": 27,
       "cumPoints": 686,
       "place": 15
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 30,
+      "cumPoints": 716,
+      "place": 15
     }
   ],
   "bubba-wallace": [
@@ -2733,6 +2824,13 @@
       "track": "Gateway",
       "points": 24,
       "cumPoints": 719,
+      "place": 11
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 36,
+      "cumPoints": 755,
       "place": 11
     }
   ],
@@ -2932,6 +3030,13 @@
       "points": 11,
       "cumPoints": 443,
       "place": 29
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 7,
+      "cumPoints": 450,
+      "place": 29
     }
   ],
   "ryan-blaney": [
@@ -3129,6 +3234,13 @@
       "track": "Gateway",
       "points": 16,
       "cumPoints": 998,
+      "place": 2
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 19,
+      "cumPoints": 1017,
       "place": 2
     }
   ],
@@ -3328,6 +3440,13 @@
       "points": 15,
       "cumPoints": 955,
       "place": 3
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 19,
+      "cumPoints": 974,
+      "place": 4
     }
   ],
   "ross-chastain": [
@@ -3525,6 +3644,13 @@
       "track": "Gateway",
       "points": 32,
       "cumPoints": 560,
+      "place": 19
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 32,
+      "cumPoints": 592,
       "place": 19
     }
   ],
@@ -3724,6 +3850,13 @@
       "points": 54,
       "cumPoints": 791,
       "place": 8
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 73,
+      "cumPoints": 864,
+      "place": 7
     }
   ],
   "michael-mcdowell": [
@@ -3921,6 +4054,13 @@
       "track": "Gateway",
       "points": 17,
       "cumPoints": 554,
+      "place": 20
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 16,
+      "cumPoints": 570,
       "place": 20
     }
   ],
@@ -4120,6 +4260,13 @@
       "points": 4,
       "cumPoints": 355,
       "place": 32
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 21,
+      "cumPoints": 376,
+      "place": 31
     }
   ],
   "cole-custer": [
@@ -4318,6 +4465,13 @@
       "points": 26,
       "cumPoints": 359,
       "place": 31
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 11,
+      "cumPoints": 370,
+      "place": 32
     }
   ],
   "denny-hamlin": [
@@ -4515,6 +4669,13 @@
       "track": "Gateway",
       "points": 33,
       "cumPoints": 1095,
+      "place": 1
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 37,
+      "cumPoints": 1132,
       "place": 1
     }
   ],
@@ -4714,6 +4875,13 @@
       "points": 21,
       "cumPoints": 949,
       "place": 4
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 47,
+      "cumPoints": 996,
+      "place": 3
     }
   ],
   "chris-buescher": [
@@ -4911,6 +5079,13 @@
       "track": "Gateway",
       "points": 10,
       "cumPoints": 704,
+      "place": 13
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 25,
+      "cumPoints": 729,
       "place": 13
     }
   ],
@@ -5110,6 +5285,13 @@
       "points": 24,
       "cumPoints": 677,
       "place": 16
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 27,
+      "cumPoints": 704,
+      "place": 16
     }
   ],
   "christopher-bell": [
@@ -5307,6 +5489,13 @@
       "track": "Gateway",
       "points": 27,
       "cumPoints": 858,
+      "place": 5
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 39,
+      "cumPoints": 897,
       "place": 5
     }
   ],
@@ -5506,6 +5695,13 @@
       "points": 1,
       "cumPoints": 468,
       "place": 25
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 9,
+      "cumPoints": 477,
+      "place": 26
     }
   ],
   "brad-keselowski": [
@@ -5703,6 +5899,13 @@
       "track": "Gateway",
       "points": 34,
       "cumPoints": 591,
+      "place": 18
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 24,
+      "cumPoints": 615,
       "place": 18
     }
   ],
@@ -5902,6 +6105,13 @@
       "points": 7,
       "cumPoints": 323,
       "place": 33
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 1,
+      "cumPoints": 324,
+      "place": 33
     }
   ],
   "chase-elliott": [
@@ -6100,6 +6310,13 @@
       "points": 12,
       "cumPoints": 758,
       "place": 9
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 14,
+      "cumPoints": 772,
+      "place": 10
     }
   ],
   "william-byron": [
@@ -6297,6 +6514,13 @@
       "track": "Gateway",
       "points": 33,
       "cumPoints": 705,
+      "place": 12
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 31,
+      "cumPoints": 736,
       "place": 12
     }
   ],
@@ -6496,6 +6720,13 @@
       "points": 30,
       "cumPoints": 304,
       "place": 34
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 13,
+      "cumPoints": 317,
+      "place": 34
     }
   ],
   "shane-van-gisbergen": [
@@ -6694,6 +6925,13 @@
       "points": 14,
       "cumPoints": 630,
       "place": 17
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 17,
+      "cumPoints": 647,
+      "place": 17
     }
   ],
   "kyle-larson": [
@@ -6891,6 +7129,13 @@
       "track": "Gateway",
       "points": 73,
       "cumPoints": 838,
+      "place": 6
+    },
+    {
+      "week": 29,
+      "track": "Bristol",
+      "points": 47,
+      "cumPoints": 885,
       "place": 6
     }
   ]
