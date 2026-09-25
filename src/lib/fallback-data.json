@@ -42,7 +42,7 @@
       "track_length_mi": 1.5,
       "status": "upcoming",
       "winner": null,
-      "blend_note": null
+      "blend_note": "60% intermediate season form / 40% Kansas Chase history"
     },
     {
       "chase_round": 5,
@@ -1862,6 +1862,510 @@
       "model_type": "advanced",
       "projected_finish": 32.4,
       "data_source": "Bristol Chase History + Short-Track Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Denny Hamlin",
+      "model_type": "basic",
+      "projected_finish": 10.7,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Kyle Larson",
+      "model_type": "basic",
+      "projected_finish": 10.8,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Tyler Reddick",
+      "model_type": "basic",
+      "projected_finish": 11.2,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Christopher Bell",
+      "model_type": "basic",
+      "projected_finish": 12.5,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Chase Elliott",
+      "model_type": "basic",
+      "projected_finish": 13.3,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "William Byron",
+      "model_type": "basic",
+      "projected_finish": 13.4,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Ryan Blaney",
+      "model_type": "basic",
+      "projected_finish": 14.3,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Alex Bowman",
+      "model_type": "basic",
+      "projected_finish": 14.6,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Chris Buescher",
+      "model_type": "basic",
+      "projected_finish": 14.8,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Bubba Wallace",
+      "model_type": "basic",
+      "projected_finish": 15.6,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Joey Logano",
+      "model_type": "basic",
+      "projected_finish": 16.3,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Brad Keselowski",
+      "model_type": "basic",
+      "projected_finish": 16.6,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Ty Gibbs",
+      "model_type": "basic",
+      "projected_finish": 16.9,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Chase Briscoe",
+      "model_type": "basic",
+      "projected_finish": 17.6,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Austin Cindric",
+      "model_type": "basic",
+      "projected_finish": 18.0,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Carson Hocevar",
+      "model_type": "basic",
+      "projected_finish": 18.2,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Ryan Preece",
+      "model_type": "basic",
+      "projected_finish": 18.8,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Shane Van Gisbergen",
+      "model_type": "basic",
+      "projected_finish": 19.0,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Daniel Suarez",
+      "model_type": "basic",
+      "projected_finish": 20.0,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Austin Dillon",
+      "model_type": "basic",
+      "projected_finish": 20.3,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Ross Chastain",
+      "model_type": "basic",
+      "projected_finish": 20.3,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Zane Smith",
+      "model_type": "basic",
+      "projected_finish": 20.6,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Todd Gilliland",
+      "model_type": "basic",
+      "projected_finish": 20.7,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Erik Jones",
+      "model_type": "basic",
+      "projected_finish": 21.3,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Ricky Stenhouse Jr.",
+      "model_type": "basic",
+      "projected_finish": 22.3,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "John Hunter Nemechek",
+      "model_type": "basic",
+      "projected_finish": 22.9,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Riley Herbst",
+      "model_type": "basic",
+      "projected_finish": 22.9,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Michael McDowell",
+      "model_type": "basic",
+      "projected_finish": 23.3,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Noah Gragson",
+      "model_type": "basic",
+      "projected_finish": 23.8,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Josh Berry",
+      "model_type": "basic",
+      "projected_finish": 24.7,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "AJ Allmendinger",
+      "model_type": "basic",
+      "projected_finish": 25.0,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Cole Custer",
+      "model_type": "basic",
+      "projected_finish": 25.1,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Ty Dillon",
+      "model_type": "basic",
+      "projected_finish": 26.6,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Connor Zilisch",
+      "model_type": "basic",
+      "projected_finish": 27.0,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Austin Hill",
+      "model_type": "basic",
+      "projected_finish": 27.3,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Cody Ware",
+      "model_type": "basic",
+      "projected_finish": 27.3,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Denny Hamlin",
+      "model_type": "advanced",
+      "projected_finish": 10.4,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Kyle Larson",
+      "model_type": "advanced",
+      "projected_finish": 12.2,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Christopher Bell",
+      "model_type": "advanced",
+      "projected_finish": 12.5,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Tyler Reddick",
+      "model_type": "advanced",
+      "projected_finish": 12.7,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Chase Elliott",
+      "model_type": "advanced",
+      "projected_finish": 13.0,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Ryan Blaney",
+      "model_type": "advanced",
+      "projected_finish": 13.4,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "William Byron",
+      "model_type": "advanced",
+      "projected_finish": 13.7,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Alex Bowman",
+      "model_type": "advanced",
+      "projected_finish": 13.9,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Brad Keselowski",
+      "model_type": "advanced",
+      "projected_finish": 15.0,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Ty Gibbs",
+      "model_type": "advanced",
+      "projected_finish": 15.3,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Bubba Wallace",
+      "model_type": "advanced",
+      "projected_finish": 15.3,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Chase Briscoe",
+      "model_type": "advanced",
+      "projected_finish": 15.4,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Chris Buescher",
+      "model_type": "advanced",
+      "projected_finish": 15.5,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Carson Hocevar",
+      "model_type": "advanced",
+      "projected_finish": 15.7,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Ross Chastain",
+      "model_type": "advanced",
+      "projected_finish": 16.7,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Ryan Preece",
+      "model_type": "advanced",
+      "projected_finish": 17.2,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Joey Logano",
+      "model_type": "advanced",
+      "projected_finish": 17.4,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Austin Cindric",
+      "model_type": "advanced",
+      "projected_finish": 17.8,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Daniel Suarez",
+      "model_type": "advanced",
+      "projected_finish": 19.9,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Erik Jones",
+      "model_type": "advanced",
+      "projected_finish": 20.5,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Todd Gilliland",
+      "model_type": "advanced",
+      "projected_finish": 21.2,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Ricky Stenhouse Jr.",
+      "model_type": "advanced",
+      "projected_finish": 21.5,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Austin Dillon",
+      "model_type": "advanced",
+      "projected_finish": 21.5,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Josh Berry",
+      "model_type": "advanced",
+      "projected_finish": 21.7,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "John Hunter Nemechek",
+      "model_type": "advanced",
+      "projected_finish": 21.8,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Shane Van Gisbergen",
+      "model_type": "advanced",
+      "projected_finish": 22.0,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Zane Smith",
+      "model_type": "advanced",
+      "projected_finish": 23.0,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Riley Herbst",
+      "model_type": "advanced",
+      "projected_finish": 23.4,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Michael McDowell",
+      "model_type": "advanced",
+      "projected_finish": 23.8,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Noah Gragson",
+      "model_type": "advanced",
+      "projected_finish": 23.9,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Cole Custer",
+      "model_type": "advanced",
+      "projected_finish": 24.1,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Ty Dillon",
+      "model_type": "advanced",
+      "projected_finish": 24.2,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "AJ Allmendinger",
+      "model_type": "advanced",
+      "projected_finish": 25.6,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Connor Zilisch",
+      "model_type": "advanced",
+      "projected_finish": 25.8,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Cody Ware",
+      "model_type": "advanced",
+      "projected_finish": 27.2,
+      "data_source": "Kansas Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 4,
+      "driver": "Austin Hill",
+      "model_type": "advanced",
+      "projected_finish": 27.2,
+      "data_source": "Kansas Chase History + Intermediate Form"
     }
   ],
   "results": [
@@ -3569,6 +4073,66 @@
       "model_type": "advanced",
       "feature": "PGAE",
       "importance": 0.033
+    },
+    {
+      "chase_round": 4,
+      "model_type": "basic",
+      "feature": "Succ%",
+      "importance": 0.397
+    },
+    {
+      "chase_round": 4,
+      "model_type": "basic",
+      "feature": "T10%",
+      "importance": 0.365
+    },
+    {
+      "chase_round": 4,
+      "model_type": "basic",
+      "feature": "ASP",
+      "importance": 0.223
+    },
+    {
+      "chase_round": 4,
+      "model_type": "basic",
+      "feature": "Fin%",
+      "importance": 0.014
+    },
+    {
+      "chase_round": 4,
+      "model_type": "basic",
+      "feature": "W%",
+      "importance": 0.002
+    },
+    {
+      "chase_round": 4,
+      "model_type": "advanced",
+      "feature": "wARP",
+      "importance": 0.341
+    },
+    {
+      "chase_round": 4,
+      "model_type": "advanced",
+      "feature": "Avg. PFAE",
+      "importance": 0.271
+    },
+    {
+      "chase_round": 4,
+      "model_type": "advanced",
+      "feature": "cPOMS",
+      "importance": 0.246
+    },
+    {
+      "chase_round": 4,
+      "model_type": "advanced",
+      "feature": "SS",
+      "importance": 0.117
+    },
+    {
+      "chase_round": 4,
+      "model_type": "advanced",
+      "feature": "PGAE",
+      "importance": 0.025
     }
   ],
   "chase_standings": [
