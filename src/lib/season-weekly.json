@@ -202,6 +202,13 @@
       "points": 20,
       "cumPoints": 494,
       "place": 25
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 16,
+      "cumPoints": 510,
+      "place": 24
     }
   ],
   "john-hunter-nemechek": [
@@ -407,6 +414,13 @@
       "points": 12,
       "cumPoints": 465,
       "place": 27
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 24,
+      "cumPoints": 489,
+      "place": 26
     }
   ],
   "daniel-suarez": [
@@ -612,6 +626,13 @@
       "points": 23,
       "cumPoints": 723,
       "place": 14
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 23,
+      "cumPoints": 746,
+      "place": 16
     }
   ],
   "erik-jones": [
@@ -816,6 +837,13 @@
       "track": "Bristol",
       "points": 5,
       "cumPoints": 549,
+      "place": 21
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 21,
+      "cumPoints": 570,
       "place": 21
     }
   ],
@@ -1022,6 +1050,13 @@
       "points": 10,
       "cumPoints": 825,
       "place": 8
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 40,
+      "cumPoints": 865,
+      "place": 8
     }
   ],
   "alex-bowman": [
@@ -1198,6 +1233,13 @@
       "track": "Bristol",
       "points": 2,
       "cumPoints": 456,
+      "place": 28
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 19,
+      "cumPoints": 475,
       "place": 28
     }
   ],
@@ -1404,6 +1446,13 @@
       "points": 18,
       "cumPoints": 520,
       "place": 22
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 18,
+      "cumPoints": 538,
+      "place": 22
     }
   ],
   "aj-allmendinger": [
@@ -1608,6 +1657,13 @@
       "track": "Bristol",
       "points": 15,
       "cumPoints": 514,
+      "place": 23
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 15,
+      "cumPoints": 529,
       "place": 23
     }
   ],
@@ -1814,6 +1870,13 @@
       "points": 41,
       "cumPoints": 774,
       "place": 9
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 11,
+      "cumPoints": 785,
+      "place": 11
     }
   ],
   "riley-herbst": [
@@ -2011,6 +2074,13 @@
       "track": "Bristol",
       "points": 3,
       "cumPoints": 415,
+      "place": 30
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 12,
+      "cumPoints": 427,
       "place": 30
     }
   ],
@@ -2217,6 +2287,13 @@
       "points": 38,
       "cumPoints": 501,
       "place": 24
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 2,
+      "cumPoints": 503,
+      "place": 25
     }
   ],
   "cody-ware": [
@@ -2421,6 +2498,13 @@
       "track": "Bristol",
       "points": 6,
       "cumPoints": 223,
+      "place": 35
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 3,
+      "cumPoints": 226,
       "place": 35
     }
   ],
@@ -2627,6 +2711,13 @@
       "points": 30,
       "cumPoints": 716,
       "place": 15
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 52,
+      "cumPoints": 768,
+      "place": 9
     }
   ],
   "bubba-wallace": [
@@ -2832,6 +2923,13 @@
       "points": 36,
       "cumPoints": 755,
       "place": 11
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 28,
+      "cumPoints": 783,
+      "place": 10
     }
   ],
   "ricky-stenhouse-jr": [
@@ -3036,6 +3134,13 @@
       "track": "Bristol",
       "points": 7,
       "cumPoints": 450,
+      "place": 29
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 5,
+      "cumPoints": 455,
       "place": 29
     }
   ],
@@ -3242,6 +3347,13 @@
       "points": 19,
       "cumPoints": 1017,
       "place": 2
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 37,
+      "cumPoints": 1054,
+      "place": 5
     }
   ],
   "tyler-reddick": [
@@ -3447,6 +3559,13 @@
       "points": 19,
       "cumPoints": 974,
       "place": 4
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 26,
+      "cumPoints": 1000,
+      "place": 7
     }
   ],
   "ross-chastain": [
@@ -3651,6 +3770,13 @@
       "track": "Bristol",
       "points": 32,
       "cumPoints": 592,
+      "place": 19
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 22,
+      "cumPoints": 614,
       "place": 19
     }
   ],
@@ -3857,6 +3983,13 @@
       "points": 73,
       "cumPoints": 864,
       "place": 7
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 25,
+      "cumPoints": 889,
+      "place": 4
     }
   ],
   "michael-mcdowell": [
@@ -4061,6 +4194,13 @@
       "track": "Bristol",
       "points": 16,
       "cumPoints": 570,
+      "place": 20
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 10,
+      "cumPoints": 580,
       "place": 20
     }
   ],
@@ -4267,6 +4407,13 @@
       "points": 21,
       "cumPoints": 376,
       "place": 31
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 1,
+      "cumPoints": 377,
+      "place": 31
     }
   ],
   "cole-custer": [
@@ -4471,6 +4618,13 @@
       "track": "Bristol",
       "points": 11,
       "cumPoints": 370,
+      "place": 32
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 7,
+      "cumPoints": 377,
       "place": 32
     }
   ],
@@ -4677,6 +4831,13 @@
       "points": 37,
       "cumPoints": 1132,
       "place": 1
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 51,
+      "cumPoints": 1183,
+      "place": 2
     }
   ],
   "ty-gibbs": [
@@ -4882,6 +5043,13 @@
       "points": 47,
       "cumPoints": 996,
       "place": 3
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 24,
+      "cumPoints": 1020,
+      "place": 6
     }
   ],
   "chris-buescher": [
@@ -5087,6 +5255,13 @@
       "points": 25,
       "cumPoints": 729,
       "place": 13
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 14,
+      "cumPoints": 743,
+      "place": 15
     }
   ],
   "ryan-preece": [
@@ -5292,6 +5467,13 @@
       "points": 27,
       "cumPoints": 704,
       "place": 16
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 27,
+      "cumPoints": 731,
+      "place": 14
     }
   ],
   "christopher-bell": [
@@ -5497,6 +5679,13 @@
       "points": 39,
       "cumPoints": 897,
       "place": 5
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 43,
+      "cumPoints": 940,
+      "place": 3
     }
   ],
   "zane-smith": [
@@ -5702,6 +5891,13 @@
       "points": 9,
       "cumPoints": 477,
       "place": 26
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 6,
+      "cumPoints": 483,
+      "place": 27
     }
   ],
   "brad-keselowski": [
@@ -5906,6 +6102,13 @@
       "track": "Bristol",
       "points": 24,
       "cumPoints": 615,
+      "place": 18
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 26,
+      "cumPoints": 641,
       "place": 18
     }
   ],
@@ -6112,6 +6315,13 @@
       "points": 1,
       "cumPoints": 324,
       "place": 33
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 9,
+      "cumPoints": 333,
+      "place": 33
     }
   ],
   "chase-elliott": [
@@ -6317,6 +6527,13 @@
       "points": 14,
       "cumPoints": 772,
       "place": 10
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 32,
+      "cumPoints": 804,
+      "place": 13
     }
   ],
   "william-byron": [
@@ -6521,6 +6738,13 @@
       "track": "Bristol",
       "points": 31,
       "cumPoints": 736,
+      "place": 12
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 39,
+      "cumPoints": 775,
       "place": 12
     }
   ],
@@ -6727,6 +6951,13 @@
       "points": 13,
       "cumPoints": 317,
       "place": 34
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 8,
+      "cumPoints": 325,
+      "place": 34
     }
   ],
   "shane-van-gisbergen": [
@@ -6931,6 +7162,13 @@
       "track": "Bristol",
       "points": 17,
       "cumPoints": 647,
+      "place": 17
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 13,
+      "cumPoints": 660,
       "place": 17
     }
   ],
@@ -7137,6 +7375,13 @@
       "points": 47,
       "cumPoints": 885,
       "place": 6
+    },
+    {
+      "week": 30,
+      "track": "Kansas",
+      "points": 76,
+      "cumPoints": 961,
+      "place": 1
     }
   ]
 }
