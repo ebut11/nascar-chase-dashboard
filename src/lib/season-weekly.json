@@ -209,6 +209,13 @@
       "points": 16,
       "cumPoints": 510,
       "place": 24
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 18,
+      "cumPoints": 528,
+      "place": 24
     }
   ],
   "john-hunter-nemechek": [
@@ -421,6 +428,13 @@
       "points": 24,
       "cumPoints": 489,
       "place": 26
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 8,
+      "cumPoints": 497,
+      "place": 27
     }
   ],
   "daniel-suarez": [
@@ -633,6 +647,13 @@
       "points": 23,
       "cumPoints": 746,
       "place": 16
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 28,
+      "cumPoints": 774,
+      "place": 14
     }
   ],
   "erik-jones": [
@@ -844,6 +865,13 @@
       "track": "Kansas",
       "points": 21,
       "cumPoints": 570,
+      "place": 21
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 12,
+      "cumPoints": 582,
       "place": 21
     }
   ],
@@ -1057,6 +1085,13 @@
       "points": 40,
       "cumPoints": 865,
       "place": 8
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 75,
+      "cumPoints": 940,
+      "place": 6
     }
   ],
   "alex-bowman": [
@@ -1241,6 +1276,13 @@
       "points": 19,
       "cumPoints": 475,
       "place": 28
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 28,
+      "cumPoints": 503,
+      "place": 26
     }
   ],
   "todd-gilliland": [
@@ -1453,6 +1495,13 @@
       "points": 18,
       "cumPoints": 538,
       "place": 22
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 4,
+      "cumPoints": 542,
+      "place": 23
     }
   ],
   "aj-allmendinger": [
@@ -1665,6 +1714,13 @@
       "points": 15,
       "cumPoints": 529,
       "place": 23
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 22,
+      "cumPoints": 551,
+      "place": 22
     }
   ],
   "carson-hocevar": [
@@ -1877,6 +1933,13 @@
       "points": 11,
       "cumPoints": 785,
       "place": 11
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 28,
+      "cumPoints": 813,
+      "place": 11
     }
   ],
   "riley-herbst": [
@@ -2081,6 +2144,13 @@
       "track": "Kansas",
       "points": 12,
       "cumPoints": 427,
+      "place": 30
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 19,
+      "cumPoints": 446,
       "place": 30
     }
   ],
@@ -2294,6 +2364,13 @@
       "points": 2,
       "cumPoints": 503,
       "place": 25
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 11,
+      "cumPoints": 514,
+      "place": 25
     }
   ],
   "cody-ware": [
@@ -2505,6 +2582,13 @@
       "track": "Kansas",
       "points": 3,
       "cumPoints": 226,
+      "place": 35
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 3,
+      "cumPoints": 229,
       "place": 35
     }
   ],
@@ -2718,6 +2802,13 @@
       "points": 52,
       "cumPoints": 768,
       "place": 9
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 48,
+      "cumPoints": 816,
+      "place": 9
     }
   ],
   "bubba-wallace": [
@@ -2929,6 +3020,13 @@
       "track": "Kansas",
       "points": 28,
       "cumPoints": 783,
+      "place": 10
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 39,
+      "cumPoints": 822,
       "place": 10
     }
   ],
@@ -3142,6 +3240,13 @@
       "points": 5,
       "cumPoints": 455,
       "place": 29
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 5,
+      "cumPoints": 460,
+      "place": 29
     }
   ],
   "ryan-blaney": [
@@ -3353,6 +3458,13 @@
       "track": "Kansas",
       "points": 37,
       "cumPoints": 1054,
+      "place": 5
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 47,
+      "cumPoints": 1101,
       "place": 5
     }
   ],
@@ -3566,6 +3678,13 @@
       "points": 26,
       "cumPoints": 1000,
       "place": 7
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 41,
+      "cumPoints": 1041,
+      "place": 7
     }
   ],
   "ross-chastain": [
@@ -3777,6 +3896,13 @@
       "track": "Kansas",
       "points": 22,
       "cumPoints": 614,
+      "place": 19
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 7,
+      "cumPoints": 621,
       "place": 19
     }
   ],
@@ -3990,6 +4116,13 @@
       "points": 25,
       "cumPoints": 889,
       "place": 4
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 32,
+      "cumPoints": 921,
+      "place": 4
     }
   ],
   "michael-mcdowell": [
@@ -4201,6 +4334,13 @@
       "track": "Kansas",
       "points": 10,
       "cumPoints": 580,
+      "place": 20
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 17,
+      "cumPoints": 597,
       "place": 20
     }
   ],
@@ -4414,6 +4554,13 @@
       "points": 1,
       "cumPoints": 377,
       "place": 31
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 17,
+      "cumPoints": 394,
+      "place": 31
     }
   ],
   "cole-custer": [
@@ -4625,6 +4772,13 @@
       "track": "Kansas",
       "points": 7,
       "cumPoints": 377,
+      "place": 32
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 10,
+      "cumPoints": 387,
       "place": 32
     }
   ],
@@ -4838,6 +4992,13 @@
       "points": 51,
       "cumPoints": 1183,
       "place": 2
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 22,
+      "cumPoints": 1205,
+      "place": 2
     }
   ],
   "ty-gibbs": [
@@ -5050,6 +5211,13 @@
       "points": 24,
       "cumPoints": 1020,
       "place": 6
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 20,
+      "cumPoints": 1040,
+      "place": 8
     }
   ],
   "chris-buescher": [
@@ -5261,6 +5429,13 @@
       "track": "Kansas",
       "points": 14,
       "cumPoints": 743,
+      "place": 15
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 26,
+      "cumPoints": 769,
       "place": 15
     }
   ],
@@ -5474,6 +5649,13 @@
       "points": 27,
       "cumPoints": 731,
       "place": 14
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 9,
+      "cumPoints": 740,
+      "place": 16
     }
   ],
   "christopher-bell": [
@@ -5685,6 +5867,13 @@
       "track": "Kansas",
       "points": 43,
       "cumPoints": 940,
+      "place": 3
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 31,
+      "cumPoints": 971,
       "place": 3
     }
   ],
@@ -5898,6 +6087,13 @@
       "points": 6,
       "cumPoints": 483,
       "place": 27
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 1,
+      "cumPoints": 484,
+      "place": 28
     }
   ],
   "brad-keselowski": [
@@ -6109,6 +6305,13 @@
       "track": "Kansas",
       "points": 26,
       "cumPoints": 641,
+      "place": 18
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 13,
+      "cumPoints": 654,
       "place": 18
     }
   ],
@@ -6322,6 +6525,13 @@
       "points": 9,
       "cumPoints": 333,
       "place": 33
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 6,
+      "cumPoints": 339,
+      "place": 33
     }
   ],
   "chase-elliott": [
@@ -6533,6 +6743,13 @@
       "track": "Kansas",
       "points": 32,
       "cumPoints": 804,
+      "place": 13
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 34,
+      "cumPoints": 838,
       "place": 13
     }
   ],
@@ -6746,6 +6963,13 @@
       "points": 39,
       "cumPoints": 775,
       "place": 12
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 34,
+      "cumPoints": 809,
+      "place": 12
     }
   ],
   "connor-zilisch": [
@@ -6957,6 +7181,13 @@
       "track": "Kansas",
       "points": 8,
       "cumPoints": 325,
+      "place": 34
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 2,
+      "cumPoints": 327,
       "place": 34
     }
   ],
@@ -7170,6 +7401,13 @@
       "points": 13,
       "cumPoints": 660,
       "place": 17
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 28,
+      "cumPoints": 688,
+      "place": 17
     }
   ],
   "kyle-larson": [
@@ -7381,6 +7619,13 @@
       "track": "Kansas",
       "points": 76,
       "cumPoints": 961,
+      "place": 1
+    },
+    {
+      "week": 31,
+      "track": "Las Vegas",
+      "points": 36,
+      "cumPoints": 997,
       "place": 1
     }
   ]

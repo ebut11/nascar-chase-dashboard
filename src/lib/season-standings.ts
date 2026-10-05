@@ -32,7 +32,7 @@ const RESET_POINTS: Record<string, number> = {
 };
 
 /** Full standings order as of the most recent officially published result
- *  (currently: after Kansas, race 4 of the Chase). Used only to break ties
+ *  (currently: after Las Vegas, race 5 of the Chase). Used only to break ties
  *  between drivers on equal points — refresh these values whenever a newer
  *  official standings table comes in. */
 const OPENER_ORDER: string[] = [
@@ -41,29 +41,29 @@ const OPENER_ORDER: string[] = [
   "christopher-bell",
   "joey-logano",
   "ryan-blaney",
-  "ty-gibbs",
-  "tyler-reddick",
   "chase-briscoe",
+  "tyler-reddick",
+  "ty-gibbs",
   "austin-cindric",
   "bubba-wallace",
   "carson-hocevar",
   "william-byron",
   "chase-elliott",
-  "ryan-preece",
-  "chris-buescher",
   "daniel-suarez",
+  "chris-buescher",
+  "ryan-preece",
   "shane-van-gisbergen",
   "brad-keselowski",
   "ross-chastain",
   "michael-mcdowell",
   "erik-jones",
-  "todd-gilliland",
   "aj-allmendinger",
+  "todd-gilliland",
   "austin-dillon",
   "josh-berry",
+  "alex-bowman",
   "john-hunter-nemechek",
   "zane-smith",
-  "alex-bowman",
   "ricky-stenhouse-jr",
   "riley-herbst",
   "noah-gragson",
