@@ -216,6 +216,13 @@
       "points": 18,
       "cumPoints": 528,
       "place": 24
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 11,
+      "cumPoints": 539,
+      "place": 25
     }
   ],
   "john-hunter-nemechek": [
@@ -435,6 +442,13 @@
       "points": 8,
       "cumPoints": 497,
       "place": 27
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 2,
+      "cumPoints": 499,
+      "place": 28
     }
   ],
   "daniel-suarez": [
@@ -653,6 +667,13 @@
       "track": "Las Vegas",
       "points": 28,
       "cumPoints": 774,
+      "place": 14
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 29,
+      "cumPoints": 803,
       "place": 14
     }
   ],
@@ -873,6 +894,13 @@
       "points": 12,
       "cumPoints": 582,
       "place": 21
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 13,
+      "cumPoints": 595,
+      "place": 21
     }
   ],
   "chase-briscoe": [
@@ -1092,6 +1120,13 @@
       "points": 75,
       "cumPoints": 940,
       "place": 6
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 68,
+      "cumPoints": 1008,
+      "place": 4
     }
   ],
   "alex-bowman": [
@@ -1282,6 +1317,13 @@
       "track": "Las Vegas",
       "points": 28,
       "cumPoints": 503,
+      "place": 26
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 1,
+      "cumPoints": 504,
       "place": 26
     }
   ],
@@ -1502,6 +1544,13 @@
       "points": 4,
       "cumPoints": 542,
       "place": 23
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 15,
+      "cumPoints": 557,
+      "place": 23
     }
   ],
   "aj-allmendinger": [
@@ -1720,6 +1769,13 @@
       "track": "Las Vegas",
       "points": 22,
       "cumPoints": 551,
+      "place": 22
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 9,
+      "cumPoints": 560,
       "place": 22
     }
   ],
@@ -1940,6 +1996,13 @@
       "points": 28,
       "cumPoints": 813,
       "place": 11
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 27,
+      "cumPoints": 840,
+      "place": 10
     }
   ],
   "riley-herbst": [
@@ -2151,6 +2214,13 @@
       "track": "Las Vegas",
       "points": 19,
       "cumPoints": 446,
+      "place": 30
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 19,
+      "cumPoints": 465,
       "place": 30
     }
   ],
@@ -2371,6 +2441,13 @@
       "points": 11,
       "cumPoints": 514,
       "place": 25
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 36,
+      "cumPoints": 550,
+      "place": 24
     }
   ],
   "cody-ware": [
@@ -2589,6 +2666,13 @@
       "track": "Las Vegas",
       "points": 3,
       "cumPoints": 229,
+      "place": 35
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 6,
+      "cumPoints": 235,
       "place": 35
     }
   ],
@@ -2809,6 +2893,13 @@
       "points": 48,
       "cumPoints": 816,
       "place": 9
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 32,
+      "cumPoints": 848,
+      "place": 8
     }
   ],
   "bubba-wallace": [
@@ -3028,6 +3119,13 @@
       "points": 39,
       "cumPoints": 822,
       "place": 10
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 1,
+      "cumPoints": 823,
+      "place": 11
     }
   ],
   "ricky-stenhouse-jr": [
@@ -3246,6 +3344,13 @@
       "track": "Las Vegas",
       "points": 5,
       "cumPoints": 460,
+      "place": 29
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 14,
+      "cumPoints": 474,
       "place": 29
     }
   ],
@@ -3466,6 +3571,13 @@
       "points": 47,
       "cumPoints": 1101,
       "place": 5
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 44,
+      "cumPoints": 1145,
+      "place": 5
     }
   ],
   "tyler-reddick": [
@@ -3684,6 +3796,13 @@
       "track": "Las Vegas",
       "points": 41,
       "cumPoints": 1041,
+      "place": 7
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 41,
+      "cumPoints": 1082,
       "place": 7
     }
   ],
@@ -3904,6 +4023,13 @@
       "points": 7,
       "cumPoints": 621,
       "place": 19
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 21,
+      "cumPoints": 642,
+      "place": 19
     }
   ],
   "joey-logano": [
@@ -4123,6 +4249,13 @@
       "points": 32,
       "cumPoints": 921,
       "place": 4
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 28,
+      "cumPoints": 949,
+      "place": 6
     }
   ],
   "michael-mcdowell": [
@@ -4341,6 +4474,13 @@
       "track": "Las Vegas",
       "points": 17,
       "cumPoints": 597,
+      "place": 20
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 18,
+      "cumPoints": 615,
       "place": 20
     }
   ],
@@ -4561,6 +4701,13 @@
       "points": 17,
       "cumPoints": 394,
       "place": 31
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 12,
+      "cumPoints": 406,
+      "place": 31
     }
   ],
   "cole-custer": [
@@ -4779,6 +4926,13 @@
       "track": "Las Vegas",
       "points": 10,
       "cumPoints": 387,
+      "place": 32
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 10,
+      "cumPoints": 397,
       "place": 32
     }
   ],
@@ -4999,6 +5153,13 @@
       "points": 22,
       "cumPoints": 1205,
       "place": 2
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 40,
+      "cumPoints": 1245,
+      "place": 2
     }
   ],
   "ty-gibbs": [
@@ -5218,6 +5379,13 @@
       "points": 20,
       "cumPoints": 1040,
       "place": 8
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 3,
+      "cumPoints": 1043,
+      "place": 9
     }
   ],
   "chris-buescher": [
@@ -5436,6 +5604,13 @@
       "track": "Las Vegas",
       "points": 26,
       "cumPoints": 769,
+      "place": 15
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 29,
+      "cumPoints": 798,
       "place": 15
     }
   ],
@@ -5656,6 +5831,13 @@
       "points": 9,
       "cumPoints": 740,
       "place": 16
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 22,
+      "cumPoints": 762,
+      "place": 16
     }
   ],
   "christopher-bell": [
@@ -5874,6 +6056,13 @@
       "track": "Las Vegas",
       "points": 31,
       "cumPoints": 971,
+      "place": 3
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 53,
+      "cumPoints": 1024,
       "place": 3
     }
   ],
@@ -6094,6 +6283,13 @@
       "points": 1,
       "cumPoints": 484,
       "place": 28
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 17,
+      "cumPoints": 501,
+      "place": 27
     }
   ],
   "brad-keselowski": [
@@ -6312,6 +6508,13 @@
       "track": "Las Vegas",
       "points": 13,
       "cumPoints": 654,
+      "place": 18
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 8,
+      "cumPoints": 662,
       "place": 18
     }
   ],
@@ -6532,6 +6735,13 @@
       "points": 6,
       "cumPoints": 339,
       "place": 33
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 7,
+      "cumPoints": 346,
+      "place": 33
     }
   ],
   "chase-elliott": [
@@ -6751,6 +6961,13 @@
       "points": 34,
       "cumPoints": 838,
       "place": 13
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 27,
+      "cumPoints": 865,
+      "place": 12
     }
   ],
   "william-byron": [
@@ -6970,6 +7187,13 @@
       "points": 34,
       "cumPoints": 809,
       "place": 12
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 1,
+      "cumPoints": 810,
+      "place": 13
     }
   ],
   "connor-zilisch": [
@@ -7188,6 +7412,13 @@
       "track": "Las Vegas",
       "points": 2,
       "cumPoints": 327,
+      "place": 34
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 16,
+      "cumPoints": 343,
       "place": 34
     }
   ],
@@ -7408,6 +7639,13 @@
       "points": 28,
       "cumPoints": 688,
       "place": 17
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 30,
+      "cumPoints": 718,
+      "place": 17
     }
   ],
   "kyle-larson": [
@@ -7626,6 +7864,13 @@
       "track": "Las Vegas",
       "points": 36,
       "cumPoints": 997,
+      "place": 1
+    },
+    {
+      "week": 32,
+      "track": "Charlotte",
+      "points": 49,
+      "cumPoints": 1046,
       "place": 1
     }
   ]

@@ -8087,7 +8087,7 @@
       "chase_round": 6,
       "driver": "Kyle Larson",
       "phase": "after",
-      "playoff_points": 2318,
+      "playoff_points": 2367,
       "behind_leader": 0,
       "rank": 1
     },
@@ -8103,8 +8103,8 @@
       "chase_round": 6,
       "driver": "Denny Hamlin",
       "phase": "after",
-      "playoff_points": 2278,
-      "behind_leader": 40,
+      "playoff_points": 2318,
+      "behind_leader": 49,
       "rank": 2
     },
     {
@@ -8119,108 +8119,108 @@
       "chase_round": 6,
       "driver": "Joey Logano",
       "phase": "after",
-      "playoff_points": 2247,
-      "behind_leader": 71,
+      "playoff_points": 2275,
+      "behind_leader": 92,
+      "rank": 6
+    },
+    {
+      "chase_round": 6,
+      "driver": "Christopher Bell",
+      "phase": "before",
+      "playoff_points": 2263,
+      "behind_leader": 55,
+      "rank": 3
+    },
+    {
+      "chase_round": 6,
+      "driver": "Christopher Bell",
+      "phase": "after",
+      "playoff_points": 2316,
+      "behind_leader": 51,
+      "rank": 3
+    },
+    {
+      "chase_round": 6,
+      "driver": "Ty Gibbs",
+      "phase": "before",
+      "playoff_points": 2208,
+      "behind_leader": 110,
+      "rank": 8
+    },
+    {
+      "chase_round": 6,
+      "driver": "Ty Gibbs",
+      "phase": "after",
+      "playoff_points": 2211,
+      "behind_leader": 156,
+      "rank": 9
+    },
+    {
+      "chase_round": 6,
+      "driver": "Ryan Blaney",
+      "phase": "before",
+      "playoff_points": 2238,
+      "behind_leader": 80,
+      "rank": 5
+    },
+    {
+      "chase_round": 6,
+      "driver": "Ryan Blaney",
+      "phase": "after",
+      "playoff_points": 2282,
+      "behind_leader": 85,
+      "rank": 5
+    },
+    {
+      "chase_round": 6,
+      "driver": "Tyler Reddick",
+      "phase": "before",
+      "playoff_points": 2212,
+      "behind_leader": 106,
+      "rank": 7
+    },
+    {
+      "chase_round": 6,
+      "driver": "Tyler Reddick",
+      "phase": "after",
+      "playoff_points": 2253,
+      "behind_leader": 114,
+      "rank": 7
+    },
+    {
+      "chase_round": 6,
+      "driver": "Carson Hocevar",
+      "phase": "before",
+      "playoff_points": 2160,
+      "behind_leader": 158,
+      "rank": 11
+    },
+    {
+      "chase_round": 6,
+      "driver": "Carson Hocevar",
+      "phase": "after",
+      "playoff_points": 2187,
+      "behind_leader": 180,
+      "rank": 10
+    },
+    {
+      "chase_round": 6,
+      "driver": "Chase Briscoe",
+      "phase": "before",
+      "playoff_points": 2234,
+      "behind_leader": 84,
+      "rank": 6
+    },
+    {
+      "chase_round": 6,
+      "driver": "Chase Briscoe",
+      "phase": "after",
+      "playoff_points": 2302,
+      "behind_leader": 65,
       "rank": 4
     },
     {
       "chase_round": 6,
-      "driver": "Christopher Bell",
-      "phase": "before",
-      "playoff_points": 2263,
-      "behind_leader": 55,
-      "rank": 3
-    },
-    {
-      "chase_round": 6,
-      "driver": "Christopher Bell",
-      "phase": "after",
-      "playoff_points": 2263,
-      "behind_leader": 55,
-      "rank": 3
-    },
-    {
-      "chase_round": 6,
-      "driver": "Ty Gibbs",
-      "phase": "before",
-      "playoff_points": 2208,
-      "behind_leader": 110,
-      "rank": 8
-    },
-    {
-      "chase_round": 6,
-      "driver": "Ty Gibbs",
-      "phase": "after",
-      "playoff_points": 2208,
-      "behind_leader": 110,
-      "rank": 8
-    },
-    {
-      "chase_round": 6,
-      "driver": "Ryan Blaney",
-      "phase": "before",
-      "playoff_points": 2238,
-      "behind_leader": 80,
-      "rank": 5
-    },
-    {
-      "chase_round": 6,
-      "driver": "Ryan Blaney",
-      "phase": "after",
-      "playoff_points": 2238,
-      "behind_leader": 80,
-      "rank": 5
-    },
-    {
-      "chase_round": 6,
-      "driver": "Tyler Reddick",
-      "phase": "before",
-      "playoff_points": 2212,
-      "behind_leader": 106,
-      "rank": 7
-    },
-    {
-      "chase_round": 6,
-      "driver": "Tyler Reddick",
-      "phase": "after",
-      "playoff_points": 2212,
-      "behind_leader": 106,
-      "rank": 7
-    },
-    {
-      "chase_round": 6,
-      "driver": "Carson Hocevar",
-      "phase": "before",
-      "playoff_points": 2160,
-      "behind_leader": 158,
-      "rank": 11
-    },
-    {
-      "chase_round": 6,
-      "driver": "Carson Hocevar",
-      "phase": "after",
-      "playoff_points": 2160,
-      "behind_leader": 158,
-      "rank": 11
-    },
-    {
-      "chase_round": 6,
-      "driver": "Chase Briscoe",
-      "phase": "before",
-      "playoff_points": 2234,
-      "behind_leader": 84,
-      "rank": 6
-    },
-    {
-      "chase_round": 6,
-      "driver": "Chase Briscoe",
-      "phase": "after",
-      "playoff_points": 2234,
-      "behind_leader": 84,
-      "rank": 6
-    },
-    {
-      "chase_round": 6,
       "driver": "Bubba Wallace",
       "phase": "before",
       "playoff_points": 2181,
@@ -8231,9 +8231,9 @@
       "chase_round": 6,
       "driver": "Bubba Wallace",
       "phase": "after",
-      "playoff_points": 2181,
-      "behind_leader": 137,
-      "rank": 10
+      "playoff_points": 2182,
+      "behind_leader": 185,
+      "rank": 11
     },
     {
       "chase_round": 6,
@@ -8247,9 +8247,9 @@
       "chase_round": 6,
       "driver": "Austin Cindric",
       "phase": "after",
-      "playoff_points": 2190,
-      "behind_leader": 128,
-      "rank": 9
+      "playoff_points": 2222,
+      "behind_leader": 145,
+      "rank": 8
     },
     {
       "chase_round": 6,
@@ -8263,9 +8263,9 @@
       "chase_round": 6,
       "driver": "Chase Elliott",
       "phase": "after",
-      "playoff_points": 2155,
-      "behind_leader": 163,
-      "rank": 13
+      "playoff_points": 2182,
+      "behind_leader": 185,
+      "rank": 12
     },
     {
       "chase_round": 6,
@@ -8279,9 +8279,9 @@
       "chase_round": 6,
       "driver": "William Byron",
       "phase": "after",
-      "playoff_points": 2158,
-      "behind_leader": 160,
-      "rank": 12
+      "playoff_points": 2159,
+      "behind_leader": 208,
+      "rank": 13
     },
     {
       "chase_round": 6,
@@ -8295,8 +8295,8 @@
       "chase_round": 6,
       "driver": "Ryan Preece",
       "phase": "after",
-      "playoff_points": 2118,
-      "behind_leader": 200,
+      "playoff_points": 2140,
+      "behind_leader": 227,
       "rank": 16
     },
     {
@@ -8311,8 +8311,8 @@
       "chase_round": 6,
       "driver": "Chris Buescher",
       "phase": "after",
-      "playoff_points": 2122,
-      "behind_leader": 196,
+      "playoff_points": 2151,
+      "behind_leader": 216,
       "rank": 15
     },
     {
@@ -8327,15 +8327,15 @@
       "chase_round": 6,
       "driver": "Daniel Suarez",
       "phase": "after",
-      "playoff_points": 2123,
-      "behind_leader": 195,
+      "playoff_points": 2152,
+      "behind_leader": 215,
       "rank": 14
     },
     {
       "chase_round": 7,
       "driver": "Kyle Larson",
       "phase": "before",
-      "playoff_points": 2318,
+      "playoff_points": 2367,
       "behind_leader": 0,
       "rank": 1
     },
@@ -8343,7 +8343,7 @@
       "chase_round": 7,
       "driver": "Kyle Larson",
       "phase": "after",
-      "playoff_points": 2318,
+      "playoff_points": 2367,
       "behind_leader": 0,
       "rank": 1
     },
@@ -8351,247 +8351,247 @@
       "chase_round": 7,
       "driver": "Denny Hamlin",
       "phase": "before",
-      "playoff_points": 2278,
-      "behind_leader": 40,
+      "playoff_points": 2318,
+      "behind_leader": 49,
       "rank": 2
     },
     {
       "chase_round": 7,
       "driver": "Denny Hamlin",
       "phase": "after",
-      "playoff_points": 2278,
-      "behind_leader": 40,
+      "playoff_points": 2318,
+      "behind_leader": 49,
       "rank": 2
     },
     {
       "chase_round": 7,
       "driver": "Joey Logano",
       "phase": "before",
-      "playoff_points": 2247,
-      "behind_leader": 71,
-      "rank": 4
+      "playoff_points": 2275,
+      "behind_leader": 92,
+      "rank": 6
     },
     {
       "chase_round": 7,
       "driver": "Joey Logano",
       "phase": "after",
-      "playoff_points": 2247,
-      "behind_leader": 71,
+      "playoff_points": 2275,
+      "behind_leader": 92,
+      "rank": 6
+    },
+    {
+      "chase_round": 7,
+      "driver": "Christopher Bell",
+      "phase": "before",
+      "playoff_points": 2316,
+      "behind_leader": 51,
+      "rank": 3
+    },
+    {
+      "chase_round": 7,
+      "driver": "Christopher Bell",
+      "phase": "after",
+      "playoff_points": 2316,
+      "behind_leader": 51,
+      "rank": 3
+    },
+    {
+      "chase_round": 7,
+      "driver": "Ty Gibbs",
+      "phase": "before",
+      "playoff_points": 2211,
+      "behind_leader": 156,
+      "rank": 9
+    },
+    {
+      "chase_round": 7,
+      "driver": "Ty Gibbs",
+      "phase": "after",
+      "playoff_points": 2211,
+      "behind_leader": 156,
+      "rank": 9
+    },
+    {
+      "chase_round": 7,
+      "driver": "Ryan Blaney",
+      "phase": "before",
+      "playoff_points": 2282,
+      "behind_leader": 85,
+      "rank": 5
+    },
+    {
+      "chase_round": 7,
+      "driver": "Ryan Blaney",
+      "phase": "after",
+      "playoff_points": 2282,
+      "behind_leader": 85,
+      "rank": 5
+    },
+    {
+      "chase_round": 7,
+      "driver": "Tyler Reddick",
+      "phase": "before",
+      "playoff_points": 2253,
+      "behind_leader": 114,
+      "rank": 7
+    },
+    {
+      "chase_round": 7,
+      "driver": "Tyler Reddick",
+      "phase": "after",
+      "playoff_points": 2253,
+      "behind_leader": 114,
+      "rank": 7
+    },
+    {
+      "chase_round": 7,
+      "driver": "Carson Hocevar",
+      "phase": "before",
+      "playoff_points": 2187,
+      "behind_leader": 180,
+      "rank": 10
+    },
+    {
+      "chase_round": 7,
+      "driver": "Carson Hocevar",
+      "phase": "after",
+      "playoff_points": 2187,
+      "behind_leader": 180,
+      "rank": 10
+    },
+    {
+      "chase_round": 7,
+      "driver": "Chase Briscoe",
+      "phase": "before",
+      "playoff_points": 2302,
+      "behind_leader": 65,
       "rank": 4
     },
     {
       "chase_round": 7,
-      "driver": "Christopher Bell",
-      "phase": "before",
-      "playoff_points": 2263,
-      "behind_leader": 55,
-      "rank": 3
-    },
-    {
-      "chase_round": 7,
-      "driver": "Christopher Bell",
-      "phase": "after",
-      "playoff_points": 2263,
-      "behind_leader": 55,
-      "rank": 3
-    },
-    {
-      "chase_round": 7,
-      "driver": "Ty Gibbs",
-      "phase": "before",
-      "playoff_points": 2208,
-      "behind_leader": 110,
-      "rank": 8
-    },
-    {
-      "chase_round": 7,
-      "driver": "Ty Gibbs",
-      "phase": "after",
-      "playoff_points": 2208,
-      "behind_leader": 110,
-      "rank": 8
-    },
-    {
-      "chase_round": 7,
-      "driver": "Ryan Blaney",
-      "phase": "before",
-      "playoff_points": 2238,
-      "behind_leader": 80,
-      "rank": 5
-    },
-    {
-      "chase_round": 7,
-      "driver": "Ryan Blaney",
-      "phase": "after",
-      "playoff_points": 2238,
-      "behind_leader": 80,
-      "rank": 5
-    },
-    {
-      "chase_round": 7,
-      "driver": "Tyler Reddick",
-      "phase": "before",
-      "playoff_points": 2212,
-      "behind_leader": 106,
-      "rank": 7
-    },
-    {
-      "chase_round": 7,
-      "driver": "Tyler Reddick",
-      "phase": "after",
-      "playoff_points": 2212,
-      "behind_leader": 106,
-      "rank": 7
-    },
-    {
-      "chase_round": 7,
-      "driver": "Carson Hocevar",
-      "phase": "before",
-      "playoff_points": 2160,
-      "behind_leader": 158,
-      "rank": 11
-    },
-    {
-      "chase_round": 7,
-      "driver": "Carson Hocevar",
-      "phase": "after",
-      "playoff_points": 2160,
-      "behind_leader": 158,
-      "rank": 11
-    },
-    {
-      "chase_round": 7,
-      "driver": "Chase Briscoe",
-      "phase": "before",
-      "playoff_points": 2234,
-      "behind_leader": 84,
-      "rank": 6
-    },
-    {
-      "chase_round": 7,
       "driver": "Chase Briscoe",
       "phase": "after",
-      "playoff_points": 2234,
-      "behind_leader": 84,
-      "rank": 6
+      "playoff_points": 2302,
+      "behind_leader": 65,
+      "rank": 4
     },
     {
       "chase_round": 7,
       "driver": "Bubba Wallace",
       "phase": "before",
-      "playoff_points": 2181,
-      "behind_leader": 137,
-      "rank": 10
+      "playoff_points": 2182,
+      "behind_leader": 185,
+      "rank": 11
     },
     {
       "chase_round": 7,
       "driver": "Bubba Wallace",
       "phase": "after",
-      "playoff_points": 2181,
-      "behind_leader": 137,
-      "rank": 10
+      "playoff_points": 2182,
+      "behind_leader": 185,
+      "rank": 11
     },
     {
       "chase_round": 7,
       "driver": "Austin Cindric",
       "phase": "before",
-      "playoff_points": 2190,
-      "behind_leader": 128,
-      "rank": 9
+      "playoff_points": 2222,
+      "behind_leader": 145,
+      "rank": 8
     },
     {
       "chase_round": 7,
       "driver": "Austin Cindric",
       "phase": "after",
-      "playoff_points": 2190,
-      "behind_leader": 128,
-      "rank": 9
+      "playoff_points": 2222,
+      "behind_leader": 145,
+      "rank": 8
     },
     {
       "chase_round": 7,
       "driver": "Chase Elliott",
       "phase": "before",
-      "playoff_points": 2155,
-      "behind_leader": 163,
-      "rank": 13
+      "playoff_points": 2182,
+      "behind_leader": 185,
+      "rank": 12
     },
     {
       "chase_round": 7,
       "driver": "Chase Elliott",
       "phase": "after",
-      "playoff_points": 2155,
-      "behind_leader": 163,
-      "rank": 13
+      "playoff_points": 2182,
+      "behind_leader": 185,
+      "rank": 12
     },
     {
       "chase_round": 7,
       "driver": "William Byron",
       "phase": "before",
-      "playoff_points": 2158,
-      "behind_leader": 160,
-      "rank": 12
+      "playoff_points": 2159,
+      "behind_leader": 208,
+      "rank": 13
     },
     {
       "chase_round": 7,
       "driver": "William Byron",
       "phase": "after",
-      "playoff_points": 2158,
-      "behind_leader": 160,
-      "rank": 12
+      "playoff_points": 2159,
+      "behind_leader": 208,
+      "rank": 13
     },
     {
       "chase_round": 7,
       "driver": "Ryan Preece",
       "phase": "before",
-      "playoff_points": 2118,
-      "behind_leader": 200,
+      "playoff_points": 2140,
+      "behind_leader": 227,
       "rank": 16
     },
     {
       "chase_round": 7,
       "driver": "Ryan Preece",
       "phase": "after",
-      "playoff_points": 2118,
-      "behind_leader": 200,
+      "playoff_points": 2140,
+      "behind_leader": 227,
       "rank": 16
     },
     {
       "chase_round": 7,
       "driver": "Chris Buescher",
       "phase": "before",
-      "playoff_points": 2122,
-      "behind_leader": 196,
+      "playoff_points": 2151,
+      "behind_leader": 216,
       "rank": 15
     },
     {
       "chase_round": 7,
       "driver": "Chris Buescher",
       "phase": "after",
-      "playoff_points": 2122,
-      "behind_leader": 196,
+      "playoff_points": 2151,
+      "behind_leader": 216,
       "rank": 15
     },
     {
       "chase_round": 7,
       "driver": "Daniel Suarez",
       "phase": "before",
-      "playoff_points": 2123,
-      "behind_leader": 195,
+      "playoff_points": 2152,
+      "behind_leader": 215,
       "rank": 14
     },
     {
       "chase_round": 7,
       "driver": "Daniel Suarez",
       "phase": "after",
-      "playoff_points": 2123,
-      "behind_leader": 195,
+      "playoff_points": 2152,
+      "behind_leader": 215,
       "rank": 14
     },
     {
       "chase_round": 8,
       "driver": "Kyle Larson",
       "phase": "before",
-      "playoff_points": 2318,
+      "playoff_points": 2367,
       "behind_leader": 0,
       "rank": 1
     },
@@ -8599,7 +8599,7 @@
       "chase_round": 8,
       "driver": "Kyle Larson",
       "phase": "after",
-      "playoff_points": 2318,
+      "playoff_points": 2367,
       "behind_leader": 0,
       "rank": 1
     },
@@ -8607,247 +8607,247 @@
       "chase_round": 8,
       "driver": "Denny Hamlin",
       "phase": "before",
-      "playoff_points": 2278,
-      "behind_leader": 40,
+      "playoff_points": 2318,
+      "behind_leader": 49,
       "rank": 2
     },
     {
       "chase_round": 8,
       "driver": "Denny Hamlin",
       "phase": "after",
-      "playoff_points": 2278,
-      "behind_leader": 40,
+      "playoff_points": 2318,
+      "behind_leader": 49,
       "rank": 2
     },
     {
       "chase_round": 8,
       "driver": "Joey Logano",
       "phase": "before",
-      "playoff_points": 2247,
-      "behind_leader": 71,
-      "rank": 4
+      "playoff_points": 2275,
+      "behind_leader": 92,
+      "rank": 6
     },
     {
       "chase_round": 8,
       "driver": "Joey Logano",
       "phase": "after",
-      "playoff_points": 2247,
-      "behind_leader": 71,
+      "playoff_points": 2275,
+      "behind_leader": 92,
+      "rank": 6
+    },
+    {
+      "chase_round": 8,
+      "driver": "Christopher Bell",
+      "phase": "before",
+      "playoff_points": 2316,
+      "behind_leader": 51,
+      "rank": 3
+    },
+    {
+      "chase_round": 8,
+      "driver": "Christopher Bell",
+      "phase": "after",
+      "playoff_points": 2316,
+      "behind_leader": 51,
+      "rank": 3
+    },
+    {
+      "chase_round": 8,
+      "driver": "Ty Gibbs",
+      "phase": "before",
+      "playoff_points": 2211,
+      "behind_leader": 156,
+      "rank": 9
+    },
+    {
+      "chase_round": 8,
+      "driver": "Ty Gibbs",
+      "phase": "after",
+      "playoff_points": 2211,
+      "behind_leader": 156,
+      "rank": 9
+    },
+    {
+      "chase_round": 8,
+      "driver": "Ryan Blaney",
+      "phase": "before",
+      "playoff_points": 2282,
+      "behind_leader": 85,
+      "rank": 5
+    },
+    {
+      "chase_round": 8,
+      "driver": "Ryan Blaney",
+      "phase": "after",
+      "playoff_points": 2282,
+      "behind_leader": 85,
+      "rank": 5
+    },
+    {
+      "chase_round": 8,
+      "driver": "Tyler Reddick",
+      "phase": "before",
+      "playoff_points": 2253,
+      "behind_leader": 114,
+      "rank": 7
+    },
+    {
+      "chase_round": 8,
+      "driver": "Tyler Reddick",
+      "phase": "after",
+      "playoff_points": 2253,
+      "behind_leader": 114,
+      "rank": 7
+    },
+    {
+      "chase_round": 8,
+      "driver": "Carson Hocevar",
+      "phase": "before",
+      "playoff_points": 2187,
+      "behind_leader": 180,
+      "rank": 10
+    },
+    {
+      "chase_round": 8,
+      "driver": "Carson Hocevar",
+      "phase": "after",
+      "playoff_points": 2187,
+      "behind_leader": 180,
+      "rank": 10
+    },
+    {
+      "chase_round": 8,
+      "driver": "Chase Briscoe",
+      "phase": "before",
+      "playoff_points": 2302,
+      "behind_leader": 65,
       "rank": 4
     },
     {
       "chase_round": 8,
-      "driver": "Christopher Bell",
-      "phase": "before",
-      "playoff_points": 2263,
-      "behind_leader": 55,
-      "rank": 3
-    },
-    {
-      "chase_round": 8,
-      "driver": "Christopher Bell",
-      "phase": "after",
-      "playoff_points": 2263,
-      "behind_leader": 55,
-      "rank": 3
-    },
-    {
-      "chase_round": 8,
-      "driver": "Ty Gibbs",
-      "phase": "before",
-      "playoff_points": 2208,
-      "behind_leader": 110,
-      "rank": 8
-    },
-    {
-      "chase_round": 8,
-      "driver": "Ty Gibbs",
-      "phase": "after",
-      "playoff_points": 2208,
-      "behind_leader": 110,
-      "rank": 8
-    },
-    {
-      "chase_round": 8,
-      "driver": "Ryan Blaney",
-      "phase": "before",
-      "playoff_points": 2238,
-      "behind_leader": 80,
-      "rank": 5
-    },
-    {
-      "chase_round": 8,
-      "driver": "Ryan Blaney",
-      "phase": "after",
-      "playoff_points": 2238,
-      "behind_leader": 80,
-      "rank": 5
-    },
-    {
-      "chase_round": 8,
-      "driver": "Tyler Reddick",
-      "phase": "before",
-      "playoff_points": 2212,
-      "behind_leader": 106,
-      "rank": 7
-    },
-    {
-      "chase_round": 8,
-      "driver": "Tyler Reddick",
-      "phase": "after",
-      "playoff_points": 2212,
-      "behind_leader": 106,
-      "rank": 7
-    },
-    {
-      "chase_round": 8,
-      "driver": "Carson Hocevar",
-      "phase": "before",
-      "playoff_points": 2160,
-      "behind_leader": 158,
-      "rank": 11
-    },
-    {
-      "chase_round": 8,
-      "driver": "Carson Hocevar",
-      "phase": "after",
-      "playoff_points": 2160,
-      "behind_leader": 158,
-      "rank": 11
-    },
-    {
-      "chase_round": 8,
-      "driver": "Chase Briscoe",
-      "phase": "before",
-      "playoff_points": 2234,
-      "behind_leader": 84,
-      "rank": 6
-    },
-    {
-      "chase_round": 8,
       "driver": "Chase Briscoe",
       "phase": "after",
-      "playoff_points": 2234,
-      "behind_leader": 84,
-      "rank": 6
+      "playoff_points": 2302,
+      "behind_leader": 65,
+      "rank": 4
     },
     {
       "chase_round": 8,
       "driver": "Bubba Wallace",
       "phase": "before",
-      "playoff_points": 2181,
-      "behind_leader": 137,
-      "rank": 10
+      "playoff_points": 2182,
+      "behind_leader": 185,
+      "rank": 11
     },
     {
       "chase_round": 8,
       "driver": "Bubba Wallace",
       "phase": "after",
-      "playoff_points": 2181,
-      "behind_leader": 137,
-      "rank": 10
+      "playoff_points": 2182,
+      "behind_leader": 185,
+      "rank": 11
     },
     {
       "chase_round": 8,
       "driver": "Austin Cindric",
       "phase": "before",
-      "playoff_points": 2190,
-      "behind_leader": 128,
-      "rank": 9
+      "playoff_points": 2222,
+      "behind_leader": 145,
+      "rank": 8
     },
     {
       "chase_round": 8,
       "driver": "Austin Cindric",
       "phase": "after",
-      "playoff_points": 2190,
-      "behind_leader": 128,
-      "rank": 9
+      "playoff_points": 2222,
+      "behind_leader": 145,
+      "rank": 8
     },
     {
       "chase_round": 8,
       "driver": "Chase Elliott",
       "phase": "before",
-      "playoff_points": 2155,
-      "behind_leader": 163,
-      "rank": 13
+      "playoff_points": 2182,
+      "behind_leader": 185,
+      "rank": 12
     },
     {
       "chase_round": 8,
       "driver": "Chase Elliott",
       "phase": "after",
-      "playoff_points": 2155,
-      "behind_leader": 163,
-      "rank": 13
+      "playoff_points": 2182,
+      "behind_leader": 185,
+      "rank": 12
     },
     {
       "chase_round": 8,
       "driver": "William Byron",
       "phase": "before",
-      "playoff_points": 2158,
-      "behind_leader": 160,
-      "rank": 12
+      "playoff_points": 2159,
+      "behind_leader": 208,
+      "rank": 13
     },
     {
       "chase_round": 8,
       "driver": "William Byron",
       "phase": "after",
-      "playoff_points": 2158,
-      "behind_leader": 160,
-      "rank": 12
+      "playoff_points": 2159,
+      "behind_leader": 208,
+      "rank": 13
     },
     {
       "chase_round": 8,
       "driver": "Ryan Preece",
       "phase": "before",
-      "playoff_points": 2118,
-      "behind_leader": 200,
+      "playoff_points": 2140,
+      "behind_leader": 227,
       "rank": 16
     },
     {
       "chase_round": 8,
       "driver": "Ryan Preece",
       "phase": "after",
-      "playoff_points": 2118,
-      "behind_leader": 200,
+      "playoff_points": 2140,
+      "behind_leader": 227,
       "rank": 16
     },
     {
       "chase_round": 8,
       "driver": "Chris Buescher",
       "phase": "before",
-      "playoff_points": 2122,
-      "behind_leader": 196,
+      "playoff_points": 2151,
+      "behind_leader": 216,
       "rank": 15
     },
     {
       "chase_round": 8,
       "driver": "Chris Buescher",
       "phase": "after",
-      "playoff_points": 2122,
-      "behind_leader": 196,
+      "playoff_points": 2151,
+      "behind_leader": 216,
       "rank": 15
     },
     {
       "chase_round": 8,
       "driver": "Daniel Suarez",
       "phase": "before",
-      "playoff_points": 2123,
-      "behind_leader": 195,
+      "playoff_points": 2152,
+      "behind_leader": 215,
       "rank": 14
     },
     {
       "chase_round": 8,
       "driver": "Daniel Suarez",
       "phase": "after",
-      "playoff_points": 2123,
-      "behind_leader": 195,
+      "playoff_points": 2152,
+      "behind_leader": 215,
       "rank": 14
     },
     {
       "chase_round": 9,
       "driver": "Kyle Larson",
       "phase": "before",
-      "playoff_points": 2318,
+      "playoff_points": 2367,
       "behind_leader": 0,
       "rank": 1
     },
@@ -8855,7 +8855,7 @@
       "chase_round": 9,
       "driver": "Kyle Larson",
       "phase": "after",
-      "playoff_points": 2318,
+      "playoff_points": 2367,
       "behind_leader": 0,
       "rank": 1
     },
@@ -8863,247 +8863,247 @@
       "chase_round": 9,
       "driver": "Denny Hamlin",
       "phase": "before",
-      "playoff_points": 2278,
-      "behind_leader": 40,
+      "playoff_points": 2318,
+      "behind_leader": 49,
       "rank": 2
     },
     {
       "chase_round": 9,
       "driver": "Denny Hamlin",
       "phase": "after",
-      "playoff_points": 2278,
-      "behind_leader": 40,
+      "playoff_points": 2318,
+      "behind_leader": 49,
       "rank": 2
     },
     {
       "chase_round": 9,
       "driver": "Joey Logano",
       "phase": "before",
-      "playoff_points": 2247,
-      "behind_leader": 71,
-      "rank": 4
+      "playoff_points": 2275,
+      "behind_leader": 92,
+      "rank": 6
     },
     {
       "chase_round": 9,
       "driver": "Joey Logano",
       "phase": "after",
-      "playoff_points": 2247,
-      "behind_leader": 71,
+      "playoff_points": 2275,
+      "behind_leader": 92,
+      "rank": 6
+    },
+    {
+      "chase_round": 9,
+      "driver": "Christopher Bell",
+      "phase": "before",
+      "playoff_points": 2316,
+      "behind_leader": 51,
+      "rank": 3
+    },
+    {
+      "chase_round": 9,
+      "driver": "Christopher Bell",
+      "phase": "after",
+      "playoff_points": 2316,
+      "behind_leader": 51,
+      "rank": 3
+    },
+    {
+      "chase_round": 9,
+      "driver": "Ty Gibbs",
+      "phase": "before",
+      "playoff_points": 2211,
+      "behind_leader": 156,
+      "rank": 9
+    },
+    {
+      "chase_round": 9,
+      "driver": "Ty Gibbs",
+      "phase": "after",
+      "playoff_points": 2211,
+      "behind_leader": 156,
+      "rank": 9
+    },
+    {
+      "chase_round": 9,
+      "driver": "Ryan Blaney",
+      "phase": "before",
+      "playoff_points": 2282,
+      "behind_leader": 85,
+      "rank": 5
+    },
+    {
+      "chase_round": 9,
+      "driver": "Ryan Blaney",
+      "phase": "after",
+      "playoff_points": 2282,
+      "behind_leader": 85,
+      "rank": 5
+    },
+    {
+      "chase_round": 9,
+      "driver": "Tyler Reddick",
+      "phase": "before",
+      "playoff_points": 2253,
+      "behind_leader": 114,
+      "rank": 7
+    },
+    {
+      "chase_round": 9,
+      "driver": "Tyler Reddick",
+      "phase": "after",
+      "playoff_points": 2253,
+      "behind_leader": 114,
+      "rank": 7
+    },
+    {
+      "chase_round": 9,
+      "driver": "Carson Hocevar",
+      "phase": "before",
+      "playoff_points": 2187,
+      "behind_leader": 180,
+      "rank": 10
+    },
+    {
+      "chase_round": 9,
+      "driver": "Carson Hocevar",
+      "phase": "after",
+      "playoff_points": 2187,
+      "behind_leader": 180,
+      "rank": 10
+    },
+    {
+      "chase_round": 9,
+      "driver": "Chase Briscoe",
+      "phase": "before",
+      "playoff_points": 2302,
+      "behind_leader": 65,
       "rank": 4
     },
     {
       "chase_round": 9,
-      "driver": "Christopher Bell",
-      "phase": "before",
-      "playoff_points": 2263,
-      "behind_leader": 55,
-      "rank": 3
-    },
-    {
-      "chase_round": 9,
-      "driver": "Christopher Bell",
-      "phase": "after",
-      "playoff_points": 2263,
-      "behind_leader": 55,
-      "rank": 3
-    },
-    {
-      "chase_round": 9,
-      "driver": "Ty Gibbs",
-      "phase": "before",
-      "playoff_points": 2208,
-      "behind_leader": 110,
-      "rank": 8
-    },
-    {
-      "chase_round": 9,
-      "driver": "Ty Gibbs",
-      "phase": "after",
-      "playoff_points": 2208,
-      "behind_leader": 110,
-      "rank": 8
-    },
-    {
-      "chase_round": 9,
-      "driver": "Ryan Blaney",
-      "phase": "before",
-      "playoff_points": 2238,
-      "behind_leader": 80,
-      "rank": 5
-    },
-    {
-      "chase_round": 9,
-      "driver": "Ryan Blaney",
-      "phase": "after",
-      "playoff_points": 2238,
-      "behind_leader": 80,
-      "rank": 5
-    },
-    {
-      "chase_round": 9,
-      "driver": "Tyler Reddick",
-      "phase": "before",
-      "playoff_points": 2212,
-      "behind_leader": 106,
-      "rank": 7
-    },
-    {
-      "chase_round": 9,
-      "driver": "Tyler Reddick",
-      "phase": "after",
-      "playoff_points": 2212,
-      "behind_leader": 106,
-      "rank": 7
-    },
-    {
-      "chase_round": 9,
-      "driver": "Carson Hocevar",
-      "phase": "before",
-      "playoff_points": 2160,
-      "behind_leader": 158,
-      "rank": 11
-    },
-    {
-      "chase_round": 9,
-      "driver": "Carson Hocevar",
-      "phase": "after",
-      "playoff_points": 2160,
-      "behind_leader": 158,
-      "rank": 11
-    },
-    {
-      "chase_round": 9,
-      "driver": "Chase Briscoe",
-      "phase": "before",
-      "playoff_points": 2234,
-      "behind_leader": 84,
-      "rank": 6
-    },
-    {
-      "chase_round": 9,
       "driver": "Chase Briscoe",
       "phase": "after",
-      "playoff_points": 2234,
-      "behind_leader": 84,
-      "rank": 6
+      "playoff_points": 2302,
+      "behind_leader": 65,
+      "rank": 4
     },
     {
       "chase_round": 9,
       "driver": "Bubba Wallace",
       "phase": "before",
-      "playoff_points": 2181,
-      "behind_leader": 137,
-      "rank": 10
+      "playoff_points": 2182,
+      "behind_leader": 185,
+      "rank": 11
     },
     {
       "chase_round": 9,
       "driver": "Bubba Wallace",
       "phase": "after",
-      "playoff_points": 2181,
-      "behind_leader": 137,
-      "rank": 10
+      "playoff_points": 2182,
+      "behind_leader": 185,
+      "rank": 11
     },
     {
       "chase_round": 9,
       "driver": "Austin Cindric",
       "phase": "before",
-      "playoff_points": 2190,
-      "behind_leader": 128,
-      "rank": 9
+      "playoff_points": 2222,
+      "behind_leader": 145,
+      "rank": 8
     },
     {
       "chase_round": 9,
       "driver": "Austin Cindric",
       "phase": "after",
-      "playoff_points": 2190,
-      "behind_leader": 128,
-      "rank": 9
+      "playoff_points": 2222,
+      "behind_leader": 145,
+      "rank": 8
     },
     {
       "chase_round": 9,
       "driver": "Chase Elliott",
       "phase": "before",
-      "playoff_points": 2155,
-      "behind_leader": 163,
-      "rank": 13
+      "playoff_points": 2182,
+      "behind_leader": 185,
+      "rank": 12
     },
     {
       "chase_round": 9,
       "driver": "Chase Elliott",
       "phase": "after",
-      "playoff_points": 2155,
-      "behind_leader": 163,
-      "rank": 13
+      "playoff_points": 2182,
+      "behind_leader": 185,
+      "rank": 12
     },
     {
       "chase_round": 9,
       "driver": "William Byron",
       "phase": "before",
-      "playoff_points": 2158,
-      "behind_leader": 160,
-      "rank": 12
+      "playoff_points": 2159,
+      "behind_leader": 208,
+      "rank": 13
     },
     {
       "chase_round": 9,
       "driver": "William Byron",
       "phase": "after",
-      "playoff_points": 2158,
-      "behind_leader": 160,
-      "rank": 12
+      "playoff_points": 2159,
+      "behind_leader": 208,
+      "rank": 13
     },
     {
       "chase_round": 9,
       "driver": "Ryan Preece",
       "phase": "before",
-      "playoff_points": 2118,
-      "behind_leader": 200,
+      "playoff_points": 2140,
+      "behind_leader": 227,
       "rank": 16
     },
     {
       "chase_round": 9,
       "driver": "Ryan Preece",
       "phase": "after",
-      "playoff_points": 2118,
-      "behind_leader": 200,
+      "playoff_points": 2140,
+      "behind_leader": 227,
       "rank": 16
     },
     {
       "chase_round": 9,
       "driver": "Chris Buescher",
       "phase": "before",
-      "playoff_points": 2122,
-      "behind_leader": 196,
+      "playoff_points": 2151,
+      "behind_leader": 216,
       "rank": 15
     },
     {
       "chase_round": 9,
       "driver": "Chris Buescher",
       "phase": "after",
-      "playoff_points": 2122,
-      "behind_leader": 196,
+      "playoff_points": 2151,
+      "behind_leader": 216,
       "rank": 15
     },
     {
       "chase_round": 9,
       "driver": "Daniel Suarez",
       "phase": "before",
-      "playoff_points": 2123,
-      "behind_leader": 195,
+      "playoff_points": 2152,
+      "behind_leader": 215,
       "rank": 14
     },
     {
       "chase_round": 9,
       "driver": "Daniel Suarez",
       "phase": "after",
-      "playoff_points": 2123,
-      "behind_leader": 195,
+      "playoff_points": 2152,
+      "behind_leader": 215,
       "rank": 14
     },
     {
       "chase_round": 10,
       "driver": "Kyle Larson",
       "phase": "before",
-      "playoff_points": 2318,
+      "playoff_points": 2367,
       "behind_leader": 0,
       "rank": 1
     },
@@ -9111,7 +9111,7 @@
       "chase_round": 10,
       "driver": "Kyle Larson",
       "phase": "after",
-      "playoff_points": 2318,
+      "playoff_points": 2367,
       "behind_leader": 0,
       "rank": 1
     },
@@ -9119,240 +9119,240 @@
       "chase_round": 10,
       "driver": "Denny Hamlin",
       "phase": "before",
-      "playoff_points": 2278,
-      "behind_leader": 40,
+      "playoff_points": 2318,
+      "behind_leader": 49,
       "rank": 2
     },
     {
       "chase_round": 10,
       "driver": "Denny Hamlin",
       "phase": "after",
-      "playoff_points": 2278,
-      "behind_leader": 40,
+      "playoff_points": 2318,
+      "behind_leader": 49,
       "rank": 2
     },
     {
       "chase_round": 10,
       "driver": "Joey Logano",
       "phase": "before",
-      "playoff_points": 2247,
-      "behind_leader": 71,
-      "rank": 4
+      "playoff_points": 2275,
+      "behind_leader": 92,
+      "rank": 6
     },
     {
       "chase_round": 10,
       "driver": "Joey Logano",
       "phase": "after",
-      "playoff_points": 2247,
-      "behind_leader": 71,
+      "playoff_points": 2275,
+      "behind_leader": 92,
+      "rank": 6
+    },
+    {
+      "chase_round": 10,
+      "driver": "Christopher Bell",
+      "phase": "before",
+      "playoff_points": 2316,
+      "behind_leader": 51,
+      "rank": 3
+    },
+    {
+      "chase_round": 10,
+      "driver": "Christopher Bell",
+      "phase": "after",
+      "playoff_points": 2316,
+      "behind_leader": 51,
+      "rank": 3
+    },
+    {
+      "chase_round": 10,
+      "driver": "Ty Gibbs",
+      "phase": "before",
+      "playoff_points": 2211,
+      "behind_leader": 156,
+      "rank": 9
+    },
+    {
+      "chase_round": 10,
+      "driver": "Ty Gibbs",
+      "phase": "after",
+      "playoff_points": 2211,
+      "behind_leader": 156,
+      "rank": 9
+    },
+    {
+      "chase_round": 10,
+      "driver": "Ryan Blaney",
+      "phase": "before",
+      "playoff_points": 2282,
+      "behind_leader": 85,
+      "rank": 5
+    },
+    {
+      "chase_round": 10,
+      "driver": "Ryan Blaney",
+      "phase": "after",
+      "playoff_points": 2282,
+      "behind_leader": 85,
+      "rank": 5
+    },
+    {
+      "chase_round": 10,
+      "driver": "Tyler Reddick",
+      "phase": "before",
+      "playoff_points": 2253,
+      "behind_leader": 114,
+      "rank": 7
+    },
+    {
+      "chase_round": 10,
+      "driver": "Tyler Reddick",
+      "phase": "after",
+      "playoff_points": 2253,
+      "behind_leader": 114,
+      "rank": 7
+    },
+    {
+      "chase_round": 10,
+      "driver": "Carson Hocevar",
+      "phase": "before",
+      "playoff_points": 2187,
+      "behind_leader": 180,
+      "rank": 10
+    },
+    {
+      "chase_round": 10,
+      "driver": "Carson Hocevar",
+      "phase": "after",
+      "playoff_points": 2187,
+      "behind_leader": 180,
+      "rank": 10
+    },
+    {
+      "chase_round": 10,
+      "driver": "Chase Briscoe",
+      "phase": "before",
+      "playoff_points": 2302,
+      "behind_leader": 65,
       "rank": 4
     },
     {
       "chase_round": 10,
-      "driver": "Christopher Bell",
-      "phase": "before",
-      "playoff_points": 2263,
-      "behind_leader": 55,
-      "rank": 3
-    },
-    {
-      "chase_round": 10,
-      "driver": "Christopher Bell",
-      "phase": "after",
-      "playoff_points": 2263,
-      "behind_leader": 55,
-      "rank": 3
-    },
-    {
-      "chase_round": 10,
-      "driver": "Ty Gibbs",
-      "phase": "before",
-      "playoff_points": 2208,
-      "behind_leader": 110,
-      "rank": 8
-    },
-    {
-      "chase_round": 10,
-      "driver": "Ty Gibbs",
-      "phase": "after",
-      "playoff_points": 2208,
-      "behind_leader": 110,
-      "rank": 8
-    },
-    {
-      "chase_round": 10,
-      "driver": "Ryan Blaney",
-      "phase": "before",
-      "playoff_points": 2238,
-      "behind_leader": 80,
-      "rank": 5
-    },
-    {
-      "chase_round": 10,
-      "driver": "Ryan Blaney",
-      "phase": "after",
-      "playoff_points": 2238,
-      "behind_leader": 80,
-      "rank": 5
-    },
-    {
-      "chase_round": 10,
-      "driver": "Tyler Reddick",
-      "phase": "before",
-      "playoff_points": 2212,
-      "behind_leader": 106,
-      "rank": 7
-    },
-    {
-      "chase_round": 10,
-      "driver": "Tyler Reddick",
-      "phase": "after",
-      "playoff_points": 2212,
-      "behind_leader": 106,
-      "rank": 7
-    },
-    {
-      "chase_round": 10,
-      "driver": "Carson Hocevar",
-      "phase": "before",
-      "playoff_points": 2160,
-      "behind_leader": 158,
-      "rank": 11
-    },
-    {
-      "chase_round": 10,
-      "driver": "Carson Hocevar",
-      "phase": "after",
-      "playoff_points": 2160,
-      "behind_leader": 158,
-      "rank": 11
-    },
-    {
-      "chase_round": 10,
-      "driver": "Chase Briscoe",
-      "phase": "before",
-      "playoff_points": 2234,
-      "behind_leader": 84,
-      "rank": 6
-    },
-    {
-      "chase_round": 10,
       "driver": "Chase Briscoe",
       "phase": "after",
-      "playoff_points": 2234,
-      "behind_leader": 84,
-      "rank": 6
+      "playoff_points": 2302,
+      "behind_leader": 65,
+      "rank": 4
     },
     {
       "chase_round": 10,
       "driver": "Bubba Wallace",
       "phase": "before",
-      "playoff_points": 2181,
-      "behind_leader": 137,
-      "rank": 10
+      "playoff_points": 2182,
+      "behind_leader": 185,
+      "rank": 11
     },
     {
       "chase_round": 10,
       "driver": "Bubba Wallace",
       "phase": "after",
-      "playoff_points": 2181,
-      "behind_leader": 137,
-      "rank": 10
+      "playoff_points": 2182,
+      "behind_leader": 185,
+      "rank": 11
     },
     {
       "chase_round": 10,
       "driver": "Austin Cindric",
       "phase": "before",
-      "playoff_points": 2190,
-      "behind_leader": 128,
-      "rank": 9
+      "playoff_points": 2222,
+      "behind_leader": 145,
+      "rank": 8
     },
     {
       "chase_round": 10,
       "driver": "Austin Cindric",
       "phase": "after",
-      "playoff_points": 2190,
-      "behind_leader": 128,
-      "rank": 9
+      "playoff_points": 2222,
+      "behind_leader": 145,
+      "rank": 8
     },
     {
       "chase_round": 10,
       "driver": "Chase Elliott",
       "phase": "before",
-      "playoff_points": 2155,
-      "behind_leader": 163,
-      "rank": 13
+      "playoff_points": 2182,
+      "behind_leader": 185,
+      "rank": 12
     },
     {
       "chase_round": 10,
       "driver": "Chase Elliott",
       "phase": "after",
-      "playoff_points": 2155,
-      "behind_leader": 163,
-      "rank": 13
+      "playoff_points": 2182,
+      "behind_leader": 185,
+      "rank": 12
     },
     {
       "chase_round": 10,
       "driver": "William Byron",
       "phase": "before",
-      "playoff_points": 2158,
-      "behind_leader": 160,
-      "rank": 12
+      "playoff_points": 2159,
+      "behind_leader": 208,
+      "rank": 13
     },
     {
       "chase_round": 10,
       "driver": "William Byron",
       "phase": "after",
-      "playoff_points": 2158,
-      "behind_leader": 160,
-      "rank": 12
+      "playoff_points": 2159,
+      "behind_leader": 208,
+      "rank": 13
     },
     {
       "chase_round": 10,
       "driver": "Ryan Preece",
       "phase": "before",
-      "playoff_points": 2118,
-      "behind_leader": 200,
+      "playoff_points": 2140,
+      "behind_leader": 227,
       "rank": 16
     },
     {
       "chase_round": 10,
       "driver": "Ryan Preece",
       "phase": "after",
-      "playoff_points": 2118,
-      "behind_leader": 200,
+      "playoff_points": 2140,
+      "behind_leader": 227,
       "rank": 16
     },
     {
       "chase_round": 10,
       "driver": "Chris Buescher",
       "phase": "before",
-      "playoff_points": 2122,
-      "behind_leader": 196,
+      "playoff_points": 2151,
+      "behind_leader": 216,
       "rank": 15
     },
     {
       "chase_round": 10,
       "driver": "Chris Buescher",
       "phase": "after",
-      "playoff_points": 2122,
-      "behind_leader": 196,
+      "playoff_points": 2151,
+      "behind_leader": 216,
       "rank": 15
     },
     {
       "chase_round": 10,
       "driver": "Daniel Suarez",
       "phase": "before",
-      "playoff_points": 2123,
-      "behind_leader": 195,
+      "playoff_points": 2152,
+      "behind_leader": 215,
       "rank": 14
     },
     {
       "chase_round": 10,
       "driver": "Daniel Suarez",
       "phase": "after",
-      "playoff_points": 2123,
-      "behind_leader": 195,
+      "playoff_points": 2152,
+      "behind_leader": 215,
       "rank": 14
     }
   ]
