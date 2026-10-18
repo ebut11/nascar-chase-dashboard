@@ -75,7 +75,7 @@
       "track_length_mi": 1.0,
       "status": "upcoming",
       "winner": null,
-      "blend_note": null
+      "blend_note": "60% flat-mile season form (Gateway/Phoenix/NH/Nashville/Richmond/Iowa) / 40% Phoenix history since 2022 (incl. spring 2026)"
     },
     {
       "chase_round": 8,
@@ -3384,6 +3384,524 @@
       "model_type": "advanced",
       "projected_finish": 27.6,
       "data_source": "Charlotte Chase History + Intermediate Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Kyle Larson",
+      "model_type": "basic",
+      "projected_finish": 9.6,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Denny Hamlin",
+      "model_type": "basic",
+      "projected_finish": 9.6,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Christopher Bell",
+      "model_type": "basic",
+      "projected_finish": 9.6,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Ryan Blaney",
+      "model_type": "basic",
+      "projected_finish": 10.9,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Joey Logano",
+      "model_type": "basic",
+      "projected_finish": 11.9,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "William Byron",
+      "model_type": "basic",
+      "projected_finish": 12.2,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Tyler Reddick",
+      "model_type": "basic",
+      "projected_finish": 14.8,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Ty Gibbs",
+      "model_type": "basic",
+      "projected_finish": 15.4,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Josh Berry",
+      "model_type": "basic",
+      "projected_finish": 17.1,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Bubba Wallace",
+      "model_type": "basic",
+      "projected_finish": 17.5,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Alex Bowman",
+      "model_type": "basic",
+      "projected_finish": 17.5,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Michael McDowell",
+      "model_type": "basic",
+      "projected_finish": 17.8,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Ryan Preece",
+      "model_type": "basic",
+      "projected_finish": 18.1,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Austin Dillon",
+      "model_type": "basic",
+      "projected_finish": 18.1,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Ross Chastain",
+      "model_type": "basic",
+      "projected_finish": 18.2,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Chris Buescher",
+      "model_type": "basic",
+      "projected_finish": 18.2,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Austin Hill",
+      "model_type": "basic",
+      "projected_finish": 18.4,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Chase Briscoe",
+      "model_type": "basic",
+      "projected_finish": 19.1,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Chase Elliott",
+      "model_type": "basic",
+      "projected_finish": 19.4,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Carson Hocevar",
+      "model_type": "basic",
+      "projected_finish": 20.0,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Riley Herbst",
+      "model_type": "basic",
+      "projected_finish": 20.9,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Todd Gilliland",
+      "model_type": "basic",
+      "projected_finish": 21.0,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Austin Cindric",
+      "model_type": "basic",
+      "projected_finish": 21.6,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Erik Jones",
+      "model_type": "basic",
+      "projected_finish": 21.6,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Daniel Suarez",
+      "model_type": "basic",
+      "projected_finish": 21.7,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Brad Keselowski",
+      "model_type": "basic",
+      "projected_finish": 21.8,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Shane Van Gisbergen",
+      "model_type": "basic",
+      "projected_finish": 21.9,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "AJ Allmendinger",
+      "model_type": "basic",
+      "projected_finish": 21.9,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Ricky Stenhouse Jr.",
+      "model_type": "basic",
+      "projected_finish": 22.3,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Noah Gragson",
+      "model_type": "basic",
+      "projected_finish": 22.8,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Zane Smith",
+      "model_type": "basic",
+      "projected_finish": 23.5,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "John Hunter Nemechek",
+      "model_type": "basic",
+      "projected_finish": 23.7,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Connor Zilisch",
+      "model_type": "basic",
+      "projected_finish": 24.0,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Cole Custer",
+      "model_type": "basic",
+      "projected_finish": 24.4,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Corey Heim",
+      "model_type": "basic",
+      "projected_finish": 24.8,
+      "data_source": "Flat-Mile Form Only (no Phoenix history)"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Ty Dillon",
+      "model_type": "basic",
+      "projected_finish": 27.8,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Cody Ware",
+      "model_type": "basic",
+      "projected_finish": 28.4,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Ryan Blaney",
+      "model_type": "advanced",
+      "projected_finish": 9.6,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Christopher Bell",
+      "model_type": "advanced",
+      "projected_finish": 9.6,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Denny Hamlin",
+      "model_type": "advanced",
+      "projected_finish": 10.7,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Kyle Larson",
+      "model_type": "advanced",
+      "projected_finish": 11.7,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Joey Logano",
+      "model_type": "advanced",
+      "projected_finish": 12.4,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "William Byron",
+      "model_type": "advanced",
+      "projected_finish": 13.1,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Ty Gibbs",
+      "model_type": "advanced",
+      "projected_finish": 14.4,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Tyler Reddick",
+      "model_type": "advanced",
+      "projected_finish": 14.8,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Chase Briscoe",
+      "model_type": "advanced",
+      "projected_finish": 15.6,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Chase Elliott",
+      "model_type": "advanced",
+      "projected_finish": 16.3,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Bubba Wallace",
+      "model_type": "advanced",
+      "projected_finish": 16.6,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Josh Berry",
+      "model_type": "advanced",
+      "projected_finish": 16.7,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Austin Dillon",
+      "model_type": "advanced",
+      "projected_finish": 17.0,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Chris Buescher",
+      "model_type": "advanced",
+      "projected_finish": 17.1,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Ryan Preece",
+      "model_type": "advanced",
+      "projected_finish": 17.2,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Ross Chastain",
+      "model_type": "advanced",
+      "projected_finish": 17.5,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Alex Bowman",
+      "model_type": "advanced",
+      "projected_finish": 17.7,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Michael McDowell",
+      "model_type": "advanced",
+      "projected_finish": 17.8,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Shane Van Gisbergen",
+      "model_type": "advanced",
+      "projected_finish": 17.8,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Todd Gilliland",
+      "model_type": "advanced",
+      "projected_finish": 18.6,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Brad Keselowski",
+      "model_type": "advanced",
+      "projected_finish": 20.4,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Austin Cindric",
+      "model_type": "advanced",
+      "projected_finish": 21.2,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Noah Gragson",
+      "model_type": "advanced",
+      "projected_finish": 21.3,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Daniel Suarez",
+      "model_type": "advanced",
+      "projected_finish": 21.8,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Erik Jones",
+      "model_type": "advanced",
+      "projected_finish": 21.8,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "AJ Allmendinger",
+      "model_type": "advanced",
+      "projected_finish": 22.3,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Cole Custer",
+      "model_type": "advanced",
+      "projected_finish": 22.6,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Ricky Stenhouse Jr.",
+      "model_type": "advanced",
+      "projected_finish": 22.9,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Carson Hocevar",
+      "model_type": "advanced",
+      "projected_finish": 23.1,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Riley Herbst",
+      "model_type": "advanced",
+      "projected_finish": 23.6,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "John Hunter Nemechek",
+      "model_type": "advanced",
+      "projected_finish": 23.7,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Zane Smith",
+      "model_type": "advanced",
+      "projected_finish": 24.4,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Connor Zilisch",
+      "model_type": "advanced",
+      "projected_finish": 24.4,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Ty Dillon",
+      "model_type": "advanced",
+      "projected_finish": 25.1,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Corey Heim",
+      "model_type": "advanced",
+      "projected_finish": 25.4,
+      "data_source": "Flat-Mile Form Only (no Phoenix history)"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Austin Hill",
+      "model_type": "advanced",
+      "projected_finish": 26.3,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
+    },
+    {
+      "chase_round": 7,
+      "driver": "Cody Ware",
+      "model_type": "advanced",
+      "projected_finish": 28.3,
+      "data_source": "Phoenix Chase History + Flat-Mile Form"
     }
   ],
   "results": [
@@ -6792,6 +7310,66 @@
       "model_type": "advanced",
       "feature": "PGAE",
       "importance": 0.066
+    },
+    {
+      "chase_round": 7,
+      "model_type": "basic",
+      "feature": "ASP",
+      "importance": 0.426
+    },
+    {
+      "chase_round": 7,
+      "model_type": "basic",
+      "feature": "Succ%",
+      "importance": 0.423
+    },
+    {
+      "chase_round": 7,
+      "model_type": "basic",
+      "feature": "T10%",
+      "importance": 0.101
+    },
+    {
+      "chase_round": 7,
+      "model_type": "basic",
+      "feature": "W%",
+      "importance": 0.035
+    },
+    {
+      "chase_round": 7,
+      "model_type": "basic",
+      "feature": "Fin%",
+      "importance": 0.014
+    },
+    {
+      "chase_round": 7,
+      "model_type": "advanced",
+      "feature": "Avg. PFAE",
+      "importance": 0.63
+    },
+    {
+      "chase_round": 7,
+      "model_type": "advanced",
+      "feature": "SS",
+      "importance": 0.17
+    },
+    {
+      "chase_round": 7,
+      "model_type": "advanced",
+      "feature": "wARP",
+      "importance": 0.075
+    },
+    {
+      "chase_round": 7,
+      "model_type": "advanced",
+      "feature": "cPOMS",
+      "importance": 0.072
+    },
+    {
+      "chase_round": 7,
+      "model_type": "advanced",
+      "feature": "PGAE",
+      "importance": 0.053
     }
   ],
   "chase_standings": [
