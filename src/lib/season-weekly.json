@@ -230,6 +230,13 @@
       "points": 1,
       "cumPoints": 540,
       "place": 25
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 26,
+      "cumPoints": 566,
+      "place": 25
     }
   ],
   "john-hunter-nemechek": [
@@ -463,6 +470,13 @@
       "points": 4,
       "cumPoints": 503,
       "place": 28
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 1,
+      "cumPoints": 504,
+      "place": 29
     }
   ],
   "daniel-suarez": [
@@ -696,6 +710,13 @@
       "points": 30,
       "cumPoints": 833,
       "place": 13
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 19,
+      "cumPoints": 852,
+      "place": 14
     }
   ],
   "erik-jones": [
@@ -928,6 +949,13 @@
       "track": "Phoenix",
       "points": 12,
       "cumPoints": 607,
+      "place": 21
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 11,
+      "cumPoints": 618,
       "place": 21
     }
   ],
@@ -1162,6 +1190,13 @@
       "points": 44,
       "cumPoints": 1052,
       "place": 3
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 16,
+      "cumPoints": 1068,
+      "place": 4
     }
   ],
   "alex-bowman": [
@@ -1366,6 +1401,13 @@
       "track": "Phoenix",
       "points": 8,
       "cumPoints": 512,
+      "place": 27
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 28,
+      "cumPoints": 540,
       "place": 27
     }
   ],
@@ -1600,6 +1642,13 @@
       "points": 25,
       "cumPoints": 582,
       "place": 23
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 30,
+      "cumPoints": 612,
+      "place": 22
     }
   ],
   "aj-allmendinger": [
@@ -1832,6 +1881,13 @@
       "track": "Phoenix",
       "points": 14,
       "cumPoints": 574,
+      "place": 24
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 6,
+      "cumPoints": 580,
       "place": 24
     }
   ],
@@ -2066,6 +2122,13 @@
       "points": 25,
       "cumPoints": 865,
       "place": 11
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 31,
+      "cumPoints": 896,
+      "place": 10
     }
   ],
   "riley-herbst": [
@@ -2291,6 +2354,13 @@
       "track": "Phoenix",
       "points": 5,
       "cumPoints": 470,
+      "place": 30
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 16,
+      "cumPoints": 486,
       "place": 30
     }
   ],
@@ -2525,6 +2595,13 @@
       "points": 34,
       "cumPoints": 584,
       "place": 22
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 25,
+      "cumPoints": 609,
+      "place": 23
     }
   ],
   "cody-ware": [
@@ -2757,6 +2834,13 @@
       "track": "Phoenix",
       "points": 2,
       "cumPoints": 237,
+      "place": 35
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 21,
+      "cumPoints": 258,
       "place": 35
     }
   ],
@@ -2991,6 +3075,13 @@
       "points": 18,
       "cumPoints": 866,
       "place": 8
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 18,
+      "cumPoints": 884,
+      "place": 8
     }
   ],
   "bubba-wallace": [
@@ -3224,6 +3315,13 @@
       "points": 26,
       "cumPoints": 849,
       "place": 12
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 15,
+      "cumPoints": 864,
+      "place": 13
     }
   ],
   "ricky-stenhouse-jr": [
@@ -3457,6 +3555,13 @@
       "points": 7,
       "cumPoints": 481,
       "place": 29
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 34,
+      "cumPoints": 515,
+      "place": 28
     }
   ],
   "ryan-blaney": [
@@ -3690,6 +3795,13 @@
       "points": 48,
       "cumPoints": 1193,
       "place": 5
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 4,
+      "cumPoints": 1197,
+      "place": 6
     }
   ],
   "tyler-reddick": [
@@ -3922,6 +4034,13 @@
       "track": "Phoenix",
       "points": 61,
       "cumPoints": 1143,
+      "place": 7
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 1,
+      "cumPoints": 1144,
       "place": 7
     }
   ],
@@ -4156,6 +4275,13 @@
       "points": 31,
       "cumPoints": 673,
       "place": 19
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 33,
+      "cumPoints": 706,
+      "place": 18
     }
   ],
   "joey-logano": [
@@ -4389,6 +4515,13 @@
       "points": 51,
       "cumPoints": 1000,
       "place": 6
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 15,
+      "cumPoints": 1015,
+      "place": 5
     }
   ],
   "michael-mcdowell": [
@@ -4621,6 +4754,13 @@
       "track": "Phoenix",
       "points": 1,
       "cumPoints": 616,
+      "place": 20
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 27,
+      "cumPoints": 643,
       "place": 20
     }
   ],
@@ -4855,6 +4995,13 @@
       "points": 24,
       "cumPoints": 430,
       "place": 31
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 17,
+      "cumPoints": 447,
+      "place": 31
     }
   ],
   "cole-custer": [
@@ -5087,6 +5234,13 @@
       "track": "Phoenix",
       "points": 10,
       "cumPoints": 407,
+      "place": 32
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 32,
+      "cumPoints": 439,
       "place": 32
     }
   ],
@@ -5321,6 +5475,13 @@
       "points": 21,
       "cumPoints": 1266,
       "place": 4
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 29,
+      "cumPoints": 1295,
+      "place": 2
     }
   ],
   "ty-gibbs": [
@@ -5553,6 +5714,13 @@
       "track": "Phoenix",
       "points": 27,
       "cumPoints": 1070,
+      "place": 9
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 20,
+      "cumPoints": 1090,
       "place": 9
     }
   ],
@@ -5787,6 +5955,13 @@
       "points": 15,
       "cumPoints": 813,
       "place": 15
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 20,
+      "cumPoints": 833,
+      "place": 16
     }
   ],
   "ryan-preece": [
@@ -6020,6 +6195,13 @@
       "points": 19,
       "cumPoints": 781,
       "place": 16
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 33,
+      "cumPoints": 814,
+      "place": 15
     }
   ],
   "christopher-bell": [
@@ -6253,6 +6435,13 @@
       "points": 49,
       "cumPoints": 1073,
       "place": 2
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 2,
+      "cumPoints": 1075,
+      "place": 3
     }
   ],
   "zane-smith": [
@@ -6485,6 +6674,13 @@
       "track": "Phoenix",
       "points": 22,
       "cumPoints": 523,
+      "place": 26
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 18,
+      "cumPoints": 541,
       "place": 26
     }
   ],
@@ -6719,6 +6915,13 @@
       "points": 21,
       "cumPoints": 683,
       "place": 18
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 21,
+      "cumPoints": 704,
+      "place": 19
     }
   ],
   "ty-dillon": [
@@ -6952,6 +7155,13 @@
       "points": 6,
       "cumPoints": 352,
       "place": 34
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 22,
+      "cumPoints": 374,
+      "place": 33
     }
   ],
   "chase-elliott": [
@@ -7185,6 +7395,13 @@
       "points": 39,
       "cumPoints": 904,
       "place": 10
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 2,
+      "cumPoints": 906,
+      "place": 12
     }
   ],
   "william-byron": [
@@ -7418,6 +7635,13 @@
       "points": 21,
       "cumPoints": 831,
       "place": 14
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 47,
+      "cumPoints": 878,
+      "place": 11
     }
   ],
   "connor-zilisch": [
@@ -7651,6 +7875,13 @@
       "points": 17,
       "cumPoints": 360,
       "place": 33
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 12,
+      "cumPoints": 372,
+      "place": 34
     }
   ],
   "shane-van-gisbergen": [
@@ -7884,6 +8115,13 @@
       "points": 11,
       "cumPoints": 729,
       "place": 17
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 10,
+      "cumPoints": 739,
+      "place": 17
     }
   ],
   "kyle-larson": [
@@ -8116,6 +8354,13 @@
       "track": "Phoenix",
       "points": 3,
       "cumPoints": 1049,
+      "place": 1
+    },
+    {
+      "week": 34,
+      "track": "Talladega",
+      "points": 71,
+      "cumPoints": 1120,
       "place": 1
     }
   ]
