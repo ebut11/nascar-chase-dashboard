@@ -3,7 +3,7 @@
 -- results were added only after both models were logged. Safe to re-run.
 begin;
 
-update races set status = 'completed', winner = 'William Byron', blend_note = '60% 2026 short-track form (8 races + spring Martinsville; excl. fall) / 40% short-track history 2022-26 (all short tracks, not Martinsville-only)' where chase_round = 9;
+update races set status = 'completed', winner = 'William Byron', blend_note = '60% short-track season form / 40% short-track history since 2022' where chase_round = 9;
 
 delete from predictions where race_id = (select id from races where chase_round = 9);
 delete from feature_importances where race_id = (select id from races where chase_round = 9);
