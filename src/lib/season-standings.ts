@@ -32,44 +32,44 @@ const RESET_POINTS: Record<string, number> = {
 };
 
 /** Full standings order as of the most recent officially published result
- *  (currently: after Talladega, race 8 of the Chase). Used only to break ties
+ *  (currently: after Martinsville, race 9 of the Chase). Used only to break ties
  *  between drivers on equal points — refresh these values whenever a newer
  *  official standings table comes in. */
 const OPENER_ORDER: string[] = [
   "kyle-larson",
-  "denny-hamlin",
   "christopher-bell",
+  "denny-hamlin",
   "chase-briscoe",
   "joey-logano",
-  "ryan-blaney",
   "tyler-reddick",
-  "austin-cindric",
+  "ryan-blaney",
   "ty-gibbs",
-  "carson-hocevar",
   "william-byron",
   "chase-elliott",
+  "austin-cindric",
+  "carson-hocevar",
   "bubba-wallace",
-  "daniel-suarez",
   "ryan-preece",
+  "daniel-suarez",
   "chris-buescher",
   "shane-van-gisbergen",
   "ross-chastain",
   "brad-keselowski",
   "michael-mcdowell",
-  "erik-jones",
-  "todd-gilliland",
   "josh-berry",
-  "aj-allmendinger",
+  "todd-gilliland",
+  "erik-jones",
   "austin-dillon",
-  "zane-smith",
+  "aj-allmendinger",
   "alex-bowman",
+  "zane-smith",
   "ricky-stenhouse-jr",
   "john-hunter-nemechek",
   "riley-herbst",
   "noah-gragson",
   "cole-custer",
-  "ty-dillon",
   "connor-zilisch",
+  "ty-dillon",
   "cody-ware",
 ];
 const OPENER_SEED = new Map(OPENER_ORDER.map((s, i) => [s, i + 1]));

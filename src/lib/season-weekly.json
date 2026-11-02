@@ -237,6 +237,13 @@
       "points": 26,
       "cumPoints": 566,
       "place": 25
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 30,
+      "cumPoints": 596,
+      "place": 24
     }
   ],
   "john-hunter-nemechek": [
@@ -476,6 +483,13 @@
       "track": "Talladega",
       "points": 1,
       "cumPoints": 504,
+      "place": 29
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 6,
+      "cumPoints": 510,
       "place": 29
     }
   ],
@@ -717,6 +731,13 @@
       "points": 19,
       "cumPoints": 852,
       "place": 14
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 9,
+      "cumPoints": 861,
+      "place": 15
     }
   ],
   "erik-jones": [
@@ -957,6 +978,13 @@
       "points": 11,
       "cumPoints": 618,
       "place": 21
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 8,
+      "cumPoints": 626,
+      "place": 23
     }
   ],
   "chase-briscoe": [
@@ -1197,6 +1225,13 @@
       "points": 16,
       "cumPoints": 1068,
       "place": 4
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 23,
+      "cumPoints": 1091,
+      "place": 4
     }
   ],
   "alex-bowman": [
@@ -1409,6 +1444,13 @@
       "points": 28,
       "cumPoints": 540,
       "place": 27
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 29,
+      "cumPoints": 569,
+      "place": 26
     }
   ],
   "todd-gilliland": [
@@ -1648,6 +1690,13 @@
       "track": "Talladega",
       "points": 30,
       "cumPoints": 612,
+      "place": 22
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 25,
+      "cumPoints": 637,
       "place": 22
     }
   ],
@@ -1889,6 +1938,13 @@
       "points": 6,
       "cumPoints": 580,
       "place": 24
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 12,
+      "cumPoints": 592,
+      "place": 25
     }
   ],
   "carson-hocevar": [
@@ -2129,6 +2185,13 @@
       "points": 31,
       "cumPoints": 896,
       "place": 10
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 16,
+      "cumPoints": 912,
+      "place": 12
     }
   ],
   "riley-herbst": [
@@ -2361,6 +2424,13 @@
       "track": "Talladega",
       "points": 16,
       "cumPoints": 486,
+      "place": 30
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 5,
+      "cumPoints": 491,
       "place": 30
     }
   ],
@@ -2602,6 +2672,13 @@
       "points": 25,
       "cumPoints": 609,
       "place": 23
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 43,
+      "cumPoints": 652,
+      "place": 21
     }
   ],
   "cody-ware": [
@@ -2841,6 +2918,13 @@
       "track": "Talladega",
       "points": 21,
       "cumPoints": 258,
+      "place": 35
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 4,
+      "cumPoints": 262,
       "place": 35
     }
   ],
@@ -3082,6 +3166,13 @@
       "points": 18,
       "cumPoints": 884,
       "place": 8
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 5,
+      "cumPoints": 889,
+      "place": 11
     }
   ],
   "bubba-wallace": [
@@ -3321,6 +3412,13 @@
       "track": "Talladega",
       "points": 15,
       "cumPoints": 864,
+      "place": 13
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 34,
+      "cumPoints": 898,
       "place": 13
     }
   ],
@@ -3562,6 +3660,13 @@
       "points": 34,
       "cumPoints": 515,
       "place": 28
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 7,
+      "cumPoints": 522,
+      "place": 28
     }
   ],
   "ryan-blaney": [
@@ -3802,6 +3907,13 @@
       "points": 4,
       "cumPoints": 1197,
       "place": 6
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 2,
+      "cumPoints": 1199,
+      "place": 7
     }
   ],
   "tyler-reddick": [
@@ -4042,6 +4154,13 @@
       "points": 1,
       "cumPoints": 1144,
       "place": 7
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 29,
+      "cumPoints": 1173,
+      "place": 6
     }
   ],
   "ross-chastain": [
@@ -4281,6 +4400,13 @@
       "track": "Talladega",
       "points": 33,
       "cumPoints": 706,
+      "place": 18
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 36,
+      "cumPoints": 742,
       "place": 18
     }
   ],
@@ -4522,6 +4648,13 @@
       "points": 15,
       "cumPoints": 1015,
       "place": 5
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 25,
+      "cumPoints": 1040,
+      "place": 5
     }
   ],
   "michael-mcdowell": [
@@ -4761,6 +4894,13 @@
       "track": "Talladega",
       "points": 27,
       "cumPoints": 643,
+      "place": 20
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 21,
+      "cumPoints": 664,
       "place": 20
     }
   ],
@@ -5002,6 +5142,13 @@
       "points": 17,
       "cumPoints": 447,
       "place": 31
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 11,
+      "cumPoints": 458,
+      "place": 31
     }
   ],
   "cole-custer": [
@@ -5241,6 +5388,13 @@
       "track": "Talladega",
       "points": 32,
       "cumPoints": 439,
+      "place": 32
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 3,
+      "cumPoints": 442,
       "place": 32
     }
   ],
@@ -5482,6 +5636,13 @@
       "points": 29,
       "cumPoints": 1295,
       "place": 2
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 31,
+      "cumPoints": 1326,
+      "place": 3
     }
   ],
   "ty-gibbs": [
@@ -5722,6 +5883,13 @@
       "points": 20,
       "cumPoints": 1090,
       "place": 9
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 51,
+      "cumPoints": 1141,
+      "place": 8
     }
   ],
   "chris-buescher": [
@@ -5961,6 +6129,13 @@
       "track": "Talladega",
       "points": 20,
       "cumPoints": 833,
+      "place": 16
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 13,
+      "cumPoints": 846,
       "place": 16
     }
   ],
@@ -6202,6 +6377,13 @@
       "points": 33,
       "cumPoints": 814,
       "place": 15
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 22,
+      "cumPoints": 836,
+      "place": 14
     }
   ],
   "christopher-bell": [
@@ -6442,6 +6624,13 @@
       "points": 2,
       "cumPoints": 1075,
       "place": 3
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 35,
+      "cumPoints": 1110,
+      "place": 2
     }
   ],
   "zane-smith": [
@@ -6682,6 +6871,13 @@
       "points": 18,
       "cumPoints": 541,
       "place": 26
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 18,
+      "cumPoints": 559,
+      "place": 27
     }
   ],
   "brad-keselowski": [
@@ -6921,6 +7117,13 @@
       "track": "Talladega",
       "points": 21,
       "cumPoints": 704,
+      "place": 19
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 10,
+      "cumPoints": 714,
       "place": 19
     }
   ],
@@ -7162,6 +7365,13 @@
       "points": 22,
       "cumPoints": 374,
       "place": 33
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 15,
+      "cumPoints": 389,
+      "place": 34
     }
   ],
   "chase-elliott": [
@@ -7402,6 +7612,13 @@
       "points": 2,
       "cumPoints": 906,
       "place": 12
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 45,
+      "cumPoints": 951,
+      "place": 10
     }
   ],
   "william-byron": [
@@ -7642,6 +7859,13 @@
       "points": 47,
       "cumPoints": 878,
       "place": 11
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 76,
+      "cumPoints": 954,
+      "place": 9
     }
   ],
   "connor-zilisch": [
@@ -7882,6 +8106,13 @@
       "points": 12,
       "cumPoints": 372,
       "place": 34
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 20,
+      "cumPoints": 392,
+      "place": 33
     }
   ],
   "shane-van-gisbergen": [
@@ -8122,6 +8353,13 @@
       "points": 10,
       "cumPoints": 739,
       "place": 17
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 32,
+      "cumPoints": 771,
+      "place": 17
     }
   ],
   "kyle-larson": [
@@ -8361,6 +8599,13 @@
       "track": "Talladega",
       "points": 71,
       "cumPoints": 1120,
+      "place": 1
+    },
+    {
+      "week": 35,
+      "track": "Martinsville",
+      "points": 28,
+      "cumPoints": 1148,
       "place": 1
     }
   ]
